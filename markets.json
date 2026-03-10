@@ -1,0 +1,2677 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "generated": "2026-03-10",
+    "sources": "Walk Score, Census Bureau CBP, BLS, CBRE Office Occupancy, state alcohol culture indices"
+  },
+  "markets": [
+    {
+      "id": "new-york-ny",
+      "city": "New York",
+      "state": "NY",
+      "region": "Northeast",
+      "populationTier": "Mega",
+      "conditions": {
+        "temporal": {
+          "score": 75,
+          "note": "Strong commuter culture, office density high despite hybrid shift"
+        },
+        "spatial": {
+          "score": 95,
+          "note": "Highest residential and bar density in the US"
+        },
+        "planning": {
+          "score": 90,
+          "note": "Bar on every block, low coordination required"
+        },
+        "permission": {
+          "score": 80,
+          "note": "Drinking deeply embedded in professional and social culture"
+        },
+        "repetition": {
+          "score": 85,
+          "note": "Stable neighborhood bars with genuine regulars"
+        }
+      }
+    },
+    {
+      "id": "chicago-il",
+      "city": "Chicago",
+      "state": "IL",
+      "region": "Midwest",
+      "populationTier": "Mega",
+      "conditions": {
+        "temporal": {
+          "score": 80,
+          "note": "Strong commuter rail culture, synchronized office schedules"
+        },
+        "spatial": {
+          "score": 85,
+          "note": "Dense neighborhoods with walkable bar corridors"
+        },
+        "planning": {
+          "score": 80,
+          "note": "Neighborhood bar culture intact, low friction entry"
+        },
+        "permission": {
+          "score": 85,
+          "note": "Deep working-class bar tradition, strong social license"
+        },
+        "repetition": {
+          "score": 82,
+          "note": "Long-tenured establishments with loyal regulars"
+        }
+      }
+    },
+    {
+      "id": "new-orleans-la",
+      "city": "New Orleans",
+      "state": "LA",
+      "region": "South",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 70,
+          "note": "Hospitality-heavy economy creates non-standard synchronization"
+        },
+        "spatial": {
+          "score": 80,
+          "note": "Dense French Quarter and neighborhood bar ecosystem"
+        },
+        "planning": {
+          "score": 88,
+          "note": "Among the lowest planning cost environments in the US"
+        },
+        "permission": {
+          "score": 95,
+          "note": "Strongest social permission for ambient drinking in the country"
+        },
+        "repetition": {
+          "score": 90,
+          "note": "Deeply entrenched regular culture across neighborhoods"
+        }
+      }
+    },
+    {
+      "id": "boston-ma",
+      "city": "Boston",
+      "state": "MA",
+      "region": "Northeast",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 78,
+          "note": "Commuter rail culture, university schedules create sync"
+        },
+        "spatial": {
+          "score": 82,
+          "note": "Dense neighborhoods, walkable bar districts"
+        },
+        "planning": {
+          "score": 78,
+          "note": "Neighborhood pub culture reduces coordination cost"
+        },
+        "permission": {
+          "score": 72,
+          "note": "Strong but moderated by health-conscious professional class"
+        },
+        "repetition": {
+          "score": 80,
+          "note": "Stable institution bars, generational regulars"
+        }
+      }
+    },
+    {
+      "id": "philadelphia-pa",
+      "city": "Philadelphia",
+      "state": "PA",
+      "region": "Northeast",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 75,
+          "note": "Commuter culture intact, office density above average"
+        },
+        "spatial": {
+          "score": 80,
+          "note": "Dense rowhouse neighborhoods, walkable corridors"
+        },
+        "planning": {
+          "score": 75,
+          "note": "Corner bar density reduces planning friction"
+        },
+        "permission": {
+          "score": 78,
+          "note": "Working-class bar tradition strong in neighborhoods"
+        },
+        "repetition": {
+          "score": 78,
+          "note": "Generational bar culture in most neighborhoods"
+        }
+      }
+    },
+    {
+      "id": "washington-dc",
+      "city": "Washington",
+      "state": "DC",
+      "region": "Northeast",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 60,
+          "note": "Government hybrid work fractured traditional after-work sync"
+        },
+        "spatial": {
+          "score": 75,
+          "note": "Dense in core neighborhoods, dispersed in suburbs"
+        },
+        "planning": {
+          "score": 70,
+          "note": "Happy hour culture persists but weakened"
+        },
+        "permission": {
+          "score": 68,
+          "note": "Professional class increasingly health-conscious"
+        },
+        "repetition": {
+          "score": 70,
+          "note": "Transient population limits regular formation"
+        }
+      }
+    },
+    {
+      "id": "minneapolis-mn",
+      "city": "Minneapolis",
+      "state": "MN",
+      "region": "Midwest",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 65,
+          "note": "Mixed office culture, some commuter synchronization remains"
+        },
+        "spatial": {
+          "score": 65,
+          "note": "Walkable core, suburban sprawl outside"
+        },
+        "planning": {
+          "score": 62,
+          "note": "Moderate bar density in core neighborhoods"
+        },
+        "permission": {
+          "score": 70,
+          "note": "Longstanding bar culture, though moderating"
+        },
+        "repetition": {
+          "score": 65,
+          "note": "Neighborhood bars stable, weather drives indoor culture"
+        }
+      }
+    },
+    {
+      "id": "portland-or",
+      "city": "Portland",
+      "state": "OR",
+      "region": "West",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 55,
+          "note": "Tech remote work penetration high"
+        },
+        "spatial": {
+          "score": 65,
+          "note": "Walkable core but dispersed overall"
+        },
+        "planning": {
+          "score": 68,
+          "note": "High bar and taproom density in core"
+        },
+        "permission": {
+          "score": 72,
+          "note": "Strong craft bar culture"
+        },
+        "repetition": {
+          "score": 60,
+          "note": "Venue instability has disrupted regular formation"
+        }
+      }
+    },
+    {
+      "id": "miami-fl",
+      "city": "Miami",
+      "state": "FL",
+      "region": "South",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 55,
+          "note": "Desynchronized schedules, tourism drives temporal mismatch"
+        },
+        "spatial": {
+          "score": 68,
+          "note": "Dense in Brickell and South Beach, dispersed elsewhere"
+        },
+        "planning": {
+          "score": 65,
+          "note": "Bar density high but car-dependent access raises friction"
+        },
+        "permission": {
+          "score": 80,
+          "note": "Strong social permission, nightlife culture prominent"
+        },
+        "repetition": {
+          "score": 60,
+          "note": "Transient population limits regular formation"
+        }
+      }
+    },
+    {
+      "id": "nashville-tn",
+      "city": "Nashville",
+      "state": "TN",
+      "region": "South",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 60,
+          "note": "Mixed economy, partial synchronization in core industries"
+        },
+        "spatial": {
+          "score": 55,
+          "note": "Rapid growth has diluted spatial concentration"
+        },
+        "planning": {
+          "score": 62,
+          "note": "Bar density growing but eventized orientation dominant"
+        },
+        "permission": {
+          "score": 78,
+          "note": "Strong social permission, tourism amplifies but distorts"
+        },
+        "repetition": {
+          "score": 58,
+          "note": "Rapid growth and tourism disrupts regular formation"
+        }
+      }
+    },
+    {
+      "id": "denver-co",
+      "city": "Denver",
+      "state": "CO",
+      "region": "West",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 58,
+          "note": "Tech and remote work penetration increasing"
+        },
+        "spatial": {
+          "score": 60,
+          "note": "Walkable core surrounded by car-dependent sprawl"
+        },
+        "planning": {
+          "score": 62,
+          "note": "Taproom density high, bar corridors functional"
+        },
+        "permission": {
+          "score": 72,
+          "note": "Outdoor and social culture supports permission"
+        },
+        "repetition": {
+          "score": 60,
+          "note": "Fast growth disrupts venue stability and regular formation"
+        }
+      }
+    },
+    {
+      "id": "austin-tx",
+      "city": "Austin",
+      "state": "TX",
+      "region": "South",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 55,
+          "note": "Tech remote work dominant, desynchronized schedules"
+        },
+        "spatial": {
+          "score": 58,
+          "note": "Dense core rapidly diluted by sprawl growth"
+        },
+        "planning": {
+          "score": 65,
+          "note": "Bar density in core, but car dependency outside"
+        },
+        "permission": {
+          "score": 75,
+          "note": "Strong social permission, college town legacy"
+        },
+        "repetition": {
+          "score": 55,
+          "note": "Rapid growth and rising rents destabilize venues"
+        }
+      }
+    },
+    {
+      "id": "san-francisco-ca",
+      "city": "San Francisco",
+      "state": "CA",
+      "region": "West",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 42,
+          "note": "Tech remote work collapse most severe in the US"
+        },
+        "spatial": {
+          "score": 78,
+          "note": "High density, walkable, bar-rich neighborhoods"
+        },
+        "planning": {
+          "score": 72,
+          "note": "Bar density high, but demand side depleted"
+        },
+        "permission": {
+          "score": 75,
+          "note": "Historically strong but health messaging penetration high"
+        },
+        "repetition": {
+          "score": 58,
+          "note": "Venue closures accelerated, regular culture disrupted"
+        }
+      }
+    },
+    {
+      "id": "seattle-wa",
+      "city": "Seattle",
+      "state": "WA",
+      "region": "West",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 42,
+          "note": "Among highest remote work penetration in the US"
+        },
+        "spatial": {
+          "score": 65,
+          "note": "Dense neighborhoods but hilly geography raises friction"
+        },
+        "planning": {
+          "score": 65,
+          "note": "Strong bar and taproom culture in core"
+        },
+        "permission": {
+          "score": 70,
+          "note": "Bar culture present but moderating among tech cohort"
+        },
+        "repetition": {
+          "score": 62,
+          "note": "Some stability in neighborhood bars outside tech corridors"
+        }
+      }
+    },
+    {
+      "id": "atlanta-ga",
+      "city": "Atlanta",
+      "state": "GA",
+      "region": "South",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 50,
+          "note": "Mixed economy, partial office culture remaining"
+        },
+        "spatial": {
+          "score": 45,
+          "note": "Car-dependent sprawl dominates, walkable nodes isolated"
+        },
+        "planning": {
+          "score": 45,
+          "note": "Car dependency raises planning cost significantly"
+        },
+        "permission": {
+          "score": 62,
+          "note": "Mixed cultural permission, historically conservative"
+        },
+        "repetition": {
+          "score": 48,
+          "note": "Sprawl and transience limit regular formation"
+        }
+      }
+    },
+    {
+      "id": "los-angeles-ca",
+      "city": "Los Angeles",
+      "state": "CA",
+      "region": "West",
+      "populationTier": "Mega",
+      "conditions": {
+        "temporal": {
+          "score": 42,
+          "note": "Entertainment industry desynchronized, remote work high"
+        },
+        "spatial": {
+          "score": 52,
+          "note": "Extreme sprawl, walkable nodes isolated and fragmented"
+        },
+        "planning": {
+          "score": 48,
+          "note": "Car dependency makes spontaneous bar visits structurally costly"
+        },
+        "permission": {
+          "score": 68,
+          "note": "Strong social permission in core, wellness culture moderates"
+        },
+        "repetition": {
+          "score": 50,
+          "note": "Venue instability and transience limit regular formation"
+        }
+      }
+    },
+    {
+      "id": "phoenix-az",
+      "city": "Phoenix",
+      "state": "AZ",
+      "region": "West",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 45,
+          "note": "Mixed office culture, some sync in finance and healthcare"
+        },
+        "spatial": {
+          "score": 35,
+          "note": "Among the lowest density major metros in the US"
+        },
+        "planning": {
+          "score": 38,
+          "note": "Car dependency makes unplanned bar visits rare"
+        },
+        "permission": {
+          "score": 58,
+          "note": "Bar culture present but spatially fragmented"
+        },
+        "repetition": {
+          "score": 42,
+          "note": "Sprawl and fast growth limit stable regular formation"
+        }
+      }
+    },
+    {
+      "id": "dallas-tx",
+      "city": "Dallas",
+      "state": "TX",
+      "region": "South",
+      "populationTier": "Mega",
+      "conditions": {
+        "temporal": {
+          "score": 48,
+          "note": "Finance and energy sectors retain some office synchronization"
+        },
+        "spatial": {
+          "score": 38,
+          "note": "Sprawl dominant, walkable nodes limited to specific districts"
+        },
+        "planning": {
+          "score": 40,
+          "note": "Car dependency raises coordination cost significantly"
+        },
+        "permission": {
+          "score": 60,
+          "note": "Bar culture present, mixed social permission"
+        },
+        "repetition": {
+          "score": 45,
+          "note": "Transient growth population limits regular formation"
+        }
+      }
+    },
+    {
+      "id": "houston-tx",
+      "city": "Houston",
+      "state": "TX",
+      "region": "South",
+      "populationTier": "Mega",
+      "conditions": {
+        "temporal": {
+          "score": 45,
+          "note": "Energy sector retains some office synchronization"
+        },
+        "spatial": {
+          "score": 35,
+          "note": "Lowest density major metro, extreme sprawl"
+        },
+        "planning": {
+          "score": 38,
+          "note": "Car dependency structural, spontaneous visits rare"
+        },
+        "permission": {
+          "score": 58,
+          "note": "Strong bar culture but spatially inaccessible"
+        },
+        "repetition": {
+          "score": 42,
+          "note": "Sprawl prevents neighborhood regular formation at scale"
+        }
+      }
+    },
+    {
+      "id": "milwaukee-wi",
+      "city": "Milwaukee",
+      "state": "WI",
+      "region": "Midwest",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 72,
+          "note": "Manufacturing and office schedules still synchronized"
+        },
+        "spatial": {
+          "score": 78,
+          "note": "Dense neighborhoods with exceptional bar-per-capita ratio"
+        },
+        "planning": {
+          "score": 82,
+          "note": "Highest bar density per capita in the US"
+        },
+        "permission": {
+          "score": 92,
+          "note": "Wisconsin drinking culture among strongest in nation"
+        },
+        "repetition": {
+          "score": 85,
+          "note": "Generational tavern culture, deeply rooted regulars"
+        }
+      }
+    },
+    {
+      "id": "pittsburgh-pa",
+      "city": "Pittsburgh",
+      "state": "PA",
+      "region": "Northeast",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 68,
+          "note": "Healthcare and university anchors maintain office schedules"
+        },
+        "spatial": {
+          "score": 72,
+          "note": "Dense neighborhood commercial corridors in older districts"
+        },
+        "planning": {
+          "score": 70,
+          "note": "Neighborhood bar density high in established areas"
+        },
+        "permission": {
+          "score": 80,
+          "note": "Steel-era working-class bar tradition persists"
+        },
+        "repetition": {
+          "score": 78,
+          "note": "Long-tenured establishments, stable neighborhoods"
+        }
+      }
+    },
+    {
+      "id": "st-louis-mo",
+      "city": "St. Louis",
+      "state": "MO",
+      "region": "Midwest",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 68,
+          "note": "Traditional office culture persists in finance and healthcare"
+        },
+        "spatial": {
+          "score": 70,
+          "note": "Dense city neighborhoods with strong bar corridors"
+        },
+        "planning": {
+          "score": 72,
+          "note": "High bar density, low cost of entry"
+        },
+        "permission": {
+          "score": 82,
+          "note": "Deep beer culture, Anheuser-Busch heritage city"
+        },
+        "repetition": {
+          "score": 76,
+          "note": "Neighborhood institutions anchor regular culture"
+        }
+      }
+    },
+    {
+      "id": "cleveland-oh",
+      "city": "Cleveland",
+      "state": "OH",
+      "region": "Midwest",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 70,
+          "note": "Healthcare and manufacturing maintain schedule synchronization"
+        },
+        "spatial": {
+          "score": 68,
+          "note": "Dense inner-ring neighborhoods with bar corridors"
+        },
+        "planning": {
+          "score": 68,
+          "note": "Affordable bar density, low friction in core"
+        },
+        "permission": {
+          "score": 78,
+          "note": "Strong working-class drinking tradition"
+        },
+        "repetition": {
+          "score": 74,
+          "note": "Stable population, long-tenured neighborhood bars"
+        }
+      }
+    },
+    {
+      "id": "cincinnati-oh",
+      "city": "Cincinnati",
+      "state": "OH",
+      "region": "Midwest",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 68,
+          "note": "P&G and healthcare create traditional office cadence"
+        },
+        "spatial": {
+          "score": 70,
+          "note": "Compact neighborhoods, Over-the-Rhine revival"
+        },
+        "planning": {
+          "score": 70,
+          "note": "Walkable bar districts in urban core"
+        },
+        "permission": {
+          "score": 76,
+          "note": "Strong beer and bourbon culture, Germanic heritage"
+        },
+        "repetition": {
+          "score": 72,
+          "note": "Established neighborhood bars with loyal patrons"
+        }
+      }
+    },
+    {
+      "id": "detroit-mi",
+      "city": "Detroit",
+      "state": "MI",
+      "region": "Midwest",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 62,
+          "note": "Auto industry schedules create some synchronization"
+        },
+        "spatial": {
+          "score": 55,
+          "note": "Dense core pockets surrounded by low-density sprawl"
+        },
+        "planning": {
+          "score": 58,
+          "note": "Bar density improving in core, car-dependent outside"
+        },
+        "permission": {
+          "score": 74,
+          "note": "Strong working-class bar tradition persists"
+        },
+        "repetition": {
+          "score": 65,
+          "note": "Dive bar culture resilient in established neighborhoods"
+        }
+      }
+    },
+    {
+      "id": "baltimore-md",
+      "city": "Baltimore",
+      "state": "MD",
+      "region": "Northeast",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 65,
+          "note": "Hopkins and harbor economy maintain partial sync"
+        },
+        "spatial": {
+          "score": 72,
+          "note": "Dense rowhouse neighborhoods with corner bars"
+        },
+        "planning": {
+          "score": 72,
+          "note": "High bar-per-block ratio in core neighborhoods"
+        },
+        "permission": {
+          "score": 78,
+          "note": "Deep bar culture, blue-collar drinking tradition"
+        },
+        "repetition": {
+          "score": 75,
+          "note": "Generational regulars in neighborhood institutions"
+        }
+      }
+    },
+    {
+      "id": "san-diego-ca",
+      "city": "San Diego",
+      "state": "CA",
+      "region": "West",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 52,
+          "note": "Military and biotech provide some schedule structure"
+        },
+        "spatial": {
+          "score": 58,
+          "note": "Beach communities walkable, inland car-dependent"
+        },
+        "planning": {
+          "score": 62,
+          "note": "Strong craft brewery density in core neighborhoods"
+        },
+        "permission": {
+          "score": 72,
+          "note": "Beach and craft culture support social drinking"
+        },
+        "repetition": {
+          "score": 58,
+          "note": "Craft scene evolving but venue turnover moderate"
+        }
+      }
+    },
+    {
+      "id": "san-antonio-tx",
+      "city": "San Antonio",
+      "state": "TX",
+      "region": "South",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 55,
+          "note": "Military and tourism create partial schedule sync"
+        },
+        "spatial": {
+          "score": 48,
+          "note": "Riverwalk concentrated, otherwise sprawling"
+        },
+        "planning": {
+          "score": 50,
+          "note": "Car dependency high outside downtown corridor"
+        },
+        "permission": {
+          "score": 72,
+          "note": "Tex-Mex cantina culture provides strong permission"
+        },
+        "repetition": {
+          "score": 62,
+          "note": "Historic venues anchor some regular culture"
+        }
+      }
+    },
+    {
+      "id": "columbus-oh",
+      "city": "Columbus",
+      "state": "OH",
+      "region": "Midwest",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 62,
+          "note": "State government and Ohio State create schedule sync"
+        },
+        "spatial": {
+          "score": 60,
+          "note": "Short North and campus areas walkable, otherwise spread"
+        },
+        "planning": {
+          "score": 60,
+          "note": "Growing bar density in core, moderate elsewhere"
+        },
+        "permission": {
+          "score": 72,
+          "note": "College town culture supports social drinking"
+        },
+        "repetition": {
+          "score": 60,
+          "note": "Growth bringing new venues but also turnover"
+        }
+      }
+    },
+    {
+      "id": "indianapolis-in",
+      "city": "Indianapolis",
+      "state": "IN",
+      "region": "Midwest",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 62,
+          "note": "Traditional office culture in insurance and pharma"
+        },
+        "spatial": {
+          "score": 52,
+          "note": "Mass Ave walkable, car-dependent beyond core"
+        },
+        "planning": {
+          "score": 55,
+          "note": "Growing bar scene in core, sprawl limits access"
+        },
+        "permission": {
+          "score": 68,
+          "note": "Moderate permission, racing and sports culture helps"
+        },
+        "repetition": {
+          "score": 58,
+          "note": "Some neighborhood bar stability in older areas"
+        }
+      }
+    },
+    {
+      "id": "charlotte-nc",
+      "city": "Charlotte",
+      "state": "NC",
+      "region": "South",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 58,
+          "note": "Banking sector maintains some office schedule sync"
+        },
+        "spatial": {
+          "score": 45,
+          "note": "Rapidly sprawling, walkable nodes limited to uptown"
+        },
+        "planning": {
+          "score": 48,
+          "note": "Car dependency high, brewery district isolated"
+        },
+        "permission": {
+          "score": 65,
+          "note": "Growing cosmopolitan culture but Southern moderation"
+        },
+        "repetition": {
+          "score": 48,
+          "note": "Explosive growth disrupts neighborhood stability"
+        }
+      }
+    },
+    {
+      "id": "tampa-fl",
+      "city": "Tampa",
+      "state": "FL",
+      "region": "South",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 52,
+          "note": "Mixed economy with some financial sector sync"
+        },
+        "spatial": {
+          "score": 50,
+          "note": "Ybor City walkable, otherwise car-dependent"
+        },
+        "planning": {
+          "score": 52,
+          "note": "Moderate bar density, car access required for most"
+        },
+        "permission": {
+          "score": 72,
+          "note": "Florida social culture supports bar-going"
+        },
+        "repetition": {
+          "score": 55,
+          "note": "Transplant population limits deep regular culture"
+        }
+      }
+    },
+    {
+      "id": "orlando-fl",
+      "city": "Orlando",
+      "state": "FL",
+      "region": "South",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 48,
+          "note": "Tourism and hospitality create desynchronized schedules"
+        },
+        "spatial": {
+          "score": 42,
+          "note": "Sprawling, tourism zones disconnected from residential"
+        },
+        "planning": {
+          "score": 45,
+          "note": "Car dependency high, bar districts tourist-oriented"
+        },
+        "permission": {
+          "score": 70,
+          "note": "Tourism culture supports drinking but skews visitors"
+        },
+        "repetition": {
+          "score": 45,
+          "note": "Transient population and tourism limit local regulars"
+        }
+      }
+    },
+    {
+      "id": "kansas-city-mo",
+      "city": "Kansas City",
+      "state": "MO",
+      "region": "Midwest",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 65,
+          "note": "Traditional office culture in diverse economic base"
+        },
+        "spatial": {
+          "score": 58,
+          "note": "Westport and Power & Light walkable, otherwise sprawl"
+        },
+        "planning": {
+          "score": 60,
+          "note": "Bar corridors functional in core districts"
+        },
+        "permission": {
+          "score": 75,
+          "note": "Strong bar-and-BBQ culture supports social drinking"
+        },
+        "repetition": {
+          "score": 65,
+          "note": "Established neighborhood bars in older areas"
+        }
+      }
+    },
+    {
+      "id": "raleigh-nc",
+      "city": "Raleigh",
+      "state": "NC",
+      "region": "South",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 55,
+          "note": "Research Triangle tech sector increasingly remote"
+        },
+        "spatial": {
+          "score": 48,
+          "note": "Downtown walkable, surrounding area car-dependent"
+        },
+        "planning": {
+          "score": 50,
+          "note": "Growing brewery scene but dispersed geography"
+        },
+        "permission": {
+          "score": 62,
+          "note": "Moderate permission, progressive but health-conscious"
+        },
+        "repetition": {
+          "score": 48,
+          "note": "Rapid growth brings new venues but little stability"
+        }
+      }
+    },
+    {
+      "id": "sacramento-ca",
+      "city": "Sacramento",
+      "state": "CA",
+      "region": "West",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 62,
+          "note": "State government provides schedule synchronization"
+        },
+        "spatial": {
+          "score": 58,
+          "note": "Midtown walkable grid with growing bar scene"
+        },
+        "planning": {
+          "score": 60,
+          "note": "Compact bar district in midtown core"
+        },
+        "permission": {
+          "score": 68,
+          "note": "Farm-to-fork culture extends to craft bar scene"
+        },
+        "repetition": {
+          "score": 58,
+          "note": "Government workforce creates some regular stability"
+        }
+      }
+    },
+    {
+      "id": "san-jose-ca",
+      "city": "San Jose",
+      "state": "CA",
+      "region": "West",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 38,
+          "note": "Silicon Valley remote work among highest in nation"
+        },
+        "spatial": {
+          "score": 42,
+          "note": "Suburban layout, downtown revitalization still early"
+        },
+        "planning": {
+          "score": 42,
+          "note": "Car dependency high, bar density low relative to pop"
+        },
+        "permission": {
+          "score": 62,
+          "note": "Tech wellness culture moderates social drinking"
+        },
+        "repetition": {
+          "score": 45,
+          "note": "Transient tech workforce limits regular formation"
+        }
+      }
+    },
+    {
+      "id": "jacksonville-fl",
+      "city": "Jacksonville",
+      "state": "FL",
+      "region": "South",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 52,
+          "note": "Financial and military sectors provide some sync"
+        },
+        "spatial": {
+          "score": 35,
+          "note": "Largest city by area in US, extremely spread out"
+        },
+        "planning": {
+          "score": 38,
+          "note": "Car essential for nearly all bar visits"
+        },
+        "permission": {
+          "score": 65,
+          "note": "Navy town culture supports social drinking"
+        },
+        "repetition": {
+          "score": 48,
+          "note": "Some beach bar regulars, inland more transient"
+        }
+      }
+    },
+    {
+      "id": "memphis-tn",
+      "city": "Memphis",
+      "state": "TN",
+      "region": "South",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 58,
+          "note": "FedEx and healthcare maintain some schedule structure"
+        },
+        "spatial": {
+          "score": 55,
+          "note": "Beale Street concentrated, neighborhoods dispersed"
+        },
+        "planning": {
+          "score": 58,
+          "note": "Low cost venues but car dependency outside core"
+        },
+        "permission": {
+          "score": 78,
+          "note": "Blues and juke joint culture deeply embedded"
+        },
+        "repetition": {
+          "score": 68,
+          "note": "Historic juke joints and neighborhood bars persist"
+        }
+      }
+    },
+    {
+      "id": "louisville-ky",
+      "city": "Louisville",
+      "state": "KY",
+      "region": "South",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 65,
+          "note": "Healthcare and logistics create reliable schedules"
+        },
+        "spatial": {
+          "score": 65,
+          "note": "Bardstown Road corridor walkable, moderate density"
+        },
+        "planning": {
+          "score": 68,
+          "note": "Bourbon trail and bar density keep friction low"
+        },
+        "permission": {
+          "score": 85,
+          "note": "Bourbon capital of America, drinking deeply cultural"
+        },
+        "repetition": {
+          "score": 72,
+          "note": "Heritage bars and bourbon culture anchor regulars"
+        }
+      }
+    },
+    {
+      "id": "richmond-va",
+      "city": "Richmond",
+      "state": "VA",
+      "region": "South",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 62,
+          "note": "State capital and finance provide schedule structure"
+        },
+        "spatial": {
+          "score": 62,
+          "note": "Fan District and Carytown walkable bar corridors"
+        },
+        "planning": {
+          "score": 64,
+          "note": "Growing craft scene with walkable density in core"
+        },
+        "permission": {
+          "score": 70,
+          "note": "Strong craft brewery and cocktail culture emerging"
+        },
+        "repetition": {
+          "score": 62,
+          "note": "Craft venues gaining tenure in established neighborhoods"
+        }
+      }
+    },
+    {
+      "id": "buffalo-ny",
+      "city": "Buffalo",
+      "state": "NY",
+      "region": "Northeast",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 70,
+          "note": "Traditional employment schedules still prevalent"
+        },
+        "spatial": {
+          "score": 72,
+          "note": "Dense urban neighborhoods with high bar density"
+        },
+        "planning": {
+          "score": 75,
+          "note": "Corner bars omnipresent, very low planning friction"
+        },
+        "permission": {
+          "score": 82,
+          "note": "Blue-collar drinking culture deeply embedded"
+        },
+        "repetition": {
+          "score": 80,
+          "note": "Stable population, generational bar regulars"
+        }
+      }
+    },
+    {
+      "id": "providence-ri",
+      "city": "Providence",
+      "state": "RI",
+      "region": "Northeast",
+      "populationTier": "Mid",
+      "conditions": {
+        "temporal": {
+          "score": 68,
+          "note": "University and healthcare schedules create sync"
+        },
+        "spatial": {
+          "score": 72,
+          "note": "Compact city with walkable bar districts"
+        },
+        "planning": {
+          "score": 72,
+          "note": "Small footprint keeps bars accessible"
+        },
+        "permission": {
+          "score": 75,
+          "note": "Italian-American and college culture support drinking"
+        },
+        "repetition": {
+          "score": 72,
+          "note": "Stable neighborhood institutions, loyal regulars"
+        }
+      }
+    },
+    {
+      "id": "new-haven-ct",
+      "city": "New Haven",
+      "state": "CT",
+      "region": "Northeast",
+      "populationTier": "Mid",
+      "conditions": {
+        "temporal": {
+          "score": 65,
+          "note": "Yale anchors professional schedules"
+        },
+        "spatial": {
+          "score": 68,
+          "note": "Compact downtown with walkable bar scene"
+        },
+        "planning": {
+          "score": 68,
+          "note": "Small city, low coordination needed"
+        },
+        "permission": {
+          "score": 72,
+          "note": "College town culture supports social drinking"
+        },
+        "repetition": {
+          "score": 70,
+          "note": "Historic bars persist alongside newer spots"
+        }
+      }
+    },
+    {
+      "id": "charleston-sc",
+      "city": "Charleston",
+      "state": "SC",
+      "region": "South",
+      "populationTier": "Mid",
+      "conditions": {
+        "temporal": {
+          "score": 60,
+          "note": "Tourism and hospitality create mixed scheduling"
+        },
+        "spatial": {
+          "score": 72,
+          "note": "Dense historic peninsula with walkable bar scene"
+        },
+        "planning": {
+          "score": 72,
+          "note": "Compact downtown, bars concentrated and accessible"
+        },
+        "permission": {
+          "score": 80,
+          "note": "Deep hospitality culture supports social drinking"
+        },
+        "repetition": {
+          "score": 70,
+          "note": "Historic bars anchor despite tourism pressure"
+        }
+      }
+    },
+    {
+      "id": "savannah-ga",
+      "city": "Savannah",
+      "state": "GA",
+      "region": "South",
+      "populationTier": "Mid",
+      "conditions": {
+        "temporal": {
+          "score": 55,
+          "note": "Tourism-driven economy desynchronizes schedules"
+        },
+        "spatial": {
+          "score": 75,
+          "note": "Dense historic district with to-go cup culture"
+        },
+        "planning": {
+          "score": 80,
+          "note": "Open container law makes entire district a bar"
+        },
+        "permission": {
+          "score": 88,
+          "note": "Among highest social permission for public drinking"
+        },
+        "repetition": {
+          "score": 72,
+          "note": "Historic establishments anchor local regular culture"
+        }
+      }
+    },
+    {
+      "id": "madison-wi",
+      "city": "Madison",
+      "state": "WI",
+      "region": "Midwest",
+      "populationTier": "Mid",
+      "conditions": {
+        "temporal": {
+          "score": 65,
+          "note": "State capital and university create dual schedule sync"
+        },
+        "spatial": {
+          "score": 72,
+          "note": "Isthmus geography concentrates everything walkably"
+        },
+        "planning": {
+          "score": 75,
+          "note": "High bar density on State Street and Capitol Square"
+        },
+        "permission": {
+          "score": 88,
+          "note": "Wisconsin drinking culture plus college town permission"
+        },
+        "repetition": {
+          "score": 72,
+          "note": "Student cycling refreshes but core bars persist"
+        }
+      }
+    },
+    {
+      "id": "burlington-vt",
+      "city": "Burlington",
+      "state": "VT",
+      "region": "Northeast",
+      "populationTier": "Small",
+      "conditions": {
+        "temporal": {
+          "score": 62,
+          "note": "University and local business create schedule rhythm"
+        },
+        "spatial": {
+          "score": 78,
+          "note": "Extremely compact downtown, everything walkable"
+        },
+        "planning": {
+          "score": 78,
+          "note": "Church Street corridor makes bar-hopping effortless"
+        },
+        "permission": {
+          "score": 75,
+          "note": "Craft brewing epicenter, strong social permission"
+        },
+        "repetition": {
+          "score": 70,
+          "note": "Small city means regulars form naturally"
+        }
+      }
+    },
+    {
+      "id": "asheville-nc",
+      "city": "Asheville",
+      "state": "NC",
+      "region": "South",
+      "populationTier": "Small",
+      "conditions": {
+        "temporal": {
+          "score": 55,
+          "note": "Tourism and remote workers create mixed schedules"
+        },
+        "spatial": {
+          "score": 72,
+          "note": "Compact downtown with exceptional brewery density"
+        },
+        "planning": {
+          "score": 75,
+          "note": "Most breweries per capita in the US"
+        },
+        "permission": {
+          "score": 78,
+          "note": "Craft culture creates strong social permission"
+        },
+        "repetition": {
+          "score": 62,
+          "note": "Tourism turnover challenges regular formation"
+        }
+      }
+    },
+    {
+      "id": "key-west-fl",
+      "city": "Key West",
+      "state": "FL",
+      "region": "South",
+      "populationTier": "Small",
+      "conditions": {
+        "temporal": {
+          "score": 52,
+          "note": "Tourism and hospitality schedules highly variable"
+        },
+        "spatial": {
+          "score": 85,
+          "note": "Tiny island, everything walking distance"
+        },
+        "planning": {
+          "score": 88,
+          "note": "Impossible to avoid a bar, zero planning needed"
+        },
+        "permission": {
+          "score": 92,
+          "note": "Drinking is the primary social activity year-round"
+        },
+        "repetition": {
+          "score": 72,
+          "note": "Local regular culture strong despite tourist overlay"
+        }
+      }
+    },
+    {
+      "id": "hoboken-nj",
+      "city": "Hoboken",
+      "state": "NJ",
+      "region": "Northeast",
+      "populationTier": "Small",
+      "conditions": {
+        "temporal": {
+          "score": 75,
+          "note": "NYC commuter schedules create strong sync"
+        },
+        "spatial": {
+          "score": 85,
+          "note": "One square mile, extremely dense bar scene"
+        },
+        "planning": {
+          "score": 85,
+          "note": "Washington Street corridor is wall-to-wall bars"
+        },
+        "permission": {
+          "score": 82,
+          "note": "Young professional drinking culture dominant"
+        },
+        "repetition": {
+          "score": 68,
+          "note": "Age-out cycle limits long-term regulars"
+        }
+      }
+    },
+    {
+      "id": "ann-arbor-mi",
+      "city": "Ann Arbor",
+      "state": "MI",
+      "region": "Midwest",
+      "populationTier": "Small",
+      "conditions": {
+        "temporal": {
+          "score": 65,
+          "note": "University calendar creates strong weekly rhythms"
+        },
+        "spatial": {
+          "score": 72,
+          "note": "Compact downtown with walkable bar districts"
+        },
+        "planning": {
+          "score": 72,
+          "note": "Main Street and State Street corridors concentrated"
+        },
+        "permission": {
+          "score": 75,
+          "note": "Big Ten college town culture supports drinking"
+        },
+        "repetition": {
+          "score": 62,
+          "note": "Student turnover, but core bars persist for decades"
+        }
+      }
+    },
+    {
+      "id": "boulder-co",
+      "city": "Boulder",
+      "state": "CO",
+      "region": "West",
+      "populationTier": "Small",
+      "conditions": {
+        "temporal": {
+          "score": 52,
+          "note": "Tech remote work high, university provides some sync"
+        },
+        "spatial": {
+          "score": 72,
+          "note": "Pearl Street Mall creates compact bar corridor"
+        },
+        "planning": {
+          "score": 70,
+          "note": "Walkable downtown, high brewery density"
+        },
+        "permission": {
+          "score": 68,
+          "note": "Fitness culture moderates, craft culture supports"
+        },
+        "repetition": {
+          "score": 58,
+          "note": "Student cycling and tech transience limit regulars"
+        }
+      }
+    },
+    {
+      "id": "boise-id",
+      "city": "Boise",
+      "state": "ID",
+      "region": "West",
+      "populationTier": "Mid",
+      "conditions": {
+        "temporal": {
+          "score": 58,
+          "note": "Growing tech sector brings remote work patterns"
+        },
+        "spatial": {
+          "score": 55,
+          "note": "Downtown walkable but surrounded by sprawl"
+        },
+        "planning": {
+          "score": 55,
+          "note": "Growing brewery scene in compact downtown"
+        },
+        "permission": {
+          "score": 60,
+          "note": "Conservative state moderates, but craft culture growing"
+        },
+        "repetition": {
+          "score": 52,
+          "note": "Fast-growing city still establishing bar identity"
+        }
+      }
+    },
+    {
+      "id": "bend-or",
+      "city": "Bend",
+      "state": "OR",
+      "region": "West",
+      "populationTier": "Small",
+      "conditions": {
+        "temporal": {
+          "score": 48,
+          "note": "Remote work and outdoor recreation desynchronize"
+        },
+        "spatial": {
+          "score": 62,
+          "note": "Compact downtown with brewery concentration"
+        },
+        "planning": {
+          "score": 68,
+          "note": "Highest breweries per capita in Oregon"
+        },
+        "permission": {
+          "score": 72,
+          "note": "Outdoor and craft culture create strong permission"
+        },
+        "repetition": {
+          "score": 55,
+          "note": "Growth and tourism pressure limit regular stability"
+        }
+      }
+    },
+    {
+      "id": "duluth-mn",
+      "city": "Duluth",
+      "state": "MN",
+      "region": "Midwest",
+      "populationTier": "Small",
+      "conditions": {
+        "temporal": {
+          "score": 65,
+          "note": "Healthcare and port economy maintain schedules"
+        },
+        "spatial": {
+          "score": 68,
+          "note": "Compact downtown along lake, walkable bar scene"
+        },
+        "planning": {
+          "score": 68,
+          "note": "High brewery density for small city"
+        },
+        "permission": {
+          "score": 75,
+          "note": "Minnesota bar culture amplified by weather"
+        },
+        "repetition": {
+          "score": 72,
+          "note": "Stable population, dedicated local regulars"
+        }
+      }
+    },
+    {
+      "id": "missoula-mt",
+      "city": "Missoula",
+      "state": "MT",
+      "region": "West",
+      "populationTier": "Small",
+      "conditions": {
+        "temporal": {
+          "score": 58,
+          "note": "University provides some schedule structure"
+        },
+        "spatial": {
+          "score": 65,
+          "note": "Compact Hip Strip and downtown bar corridors"
+        },
+        "planning": {
+          "score": 68,
+          "note": "Small footprint keeps bar access easy"
+        },
+        "permission": {
+          "score": 72,
+          "note": "Montana saloon tradition meets college culture"
+        },
+        "repetition": {
+          "score": 65,
+          "note": "Small-town regular culture persists year-round"
+        }
+      }
+    },
+    {
+      "id": "omaha-ne",
+      "city": "Omaha",
+      "state": "NE",
+      "region": "Midwest",
+      "populationTier": "Mid",
+      "conditions": {
+        "temporal": {
+          "score": 68,
+          "note": "Finance and insurance maintain traditional office hours"
+        },
+        "spatial": {
+          "score": 58,
+          "note": "Old Market walkable, otherwise car-dependent"
+        },
+        "planning": {
+          "score": 58,
+          "note": "Bar density moderate in core, low outside"
+        },
+        "permission": {
+          "score": 72,
+          "note": "Steak and beer culture provides strong permission"
+        },
+        "repetition": {
+          "score": 65,
+          "note": "Stable population supports regular bar culture"
+        }
+      }
+    },
+    {
+      "id": "albuquerque-nm",
+      "city": "Albuquerque",
+      "state": "NM",
+      "region": "West",
+      "populationTier": "Mid",
+      "conditions": {
+        "temporal": {
+          "score": 55,
+          "note": "Labs and military provide some schedule structure"
+        },
+        "spatial": {
+          "score": 48,
+          "note": "Sprawling with isolated walkable pockets"
+        },
+        "planning": {
+          "score": 50,
+          "note": "Car-dependent, brewery scene growing but dispersed"
+        },
+        "permission": {
+          "score": 68,
+          "note": "Southwest culture supports social drinking"
+        },
+        "repetition": {
+          "score": 58,
+          "note": "Stable population in older neighborhoods"
+        }
+      }
+    },
+    {
+      "id": "tucson-az",
+      "city": "Tucson",
+      "state": "AZ",
+      "region": "West",
+      "populationTier": "Mid",
+      "conditions": {
+        "temporal": {
+          "score": 52,
+          "note": "University and military provide partial sync"
+        },
+        "spatial": {
+          "score": 50,
+          "note": "Fourth Avenue walkable, otherwise car-dependent"
+        },
+        "planning": {
+          "score": 52,
+          "note": "Bar density low relative to sprawl"
+        },
+        "permission": {
+          "score": 68,
+          "note": "University and border culture support permission"
+        },
+        "repetition": {
+          "score": 58,
+          "note": "Some stable neighborhood bars in core"
+        }
+      }
+    },
+    {
+      "id": "honolulu-hi",
+      "city": "Honolulu",
+      "state": "HI",
+      "region": "West",
+      "populationTier": "Mid",
+      "conditions": {
+        "temporal": {
+          "score": 55,
+          "note": "Tourism and military create mixed schedules"
+        },
+        "spatial": {
+          "score": 65,
+          "note": "Waikiki and Chinatown concentrated, else dispersed"
+        },
+        "planning": {
+          "score": 62,
+          "note": "Dense bar districts in tourist zones"
+        },
+        "permission": {
+          "score": 75,
+          "note": "Island and military culture support social drinking"
+        },
+        "repetition": {
+          "score": 58,
+          "note": "Military rotation limits some regular formation"
+        }
+      }
+    },
+    {
+      "id": "anchorage-ak",
+      "city": "Anchorage",
+      "state": "AK",
+      "region": "West",
+      "populationTier": "Mid",
+      "conditions": {
+        "temporal": {
+          "score": 58,
+          "note": "Seasonal daylight extremes create unique sync patterns"
+        },
+        "spatial": {
+          "score": 50,
+          "note": "Downtown bars concentrated but city is spread"
+        },
+        "planning": {
+          "score": 52,
+          "note": "Car-dependent but limited options concentrate traffic"
+        },
+        "permission": {
+          "score": 78,
+          "note": "Alaska frontier bar culture exceptionally strong"
+        },
+        "repetition": {
+          "score": 68,
+          "note": "Isolation creates intense regular culture at key bars"
+        }
+      }
+    },
+    {
+      "id": "salt-lake-city-ut",
+      "city": "Salt Lake City",
+      "state": "UT",
+      "region": "West",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 58,
+          "note": "Tech growth and traditional industry mix"
+        },
+        "spatial": {
+          "score": 52,
+          "note": "Downtown walkable but metro very spread"
+        },
+        "planning": {
+          "score": 48,
+          "note": "Liquor laws add friction to spontaneous drinking"
+        },
+        "permission": {
+          "score": 42,
+          "note": "LDS culture significantly moderates social permission"
+        },
+        "repetition": {
+          "score": 52,
+          "note": "Non-LDS bar community tight-knit but small"
+        }
+      }
+    },
+    {
+      "id": "las-vegas-nv",
+      "city": "Las Vegas",
+      "state": "NV",
+      "region": "West",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 45,
+          "note": "Hospitality shifts create anti-synchronization"
+        },
+        "spatial": {
+          "score": 52,
+          "note": "Strip concentrated but residential extremely sprawling"
+        },
+        "planning": {
+          "score": 58,
+          "note": "Bars everywhere on Strip, car-needed for locals"
+        },
+        "permission": {
+          "score": 88,
+          "note": "Strongest commercial drinking permission in the US"
+        },
+        "repetition": {
+          "score": 48,
+          "note": "Transient workforce and tourists dominate, locals isolated"
+        }
+      }
+    },
+    {
+      "id": "portland-me",
+      "city": "Portland",
+      "state": "ME",
+      "region": "Northeast",
+      "populationTier": "Small",
+      "conditions": {
+        "temporal": {
+          "score": 62,
+          "note": "Tourism seasonal, local economy provides base sync"
+        },
+        "spatial": {
+          "score": 78,
+          "note": "Extremely compact Old Port with dense bar scene"
+        },
+        "planning": {
+          "score": 80,
+          "note": "Walking distance between dozens of bars"
+        },
+        "permission": {
+          "score": 78,
+          "note": "Craft brewing and seafood culture support drinking"
+        },
+        "repetition": {
+          "score": 72,
+          "note": "Year-round locals create strong regular culture"
+        }
+      }
+    },
+    {
+      "id": "albany-ny",
+      "city": "Albany",
+      "state": "NY",
+      "region": "Northeast",
+      "populationTier": "Mid",
+      "conditions": {
+        "temporal": {
+          "score": 68,
+          "note": "State capital government schedules well-synchronized"
+        },
+        "spatial": {
+          "score": 58,
+          "note": "Lark Street walkable, suburban sprawl beyond"
+        },
+        "planning": {
+          "score": 60,
+          "note": "Bar density moderate in core neighborhoods"
+        },
+        "permission": {
+          "score": 72,
+          "note": "New York state bar culture intact"
+        },
+        "repetition": {
+          "score": 68,
+          "note": "Government town stability supports regular culture"
+        }
+      }
+    },
+    {
+      "id": "oklahoma-city-ok",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "region": "South",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 58,
+          "note": "Energy and government maintain some office sync"
+        },
+        "spatial": {
+          "score": 42,
+          "note": "Bricktown walkable, otherwise extreme sprawl"
+        },
+        "planning": {
+          "score": 42,
+          "note": "Car-essential metro, bar districts isolated"
+        },
+        "permission": {
+          "score": 62,
+          "note": "Recently modernized liquor laws improving culture"
+        },
+        "repetition": {
+          "score": 55,
+          "note": "Young bar scene still establishing regular culture"
+        }
+      }
+    },
+    {
+      "id": "birmingham-al",
+      "city": "Birmingham",
+      "state": "AL",
+      "region": "South",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 60,
+          "note": "Healthcare and banking provide schedule structure"
+        },
+        "spatial": {
+          "score": 50,
+          "note": "Five Points walkable, otherwise car-dependent"
+        },
+        "planning": {
+          "score": 50,
+          "note": "Growing bar scene but car still primary"
+        },
+        "permission": {
+          "score": 62,
+          "note": "Improving, craft movement pushing past Bible Belt norms"
+        },
+        "repetition": {
+          "score": 55,
+          "note": "Food and drink revival building new regular culture"
+        }
+      }
+    },
+    {
+      "id": "santa-fe-nm",
+      "city": "Santa Fe",
+      "state": "NM",
+      "region": "West",
+      "populationTier": "Small",
+      "conditions": {
+        "temporal": {
+          "score": 52,
+          "note": "State government and tourism create mixed sync"
+        },
+        "spatial": {
+          "score": 65,
+          "note": "Compact historic plaza with walkable bar scene"
+        },
+        "planning": {
+          "score": 62,
+          "note": "Small footprint keeps bars accessible"
+        },
+        "permission": {
+          "score": 72,
+          "note": "Artist and tourist culture support social drinking"
+        },
+        "repetition": {
+          "score": 65,
+          "note": "Local artist community creates dedicated regulars"
+        }
+      }
+    },
+    {
+      "id": "reno-nv",
+      "city": "Reno",
+      "state": "NV",
+      "region": "West",
+      "populationTier": "Mid",
+      "conditions": {
+        "temporal": {
+          "score": 52,
+          "note": "Casino shift work desynchronizes, tech growing"
+        },
+        "spatial": {
+          "score": 55,
+          "note": "Downtown casino corridor walkable, else sprawl"
+        },
+        "planning": {
+          "score": 58,
+          "note": "Casino bars always available, off-strip growing"
+        },
+        "permission": {
+          "score": 82,
+          "note": "Nevada culture provides very high permission"
+        },
+        "repetition": {
+          "score": 58,
+          "note": "Mix of casino regulars and growing local scene"
+        }
+      }
+    },
+    {
+      "id": "baton-rouge-la",
+      "city": "Baton Rouge",
+      "state": "LA",
+      "region": "South",
+      "populationTier": "Mid",
+      "conditions": {
+        "temporal": {
+          "score": 58,
+          "note": "LSU and state government provide schedule sync"
+        },
+        "spatial": {
+          "score": 48,
+          "note": "Tigerland and downtown pockets, otherwise sprawl"
+        },
+        "planning": {
+          "score": 52,
+          "note": "College bar strips concentrated, car needed elsewhere"
+        },
+        "permission": {
+          "score": 85,
+          "note": "Louisiana drinking culture exceptionally strong"
+        },
+        "repetition": {
+          "score": 62,
+          "note": "LSU game day culture anchors seasonal regulars"
+        }
+      }
+    },
+    {
+      "id": "greenville-sc",
+      "city": "Greenville",
+      "state": "SC",
+      "region": "South",
+      "populationTier": "Mid",
+      "conditions": {
+        "temporal": {
+          "score": 60,
+          "note": "Manufacturing and corporate offices maintain sync"
+        },
+        "spatial": {
+          "score": 60,
+          "note": "Main Street revitalization created walkable corridor"
+        },
+        "planning": {
+          "score": 60,
+          "note": "Downtown bar scene compact and accessible"
+        },
+        "permission": {
+          "score": 65,
+          "note": "Southern hospitality meets growing cosmopolitan vibe"
+        },
+        "repetition": {
+          "score": 58,
+          "note": "Downtown revival building new regular culture"
+        }
+      }
+    },
+    {
+      "id": "knoxville-tn",
+      "city": "Knoxville",
+      "state": "TN",
+      "region": "South",
+      "populationTier": "Mid",
+      "conditions": {
+        "temporal": {
+          "score": 60,
+          "note": "UT and Oak Ridge provide schedule structure"
+        },
+        "spatial": {
+          "score": 58,
+          "note": "Market Square walkable, otherwise car-dependent"
+        },
+        "planning": {
+          "score": 58,
+          "note": "Downtown bar district compact and growing"
+        },
+        "permission": {
+          "score": 70,
+          "note": "College town culture and whiskey heritage support"
+        },
+        "repetition": {
+          "score": 58,
+          "note": "Student cycling, but Old City bars establishing"
+        }
+      }
+    },
+    {
+      "id": "chattanooga-tn",
+      "city": "Chattanooga",
+      "state": "TN",
+      "region": "South",
+      "populationTier": "Mid",
+      "conditions": {
+        "temporal": {
+          "score": 58,
+          "note": "Mixed economy with some traditional office culture"
+        },
+        "spatial": {
+          "score": 55,
+          "note": "Northshore and downtown walkable pockets"
+        },
+        "planning": {
+          "score": 55,
+          "note": "Growing bar scene in revitalized core"
+        },
+        "permission": {
+          "score": 68,
+          "note": "Improving cultural permission, Southern hospitality"
+        },
+        "repetition": {
+          "score": 55,
+          "note": "Revitalization bringing stability to new bar scene"
+        }
+      }
+    },
+    {
+      "id": "lexington-ky",
+      "city": "Lexington",
+      "state": "KY",
+      "region": "South",
+      "populationTier": "Mid",
+      "conditions": {
+        "temporal": {
+          "score": 62,
+          "note": "UK campus and horse industry provide schedule sync"
+        },
+        "spatial": {
+          "score": 60,
+          "note": "Downtown and campus corridors walkable"
+        },
+        "planning": {
+          "score": 62,
+          "note": "Bourbon trail and bar density moderate"
+        },
+        "permission": {
+          "score": 80,
+          "note": "Kentucky bourbon culture provides strong permission"
+        },
+        "repetition": {
+          "score": 65,
+          "note": "Horse racing and bourbon culture anchor regular bars"
+        }
+      }
+    },
+    {
+      "id": "fort-worth-tx",
+      "city": "Fort Worth",
+      "state": "TX",
+      "region": "South",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 55,
+          "note": "Defense and finance sectors provide some sync"
+        },
+        "spatial": {
+          "score": 48,
+          "note": "Sundance Square walkable, otherwise sprawl"
+        },
+        "planning": {
+          "score": 48,
+          "note": "Car-dependent outside Sundance Square"
+        },
+        "permission": {
+          "score": 68,
+          "note": "Cowtown honky-tonk tradition supports bar culture"
+        },
+        "repetition": {
+          "score": 55,
+          "note": "Stockyards bars have deep regular culture"
+        }
+      }
+    },
+    {
+      "id": "norfolk-va",
+      "city": "Norfolk",
+      "state": "VA",
+      "region": "South",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 58,
+          "note": "Navy base schedules create partial synchronization"
+        },
+        "spatial": {
+          "score": 55,
+          "note": "Ghent and downtown walkable bar areas"
+        },
+        "planning": {
+          "score": 55,
+          "note": "Moderate bar density in core neighborhoods"
+        },
+        "permission": {
+          "score": 70,
+          "note": "Navy town drinking culture strong"
+        },
+        "repetition": {
+          "score": 58,
+          "note": "Military rotation moderates but locals persist"
+        }
+      }
+    },
+    {
+      "id": "newark-nj",
+      "city": "Newark",
+      "state": "NJ",
+      "region": "Northeast",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 68,
+          "note": "NYC commuter schedules drive synchronization"
+        },
+        "spatial": {
+          "score": 62,
+          "note": "Ironbound district dense with bars and restaurants"
+        },
+        "planning": {
+          "score": 60,
+          "note": "Ironbound walkable, transit accessible to NYC"
+        },
+        "permission": {
+          "score": 72,
+          "note": "Portuguese and Brazilian bar culture in Ironbound"
+        },
+        "repetition": {
+          "score": 65,
+          "note": "Ethnic neighborhood bars have deep regular culture"
+        }
+      }
+    },
+    {
+      "id": "grand-rapids-mi",
+      "city": "Grand Rapids",
+      "state": "MI",
+      "region": "Midwest",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 65,
+          "note": "Manufacturing and healthcare maintain schedules"
+        },
+        "spatial": {
+          "score": 60,
+          "note": "Downtown and Eastown walkable bar areas"
+        },
+        "planning": {
+          "score": 65,
+          "note": "Beer City USA, high brewery density"
+        },
+        "permission": {
+          "score": 72,
+          "note": "Craft beer capital despite Dutch Reformed heritage"
+        },
+        "repetition": {
+          "score": 65,
+          "note": "Brewery taproom regulars well-established"
+        }
+      }
+    },
+    {
+      "id": "green-bay-wi",
+      "city": "Green Bay",
+      "state": "WI",
+      "region": "Midwest",
+      "populationTier": "Small",
+      "conditions": {
+        "temporal": {
+          "score": 65,
+          "note": "Manufacturing and Packers create schedule sync"
+        },
+        "spatial": {
+          "score": 55,
+          "note": "Downtown and Broadway walkable, else spread"
+        },
+        "planning": {
+          "score": 60,
+          "note": "High bar-per-capita in Wisconsin tradition"
+        },
+        "permission": {
+          "score": 90,
+          "note": "Wisconsin culture plus Packers tailgate tradition"
+        },
+        "repetition": {
+          "score": 78,
+          "note": "Small-city loyalty, generational bar regulars"
+        }
+      }
+    },
+    {
+      "id": "la-crosse-wi",
+      "city": "La Crosse",
+      "state": "WI",
+      "region": "Midwest",
+      "populationTier": "Small",
+      "conditions": {
+        "temporal": {
+          "score": 60,
+          "note": "University and healthcare provide schedule rhythm"
+        },
+        "spatial": {
+          "score": 65,
+          "note": "Compact downtown with high bar density"
+        },
+        "planning": {
+          "score": 70,
+          "note": "3rd Street bar district infamous for density"
+        },
+        "permission": {
+          "score": 88,
+          "note": "Among highest per-capita bar counts in the US"
+        },
+        "repetition": {
+          "score": 72,
+          "note": "Small-town regulars plus student cycling"
+        }
+      }
+    },
+    {
+      "id": "san-juan-pr",
+      "city": "San Juan",
+      "state": "PR",
+      "region": "South",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 55,
+          "note": "Government and tourism create mixed synchronization"
+        },
+        "spatial": {
+          "score": 72,
+          "note": "Old San Juan dense and walkable, Condado concentrated"
+        },
+        "planning": {
+          "score": 70,
+          "note": "Bar density high in core neighborhoods"
+        },
+        "permission": {
+          "score": 85,
+          "note": "Caribbean culture provides strong social permission"
+        },
+        "repetition": {
+          "score": 68,
+          "note": "Deep regular culture in neighborhood bars"
+        }
+      }
+    },
+    {
+      "id": "colorado-springs-co",
+      "city": "Colorado Springs",
+      "state": "CO",
+      "region": "West",
+      "populationTier": "Mid",
+      "conditions": {
+        "temporal": {
+          "score": 58,
+          "note": "Military installations provide schedule structure"
+        },
+        "spatial": {
+          "score": 45,
+          "note": "Downtown walkable pocket, otherwise sprawl"
+        },
+        "planning": {
+          "score": 48,
+          "note": "Car-dependent, bar scene growing in core"
+        },
+        "permission": {
+          "score": 55,
+          "note": "Evangelical conservative presence moderates permission"
+        },
+        "repetition": {
+          "score": 52,
+          "note": "Military rotation limits stable regular culture"
+        }
+      }
+    },
+    {
+      "id": "fort-collins-co",
+      "city": "Fort Collins",
+      "state": "CO",
+      "region": "West",
+      "populationTier": "Mid",
+      "conditions": {
+        "temporal": {
+          "score": 55,
+          "note": "CSU and tech mix traditional and remote schedules"
+        },
+        "spatial": {
+          "score": 65,
+          "note": "Old Town walkable with high brewery density"
+        },
+        "planning": {
+          "score": 68,
+          "note": "New Belgium and Odell anchor craft corridor"
+        },
+        "permission": {
+          "score": 72,
+          "note": "Colorado craft culture strong, outdoors supports"
+        },
+        "repetition": {
+          "score": 60,
+          "note": "Student cycling but brewery regulars persist"
+        }
+      }
+    },
+    {
+      "id": "mobile-al",
+      "city": "Mobile",
+      "state": "AL",
+      "region": "South",
+      "populationTier": "Mid",
+      "conditions": {
+        "temporal": {
+          "score": 58,
+          "note": "Shipyard and industrial schedules provide some sync"
+        },
+        "spatial": {
+          "score": 52,
+          "note": "Dauphin Street downtown walkable, else spread"
+        },
+        "planning": {
+          "score": 52,
+          "note": "Bar scene concentrated on Dauphin Street"
+        },
+        "permission": {
+          "score": 75,
+          "note": "Original Mardi Gras city, strong drinking culture"
+        },
+        "repetition": {
+          "score": 65,
+          "note": "Old-line establishments maintain regular culture"
+        }
+      }
+    },
+    {
+      "id": "portsmouth-nh",
+      "city": "Portsmouth",
+      "state": "NH",
+      "region": "Northeast",
+      "populationTier": "Small",
+      "conditions": {
+        "temporal": {
+          "score": 58,
+          "note": "Local economy and tourism create mixed sync"
+        },
+        "spatial": {
+          "score": 78,
+          "note": "Extremely compact downtown with high bar density"
+        },
+        "planning": {
+          "score": 78,
+          "note": "Can bar-hop the entire town on foot easily"
+        },
+        "permission": {
+          "score": 75,
+          "note": "Coastal New England pub culture strong"
+        },
+        "repetition": {
+          "score": 70,
+          "note": "Year-round locals maintain strong regular culture"
+        }
+      }
+    },
+    {
+      "id": "annapolis-md",
+      "city": "Annapolis",
+      "state": "MD",
+      "region": "Northeast",
+      "populationTier": "Small",
+      "conditions": {
+        "temporal": {
+          "score": 60,
+          "note": "Naval Academy and state capital provide sync"
+        },
+        "spatial": {
+          "score": 72,
+          "note": "Compact historic downtown, waterfront bars dense"
+        },
+        "planning": {
+          "score": 72,
+          "note": "Walkable downtown, bars concentrated on Ego Alley"
+        },
+        "permission": {
+          "score": 78,
+          "note": "Sailing and military culture deeply support drinking"
+        },
+        "repetition": {
+          "score": 70,
+          "note": "Midshipmen cycle but local regulars persistent"
+        }
+      }
+    },
+    {
+      "id": "iowa-city-ia",
+      "city": "Iowa City",
+      "state": "IA",
+      "region": "Midwest",
+      "populationTier": "Small",
+      "conditions": {
+        "temporal": {
+          "score": 62,
+          "note": "University of Iowa creates strong weekly sync"
+        },
+        "spatial": {
+          "score": 68,
+          "note": "Compact downtown with walkable bar scene"
+        },
+        "planning": {
+          "score": 70,
+          "note": "Ped Mall and surrounding bars very accessible"
+        },
+        "permission": {
+          "score": 78,
+          "note": "Big Ten party culture and writing program overlap"
+        },
+        "repetition": {
+          "score": 62,
+          "note": "Student cycling, but core bars legendarily persistent"
+        }
+      }
+    },
+    {
+      "id": "athens-ga",
+      "city": "Athens",
+      "state": "GA",
+      "region": "South",
+      "populationTier": "Small",
+      "conditions": {
+        "temporal": {
+          "score": 60,
+          "note": "UGA campus creates strong weekly and seasonal sync"
+        },
+        "spatial": {
+          "score": 68,
+          "note": "Downtown music district compact and walkable"
+        },
+        "planning": {
+          "score": 70,
+          "note": "Bar-per-block ratio very high downtown"
+        },
+        "permission": {
+          "score": 75,
+          "note": "Music scene and SEC culture strongly support drinking"
+        },
+        "repetition": {
+          "score": 60,
+          "note": "Music venue culture creates dedicated regulars"
+        }
+      }
+    },
+    {
+      "id": "santa-barbara-ca",
+      "city": "Santa Barbara",
+      "state": "CA",
+      "region": "West",
+      "populationTier": "Mid",
+      "conditions": {
+        "temporal": {
+          "score": 52,
+          "note": "UCSB and tourism create mixed scheduling"
+        },
+        "spatial": {
+          "score": 68,
+          "note": "State Street corridor walkable and bar-dense"
+        },
+        "planning": {
+          "score": 68,
+          "note": "Downtown concentrated, wine culture accessible"
+        },
+        "permission": {
+          "score": 72,
+          "note": "Wine country and beach culture strongly support"
+        },
+        "repetition": {
+          "score": 58,
+          "note": "Student cycling, but wine bar regulars stable"
+        }
+      }
+    },
+    {
+      "id": "fort-lauderdale-fl",
+      "city": "Fort Lauderdale",
+      "state": "FL",
+      "region": "South",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 52,
+          "note": "Tourism and retirees desynchronize schedules"
+        },
+        "spatial": {
+          "score": 62,
+          "note": "Las Olas and beach strip walkable corridors"
+        },
+        "planning": {
+          "score": 60,
+          "note": "Bar density high in tourist zones"
+        },
+        "permission": {
+          "score": 78,
+          "note": "Spring break legacy and tropical culture support"
+        },
+        "repetition": {
+          "score": 55,
+          "note": "Seasonal residents limit year-round regular culture"
+        }
+      }
+    },
+    {
+      "id": "provo-ut",
+      "city": "Provo",
+      "state": "UT",
+      "region": "West",
+      "populationTier": "Mid",
+      "conditions": {
+        "temporal": {
+          "score": 55,
+          "note": "BYU and tech create mixed schedule patterns"
+        },
+        "spatial": {
+          "score": 45,
+          "note": "Downtown compact but bar options extremely limited"
+        },
+        "planning": {
+          "score": 30,
+          "note": "Very few bars exist, planning cost very high"
+        },
+        "permission": {
+          "score": 25,
+          "note": "Lowest social permission in the US due to LDS culture"
+        },
+        "repetition": {
+          "score": 35,
+          "note": "So few bars that regulars exist but culture minimal"
+        }
+      }
+    }
+  ]
+}
