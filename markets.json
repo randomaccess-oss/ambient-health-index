@@ -1,8 +1,9 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.0.0-draft",
     "generated": "2026-03-10",
-    "sources": "Walk Score, Census Bureau CBP, BLS, CBRE Office Occupancy, state alcohol culture indices"
+    "sources": "Model-generated estimates pending data pipeline",
+    "method": "Directional estimates based on general market knowledge. V2 will use Walk Score, Census ACS/CBP, and NIAAA data."
   },
   "markets": [
     {

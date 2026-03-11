@@ -648,6 +648,9 @@
         <p style=${{ fontFamily: HAND, fontSize: "14px", color: TAN_C, maxWidth: 540, lineHeight: 1.7, marginBottom: 28, fontStyle: "italic" }}>
           Scoring ${markets.length} U.S. markets across Tannenbaum\u2019s Five Conditions of Ambient Social Infrastructure. A directional instrument for brand marketers evaluating where ambient occasion investment has structural support.
         </p>
+        <div style=${{ fontFamily: UI, fontSize: "11px", fontWeight: 600, background: "#e8dfd1", border: "1.5px solid " + TAN_C, borderRadius: 4, padding: "6px 12px", display: "inline-block", marginBottom: 20, color: TAN_C }}>
+          v1.0 DRAFT \u2014 Scores are directional estimates. v2.0 with verified public data sources in progress.
+        </div>
 
         ${view === "compare" && compareMarkets.length > 0 ? html`<${CompareView}
           markets=${compareMarkets} weights=${weights} floors=${currentFloors}
