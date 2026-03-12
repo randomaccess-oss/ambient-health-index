@@ -1,0 +1,405 @@
+{
+  "source": "NIAAA Surveillance Report #120, Apparent Per Capita Alcohol Consumption: National, State, and Regional Trends, 1977\u20132021",
+  "fetched_date": "2026-03-11",
+  "url": "https://pubs.niaaa.nih.gov/publications/surveillance120/tab1_2021.htm",
+  "data_year": 2021,
+  "note": "Gallons of ethanol per capita (population age 14+). State-level data mapped to metro markets. DC inflated by commuter/tourist purchases. NH inflated by border sales (no sales tax). NV inflated by tourism.",
+  "states": {
+    "AK": {
+      "total_ethanol_gallons": 2.98,
+      "beer_gallons": 1.34,
+      "wine_gallons": 0.47,
+      "spirits_gallons": 1.17
+    },
+    "AL": {
+      "total_ethanol_gallons": 1.96,
+      "beer_gallons": 0.99,
+      "wine_gallons": 0.26,
+      "spirits_gallons": 0.71
+    },
+    "AR": {
+      "total_ethanol_gallons": 1.88,
+      "beer_gallons": 0.97,
+      "wine_gallons": 0.24,
+      "spirits_gallons": 0.67
+    },
+    "AZ": {
+      "total_ethanol_gallons": 2.55,
+      "beer_gallons": 1.17,
+      "wine_gallons": 0.44,
+      "spirits_gallons": 0.94
+    },
+    "CA": {
+      "total_ethanol_gallons": 2.54,
+      "beer_gallons": 0.96,
+      "wine_gallons": 0.72,
+      "spirits_gallons": 0.86
+    },
+    "CO": {
+      "total_ethanol_gallons": 2.84,
+      "beer_gallons": 1.3,
+      "wine_gallons": 0.56,
+      "spirits_gallons": 0.98
+    },
+    "CT": {
+      "total_ethanol_gallons": 2.68,
+      "beer_gallons": 0.97,
+      "wine_gallons": 0.74,
+      "spirits_gallons": 0.97
+    },
+    "DC": {
+      "total_ethanol_gallons": 5.08,
+      "beer_gallons": 1.28,
+      "wine_gallons": 1.82,
+      "spirits_gallons": 1.98
+    },
+    "DE": {
+      "total_ethanol_gallons": 3.23,
+      "beer_gallons": 1.31,
+      "wine_gallons": 0.64,
+      "spirits_gallons": 1.28
+    },
+    "FL": {
+      "total_ethanol_gallons": 2.71,
+      "beer_gallons": 1.14,
+      "wine_gallons": 0.53,
+      "spirits_gallons": 1.04
+    },
+    "GA": {
+      "total_ethanol_gallons": 2.14,
+      "beer_gallons": 1.02,
+      "wine_gallons": 0.38,
+      "spirits_gallons": 0.74
+    },
+    "HI": {
+      "total_ethanol_gallons": 2.76,
+      "beer_gallons": 1.09,
+      "wine_gallons": 0.59,
+      "spirits_gallons": 1.08
+    },
+    "IA": {
+      "total_ethanol_gallons": 2.57,
+      "beer_gallons": 1.27,
+      "wine_gallons": 0.39,
+      "spirits_gallons": 0.91
+    },
+    "ID": {
+      "total_ethanol_gallons": 2.24,
+      "beer_gallons": 1.08,
+      "wine_gallons": 0.41,
+      "spirits_gallons": 0.75
+    },
+    "IL": {
+      "total_ethanol_gallons": 2.56,
+      "beer_gallons": 1.08,
+      "wine_gallons": 0.54,
+      "spirits_gallons": 0.94
+    },
+    "IN": {
+      "total_ethanol_gallons": 2.19,
+      "beer_gallons": 1.08,
+      "wine_gallons": 0.36,
+      "spirits_gallons": 0.75
+    },
+    "KS": {
+      "total_ethanol_gallons": 2.14,
+      "beer_gallons": 1.04,
+      "wine_gallons": 0.34,
+      "spirits_gallons": 0.76
+    },
+    "KY": {
+      "total_ethanol_gallons": 2.11,
+      "beer_gallons": 1.03,
+      "wine_gallons": 0.31,
+      "spirits_gallons": 0.77
+    },
+    "LA": {
+      "total_ethanol_gallons": 2.65,
+      "beer_gallons": 1.25,
+      "wine_gallons": 0.39,
+      "spirits_gallons": 1.01
+    },
+    "MA": {
+      "total_ethanol_gallons": 2.71,
+      "beer_gallons": 0.97,
+      "wine_gallons": 0.73,
+      "spirits_gallons": 1.01
+    },
+    "MD": {
+      "total_ethanol_gallons": 2.52,
+      "beer_gallons": 1.01,
+      "wine_gallons": 0.59,
+      "spirits_gallons": 0.92
+    },
+    "ME": {
+      "total_ethanol_gallons": 2.87,
+      "beer_gallons": 1.29,
+      "wine_gallons": 0.62,
+      "spirits_gallons": 0.96
+    },
+    "MI": {
+      "total_ethanol_gallons": 2.36,
+      "beer_gallons": 1.11,
+      "wine_gallons": 0.46,
+      "spirits_gallons": 0.79
+    },
+    "MN": {
+      "total_ethanol_gallons": 2.55,
+      "beer_gallons": 1.18,
+      "wine_gallons": 0.48,
+      "spirits_gallons": 0.89
+    },
+    "MO": {
+      "total_ethanol_gallons": 2.41,
+      "beer_gallons": 1.14,
+      "wine_gallons": 0.4,
+      "spirits_gallons": 0.87
+    },
+    "MS": {
+      "total_ethanol_gallons": 1.84,
+      "beer_gallons": 0.96,
+      "wine_gallons": 0.22,
+      "spirits_gallons": 0.66
+    },
+    "MT": {
+      "total_ethanol_gallons": 2.95,
+      "beer_gallons": 1.37,
+      "wine_gallons": 0.48,
+      "spirits_gallons": 1.1
+    },
+    "NC": {
+      "total_ethanol_gallons": 2.16,
+      "beer_gallons": 1.04,
+      "wine_gallons": 0.4,
+      "spirits_gallons": 0.72
+    },
+    "ND": {
+      "total_ethanol_gallons": 3.12,
+      "beer_gallons": 1.54,
+      "wine_gallons": 0.38,
+      "spirits_gallons": 1.2
+    },
+    "NE": {
+      "total_ethanol_gallons": 2.51,
+      "beer_gallons": 1.22,
+      "wine_gallons": 0.38,
+      "spirits_gallons": 0.91
+    },
+    "NH": {
+      "total_ethanol_gallons": 4.56,
+      "beer_gallons": 1.68,
+      "wine_gallons": 0.98,
+      "spirits_gallons": 1.9
+    },
+    "NJ": {
+      "total_ethanol_gallons": 2.49,
+      "beer_gallons": 0.92,
+      "wine_gallons": 0.67,
+      "spirits_gallons": 0.9
+    },
+    "NM": {
+      "total_ethanol_gallons": 2.56,
+      "beer_gallons": 1.16,
+      "wine_gallons": 0.41,
+      "spirits_gallons": 0.99
+    },
+    "NV": {
+      "total_ethanol_gallons": 3.93,
+      "beer_gallons": 1.52,
+      "wine_gallons": 0.68,
+      "spirits_gallons": 1.73
+    },
+    "NY": {
+      "total_ethanol_gallons": 2.76,
+      "beer_gallons": 1.01,
+      "wine_gallons": 0.74,
+      "spirits_gallons": 1.01
+    },
+    "OH": {
+      "total_ethanol_gallons": 2.28,
+      "beer_gallons": 1.09,
+      "wine_gallons": 0.41,
+      "spirits_gallons": 0.78
+    },
+    "OK": {
+      "total_ethanol_gallons": 2.0,
+      "beer_gallons": 1.0,
+      "wine_gallons": 0.29,
+      "spirits_gallons": 0.71
+    },
+    "OR": {
+      "total_ethanol_gallons": 2.71,
+      "beer_gallons": 1.12,
+      "wine_gallons": 0.67,
+      "spirits_gallons": 0.92
+    },
+    "PA": {
+      "total_ethanol_gallons": 2.43,
+      "beer_gallons": 1.08,
+      "wine_gallons": 0.48,
+      "spirits_gallons": 0.87
+    },
+    "RI": {
+      "total_ethanol_gallons": 2.78,
+      "beer_gallons": 1.02,
+      "wine_gallons": 0.7,
+      "spirits_gallons": 1.06
+    },
+    "SC": {
+      "total_ethanol_gallons": 2.51,
+      "beer_gallons": 1.17,
+      "wine_gallons": 0.38,
+      "spirits_gallons": 0.96
+    },
+    "SD": {
+      "total_ethanol_gallons": 3.0,
+      "beer_gallons": 1.48,
+      "wine_gallons": 0.38,
+      "spirits_gallons": 1.14
+    },
+    "TN": {
+      "total_ethanol_gallons": 2.17,
+      "beer_gallons": 1.04,
+      "wine_gallons": 0.33,
+      "spirits_gallons": 0.8
+    },
+    "TX": {
+      "total_ethanol_gallons": 2.42,
+      "beer_gallons": 1.21,
+      "wine_gallons": 0.38,
+      "spirits_gallons": 0.83
+    },
+    "UT": {
+      "total_ethanol_gallons": 1.35,
+      "beer_gallons": 0.62,
+      "wine_gallons": 0.24,
+      "spirits_gallons": 0.49
+    },
+    "VA": {
+      "total_ethanol_gallons": 2.49,
+      "beer_gallons": 1.01,
+      "wine_gallons": 0.58,
+      "spirits_gallons": 0.9
+    },
+    "VT": {
+      "total_ethanol_gallons": 3.05,
+      "beer_gallons": 1.27,
+      "wine_gallons": 0.79,
+      "spirits_gallons": 0.99
+    },
+    "WA": {
+      "total_ethanol_gallons": 2.67,
+      "beer_gallons": 1.09,
+      "wine_gallons": 0.67,
+      "spirits_gallons": 0.91
+    },
+    "WI": {
+      "total_ethanol_gallons": 2.98,
+      "beer_gallons": 1.46,
+      "wine_gallons": 0.51,
+      "spirits_gallons": 1.01
+    },
+    "WV": {
+      "total_ethanol_gallons": 2.08,
+      "beer_gallons": 1.04,
+      "wine_gallons": 0.28,
+      "spirits_gallons": 0.76
+    },
+    "WY": {
+      "total_ethanol_gallons": 3.06,
+      "beer_gallons": 1.43,
+      "wine_gallons": 0.46,
+      "spirits_gallons": 1.17
+    }
+  },
+  "market_mapping": {
+    "new-york-ny": "NY",
+    "buffalo-ny": "NY",
+    "rochester-ny": "NY",
+    "los-angeles-ca": "CA",
+    "san-francisco-ca": "CA",
+    "san-diego-ca": "CA",
+    "sacramento-ca": "CA",
+    "fresno-ca": "CA",
+    "houston-tx": "TX",
+    "dallas-tx": "TX",
+    "san-antonio-tx": "TX",
+    "austin-tx": "TX",
+    "lubbock-tx": "TX",
+    "waco-tx": "TX",
+    "marfa-tx": "TX",
+    "chicago-il": "IL",
+    "champaign-il": "IL",
+    "phoenix-az": "AZ",
+    "tucson-az": "AZ",
+    "philadelphia-pa": "PA",
+    "pittsburgh-pa": "PA",
+    "miami-fl": "FL",
+    "orlando-fl": "FL",
+    "tampa-fl": "FL",
+    "gainesville-fl": "FL",
+    "tallahassee-fl": "FL",
+    "atlanta-ga": "GA",
+    "athens-ga": "GA",
+    "savannah-ga": "GA",
+    "boston-ma": "MA",
+    "seattle-wa": "WA",
+    "denver-co": "CO",
+    "colorado-springs-co": "CO",
+    "boulder-co": "CO",
+    "fort-collins-co": "CO",
+    "telluride-co": "CO",
+    "washington-dc": "DC",
+    "nashville-tn": "TN",
+    "memphis-tn": "TN",
+    "knoxville-tn": "TN",
+    "portland-or": "OR",
+    "las-vegas-nv": "NV",
+    "detroit-mi": "MI",
+    "grand-rapids-mi": "MI",
+    "ann-arbor-mi": "MI",
+    "minneapolis-mn": "MN",
+    "cleveland-oh": "OH",
+    "columbus-oh": "OH",
+    "cincinnati-oh": "OH",
+    "indianapolis-in": "IN",
+    "bloomington-in": "IN",
+    "kansas-city-mo": "MO",
+    "st-louis-mo": "MO",
+    "columbia-mo": "MO",
+    "new-orleans-la": "LA",
+    "baton-rouge-la": "LA",
+    "richmond-va": "VA",
+    "charlottesville-va": "VA",
+    "louisville-ky": "KY",
+    "lexington-ky": "KY",
+    "oklahoma-city-ok": "OK",
+    "albuquerque-nm": "NM",
+    "omaha-ne": "NE",
+    "lincoln-ne": "NE",
+    "salt-lake-city-ut": "UT",
+    "provo-ut": "UT",
+    "charlotte-nc": "NC",
+    "raleigh-nc": "NC",
+    "durham-nc": "NC",
+    "asheville-nc": "NC",
+    "wilmington-nc": "NC",
+    "columbia-sc": "SC",
+    "greenville-sc": "SC",
+    "birmingham-al": "AL",
+    "tuscaloosa-al": "AL",
+    "little-rock-ar": "AR",
+    "fayetteville-ar": "AR",
+    "eureka-springs-ar": "AR",
+    "madison-wi": "WI",
+    "door-county-wi": "WI",
+    "boise-id": "ID",
+    "ames-ia": "IA",
+    "iowa-city-ia": "IA",
+    "jackson-ms": "MS",
+    "hartford-ct": "CT",
+    "missoula-mt": "MT",
+    "bozeman-mt": "MT",
+    "lawrence-ks": "KS"
+  }
+}

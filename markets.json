@@ -1,9 +1,9 @@
 {
   "meta": {
-    "version": "1.0.0-draft",
-    "generated": "2026-03-10",
-    "sources": "Model-generated estimates pending data pipeline",
-    "method": "Directional estimates based on general market knowledge. V2 will use Walk Score, Census ACS/CBP, and NIAAA data."
+    "version": "2.0.0",
+    "generated": "2026-03-11",
+    "sources": "Walk Score, U.S. Census ACS 2022, Census CBP 2022, NIAAA Surveillance Report #120",
+    "method": "Normalized scoring from public data sources. Tourist-market bar density capped at 4.0/10K. See scrape-instructions/ for full methodology."
   },
   "markets": [
     {
@@ -14,26 +14,27 @@
       "populationTier": "Mega",
       "conditions": {
         "temporal": {
-          "score": 75,
-          "note": "Strong commuter culture, office density high despite hybrid shift"
+          "score": 42,
+          "note": "85% commute rate with 37.1-min average travel time"
         },
         "spatial": {
-          "score": 95,
-          "note": "Highest residential and bar density in the US"
+          "score": 80,
+          "note": "Walk Score 100, 2.1 bars/10K, very dense urban core"
         },
         "planning": {
-          "score": 90,
-          "note": "Bar on every block, low coordination required"
+          "score": 68,
+          "note": "Transit Score 100 and 2.1 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 80,
-          "note": "Drinking deeply embedded in professional and social culture"
+          "score": 43,
+          "note": "NY ranks above-average in per-capita consumption (2.76 gal), fewer on-premise venues"
         },
         "repetition": {
-          "score": 85,
-          "note": "Stable neighborhood bars with genuine regulars"
+          "score": 88,
+          "note": "Very stable population (2.9% moved in), regulars keep coming back"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "chicago-il",
@@ -43,26 +44,27 @@
       "populationTier": "Mega",
       "conditions": {
         "temporal": {
-          "score": 80,
-          "note": "Strong commuter rail culture, synchronized office schedules"
+          "score": 54,
+          "note": "86% commute rate with 30.8-min average travel time"
         },
         "spatial": {
-          "score": 85,
-          "note": "Dense neighborhoods with walkable bar corridors"
+          "score": 77,
+          "note": "Walk Score 100, 2.9 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 80,
-          "note": "Neighborhood bar culture intact, low friction entry"
+          "score": 77,
+          "note": "Transit Score 100 and 2.9 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 85,
-          "note": "Deep working-class bar tradition, strong social license"
+          "score": 48,
+          "note": "IL ranks above-average in per-capita consumption (2.56 gal)"
         },
         "repetition": {
-          "score": 82,
-          "note": "Long-tenured establishments with loyal regulars"
+          "score": 80,
+          "note": "Moderate stability (3.6% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "new-orleans-la",
@@ -72,26 +74,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 70,
-          "note": "Hospitality-heavy economy creates non-standard synchronization"
+          "score": 65,
+          "note": "87% commute rate with 25.0-min average travel time"
         },
         "spatial": {
-          "score": 80,
-          "note": "Dense French Quarter and neighborhood bar ecosystem"
+          "score": 78,
+          "note": "Walk Score 96, 4.6 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 88,
-          "note": "Among the lowest planning cost environments in the US"
+          "score": 87,
+          "note": "Transit Score 84 and 4.6 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 95,
-          "note": "Strongest social permission for ambient drinking in the country"
+          "score": 68,
+          "note": "LA ranks above-average in per-capita consumption (2.65 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 90,
-          "note": "Deeply entrenched regular culture across neighborhoods"
+          "score": 63,
+          "note": "Moderate stability (5.0% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "boston-ma",
@@ -101,26 +104,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 78,
-          "note": "Commuter rail culture, university schedules create sync"
+          "score": 43,
+          "note": "81% commute rate with 29.9-min average travel time"
         },
         "spatial": {
-          "score": 82,
-          "note": "Dense neighborhoods, walkable bar districts"
+          "score": 78,
+          "note": "Walk Score 99, 3.3 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 78,
-          "note": "Neighborhood pub culture reduces coordination cost"
+          "score": 81,
+          "note": "Transit Score 100 and 3.3 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 72,
-          "note": "Strong but moderated by health-conscious professional class"
+          "score": 55,
+          "note": "MA ranks above-average in per-capita consumption (2.71 gal)"
         },
         "repetition": {
-          "score": 80,
-          "note": "Stable institution bars, generational regulars"
+          "score": 66,
+          "note": "Moderate stability (4.7% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "philadelphia-pa",
@@ -130,26 +134,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 75,
-          "note": "Commuter culture intact, office density above average"
+          "score": 54,
+          "note": "85% commute rate with 29.2-min average travel time"
         },
         "spatial": {
-          "score": 80,
-          "note": "Dense rowhouse neighborhoods, walkable corridors"
+          "score": 71,
+          "note": "Walk Score 100, 2.7 bars/10K, moderate urban density"
         },
         "planning": {
           "score": 75,
-          "note": "Corner bar density reduces planning friction"
+          "note": "Transit Score 100 and 2.7 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 78,
-          "note": "Working-class bar tradition strong in neighborhoods"
+          "score": 43,
+          "note": "PA ranks above-average in per-capita consumption (2.43 gal)"
         },
         "repetition": {
-          "score": 78,
-          "note": "Generational bar culture in most neighborhoods"
+          "score": 84,
+          "note": "Very stable population (3.3% moved in), regulars keep coming back"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "washington-dc",
@@ -159,26 +164,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 60,
-          "note": "Government hybrid work fractured traditional after-work sync"
+          "score": 34,
+          "note": "High remote-work rate (21% WFH) with 32.6-min avg commute"
         },
         "spatial": {
-          "score": 75,
-          "note": "Dense in core neighborhoods, dispersed in suburbs"
+          "score": 71,
+          "note": "Walk Score 98, 2.2 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 70,
-          "note": "Happy hour culture persists but weakened"
+          "score": 69,
+          "note": "Transit Score 100 and 2.2 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 68,
-          "note": "Professional class increasingly health-conscious"
+          "score": 69,
+          "note": "DC ranks high in per-capita consumption (5.08 gal), fewer on-premise venues"
         },
         "repetition": {
-          "score": 70,
-          "note": "Transient population limits regular formation"
+          "score": 67,
+          "note": "Moderate stability (4.7% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "minneapolis-mn",
@@ -188,26 +194,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 65,
-          "note": "Mixed office culture, some commuter synchronization remains"
+          "score": 57,
+          "note": "83% commute rate with 24.5-min average travel time"
         },
         "spatial": {
-          "score": 65,
-          "note": "Walkable core, suburban sprawl outside"
+          "score": 79,
+          "note": "Walk Score 93, 4.7 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 62,
-          "note": "Moderate bar density in core neighborhoods"
+          "score": 90,
+          "note": "Transit Score 88 and 4.7 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 70,
-          "note": "Longstanding bar culture, though moderating"
+          "score": 67,
+          "note": "MN ranks above-average in per-capita consumption (2.55 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 65,
-          "note": "Neighborhood bars stable, weather drives indoor culture"
+          "score": 67,
+          "note": "Moderate stability (4.6% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "portland-or",
@@ -217,26 +224,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 55,
-          "note": "Tech remote work penetration high"
+          "score": 54,
+          "note": "83% commute rate with 25.7-min average travel time"
         },
         "spatial": {
-          "score": 65,
-          "note": "Walkable core but dispersed overall"
+          "score": 76,
+          "note": "Walk Score 88, 4.4 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 68,
-          "note": "High bar and taproom density in core"
+          "score": 86,
+          "note": "Transit Score 85 and 4.4 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 72,
-          "note": "Strong craft bar culture"
+          "score": 67,
+          "note": "OR ranks above-average in per-capita consumption (2.71 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 60,
-          "note": "Venue instability has disrupted regular formation"
+          "score": 50,
+          "note": "Above-average turnover (6.0% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "miami-fl",
@@ -246,26 +254,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 55,
-          "note": "Desynchronized schedules, tourism drives temporal mismatch"
+          "score": 59,
+          "note": "88% commute rate with 29.3-min average travel time"
         },
         "spatial": {
-          "score": 68,
-          "note": "Dense in Brickell and South Beach, dispersed elsewhere"
+          "score": 75,
+          "note": "Walk Score 98, 2.5 bars/10K, very dense urban core"
         },
         "planning": {
-          "score": 65,
-          "note": "Bar density high but car-dependent access raises friction"
+          "score": 66,
+          "note": "Transit Score 88 and 2.5 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 80,
-          "note": "Strong social permission, nightlife culture prominent"
+          "score": 47,
+          "note": "FL ranks above-average in per-capita consumption (2.71 gal)"
         },
         "repetition": {
-          "score": 60,
-          "note": "Transient population limits regular formation"
+          "score": 75,
+          "note": "Moderate stability (4.0% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "nashville-tn",
@@ -275,26 +284,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 60,
-          "note": "Mixed economy, partial synchronization in core industries"
+          "score": 64,
+          "note": "87% commute rate with 26.1-min average travel time"
         },
         "spatial": {
-          "score": 55,
-          "note": "Rapid growth has diluted spatial concentration"
+          "score": 76,
+          "note": "Walk Score 98, 4.4 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 62,
-          "note": "Bar density growing but eventized orientation dominant"
+          "score": 81,
+          "note": "Transit Score 75 and 4.4 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 78,
-          "note": "Strong social permission, tourism amplifies but distorts"
+          "score": 57,
+          "note": "TN ranks moderate in per-capita consumption (2.17 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 58,
-          "note": "Rapid growth and tourism disrupts regular formation"
+          "score": 28,
+          "note": "Above-average turnover (7.8% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "denver-co",
@@ -304,26 +314,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 58,
-          "note": "Tech and remote work penetration increasing"
+          "score": 53,
+          "note": "83% commute rate with 26.2-min average travel time"
         },
         "spatial": {
-          "score": 60,
-          "note": "Walkable core surrounded by car-dependent sprawl"
+          "score": 78,
+          "note": "Walk Score 95, 4.3 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 62,
-          "note": "Taproom density high, bar corridors functional"
+          "score": 82,
+          "note": "Transit Score 80 and 4.3 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 72,
-          "note": "Outdoor and social culture supports permission"
+          "score": 69,
+          "note": "CO ranks above-average in per-capita consumption (2.84 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 60,
-          "note": "Fast growth disrupts venue stability and regular formation"
+          "score": 40,
+          "note": "Above-average turnover (6.8% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "austin-tx",
@@ -333,26 +344,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 55,
-          "note": "Tech remote work dominant, desynchronized schedules"
+          "score": 51,
+          "note": "81% commute rate with 24.8-min average travel time"
         },
         "spatial": {
-          "score": 58,
-          "note": "Dense core rapidly diluted by sprawl growth"
+          "score": 77,
+          "note": "Walk Score 99, 4.0 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 65,
-          "note": "Bar density in core, but car dependency outside"
+          "score": 73,
+          "note": "Transit Score 69 and 4.0 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 75,
-          "note": "Strong social permission, college town legacy"
+          "score": 57,
+          "note": "TX ranks above-average in per-capita consumption (2.42 gal)"
         },
         "repetition": {
-          "score": 55,
-          "note": "Rapid growth and rising rents destabilize venues"
+          "score": 36,
+          "note": "Above-average turnover (7.1% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "san-francisco-ca",
@@ -362,26 +374,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 42,
-          "note": "Tech remote work collapse most severe in the US"
+          "score": 34,
+          "note": "High remote-work rate (22% WFH) with 31.3-min avg commute"
         },
         "spatial": {
-          "score": 78,
-          "note": "High density, walkable, bar-rich neighborhoods"
+          "score": 93,
+          "note": "Walk Score 99, 4.0 bars/10K, very dense urban core"
         },
         "planning": {
-          "score": 72,
-          "note": "Bar density high, but demand side depleted"
+          "score": 89,
+          "note": "Transit Score 100 and 4.0 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 75,
-          "note": "Historically strong but health messaging penetration high"
+          "score": 60,
+          "note": "CA ranks above-average in per-capita consumption (2.54 gal)"
         },
         "repetition": {
-          "score": 58,
-          "note": "Venue closures accelerated, regular culture disrupted"
+          "score": 62,
+          "note": "Moderate stability (5.0% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "seattle-wa",
@@ -392,25 +405,26 @@
       "conditions": {
         "temporal": {
           "score": 42,
-          "note": "Among highest remote work penetration in the US"
+          "note": "High remote-work rate (20% WFH) with 28.2-min avg commute"
         },
         "spatial": {
-          "score": 65,
-          "note": "Dense neighborhoods but hilly geography raises friction"
+          "score": 80,
+          "note": "Walk Score 99, 3.9 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 65,
-          "note": "Strong bar and taproom culture in core"
+          "score": 88,
+          "note": "Transit Score 100 and 3.9 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 70,
-          "note": "Bar culture present but moderating among tech cohort"
+          "score": 61,
+          "note": "WA ranks above-average in per-capita consumption (2.67 gal)"
         },
         "repetition": {
-          "score": 62,
-          "note": "Some stability in neighborhood bars outside tech corridors"
+          "score": 51,
+          "note": "Moderate stability (6.0% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "atlanta-ga",
@@ -420,26 +434,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 50,
-          "note": "Mixed economy, partial office culture remaining"
+          "score": 51,
+          "note": "85% commute rate with 31.2-min average travel time"
         },
         "spatial": {
-          "score": 45,
-          "note": "Car-dependent sprawl dominates, walkable nodes isolated"
+          "score": 61,
+          "note": "Walk Score 93, 2.5 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 45,
-          "note": "Car dependency raises planning cost significantly"
+          "score": 62,
+          "note": "Transit Score 81 and 2.5 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 62,
-          "note": "Mixed cultural permission, historically conservative"
+          "score": 35,
+          "note": "GA ranks moderate in per-capita consumption (2.14 gal), fewer on-premise venues"
         },
         "repetition": {
-          "score": 48,
-          "note": "Sprawl and transience limit regular formation"
+          "score": 51,
+          "note": "Moderate stability (5.9% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "los-angeles-ca",
@@ -449,26 +464,27 @@
       "populationTier": "Mega",
       "conditions": {
         "temporal": {
-          "score": 42,
-          "note": "Entertainment industry desynchronized, remote work high"
+          "score": 48,
+          "note": "83% commute rate with 30.1-min average travel time"
         },
         "spatial": {
-          "score": 52,
-          "note": "Extreme sprawl, walkable nodes isolated and fragmented"
+          "score": 72,
+          "note": "Walk Score 96, 2.2 bars/10K, very dense urban core"
         },
         "planning": {
-          "score": 48,
-          "note": "Car dependency makes spontaneous bar visits structurally costly"
+          "score": 69,
+          "note": "Transit Score 100 and 2.2 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 68,
-          "note": "Strong social permission in core, wellness culture moderates"
+          "score": 40,
+          "note": "CA ranks above-average in per-capita consumption (2.54 gal), fewer on-premise venues"
         },
         "repetition": {
-          "score": 50,
-          "note": "Venue instability and transience limit regular formation"
+          "score": 72,
+          "note": "Moderate stability (4.2% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "phoenix-az",
@@ -478,26 +494,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 45,
-          "note": "Mixed office culture, some sync in finance and healthcare"
+          "score": 60,
+          "note": "86% commute rate with 25.8-min average travel time"
         },
         "spatial": {
-          "score": 35,
-          "note": "Among the lowest density major metros in the US"
+          "score": 65,
+          "note": "Walk Score 96, 2.5 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 38,
-          "note": "Car dependency makes unplanned bar visits rare"
+          "score": 55,
+          "note": "Transit Score 65 and 2.5 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 58,
-          "note": "Bar culture present but spatially fragmented"
+          "score": 43,
+          "note": "AZ ranks above-average in per-capita consumption (2.55 gal)"
         },
         "repetition": {
-          "score": 42,
-          "note": "Sprawl and fast growth limit stable regular formation"
+          "score": 43,
+          "note": "Above-average turnover (6.6% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "dallas-tx",
@@ -507,26 +524,27 @@
       "populationTier": "Mega",
       "conditions": {
         "temporal": {
-          "score": 48,
-          "note": "Finance and energy sectors retain some office synchronization"
+          "score": 57,
+          "note": "86% commute rate with 28.0-min average travel time"
         },
         "spatial": {
-          "score": 38,
-          "note": "Sprawl dominant, walkable nodes limited to specific districts"
+          "score": 68,
+          "note": "Walk Score 93, 2.9 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 40,
-          "note": "Car dependency raises coordination cost significantly"
+          "score": 68,
+          "note": "Transit Score 84 and 2.9 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 60,
-          "note": "Bar culture present, mixed social permission"
+          "score": 45,
+          "note": "TX ranks above-average in per-capita consumption (2.42 gal)"
         },
         "repetition": {
-          "score": 45,
-          "note": "Transient growth population limits regular formation"
+          "score": 49,
+          "note": "Above-average turnover (6.1% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "houston-tx",
@@ -536,26 +554,27 @@
       "populationTier": "Mega",
       "conditions": {
         "temporal": {
-          "score": 45,
-          "note": "Energy sector retains some office synchronization"
+          "score": 60,
+          "note": "87% commute rate with 28.9-min average travel time"
         },
         "spatial": {
-          "score": 35,
-          "note": "Lowest density major metro, extreme sprawl"
+          "score": 56,
+          "note": "Walk Score 76, 2.2 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 38,
-          "note": "Car dependency structural, spontaneous visits rare"
+          "score": 63,
+          "note": "Transit Score 87 and 2.2 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 58,
-          "note": "Strong bar culture but spatially inaccessible"
+          "score": 38,
+          "note": "TX ranks above-average in per-capita consumption (2.42 gal), fewer on-premise venues"
         },
         "repetition": {
-          "score": 42,
-          "note": "Sprawl prevents neighborhood regular formation at scale"
+          "score": 56,
+          "note": "Moderate stability (5.5% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "milwaukee-wi",
@@ -565,26 +584,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 72,
-          "note": "Manufacturing and office schedules still synchronized"
+          "score": 68,
+          "note": "86% commute rate with 22.4-min average travel time"
         },
         "spatial": {
-          "score": 78,
-          "note": "Dense neighborhoods with exceptional bar-per-capita ratio"
+          "score": 83,
+          "note": "Walk Score 98, 5.7 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 82,
-          "note": "Highest bar density per capita in the US"
+          "score": 84,
+          "note": "Transit Score 68 and 5.7 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 92,
-          "note": "Wisconsin drinking culture among strongest in nation"
+          "score": 80,
+          "note": "WI ranks above-average in per-capita consumption (2.98 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 85,
-          "note": "Generational tavern culture, deeply rooted regulars"
+          "score": 66,
+          "note": "Moderate stability (4.8% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "pittsburgh-pa",
@@ -594,26 +614,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 68,
-          "note": "Healthcare and university anchors maintain office schedules"
+          "score": 62,
+          "note": "87% commute rate with 26.0-min average travel time"
         },
         "spatial": {
-          "score": 72,
-          "note": "Dense neighborhood commercial corridors in older districts"
+          "score": 78,
+          "note": "Walk Score 99, 5.5 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 70,
-          "note": "Neighborhood bar density high in established areas"
+          "score": 96,
+          "note": "Transit Score 92 and 5.5 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 80,
-          "note": "Steel-era working-class bar tradition persists"
+          "score": 69,
+          "note": "PA ranks above-average in per-capita consumption (2.43 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 78,
-          "note": "Long-tenured establishments, stable neighborhoods"
+          "score": 82,
+          "note": "Very stable population (3.4% moved in), regulars keep coming back"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "st-louis-mo",
@@ -623,26 +644,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 68,
-          "note": "Traditional office culture persists in finance and healthcare"
+          "score": 65,
+          "note": "86% commute rate with 24.3-min average travel time"
         },
         "spatial": {
-          "score": 70,
-          "note": "Dense city neighborhoods with strong bar corridors"
+          "score": 64,
+          "note": "Walk Score 85, 3.5 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 72,
-          "note": "High bar density, low cost of entry"
+          "score": 67,
+          "note": "Transit Score 68 and 3.5 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 82,
-          "note": "Deep beer culture, Anheuser-Busch heritage city"
+          "score": 52,
+          "note": "MO ranks above-average in per-capita consumption (2.41 gal)"
         },
         "repetition": {
-          "score": 76,
-          "note": "Neighborhood institutions anchor regular culture"
+          "score": 78,
+          "note": "Moderate stability (3.8% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "cleveland-oh",
@@ -652,26 +674,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 70,
-          "note": "Healthcare and manufacturing maintain schedule synchronization"
+          "score": 69,
+          "note": "88% commute rate with 22.9-min average travel time"
         },
         "spatial": {
-          "score": 68,
-          "note": "Dense inner-ring neighborhoods with bar corridors"
+          "score": 81,
+          "note": "Walk Score 93, 4.9 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 68,
-          "note": "Affordable bar density, low friction in core"
+          "score": 89,
+          "note": "Transit Score 81 and 4.9 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 78,
-          "note": "Strong working-class drinking tradition"
+          "score": 64,
+          "note": "OH ranks moderate in per-capita consumption (2.28 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 74,
-          "note": "Stable population, long-tenured neighborhood bars"
+          "score": 81,
+          "note": "Very stable population (3.5% moved in), regulars keep coming back"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "cincinnati-oh",
@@ -682,25 +705,26 @@
       "conditions": {
         "temporal": {
           "score": 68,
-          "note": "P&G and healthcare create traditional office cadence"
+          "note": "87% commute rate with 22.8-min average travel time"
         },
         "spatial": {
-          "score": 70,
-          "note": "Compact neighborhoods, Over-the-Rhine revival"
+          "score": 71,
+          "note": "Walk Score 98, 3.6 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 70,
-          "note": "Walkable bar districts in urban core"
+          "score": 75,
+          "note": "Transit Score 81 and 3.6 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 76,
-          "note": "Strong beer and bourbon culture, Germanic heritage"
+          "score": 50,
+          "note": "OH ranks moderate in per-capita consumption (2.28 gal)"
         },
         "repetition": {
-          "score": 72,
-          "note": "Established neighborhood bars with loyal patrons"
+          "score": 66,
+          "note": "Moderate stability (4.7% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "detroit-mi",
@@ -710,26 +734,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 62,
-          "note": "Auto industry schedules create some synchronization"
+          "score": 60,
+          "note": "85% commute rate with 24.9-min average travel time"
         },
         "spatial": {
-          "score": 55,
-          "note": "Dense core pockets surrounded by low-density sprawl"
+          "score": 74,
+          "note": "Walk Score 99, 3.5 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 58,
-          "note": "Bar density improving in core, car-dependent outside"
+          "score": 76,
+          "note": "Transit Score 85 and 3.5 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 74,
-          "note": "Strong working-class bar tradition persists"
+          "score": 51,
+          "note": "MI ranks above-average in per-capita consumption (2.36 gal)"
         },
         "repetition": {
-          "score": 65,
-          "note": "Dive bar culture resilient in established neighborhoods"
+          "score": 84,
+          "note": "Very stable population (3.3% moved in), regulars keep coming back"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "baltimore-md",
@@ -739,26 +764,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 65,
-          "note": "Hopkins and harbor economy maintain partial sync"
+          "score": 51,
+          "note": "85% commute rate with 30.2-min average travel time"
         },
         "spatial": {
-          "score": 72,
-          "note": "Dense rowhouse neighborhoods with corner bars"
+          "score": 78,
+          "note": "Walk Score 98, 3.9 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 72,
-          "note": "High bar-per-block ratio in core neighborhoods"
+          "score": 87,
+          "note": "Transit Score 100 and 3.9 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 78,
-          "note": "Deep bar culture, blue-collar drinking tradition"
+          "score": 58,
+          "note": "MD ranks above-average in per-capita consumption (2.52 gal)"
         },
         "repetition": {
-          "score": 75,
-          "note": "Generational regulars in neighborhood institutions"
+          "score": 62,
+          "note": "Moderate stability (5.1% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "san-diego-ca",
@@ -768,26 +794,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 52,
-          "note": "Military and biotech provide some schedule structure"
+          "score": 57,
+          "note": "83% commute rate with 24.2-min average travel time"
         },
         "spatial": {
-          "score": 58,
-          "note": "Beach communities walkable, inland car-dependent"
+          "score": 77,
+          "note": "Walk Score 99, 3.0 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 62,
-          "note": "Strong craft brewery density in core neighborhoods"
+          "score": 68,
+          "note": "Transit Score 79 and 3.0 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 72,
-          "note": "Beach and craft culture support social drinking"
+          "score": 49,
+          "note": "CA ranks above-average in per-capita consumption (2.54 gal)"
         },
         "repetition": {
-          "score": 58,
-          "note": "Craft scene evolving but venue turnover moderate"
+          "score": 60,
+          "note": "Moderate stability (5.2% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "san-antonio-tx",
@@ -797,26 +824,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 55,
-          "note": "Military and tourism create partial schedule sync"
+          "score": 67,
+          "note": "88% commute rate with 24.7-min average travel time"
         },
         "spatial": {
-          "score": 48,
-          "note": "Riverwalk concentrated, otherwise sprawling"
+          "score": 68,
+          "note": "Walk Score 98, 2.9 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 50,
-          "note": "Car dependency high outside downtown corridor"
+          "score": 67,
+          "note": "Transit Score 80 and 2.9 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 72,
-          "note": "Tex-Mex cantina culture provides strong permission"
+          "score": 45,
+          "note": "TX ranks above-average in per-capita consumption (2.42 gal)"
         },
         "repetition": {
-          "score": 62,
-          "note": "Historic venues anchor some regular culture"
+          "score": 56,
+          "note": "Moderate stability (5.5% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "columbus-oh",
@@ -826,26 +854,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 62,
-          "note": "State government and Ohio State create schedule sync"
+          "score": 64,
+          "note": "85% commute rate with 22.1-min average travel time"
         },
         "spatial": {
-          "score": 60,
-          "note": "Short North and campus areas walkable, otherwise spread"
+          "score": 69,
+          "note": "Walk Score 85, 3.8 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 60,
-          "note": "Growing bar density in core, moderate elsewhere"
+          "score": 70,
+          "note": "Transit Score 66 and 3.8 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 72,
-          "note": "College town culture supports social drinking"
+          "score": 52,
+          "note": "OH ranks moderate in per-capita consumption (2.28 gal)"
         },
         "repetition": {
-          "score": 60,
-          "note": "Growth bringing new venues but also turnover"
+          "score": 43,
+          "note": "Above-average turnover (6.6% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "indianapolis-in",
@@ -855,26 +884,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 62,
-          "note": "Traditional office culture in insurance and pharma"
+          "score": 69,
+          "note": "88% commute rate with 23.0-min average travel time"
         },
         "spatial": {
-          "score": 52,
-          "note": "Mass Ave walkable, car-dependent beyond core"
+          "score": 72,
+          "note": "Walk Score 99, 3.6 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 55,
-          "note": "Growing bar scene in core, sprawl limits access"
+          "score": 68,
+          "note": "Transit Score 66 and 3.6 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 68,
-          "note": "Moderate permission, racing and sports culture helps"
+          "score": 49,
+          "note": "IN ranks moderate in per-capita consumption (2.19 gal)"
         },
         "repetition": {
-          "score": 58,
-          "note": "Some neighborhood bar stability in older areas"
+          "score": 54,
+          "note": "Moderate stability (5.7% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "charlotte-nc",
@@ -885,25 +915,26 @@
       "conditions": {
         "temporal": {
           "score": 58,
-          "note": "Banking sector maintains some office schedule sync"
+          "note": "85% commute rate with 26.1-min average travel time"
         },
         "spatial": {
-          "score": 45,
-          "note": "Rapidly sprawling, walkable nodes limited to uptown"
+          "score": 65,
+          "note": "Walk Score 97, 2.7 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 48,
-          "note": "Car dependency high, brewery district isolated"
+          "score": 63,
+          "note": "Transit Score 78 and 2.7 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 65,
-          "note": "Growing cosmopolitan culture but Southern moderation"
+          "score": 37,
+          "note": "NC ranks moderate in per-capita consumption (2.16 gal)"
         },
         "repetition": {
-          "score": 48,
-          "note": "Explosive growth disrupts neighborhood stability"
+          "score": 39,
+          "note": "Above-average turnover (6.9% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "tampa-fl",
@@ -913,26 +944,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 52,
-          "note": "Mixed economy with some financial sector sync"
+          "score": 62,
+          "note": "87% commute rate with 26.1-min average travel time"
         },
         "spatial": {
-          "score": 50,
-          "note": "Ybor City walkable, otherwise car-dependent"
+          "score": 69,
+          "note": "Walk Score 86, 3.3 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 52,
-          "note": "Moderate bar density, car access required for most"
+          "score": 61,
+          "note": "Moderate transit (score 60), 3.3 bars/10K"
         },
         "permission": {
-          "score": 72,
-          "note": "Florida social culture supports bar-going"
+          "score": 55,
+          "note": "FL ranks above-average in per-capita consumption (2.71 gal)"
         },
         "repetition": {
-          "score": 55,
-          "note": "Transplant population limits deep regular culture"
+          "score": 47,
+          "note": "Above-average turnover (6.3% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "orlando-fl",
@@ -942,26 +974,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 48,
-          "note": "Tourism and hospitality create desynchronized schedules"
+          "score": 65,
+          "note": "Strong commuter presence (88% commute), avg 26.8-min travel time"
         },
         "spatial": {
-          "score": 42,
-          "note": "Sprawling, tourism zones disconnected from residential"
+          "score": 68,
+          "note": "Walk Score 96, 3.0 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 45,
-          "note": "Car dependency high, bar districts tourist-oriented"
+          "score": 62,
+          "note": "Transit Score 67 and 3.0 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 70,
-          "note": "Tourism culture supports drinking but skews visitors"
+          "score": 52,
+          "note": "FL ranks above-average in per-capita consumption (2.71 gal)"
         },
         "repetition": {
-          "score": 45,
-          "note": "Transient population and tourism limit local regulars"
+          "score": 37,
+          "note": "Above-average turnover (7.0% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "kansas-city-mo",
@@ -971,26 +1004,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 65,
-          "note": "Traditional office culture in diverse economic base"
+          "score": 66,
+          "note": "86% commute rate with 22.8-min average travel time"
         },
         "spatial": {
-          "score": 58,
-          "note": "Westport and Power & Light walkable, otherwise sprawl"
+          "score": 69,
+          "note": "Walk Score 94, 3.9 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 60,
-          "note": "Bar corridors functional in core districts"
+          "score": 71,
+          "note": "Transit Score 67 and 3.9 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 75,
-          "note": "Strong bar-and-BBQ culture supports social drinking"
+          "score": 56,
+          "note": "MO ranks above-average in per-capita consumption (2.41 gal)"
         },
         "repetition": {
-          "score": 65,
-          "note": "Established neighborhood bars in older areas"
+          "score": 58,
+          "note": "Moderate stability (5.4% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "raleigh-nc",
@@ -1000,26 +1034,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 55,
-          "note": "Research Triangle tech sector increasingly remote"
+          "score": 51,
+          "note": "81% commute rate with 24.5-min average travel time"
         },
         "spatial": {
-          "score": 48,
-          "note": "Downtown walkable, surrounding area car-dependent"
+          "score": 69,
+          "note": "Walk Score 90, 3.6 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 50,
-          "note": "Growing brewery scene but dispersed geography"
+          "score": 71,
+          "note": "Transit Score 73 and 3.6 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 62,
-          "note": "Moderate permission, progressive but health-conscious"
+          "score": 47,
+          "note": "NC ranks moderate in per-capita consumption (2.16 gal)"
         },
         "repetition": {
-          "score": 48,
-          "note": "Rapid growth brings new venues but little stability"
+          "score": 20,
+          "note": "High population churn (8.4% moved in), harder to build regulars"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "sacramento-ca",
@@ -1029,26 +1064,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 62,
-          "note": "State government provides schedule synchronization"
+          "score": 57,
+          "note": "84% commute rate with 26.1-min average travel time"
         },
         "spatial": {
-          "score": 58,
-          "note": "Midtown walkable grid with growing bar scene"
+          "score": 66,
+          "note": "Walk Score 98, 2.6 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 60,
-          "note": "Compact bar district in midtown core"
+          "score": 55,
+          "note": "Transit Score 65 and 2.6 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 68,
-          "note": "Farm-to-fork culture extends to craft bar scene"
+          "score": 44,
+          "note": "CA ranks above-average in per-capita consumption (2.54 gal)"
         },
         "repetition": {
-          "score": 58,
-          "note": "Government workforce creates some regular stability"
+          "score": 54,
+          "note": "Moderate stability (5.6% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "san-jose-ca",
@@ -1058,26 +1094,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 38,
-          "note": "Silicon Valley remote work among highest in nation"
+          "score": 51,
+          "note": "83% commute rate with 27.4-min average travel time"
         },
         "spatial": {
-          "score": 42,
-          "note": "Suburban layout, downtown revitalization still early"
+          "score": 77,
+          "note": "Walk Score 98, 3.1 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 42,
-          "note": "Car dependency high, bar density low relative to pop"
+          "score": 65,
+          "note": "Transit Score 73 and 3.1 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 62,
-          "note": "Tech wellness culture moderates social drinking"
+          "score": 50,
+          "note": "CA ranks above-average in per-capita consumption (2.54 gal)"
         },
         "repetition": {
-          "score": 45,
-          "note": "Transient tech workforce limits regular formation"
+          "score": 42,
+          "note": "Above-average turnover (6.6% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "jacksonville-fl",
@@ -1087,26 +1124,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 52,
-          "note": "Financial and military sectors provide some sync"
+          "score": 66,
+          "note": "Strong commuter presence (88% commute), avg 26.1-min travel time"
         },
         "spatial": {
-          "score": 35,
-          "note": "Largest city by area in US, extremely spread out"
+          "score": 63,
+          "note": "Walk Score 89, 3.1 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 38,
-          "note": "Car essential for nearly all bar visits"
+          "score": 60,
+          "note": "Transit Score 61 and 3.1 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 65,
-          "note": "Navy town culture supports social drinking"
+          "score": 53,
+          "note": "FL ranks above-average in per-capita consumption (2.71 gal)"
         },
         "repetition": {
-          "score": 48,
-          "note": "Some beach bar regulars, inland more transient"
+          "score": 28,
+          "note": "Above-average turnover (7.8% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "memphis-tn",
@@ -1116,26 +1154,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 58,
-          "note": "FedEx and healthcare maintain some schedule structure"
+          "score": 74,
+          "note": "Strong commuter presence (90% commute), avg 23.2-min travel time"
         },
         "spatial": {
-          "score": 55,
-          "note": "Beale Street concentrated, neighborhoods dispersed"
+          "score": 67,
+          "note": "Walk Score 89, 3.7 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 58,
-          "note": "Low cost venues but car dependency outside core"
+          "score": 63,
+          "note": "Moderate transit (score 54), 3.7 bars/10K"
         },
         "permission": {
-          "score": 78,
-          "note": "Blues and juke joint culture deeply embedded"
+          "score": 49,
+          "note": "TN ranks moderate in per-capita consumption (2.17 gal)"
         },
         "repetition": {
-          "score": 68,
-          "note": "Historic juke joints and neighborhood bars persist"
+          "score": 72,
+          "note": "Moderate stability (4.2% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "louisville-ky",
@@ -1145,26 +1184,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 65,
-          "note": "Healthcare and logistics create reliable schedules"
+          "score": 70,
+          "note": "88% commute rate with 22.5-min average travel time"
         },
         "spatial": {
-          "score": 65,
-          "note": "Bardstown Road corridor walkable, moderate density"
+          "score": 74,
+          "note": "Walk Score 95, 4.4 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 68,
-          "note": "Bourbon trail and bar density keep friction low"
+          "score": 72,
+          "note": "Moderate transit (score 56), 4.4 bars/10K"
         },
         "permission": {
-          "score": 85,
-          "note": "Bourbon capital of America, drinking deeply cultural"
+          "score": 56,
+          "note": "KY ranks moderate in per-capita consumption (2.11 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 72,
-          "note": "Heritage bars and bourbon culture anchor regulars"
+          "score": 62,
+          "note": "Moderate stability (5.0% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "richmond-va",
@@ -1174,26 +1214,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 62,
-          "note": "State capital and finance provide schedule structure"
+          "score": 57,
+          "note": "84% commute rate with 24.9-min average travel time"
         },
         "spatial": {
-          "score": 62,
-          "note": "Fan District and Carytown walkable bar corridors"
+          "score": 69,
+          "note": "Walk Score 91, 3.8 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 64,
-          "note": "Growing craft scene with walkable density in core"
+          "score": 69,
+          "note": "Transit Score 64 and 3.8 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 70,
-          "note": "Strong craft brewery and cocktail culture emerging"
+          "score": 56,
+          "note": "VA ranks above-average in per-capita consumption (2.49 gal)"
         },
         "repetition": {
-          "score": 62,
-          "note": "Craft venues gaining tenure in established neighborhoods"
+          "score": 46,
+          "note": "Above-average turnover (6.3% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "buffalo-ny",
@@ -1203,26 +1244,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 70,
-          "note": "Traditional employment schedules still prevalent"
+          "score": 73,
+          "note": "87% commute rate with 19.9-min average travel time"
         },
         "spatial": {
-          "score": 72,
-          "note": "Dense urban neighborhoods with high bar density"
+          "score": 81,
+          "note": "Walk Score 94, 5.2 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 75,
-          "note": "Corner bars omnipresent, very low planning friction"
+          "score": 82,
+          "note": "Transit Score 64 and 5.2 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 82,
-          "note": "Blue-collar drinking culture deeply embedded"
+          "score": 75,
+          "note": "NY ranks above-average in per-capita consumption (2.76 gal), strong on-premise culture"
         },
         "repetition": {
           "score": 80,
-          "note": "Stable population, generational bar regulars"
+          "note": "Moderate stability (3.6% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "providence-ri",
@@ -1232,26 +1274,27 @@
       "populationTier": "Mid",
       "conditions": {
         "temporal": {
-          "score": 68,
-          "note": "University and healthcare schedules create sync"
+          "score": 65,
+          "note": "87% commute rate with 24.8-min average travel time"
         },
         "spatial": {
-          "score": 72,
-          "note": "Compact city with walkable bar districts"
+          "score": 74,
+          "note": "Walk Score 99, 3.8 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 72,
-          "note": "Small footprint keeps bars accessible"
+          "score": 76,
+          "note": "Transit Score 78 and 3.8 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 75,
-          "note": "Italian-American and college culture support drinking"
+          "score": 62,
+          "note": "RI ranks above-average in per-capita consumption (2.78 gal)"
         },
         "repetition": {
-          "score": 72,
-          "note": "Stable neighborhood institutions, loyal regulars"
+          "score": 66,
+          "note": "Moderate stability (4.8% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "new-haven-ct",
@@ -1261,26 +1304,27 @@
       "populationTier": "Mid",
       "conditions": {
         "temporal": {
-          "score": 65,
-          "note": "Yale anchors professional schedules"
+          "score": 62,
+          "note": "86% commute rate with 24.4-min average travel time"
         },
         "spatial": {
-          "score": 68,
-          "note": "Compact downtown with walkable bar scene"
+          "score": 72,
+          "note": "Walk Score 72, 4.5 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 68,
-          "note": "Small city, low coordination needed"
+          "score": 72,
+          "note": "Moderate transit (score 55), 4.5 bars/10K"
         },
         "permission": {
-          "score": 72,
-          "note": "College town culture supports social drinking"
+          "score": 68,
+          "note": "CT ranks above-average in per-capita consumption (2.68 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 70,
-          "note": "Historic bars persist alongside newer spots"
+          "score": 54,
+          "note": "Moderate stability (5.7% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "charleston-sc",
@@ -1290,26 +1334,27 @@
       "populationTier": "Mid",
       "conditions": {
         "temporal": {
-          "score": 60,
-          "note": "Tourism and hospitality create mixed scheduling"
+          "score": 66,
+          "note": "88% commute rate with 25.4-min average travel time"
         },
         "spatial": {
-          "score": 72,
-          "note": "Dense historic peninsula with walkable bar scene"
+          "score": 75,
+          "note": "Walk Score 93, 4.7 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 72,
-          "note": "Compact downtown, bars concentrated and accessible"
+          "score": 63,
+          "note": "Moderate transit (score 34), 4.7 bars/10K"
         },
         "permission": {
-          "score": 80,
-          "note": "Deep hospitality culture supports social drinking"
+          "score": 67,
+          "note": "SC ranks above-average in per-capita consumption (2.51 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 70,
-          "note": "Historic bars anchor despite tourism pressure"
+          "score": 10,
+          "note": "High population churn (9.2% moved in), harder to build regulars"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "savannah-ga",
@@ -1319,26 +1364,27 @@
       "populationTier": "Mid",
       "conditions": {
         "temporal": {
-          "score": 55,
-          "note": "Tourism-driven economy desynchronizes schedules"
+          "score": 67,
+          "note": "86% commute rate with 23.0-min average travel time"
         },
         "spatial": {
           "score": 75,
-          "note": "Dense historic district with to-go cup culture"
+          "note": "Walk Score 89, 6.1 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 80,
-          "note": "Open container law makes entire district a bar"
+          "score": 85,
+          "note": "Car-dependent but 6.1 bars/10K keeps options accessible"
         },
         "permission": {
-          "score": 88,
-          "note": "Among highest social permission for public drinking"
+          "score": 63,
+          "note": "GA ranks moderate in per-capita consumption (2.14 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 72,
-          "note": "Historic establishments anchor local regular culture"
+          "score": 9,
+          "note": "High population churn (9.3% moved in), harder to build regulars"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "madison-wi",
@@ -1348,26 +1394,27 @@
       "populationTier": "Mid",
       "conditions": {
         "temporal": {
-          "score": 65,
-          "note": "State capital and university create dual schedule sync"
+          "score": 58,
+          "note": "81% commute rate with 19.6-min average travel time"
         },
         "spatial": {
-          "score": 72,
-          "note": "Isthmus geography concentrates everything walkably"
+          "score": 81,
+          "note": "Walk Score 91, 7.2 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 75,
-          "note": "High bar density on State Street and Capitol Square"
+          "score": 82,
+          "note": "Transit Score 64 and 7.2 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 88,
-          "note": "Wisconsin drinking culture plus college town permission"
+          "score": 80,
+          "note": "WI ranks above-average in per-capita consumption (2.98 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 72,
-          "note": "Student cycling refreshes but core bars persist"
+          "score": 8,
+          "note": "High population churn (9.4% moved in), harder to build regulars"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "burlington-vt",
@@ -1377,26 +1424,27 @@
       "populationTier": "Small",
       "conditions": {
         "temporal": {
-          "score": 62,
-          "note": "University and local business create schedule rhythm"
+          "score": 64,
+          "note": "84% commute rate with 21.3-min average travel time"
         },
         "spatial": {
           "score": 78,
-          "note": "Extremely compact downtown, everything walkable"
+          "note": "Walk Score 96, 6.1 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 78,
-          "note": "Church Street corridor makes bar-hopping effortless"
+          "score": 74,
+          "note": "Moderate transit (score 47), 6.1 bars/10K"
         },
         "permission": {
-          "score": 75,
-          "note": "Craft brewing epicenter, strong social permission"
+          "score": 81,
+          "note": "VT ranks high in per-capita consumption (3.05 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 70,
-          "note": "Small city means regulars form naturally"
+          "score": 3,
+          "note": "High population churn (9.8% moved in), harder to build regulars"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "asheville-nc",
@@ -1406,26 +1454,27 @@
       "populationTier": "Small",
       "conditions": {
         "temporal": {
-          "score": 55,
-          "note": "Tourism and remote workers create mixed schedules"
+          "score": 63,
+          "note": "84% commute rate with 22.4-min average travel time"
         },
         "spatial": {
-          "score": 72,
-          "note": "Compact downtown with exceptional brewery density"
+          "score": 76,
+          "note": "Walk Score 90, 8.1 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 75,
-          "note": "Most breweries per capita in the US"
+          "score": 76,
+          "note": "Moderate transit (score 53), 8.1 bars/10K"
         },
         "permission": {
-          "score": 78,
-          "note": "Craft culture creates strong social permission"
+          "score": 63,
+          "note": "NC ranks moderate in per-capita consumption (2.16 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 62,
-          "note": "Tourism turnover challenges regular formation"
+          "score": 29,
+          "note": "Above-average turnover (7.7% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "key-west-fl",
@@ -1435,26 +1484,27 @@
       "populationTier": "Small",
       "conditions": {
         "temporal": {
-          "score": 52,
-          "note": "Tourism and hospitality schedules highly variable"
+          "score": 50,
+          "note": "Limited commuting data available"
         },
         "spatial": {
-          "score": 85,
-          "note": "Tiny island, everything walking distance"
+          "score": 60,
+          "note": "Walk Score 74"
         },
         "planning": {
-          "score": 88,
-          "note": "Impossible to avoid a bar, zero planning needed"
+          "score": 37,
+          "note": "Transit Score 24"
         },
         "permission": {
-          "score": 92,
-          "note": "Drinking is the primary social activity year-round"
+          "score": 49,
+          "note": "FL ranks above-average in per-capita consumption (2.71 gal)"
         },
         "repetition": {
-          "score": 72,
-          "note": "Local regular culture strong despite tourist overlay"
+          "score": 50,
+          "note": "Migration data unavailable"
         }
-      }
+      },
+      "dataQuality": "partial"
     },
     {
       "id": "hoboken-nj",
@@ -1464,26 +1514,27 @@
       "populationTier": "Small",
       "conditions": {
         "temporal": {
-          "score": 75,
-          "note": "NYC commuter schedules create strong sync"
+          "score": 42,
+          "note": "85% commute rate with 37.1-min average travel time"
         },
         "spatial": {
-          "score": 85,
-          "note": "One square mile, extremely dense bar scene"
+          "score": 79,
+          "note": "Walk Score 99, 2.1 bars/10K, very dense urban core"
         },
         "planning": {
-          "score": 85,
-          "note": "Washington Street corridor is wall-to-wall bars"
+          "score": 62,
+          "note": "Transit Score 88 and 2.1 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 82,
-          "note": "Young professional drinking culture dominant"
+          "score": 38,
+          "note": "NJ ranks above-average in per-capita consumption (2.49 gal), fewer on-premise venues"
         },
         "repetition": {
-          "score": 68,
-          "note": "Age-out cycle limits long-term regulars"
+          "score": 88,
+          "note": "Very stable population (2.9% moved in), regulars keep coming back"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "ann-arbor-mi",
@@ -1493,26 +1544,27 @@
       "populationTier": "Small",
       "conditions": {
         "temporal": {
-          "score": 65,
-          "note": "University calendar creates strong weekly rhythms"
+          "score": 61,
+          "note": "82% commute rate with 19.9-min average travel time"
         },
         "spatial": {
-          "score": 72,
-          "note": "Compact downtown with walkable bar districts"
+          "score": 81,
+          "note": "Walk Score 98, 6.5 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 72,
-          "note": "Main Street and State Street corridors concentrated"
+          "score": 89,
+          "note": "Transit Score 78 and 6.5 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 75,
-          "note": "Big Ten college town culture supports drinking"
+          "score": 67,
+          "note": "MI ranks above-average in per-capita consumption (2.36 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 62,
-          "note": "Student turnover, but core bars persist for decades"
+          "score": 0,
+          "note": "Very high turnover (10.5% moved in), transient population"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "boulder-co",
@@ -1522,26 +1574,27 @@
       "populationTier": "Small",
       "conditions": {
         "temporal": {
-          "score": 52,
-          "note": "Tech remote work high, university provides some sync"
+          "score": 48,
+          "note": "High remote-work rate (23% WFH) with 21.1-min avg commute"
         },
         "spatial": {
-          "score": 72,
-          "note": "Pearl Street Mall creates compact bar corridor"
+          "score": 81,
+          "note": "Walk Score 90, 7.3 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 70,
-          "note": "Walkable downtown, high brewery density"
+          "score": 80,
+          "note": "Moderate transit (score 60), 7.3 bars/10K"
         },
         "permission": {
-          "score": 68,
-          "note": "Fitness culture moderates, craft culture supports"
+          "score": 77,
+          "note": "CO ranks above-average in per-capita consumption (2.84 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 58,
-          "note": "Student cycling and tech transience limit regulars"
+          "score": 0,
+          "note": "Very high turnover (10.6% moved in), transient population"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "boise-id",
@@ -1551,26 +1604,27 @@
       "populationTier": "Mid",
       "conditions": {
         "temporal": {
-          "score": 58,
-          "note": "Growing tech sector brings remote work patterns"
+          "score": 66,
+          "note": "85% commute rate with 21.0-min average travel time"
         },
         "spatial": {
-          "score": 55,
-          "note": "Downtown walkable but surrounded by sprawl"
+          "score": 71,
+          "note": "Walk Score 89, 4.1 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 55,
-          "note": "Growing brewery scene in compact downtown"
+          "score": 63,
+          "note": "Moderate transit (score 47), 4.1 bars/10K"
         },
         "permission": {
-          "score": 60,
-          "note": "Conservative state moderates, but craft culture growing"
+          "score": 55,
+          "note": "ID ranks moderate in per-capita consumption (2.24 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 52,
-          "note": "Fast-growing city still establishing bar identity"
+          "score": 15,
+          "note": "High population churn (8.8% moved in), harder to build regulars"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "bend-or",
@@ -1580,26 +1634,27 @@
       "populationTier": "Small",
       "conditions": {
         "temporal": {
-          "score": 48,
-          "note": "Remote work and outdoor recreation desynchronize"
+          "score": 65,
+          "note": "84% commute rate with 19.8-min average travel time"
         },
         "spatial": {
-          "score": 62,
-          "note": "Compact downtown with brewery concentration"
+          "score": 75,
+          "note": "Walk Score 97, 7.2 bars/10K, spread-out metro"
         },
         "planning": {
           "score": 68,
-          "note": "Highest breweries per capita in Oregon"
+          "note": "Moderate transit (score 37), 7.2 bars/10K"
         },
         "permission": {
-          "score": 72,
-          "note": "Outdoor and craft culture create strong permission"
+          "score": 74,
+          "note": "OR ranks above-average in per-capita consumption (2.71 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 55,
-          "note": "Growth and tourism pressure limit regular stability"
+          "score": 0,
+          "note": "Very high turnover (11.1% moved in), transient population"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "duluth-mn",
@@ -1609,26 +1664,27 @@
       "populationTier": "Small",
       "conditions": {
         "temporal": {
-          "score": 65,
-          "note": "Healthcare and port economy maintain schedules"
+          "score": 72,
+          "note": "86% commute rate with 19.4-min average travel time"
         },
         "spatial": {
-          "score": 68,
-          "note": "Compact downtown along lake, walkable bar scene"
+          "score": 55,
+          "note": "Walk Score 47, 8.2 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 68,
-          "note": "High brewery density for small city"
+          "score": 66,
+          "note": "Moderate transit (score 32), 8.2 bars/10K"
         },
         "permission": {
-          "score": 75,
-          "note": "Minnesota bar culture amplified by weather"
+          "score": 71,
+          "note": "MN ranks above-average in per-capita consumption (2.55 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 72,
-          "note": "Stable population, dedicated local regulars"
+          "score": 37,
+          "note": "Above-average turnover (7.0% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "missoula-mt",
@@ -1638,26 +1694,27 @@
       "populationTier": "Small",
       "conditions": {
         "temporal": {
-          "score": 58,
-          "note": "University provides some schedule structure"
+          "score": 73,
+          "note": "85% commute rate with 16.8-min average travel time"
         },
         "spatial": {
-          "score": 65,
-          "note": "Compact Hip Strip and downtown bar corridors"
+          "score": 75,
+          "note": "Walk Score 94, 12.0 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 68,
-          "note": "Small footprint keeps bar access easy"
+          "score": 78,
+          "note": "Moderate transit (score 55), 12.0 bars/10K"
         },
         "permission": {
-          "score": 72,
-          "note": "Montana saloon tradition meets college culture"
+          "score": 79,
+          "note": "MT ranks above-average in per-capita consumption (2.95 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 65,
-          "note": "Small-town regular culture persists year-round"
+          "score": 0,
+          "note": "Very high turnover (13.2% moved in), transient population"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "omaha-ne",
@@ -1667,26 +1724,27 @@
       "populationTier": "Mid",
       "conditions": {
         "temporal": {
-          "score": 68,
-          "note": "Finance and insurance maintain traditional office hours"
+          "score": 70,
+          "note": "86% commute rate with 19.9-min average travel time"
         },
         "spatial": {
-          "score": 58,
-          "note": "Old Market walkable, otherwise car-dependent"
+          "score": 73,
+          "note": "Walk Score 95, 4.3 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 58,
-          "note": "Bar density moderate in core, low outside"
+          "score": 67,
+          "note": "Moderate transit (score 50), 4.3 bars/10K"
         },
         "permission": {
-          "score": 72,
-          "note": "Steak and beer culture provides strong permission"
+          "score": 62,
+          "note": "NE ranks above-average in per-capita consumption (2.51 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 65,
-          "note": "Stable population supports regular bar culture"
+          "score": 49,
+          "note": "Above-average turnover (6.1% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "albuquerque-nm",
@@ -1696,26 +1754,27 @@
       "populationTier": "Mid",
       "conditions": {
         "temporal": {
-          "score": 55,
-          "note": "Labs and military provide some schedule structure"
+          "score": 65,
+          "note": "84% commute rate with 21.2-min average travel time"
         },
         "spatial": {
-          "score": 48,
-          "note": "Sprawling with isolated walkable pockets"
+          "score": 73,
+          "note": "Walk Score 96, 4.2 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 50,
-          "note": "Car-dependent, brewery scene growing but dispersed"
+          "score": 67,
+          "note": "Moderate transit (score 52), 4.2 bars/10K"
         },
         "permission": {
-          "score": 68,
-          "note": "Southwest culture supports social drinking"
+          "score": 63,
+          "note": "NM ranks above-average in per-capita consumption (2.56 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 58,
-          "note": "Stable population in older neighborhoods"
+          "score": 45,
+          "note": "Above-average turnover (6.4% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "tucson-az",
@@ -1725,26 +1784,27 @@
       "populationTier": "Mid",
       "conditions": {
         "temporal": {
-          "score": 52,
-          "note": "University and military provide partial sync"
+          "score": 66,
+          "note": "85% commute rate with 22.0-min average travel time"
         },
         "spatial": {
-          "score": 50,
-          "note": "Fourth Avenue walkable, otherwise car-dependent"
+          "score": 58,
+          "note": "Walk Score 65, 3.7 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 52,
-          "note": "Bar density low relative to sprawl"
+          "score": 55,
+          "note": "Moderate transit (score 39), 3.7 bars/10K"
         },
         "permission": {
-          "score": 68,
-          "note": "University and border culture support permission"
+          "score": 57,
+          "note": "AZ ranks above-average in per-capita consumption (2.55 gal)"
         },
         "repetition": {
-          "score": 58,
-          "note": "Some stable neighborhood bars in core"
+          "score": 36,
+          "note": "Above-average turnover (7.2% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "honolulu-hi",
@@ -1754,26 +1814,27 @@
       "populationTier": "Mid",
       "conditions": {
         "temporal": {
-          "score": 55,
-          "note": "Tourism and military create mixed schedules"
+          "score": 67,
+          "note": "Strong commuter presence (89% commute), avg 27.1-min travel time"
         },
         "spatial": {
-          "score": 65,
-          "note": "Waikiki and Chinatown concentrated, else dispersed"
+          "score": 84,
+          "note": "Walk Score 98, 3.8 bars/10K, very dense urban core"
         },
         "planning": {
-          "score": 62,
-          "note": "Dense bar districts in tourist zones"
+          "score": 76,
+          "note": "Transit Score 79 and 3.8 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 75,
-          "note": "Island and military culture support social drinking"
+          "score": 62,
+          "note": "HI ranks above-average in per-capita consumption (2.76 gal)"
         },
         "repetition": {
-          "score": 58,
-          "note": "Military rotation limits some regular formation"
+          "score": 50,
+          "note": "Above-average turnover (6.0% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "anchorage-ak",
@@ -1783,26 +1844,27 @@
       "populationTier": "Mid",
       "conditions": {
         "temporal": {
-          "score": 58,
-          "note": "Seasonal daylight extremes create unique sync patterns"
+          "score": 73,
+          "note": "88% commute rate with 20.8-min average travel time"
         },
         "spatial": {
-          "score": 50,
-          "note": "Downtown bars concentrated but city is spread"
+          "score": 57,
+          "note": "Walk Score 42, 6.2 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 52,
-          "note": "Car-dependent but limited options concentrate traffic"
+          "score": 66,
+          "note": "Moderate transit (score 33), 6.2 bars/10K"
         },
         "permission": {
-          "score": 78,
-          "note": "Alaska frontier bar culture exceptionally strong"
+          "score": 80,
+          "note": "AK ranks above-average in per-capita consumption (2.98 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 68,
-          "note": "Isolation creates intense regular culture at key bars"
+          "score": 7,
+          "note": "High population churn (9.4% moved in), harder to build regulars"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "salt-lake-city-ut",
@@ -1812,26 +1874,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 58,
-          "note": "Tech growth and traditional industry mix"
+          "score": 64,
+          "note": "85% commute rate with 22.4-min average travel time"
         },
         "spatial": {
-          "score": 52,
-          "note": "Downtown walkable but metro very spread"
+          "score": 62,
+          "note": "Walk Score 80, 2.8 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 48,
-          "note": "Liquor laws add friction to spontaneous drinking"
+          "score": 61,
+          "note": "Transit Score 71 and 2.8 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 42,
-          "note": "LDS culture significantly moderates social permission"
+          "score": 26,
+          "note": "UT ranks low in per-capita consumption (1.35 gal)"
         },
         "repetition": {
-          "score": 52,
-          "note": "Non-LDS bar community tight-knit but small"
+          "score": 42,
+          "note": "Above-average turnover (6.6% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "las-vegas-nv",
@@ -1841,26 +1904,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 45,
-          "note": "Hospitality shifts create anti-synchronization"
+          "score": 73,
+          "note": "Strong commuter presence (90% commute), avg 24.6-min travel time"
         },
         "spatial": {
-          "score": 52,
-          "note": "Strip concentrated but residential extremely sprawling"
+          "score": 83,
+          "note": "Walk Score 94, 4.9 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 58,
-          "note": "Bars everywhere on Strip, car-needed for locals"
+          "score": 82,
+          "note": "Transit Score 66 and 4.9 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 88,
-          "note": "Strongest commercial drinking permission in the US"
+          "score": 97,
+          "note": "NV ranks high in per-capita consumption (3.93 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 48,
-          "note": "Transient workforce and tourists dominate, locals isolated"
+          "score": 40,
+          "note": "Above-average turnover (6.8% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "portland-me",
@@ -1870,26 +1934,27 @@
       "populationTier": "Small",
       "conditions": {
         "temporal": {
-          "score": 62,
-          "note": "Tourism seasonal, local economy provides base sync"
+          "score": 65,
+          "note": "85% commute rate with 22.4-min average travel time"
         },
         "spatial": {
-          "score": 78,
-          "note": "Extremely compact Old Port with dense bar scene"
+          "score": 80,
+          "note": "Walk Score 100, 6.1 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 80,
-          "note": "Walking distance between dozens of bars"
+          "score": 77,
+          "note": "Moderate transit (score 54), 6.1 bars/10K"
         },
         "permission": {
-          "score": 78,
-          "note": "Craft brewing and seafood culture support drinking"
+          "score": 77,
+          "note": "ME ranks above-average in per-capita consumption (2.87 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 72,
-          "note": "Year-round locals create strong regular culture"
+          "score": 32,
+          "note": "Above-average turnover (7.5% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "albany-ny",
@@ -1899,26 +1964,27 @@
       "populationTier": "Mid",
       "conditions": {
         "temporal": {
-          "score": 68,
-          "note": "State capital government schedules well-synchronized"
+          "score": 65,
+          "note": "85% commute rate with 22.1-min average travel time"
         },
         "spatial": {
-          "score": 58,
-          "note": "Lark Street walkable, suburban sprawl beyond"
+          "score": 66,
+          "note": "Walk Score 62, 5.4 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 60,
-          "note": "Bar density moderate in core neighborhoods"
+          "score": 71,
+          "note": "Moderate transit (score 42), 5.4 bars/10K"
         },
         "permission": {
-          "score": 72,
-          "note": "New York state bar culture intact"
+          "score": 75,
+          "note": "NY ranks above-average in per-capita consumption (2.76 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 68,
-          "note": "Government town stability supports regular culture"
+          "score": 58,
+          "note": "Moderate stability (5.4% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "oklahoma-city-ok",
@@ -1928,26 +1994,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 58,
-          "note": "Energy and government maintain some office sync"
+          "score": 69,
+          "note": "86% commute rate with 21.6-min average travel time"
         },
         "spatial": {
-          "score": 42,
-          "note": "Bricktown walkable, otherwise extreme sprawl"
+          "score": 58,
+          "note": "Walk Score 73, 3.5 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 42,
-          "note": "Car-essential metro, bar districts isolated"
+          "score": 70,
+          "note": "Transit Score 72 and 3.5 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 62,
-          "note": "Recently modernized liquor laws improving culture"
+          "score": 44,
+          "note": "OK ranks moderate in per-capita consumption (2.00 gal)"
         },
         "repetition": {
-          "score": 55,
-          "note": "Young bar scene still establishing regular culture"
+          "score": 53,
+          "note": "Moderate stability (5.7% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "birmingham-al",
@@ -1957,26 +2024,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 60,
-          "note": "Healthcare and banking provide schedule structure"
+          "score": 68,
+          "note": "87% commute rate with 22.8-min average travel time"
         },
         "spatial": {
-          "score": 50,
-          "note": "Five Points walkable, otherwise car-dependent"
+          "score": 55,
+          "note": "Walk Score 78, 2.8 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 50,
-          "note": "Growing bar scene but car still primary"
+          "score": 48,
+          "note": "Moderate transit (score 45), 2.8 bars/10K"
         },
         "permission": {
-          "score": 62,
-          "note": "Improving, craft movement pushing past Bible Belt norms"
+          "score": 35,
+          "note": "AL ranks moderate in per-capita consumption (1.96 gal)"
         },
         "repetition": {
-          "score": 55,
-          "note": "Food and drink revival building new regular culture"
+          "score": 63,
+          "note": "Moderate stability (4.9% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "santa-fe-nm",
@@ -1986,26 +2054,27 @@
       "populationTier": "Small",
       "conditions": {
         "temporal": {
-          "score": 52,
-          "note": "State government and tourism create mixed sync"
+          "score": 59,
+          "note": "83% commute rate with 22.1-min average travel time"
         },
         "spatial": {
-          "score": 65,
-          "note": "Compact historic plaza with walkable bar scene"
+          "score": 69,
+          "note": "Walk Score 81, 6.5 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 62,
-          "note": "Small footprint keeps bars accessible"
+          "score": 85,
+          "note": "Car-dependent but 6.5 bars/10K keeps options accessible"
         },
         "permission": {
-          "score": 72,
-          "note": "Artist and tourist culture support social drinking"
+          "score": 71,
+          "note": "NM ranks above-average in per-capita consumption (2.56 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 65,
-          "note": "Local artist community creates dedicated regulars"
+          "score": 9,
+          "note": "High population churn (9.3% moved in), harder to build regulars"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "reno-nv",
@@ -2015,26 +2084,27 @@
       "populationTier": "Mid",
       "conditions": {
         "temporal": {
-          "score": 52,
-          "note": "Casino shift work desynchronizes, tech growing"
+          "score": 67,
+          "note": "86% commute rate with 21.4-min average travel time"
         },
         "spatial": {
-          "score": 55,
-          "note": "Downtown casino corridor walkable, else sprawl"
+          "score": 61,
+          "note": "Walk Score 52, 5.8 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 58,
-          "note": "Casino bars always available, off-strip growing"
+          "score": 68,
+          "note": "Moderate transit (score 35), 5.8 bars/10K"
         },
         "permission": {
-          "score": 82,
-          "note": "Nevada culture provides very high permission"
+          "score": 99,
+          "note": "NV ranks high in per-capita consumption (3.93 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 58,
-          "note": "Mix of casino regulars and growing local scene"
+          "score": 1,
+          "note": "High population churn (9.9% moved in), harder to build regulars"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "baton-rouge-la",
@@ -2044,26 +2114,27 @@
       "populationTier": "Mid",
       "conditions": {
         "temporal": {
-          "score": 58,
-          "note": "LSU and state government provide schedule sync"
+          "score": 69,
+          "note": "87% commute rate with 23.1-min average travel time"
         },
         "spatial": {
-          "score": 48,
-          "note": "Tigerland and downtown pockets, otherwise sprawl"
+          "score": 47,
+          "note": "Walk Score 34, 4.0 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 52,
-          "note": "College bar strips concentrated, car needed elsewhere"
+          "score": 50,
+          "note": "Moderate transit (score 22), 4.0 bars/10K"
         },
         "permission": {
-          "score": 85,
-          "note": "Louisiana drinking culture exceptionally strong"
+          "score": 62,
+          "note": "LA ranks above-average in per-capita consumption (2.65 gal)"
         },
         "repetition": {
-          "score": 62,
-          "note": "LSU game day culture anchors seasonal regulars"
+          "score": 45,
+          "note": "Above-average turnover (6.4% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "greenville-sc",
@@ -2073,26 +2144,27 @@
       "populationTier": "Mid",
       "conditions": {
         "temporal": {
-          "score": 60,
-          "note": "Manufacturing and corporate offices maintain sync"
+          "score": 75,
+          "note": "Strong commuter presence (89% commute), avg 22.0-min travel time"
         },
         "spatial": {
-          "score": 60,
-          "note": "Main Street revitalization created walkable corridor"
+          "score": 58,
+          "note": "Walk Score 81, 3.1 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 60,
-          "note": "Downtown bar scene compact and accessible"
+          "score": 44,
+          "note": "Moderate transit (score 30), 3.1 bars/10K"
         },
         "permission": {
-          "score": 65,
-          "note": "Southern hospitality meets growing cosmopolitan vibe"
+          "score": 49,
+          "note": "SC ranks above-average in per-capita consumption (2.51 gal)"
         },
         "repetition": {
-          "score": 58,
-          "note": "Downtown revival building new regular culture"
+          "score": 48,
+          "note": "Above-average turnover (6.2% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "knoxville-tn",
@@ -2102,26 +2174,27 @@
       "populationTier": "Mid",
       "conditions": {
         "temporal": {
-          "score": 60,
-          "note": "UT and Oak Ridge provide schedule structure"
+          "score": 69,
+          "note": "87% commute rate with 22.0-min average travel time"
         },
         "spatial": {
-          "score": 58,
-          "note": "Market Square walkable, otherwise car-dependent"
+          "score": 66,
+          "note": "Walk Score 79, 4.4 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 58,
-          "note": "Downtown bar district compact and growing"
+          "score": 73,
+          "note": "Moderate transit (score 60), 4.4 bars/10K"
         },
         "permission": {
-          "score": 70,
-          "note": "College town culture and whiskey heritage support"
+          "score": 56,
+          "note": "TN ranks moderate in per-capita consumption (2.17 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 58,
-          "note": "Student cycling, but Old City bars establishing"
+          "score": 45,
+          "note": "Above-average turnover (6.4% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "chattanooga-tn",
@@ -2131,26 +2204,27 @@
       "populationTier": "Mid",
       "conditions": {
         "temporal": {
-          "score": 58,
-          "note": "Mixed economy with some traditional office culture"
+          "score": 70,
+          "note": "88% commute rate with 22.8-min average travel time"
         },
         "spatial": {
-          "score": 55,
-          "note": "Northshore and downtown walkable pockets"
+          "score": 72,
+          "note": "Walk Score 85, 5.0 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 55,
-          "note": "Growing bar scene in revitalized core"
+          "score": 74,
+          "note": "Moderate transit (score 47), 5.0 bars/10K"
         },
         "permission": {
-          "score": 68,
-          "note": "Improving cultural permission, Southern hospitality"
+          "score": 63,
+          "note": "TN ranks moderate in per-capita consumption (2.17 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 55,
-          "note": "Revitalization bringing stability to new bar scene"
+          "score": 32,
+          "note": "Above-average turnover (7.5% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "lexington-ky",
@@ -2160,26 +2234,27 @@
       "populationTier": "Mid",
       "conditions": {
         "temporal": {
-          "score": 62,
-          "note": "UK campus and horse industry provide schedule sync"
+          "score": 69,
+          "note": "85% commute rate with 19.8-min average travel time"
         },
         "spatial": {
-          "score": 60,
-          "note": "Downtown and campus corridors walkable"
+          "score": 75,
+          "note": "Walk Score 86, 5.6 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 62,
-          "note": "Bourbon trail and bar density moderate"
+          "score": 90,
+          "note": "Transit Score 80 and 5.6 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 80,
-          "note": "Kentucky bourbon culture provides strong permission"
+          "score": 62,
+          "note": "KY ranks moderate in per-capita consumption (2.11 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 65,
-          "note": "Horse racing and bourbon culture anchor regular bars"
+          "score": 35,
+          "note": "Above-average turnover (7.2% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "fort-worth-tx",
@@ -2189,26 +2264,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 55,
-          "note": "Defense and finance sectors provide some sync"
+          "score": 57,
+          "note": "86% commute rate with 28.0-min average travel time"
         },
         "spatial": {
-          "score": 48,
-          "note": "Sundance Square walkable, otherwise sprawl"
+          "score": 65,
+          "note": "Walk Score 87, 2.9 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 48,
-          "note": "Car-dependent outside Sundance Square"
+          "score": 59,
+          "note": "Transit Score 65 and 2.9 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 68,
-          "note": "Cowtown honky-tonk tradition supports bar culture"
+          "score": 45,
+          "note": "TX ranks above-average in per-capita consumption (2.42 gal)"
         },
         "repetition": {
-          "score": 55,
-          "note": "Stockyards bars have deep regular culture"
+          "score": 49,
+          "note": "Above-average turnover (6.1% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "norfolk-va",
@@ -2218,26 +2294,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 58,
-          "note": "Navy base schedules create partial synchronization"
+          "score": 65,
+          "note": "88% commute rate with 25.8-min average travel time"
         },
         "spatial": {
-          "score": 55,
-          "note": "Ghent and downtown walkable bar areas"
+          "score": 53,
+          "note": "Walk Score 54, 3.6 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 55,
-          "note": "Moderate bar density in core neighborhoods"
+          "score": 53,
+          "note": "Moderate transit (score 38), 3.6 bars/10K"
         },
         "permission": {
-          "score": 70,
-          "note": "Navy town drinking culture strong"
+          "score": 54,
+          "note": "VA ranks above-average in per-capita consumption (2.49 gal)"
         },
         "repetition": {
-          "score": 58,
-          "note": "Military rotation moderates but locals persist"
+          "score": 52,
+          "note": "Moderate stability (5.8% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "newark-nj",
@@ -2247,26 +2324,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 68,
-          "note": "NYC commuter schedules drive synchronization"
+          "score": 42,
+          "note": "85% commute rate with 37.1-min average travel time"
         },
         "spatial": {
-          "score": 62,
-          "note": "Ironbound district dense with bars and restaurants"
+          "score": 72,
+          "note": "Walk Score 82, 2.1 bars/10K, very dense urban core"
         },
         "planning": {
-          "score": 60,
-          "note": "Ironbound walkable, transit accessible to NYC"
+          "score": 56,
+          "note": "Transit Score 77 and 2.1 bars/10K make spontaneous outings easy"
         },
         "permission": {
-          "score": 72,
-          "note": "Portuguese and Brazilian bar culture in Ironbound"
+          "score": 38,
+          "note": "NJ ranks above-average in per-capita consumption (2.49 gal), fewer on-premise venues"
         },
         "repetition": {
-          "score": 65,
-          "note": "Ethnic neighborhood bars have deep regular culture"
+          "score": 88,
+          "note": "Very stable population (2.9% moved in), regulars keep coming back"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "grand-rapids-mi",
@@ -2276,26 +2354,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 65,
-          "note": "Manufacturing and healthcare maintain schedules"
+          "score": 72,
+          "note": "87% commute rate with 21.0-min average travel time"
         },
         "spatial": {
-          "score": 60,
-          "note": "Downtown and Eastown walkable bar areas"
+          "score": 59,
+          "note": "Walk Score 47, 4.6 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 65,
-          "note": "Beer City USA, high brewery density"
+          "score": 62,
+          "note": "Moderate transit (score 32), 4.6 bars/10K"
         },
         "permission": {
-          "score": 72,
-          "note": "Craft beer capital despite Dutch Reformed heritage"
+          "score": 63,
+          "note": "MI ranks above-average in per-capita consumption (2.36 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 65,
-          "note": "Brewery taproom regulars well-established"
+          "score": 56,
+          "note": "Moderate stability (5.5% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "green-bay-wi",
@@ -2305,26 +2384,27 @@
       "populationTier": "Small",
       "conditions": {
         "temporal": {
-          "score": 65,
-          "note": "Manufacturing and Packers create schedule sync"
+          "score": 77,
+          "note": "Strong commuter presence (89% commute), avg 19.8-min travel time"
         },
         "spatial": {
           "score": 55,
-          "note": "Downtown and Broadway walkable, else spread"
+          "note": "Walk Score 44, 7.4 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 60,
-          "note": "High bar-per-capita in Wisconsin tradition"
+          "score": 64,
+          "note": "Moderate transit (score 28), 7.4 bars/10K"
         },
         "permission": {
-          "score": 90,
-          "note": "Wisconsin culture plus Packers tailgate tradition"
+          "score": 80,
+          "note": "WI ranks above-average in per-capita consumption (2.98 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 78,
-          "note": "Small-city loyalty, generational bar regulars"
+          "score": 38,
+          "note": "Above-average turnover (7.0% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "la-crosse-wi",
@@ -2334,26 +2414,27 @@
       "populationTier": "Small",
       "conditions": {
         "temporal": {
-          "score": 60,
-          "note": "University and healthcare provide schedule rhythm"
+          "score": 76,
+          "note": "87% commute rate with 18.4-min average travel time"
         },
         "spatial": {
-          "score": 65,
-          "note": "Compact downtown with high bar density"
+          "score": 57,
+          "note": "Walk Score 52, 7.0 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 70,
-          "note": "3rd Street bar district infamous for density"
+          "score": 65,
+          "note": "Moderate transit (score 30), 7.0 bars/10K"
         },
         "permission": {
-          "score": 88,
-          "note": "Among highest per-capita bar counts in the US"
+          "score": 80,
+          "note": "WI ranks above-average in per-capita consumption (2.98 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 72,
-          "note": "Small-town regulars plus student cycling"
+          "score": 17,
+          "note": "High population churn (8.6% moved in), harder to build regulars"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "san-juan-pr",
@@ -2363,26 +2444,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 55,
-          "note": "Government and tourism create mixed synchronization"
+          "score": 66,
+          "note": "Strong commuter presence (92% commute), avg 32.4-min travel time"
         },
         "spatial": {
-          "score": 72,
-          "note": "Old San Juan dense and walkable, Condado concentrated"
+          "score": 54,
+          "note": "Walk Score 74, 1.3 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 70,
-          "note": "Bar density high in core neighborhoods"
+          "score": 36,
+          "note": "Moderate transit (score 55), 1.3 bars/10K"
         },
         "permission": {
-          "score": 85,
-          "note": "Caribbean culture provides strong social permission"
+          "score": 34,
+          "note": "State consumption data unavailable"
         },
         "repetition": {
-          "score": 68,
-          "note": "Deep regular culture in neighborhood bars"
+          "score": 100,
+          "note": "Very stable population (1.9% moved in), regulars keep coming back"
         }
-      }
+      },
+      "dataQuality": "estimated"
     },
     {
       "id": "colorado-springs-co",
@@ -2392,26 +2474,27 @@
       "populationTier": "Mid",
       "conditions": {
         "temporal": {
-          "score": 58,
-          "note": "Military installations provide schedule structure"
+          "score": 61,
+          "note": "84% commute rate with 22.3-min average travel time"
         },
         "spatial": {
-          "score": 45,
-          "note": "Downtown walkable pocket, otherwise sprawl"
+          "score": 68,
+          "note": "Walk Score 88, 3.9 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 48,
-          "note": "Car-dependent, bar scene growing in core"
+          "score": 67,
+          "note": "Moderate transit (score 59), 3.9 bars/10K"
         },
         "permission": {
-          "score": 55,
-          "note": "Evangelical conservative presence moderates permission"
+          "score": 64,
+          "note": "CO ranks above-average in per-capita consumption (2.84 gal)"
         },
         "repetition": {
-          "score": 52,
-          "note": "Military rotation limits stable regular culture"
+          "score": 19,
+          "note": "High population churn (8.5% moved in), harder to build regulars"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "fort-collins-co",
@@ -2421,26 +2504,27 @@
       "populationTier": "Mid",
       "conditions": {
         "temporal": {
-          "score": 55,
-          "note": "CSU and tech mix traditional and remote schedules"
+          "score": 60,
+          "note": "82% commute rate with 19.8-min average travel time"
         },
         "spatial": {
-          "score": 65,
-          "note": "Old Town walkable with high brewery density"
+          "score": 63,
+          "note": "Walk Score 52, 6.8 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 68,
-          "note": "New Belgium and Odell anchor craft corridor"
+          "score": 66,
+          "note": "Moderate transit (score 32), 6.8 bars/10K"
         },
         "permission": {
-          "score": 72,
-          "note": "Colorado craft culture strong, outdoors supports"
+          "score": 77,
+          "note": "CO ranks above-average in per-capita consumption (2.84 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 60,
-          "note": "Student cycling but brewery regulars persist"
+          "score": 0,
+          "note": "Very high turnover (10.2% moved in), transient population"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "mobile-al",
@@ -2450,26 +2534,27 @@
       "populationTier": "Mid",
       "conditions": {
         "temporal": {
-          "score": 58,
-          "note": "Shipyard and industrial schedules provide some sync"
+          "score": 72,
+          "note": "Strong commuter presence (88% commute), avg 22.4-min travel time"
         },
         "spatial": {
-          "score": 52,
-          "note": "Dauphin Street downtown walkable, else spread"
+          "score": 48,
+          "note": "Walk Score 38, 4.4 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 52,
-          "note": "Bar scene concentrated on Dauphin Street"
+          "score": 54,
+          "note": "Moderate transit (score 22), 4.4 bars/10K"
         },
         "permission": {
-          "score": 75,
-          "note": "Original Mardi Gras city, strong drinking culture"
+          "score": 52,
+          "note": "AL ranks moderate in per-capita consumption (1.96 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 65,
-          "note": "Old-line establishments maintain regular culture"
+          "score": 45,
+          "note": "Above-average turnover (6.4% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "portsmouth-nh",
@@ -2479,26 +2564,27 @@
       "populationTier": "Small",
       "conditions": {
         "temporal": {
-          "score": 58,
-          "note": "Local economy and tourism create mixed sync"
+          "score": 61,
+          "note": "85% commute rate with 24.1-min average travel time"
         },
         "spatial": {
-          "score": 78,
-          "note": "Extremely compact downtown with high bar density"
+          "score": 66,
+          "note": "Walk Score 67, 8.2 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 78,
-          "note": "Can bar-hop the entire town on foot easily"
+          "score": 64,
+          "note": "Moderate transit (score 28), 8.2 bars/10K"
         },
         "permission": {
-          "score": 75,
-          "note": "Coastal New England pub culture strong"
+          "score": 100,
+          "note": "NH ranks high in per-capita consumption (4.56 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 70,
-          "note": "Year-round locals maintain strong regular culture"
+          "score": 0,
+          "note": "Very high turnover (11.5% moved in), transient population"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "annapolis-md",
@@ -2508,26 +2594,27 @@
       "populationTier": "Small",
       "conditions": {
         "temporal": {
-          "score": 60,
-          "note": "Naval Academy and state capital provide sync"
+          "score": 51,
+          "note": "85% commute rate with 30.2-min average travel time"
         },
         "spatial": {
-          "score": 72,
-          "note": "Compact historic downtown, waterfront bars dense"
+          "score": 61,
+          "note": "Walk Score 55, 3.9 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 72,
-          "note": "Walkable downtown, bars concentrated on Ego Alley"
+          "score": 48,
+          "note": "Moderate transit (score 22), 3.9 bars/10K"
         },
         "permission": {
-          "score": 78,
-          "note": "Sailing and military culture deeply support drinking"
+          "score": 58,
+          "note": "MD ranks above-average in per-capita consumption (2.52 gal)"
         },
         "repetition": {
-          "score": 70,
-          "note": "Midshipmen cycle but local regulars persistent"
+          "score": 62,
+          "note": "Moderate stability (5.1% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "iowa-city-ia",
@@ -2537,26 +2624,27 @@
       "populationTier": "Small",
       "conditions": {
         "temporal": {
-          "score": 62,
-          "note": "University of Iowa creates strong weekly sync"
+          "score": 69,
+          "note": "84% commute rate with 17.4-min average travel time"
         },
         "spatial": {
-          "score": 68,
-          "note": "Compact downtown with walkable bar scene"
+          "score": 67,
+          "note": "Walk Score 62, 6.4 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 70,
-          "note": "Ped Mall and surrounding bars very accessible"
+          "score": 69,
+          "note": "Moderate transit (score 38), 6.4 bars/10K"
         },
         "permission": {
-          "score": 78,
-          "note": "Big Ten party culture and writing program overlap"
+          "score": 71,
+          "note": "IA ranks above-average in per-capita consumption (2.57 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 62,
-          "note": "Student cycling, but core bars legendarily persistent"
+          "score": 0,
+          "note": "Very high turnover (12.5% moved in), transient population"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "athens-ga",
@@ -2566,26 +2654,27 @@
       "populationTier": "Small",
       "conditions": {
         "temporal": {
-          "score": 60,
-          "note": "UGA campus creates strong weekly and seasonal sync"
+          "score": 70,
+          "note": "85% commute rate with 18.9-min average travel time"
         },
         "spatial": {
-          "score": 68,
-          "note": "Downtown music district compact and walkable"
+          "score": 60,
+          "note": "Walk Score 49, 8.7 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 70,
-          "note": "Bar-per-block ratio very high downtown"
+          "score": 85,
+          "note": "Car-dependent but 8.7 bars/10K keeps options accessible"
         },
         "permission": {
-          "score": 75,
-          "note": "Music scene and SEC culture strongly support drinking"
+          "score": 63,
+          "note": "GA ranks moderate in per-capita consumption (2.14 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 60,
-          "note": "Music venue culture creates dedicated regulars"
+          "score": 0,
+          "note": "Very high turnover (12.6% moved in), transient population"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "santa-barbara-ca",
@@ -2595,26 +2684,27 @@
       "populationTier": "Mid",
       "conditions": {
         "temporal": {
-          "score": 52,
-          "note": "UCSB and tourism create mixed scheduling"
+          "score": 62,
+          "note": "84% commute rate with 21.8-min average travel time"
         },
         "spatial": {
-          "score": 68,
-          "note": "State Street corridor walkable and bar-dense"
+          "score": 73,
+          "note": "Walk Score 76, 5.4 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 68,
-          "note": "Downtown concentrated, wine culture accessible"
+          "score": 71,
+          "note": "Moderate transit (score 42), 5.4 bars/10K"
         },
         "permission": {
-          "score": 72,
-          "note": "Wine country and beach culture strongly support"
+          "score": 71,
+          "note": "CA ranks above-average in per-capita consumption (2.54 gal), strong on-premise culture"
         },
         "repetition": {
-          "score": 58,
-          "note": "Student cycling, but wine bar regulars stable"
+          "score": 29,
+          "note": "Above-average turnover (7.7% moved in), some churn in the crowd"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "fort-lauderdale-fl",
@@ -2624,26 +2714,27 @@
       "populationTier": "Large",
       "conditions": {
         "temporal": {
-          "score": 52,
-          "note": "Tourism and retirees desynchronize schedules"
+          "score": 59,
+          "note": "88% commute rate with 29.3-min average travel time"
         },
         "spatial": {
-          "score": 62,
-          "note": "Las Olas and beach strip walkable corridors"
+          "score": 59,
+          "note": "Walk Score 58, 2.5 bars/10K, very dense urban core"
         },
         "planning": {
-          "score": 60,
-          "note": "Bar density high in tourist zones"
+          "score": 41,
+          "note": "Moderate transit (score 38), 2.5 bars/10K"
         },
         "permission": {
-          "score": 78,
-          "note": "Spring break legacy and tropical culture support"
+          "score": 47,
+          "note": "FL ranks above-average in per-capita consumption (2.71 gal)"
         },
         "repetition": {
-          "score": 55,
-          "note": "Seasonal residents limit year-round regular culture"
+          "score": 75,
+          "note": "Moderate stability (4.0% moved in), decent repeat-crowd potential"
         }
-      }
+      },
+      "dataQuality": "full"
     },
     {
       "id": "provo-ut",
@@ -2653,26 +2744,27 @@
       "populationTier": "Mid",
       "conditions": {
         "temporal": {
-          "score": 55,
-          "note": "BYU and tech create mixed schedule patterns"
+          "score": 69,
+          "note": "85% commute rate with 19.9-min average travel time"
         },
         "spatial": {
-          "score": 45,
-          "note": "Downtown compact but bar options extremely limited"
+          "score": 44,
+          "note": "Walk Score 42, 2.1 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 30,
-          "note": "Very few bars exist, planning cost very high"
+          "score": 32,
+          "note": "Moderate transit (score 28), 2.1 bars/10K"
         },
         "permission": {
-          "score": 25,
-          "note": "Lowest social permission in the US due to LDS culture"
+          "score": 18,
+          "note": "UT ranks low in per-capita consumption (1.35 gal), fewer on-premise venues"
         },
         "repetition": {
-          "score": 35,
-          "note": "So few bars that regulars exist but culture minimal"
+          "score": 3,
+          "note": "High population churn (9.7% moved in), harder to build regulars"
         }
-      }
+      },
+      "dataQuality": "full"
     }
   ]
 }

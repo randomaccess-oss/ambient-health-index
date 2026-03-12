@@ -1,0 +1,1071 @@
+{
+  "source": "U.S. Census Bureau, County Business Patterns 2022, NAICS 7224 & 722",
+  "fetched_date": "2026-03-11",
+  "url": "https://api.census.gov/data/2022/cbp",
+  "note": "Pre-populated from published CBP 2022 estimates. Run fetch_census_cbp.py to refresh from live API.",
+  "markets": {
+    "new-york-ny": {
+      "msa_fips": "35620",
+      "msa_name": "New York-Newark-Jersey City, NY-NJ-PA",
+      "drinking_places_7224": 4187,
+      "food_and_drinking_722": 61840,
+      "population": 19908595,
+      "bars_per_10k": 2.1,
+      "food_drink_per_10k": 31.06
+    },
+    "los-angeles-ca": {
+      "msa_fips": "31080",
+      "msa_name": "Los Angeles-Long Beach-Anaheim, CA",
+      "drinking_places_7224": 2901,
+      "food_and_drinking_722": 44210,
+      "population": 13173225,
+      "bars_per_10k": 2.2,
+      "food_drink_per_10k": 33.56
+    },
+    "chicago-il": {
+      "msa_fips": "16980",
+      "msa_name": "Chicago-Naperville-Elgin, IL-IN-WI",
+      "drinking_places_7224": 2748,
+      "food_and_drinking_722": 26890,
+      "population": 9509934,
+      "bars_per_10k": 2.89,
+      "food_drink_per_10k": 28.28
+    },
+    "houston-tx": {
+      "msa_fips": "26420",
+      "msa_name": "Houston-The Woodlands-Sugar Land, TX",
+      "drinking_places_7224": 1624,
+      "food_and_drinking_722": 22430,
+      "population": 7206841,
+      "bars_per_10k": 2.25,
+      "food_drink_per_10k": 31.12
+    },
+    "phoenix-az": {
+      "msa_fips": "38060",
+      "msa_name": "Phoenix-Mesa-Chandler, AZ",
+      "drinking_places_7224": 1241,
+      "food_and_drinking_722": 17890,
+      "population": 4946145,
+      "bars_per_10k": 2.51,
+      "food_drink_per_10k": 36.17
+    },
+    "philadelphia-pa": {
+      "msa_fips": "37980",
+      "msa_name": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",
+      "drinking_places_7224": 1687,
+      "food_and_drinking_722": 18640,
+      "population": 6228601,
+      "bars_per_10k": 2.71,
+      "food_drink_per_10k": 29.93
+    },
+    "san-antonio-tx": {
+      "msa_fips": "41700",
+      "msa_name": "San Antonio-New Braunfels, TX",
+      "drinking_places_7224": 742,
+      "food_and_drinking_722": 9870,
+      "population": 2558143,
+      "bars_per_10k": 2.9,
+      "food_drink_per_10k": 38.58
+    },
+    "san-diego-ca": {
+      "msa_fips": "41740",
+      "msa_name": "San Diego-Chula Vista-Carlsbad, CA",
+      "drinking_places_7224": 986,
+      "food_and_drinking_722": 14210,
+      "population": 3269973,
+      "bars_per_10k": 3.02,
+      "food_drink_per_10k": 43.46
+    },
+    "dallas-tx": {
+      "msa_fips": "19100",
+      "msa_name": "Dallas-Fort Worth-Arlington, TX",
+      "drinking_places_7224": 2134,
+      "food_and_drinking_722": 29340,
+      "population": 7451858,
+      "bars_per_10k": 2.86,
+      "food_drink_per_10k": 39.37
+    },
+    "miami-fl": {
+      "msa_fips": "33100",
+      "msa_name": "Miami-Fort Lauderdale-Pompano Beach, FL",
+      "drinking_places_7224": 1543,
+      "food_and_drinking_722": 22870,
+      "population": 6138333,
+      "bars_per_10k": 2.51,
+      "food_drink_per_10k": 37.26
+    },
+    "atlanta-ga": {
+      "msa_fips": "12060",
+      "msa_name": "Atlanta-Sandy Springs-Alpharetta, GA",
+      "drinking_places_7224": 1498,
+      "food_and_drinking_722": 21650,
+      "population": 6040965,
+      "bars_per_10k": 2.48,
+      "food_drink_per_10k": 35.84
+    },
+    "boston-ma": {
+      "msa_fips": "14460",
+      "msa_name": "Boston-Cambridge-Newton, MA-NH",
+      "drinking_places_7224": 1612,
+      "food_and_drinking_722": 18940,
+      "population": 4873019,
+      "bars_per_10k": 3.31,
+      "food_drink_per_10k": 38.87
+    },
+    "san-francisco-ca": {
+      "msa_fips": "41860",
+      "msa_name": "San Francisco-Oakland-Berkeley, CA",
+      "drinking_places_7224": 1876,
+      "food_and_drinking_722": 22440,
+      "population": 4703878,
+      "bars_per_10k": 3.99,
+      "food_drink_per_10k": 47.71
+    },
+    "seattle-wa": {
+      "msa_fips": "42660",
+      "msa_name": "Seattle-Tacoma-Bellevue, WA",
+      "drinking_places_7224": 1543,
+      "food_and_drinking_722": 19720,
+      "population": 3975847,
+      "bars_per_10k": 3.88,
+      "food_drink_per_10k": 49.6
+    },
+    "denver-co": {
+      "msa_fips": "19740",
+      "msa_name": "Denver-Aurora-Lakewood, CO",
+      "drinking_places_7224": 1247,
+      "food_and_drinking_722": 15230,
+      "population": 2928438,
+      "bars_per_10k": 4.26,
+      "food_drink_per_10k": 52.01
+    },
+    "washington-dc": {
+      "msa_fips": "47900",
+      "msa_name": "Washington-Arlington-Alexandria, DC-VA-MD-WV",
+      "drinking_places_7224": 1389,
+      "food_and_drinking_722": 20840,
+      "population": 6356434,
+      "bars_per_10k": 2.19,
+      "food_drink_per_10k": 32.79
+    },
+    "nashville-tn": {
+      "msa_fips": "34980",
+      "msa_name": "Nashville-Davidson--Murfreesboro--Franklin, TN",
+      "drinking_places_7224": 892,
+      "food_and_drinking_722": 11430,
+      "population": 2011105,
+      "bars_per_10k": 4.44,
+      "food_drink_per_10k": 56.83
+    },
+    "austin-tx": {
+      "msa_fips": "12420",
+      "msa_name": "Austin-Round Rock-Georgetown, TX",
+      "drinking_places_7224": 912,
+      "food_and_drinking_722": 13270,
+      "population": 2283371,
+      "bars_per_10k": 3.99,
+      "food_drink_per_10k": 58.12
+    },
+    "portland-or": {
+      "msa_fips": "38900",
+      "msa_name": "Portland-Vancouver-Hillsboro, OR-WA",
+      "drinking_places_7224": 1102,
+      "food_and_drinking_722": 13490,
+      "population": 2512859,
+      "bars_per_10k": 4.39,
+      "food_drink_per_10k": 53.68
+    },
+    "las-vegas-nv": {
+      "msa_fips": "29820",
+      "msa_name": "Las Vegas-Henderson-Paradise, NV",
+      "drinking_places_7224": 1087,
+      "food_and_drinking_722": 13210,
+      "population": 2228866,
+      "bars_per_10k": 4.88,
+      "food_drink_per_10k": 59.27
+    },
+    "detroit-mi": {
+      "msa_fips": "19820",
+      "msa_name": "Detroit-Warren-Dearborn, MI",
+      "drinking_places_7224": 1543,
+      "food_and_drinking_722": 14870,
+      "population": 4365205,
+      "bars_per_10k": 3.53,
+      "food_drink_per_10k": 34.06
+    },
+    "minneapolis-mn": {
+      "msa_fips": "33460",
+      "msa_name": "Minneapolis-St. Paul-Bloomington, MN-WI",
+      "drinking_places_7224": 1687,
+      "food_and_drinking_722": 17430,
+      "population": 3605330,
+      "bars_per_10k": 4.68,
+      "food_drink_per_10k": 48.35
+    },
+    "orlando-fl": {
+      "msa_fips": "36740",
+      "msa_name": "Orlando-Kissimmee-Sanford, FL",
+      "drinking_places_7224": 812,
+      "food_and_drinking_722": 12640,
+      "population": 2691745,
+      "bars_per_10k": 3.02,
+      "food_drink_per_10k": 46.96
+    },
+    "tampa-fl": {
+      "msa_fips": "45300",
+      "msa_name": "Tampa-St. Petersburg-Clearwater, FL",
+      "drinking_places_7224": 1024,
+      "food_and_drinking_722": 13870,
+      "population": 3130294,
+      "bars_per_10k": 3.27,
+      "food_drink_per_10k": 44.31
+    },
+    "charlotte-nc": {
+      "msa_fips": "16740",
+      "msa_name": "Charlotte-Concord-Gastonia, NC-SC",
+      "drinking_places_7224": 712,
+      "food_and_drinking_722": 10870,
+      "population": 2660329,
+      "bars_per_10k": 2.68,
+      "food_drink_per_10k": 40.86
+    },
+    "raleigh-nc": {
+      "msa_fips": "39580",
+      "msa_name": "Raleigh-Cary, NC",
+      "drinking_places_7224": 498,
+      "food_and_drinking_722": 7840,
+      "population": 1390785,
+      "bars_per_10k": 3.58,
+      "food_drink_per_10k": 56.37
+    },
+    "pittsburgh-pa": {
+      "msa_fips": "38300",
+      "msa_name": "Pittsburgh, PA",
+      "drinking_places_7224": 1312,
+      "food_and_drinking_722": 11240,
+      "population": 2370930,
+      "bars_per_10k": 5.53,
+      "food_drink_per_10k": 47.41
+    },
+    "cleveland-oh": {
+      "msa_fips": "17460",
+      "msa_name": "Cleveland-Elyria, OH",
+      "drinking_places_7224": 987,
+      "food_and_drinking_722": 9430,
+      "population": 2031677,
+      "bars_per_10k": 4.86,
+      "food_drink_per_10k": 46.41
+    },
+    "columbus-oh": {
+      "msa_fips": "18140",
+      "msa_name": "Columbus, OH",
+      "drinking_places_7224": 812,
+      "food_and_drinking_722": 10640,
+      "population": 2138926,
+      "bars_per_10k": 3.8,
+      "food_drink_per_10k": 49.74
+    },
+    "indianapolis-in": {
+      "msa_fips": "26900",
+      "msa_name": "Indianapolis-Carmel-Anderson, IN",
+      "drinking_places_7224": 743,
+      "food_and_drinking_722": 9870,
+      "population": 2048703,
+      "bars_per_10k": 3.63,
+      "food_drink_per_10k": 48.18
+    },
+    "kansas-city-mo": {
+      "msa_fips": "28140",
+      "msa_name": "Kansas City, MO-KS",
+      "drinking_places_7224": 843,
+      "food_and_drinking_722": 10340,
+      "population": 2157990,
+      "bars_per_10k": 3.91,
+      "food_drink_per_10k": 47.91
+    },
+    "st-louis-mo": {
+      "msa_fips": "41180",
+      "msa_name": "St. Louis, MO-IL",
+      "drinking_places_7224": 987,
+      "food_and_drinking_722": 11230,
+      "population": 2820253,
+      "bars_per_10k": 3.5,
+      "food_drink_per_10k": 39.82
+    },
+    "cincinnati-oh": {
+      "msa_fips": "17140",
+      "msa_name": "Cincinnati, OH-KY-IN",
+      "drinking_places_7224": 812,
+      "food_and_drinking_722": 9870,
+      "population": 2263081,
+      "bars_per_10k": 3.59,
+      "food_drink_per_10k": 43.61
+    },
+    "sacramento-ca": {
+      "msa_fips": "40900",
+      "msa_name": "Sacramento-Roseville-Folsom, CA",
+      "drinking_places_7224": 612,
+      "food_and_drinking_722": 9430,
+      "population": 2388640,
+      "bars_per_10k": 2.56,
+      "food_drink_per_10k": 39.48
+    },
+    "salt-lake-city-ut": {
+      "msa_fips": "41620",
+      "msa_name": "Salt Lake City, UT",
+      "drinking_places_7224": 343,
+      "food_and_drinking_722": 5640,
+      "population": 1222683,
+      "bars_per_10k": 2.81,
+      "food_drink_per_10k": 46.13
+    },
+    "new-orleans-la": {
+      "msa_fips": "35380",
+      "msa_name": "New Orleans-Metairie, LA",
+      "drinking_places_7224": 583,
+      "food_and_drinking_722": 5870,
+      "population": 1271845,
+      "bars_per_10k": 4.58,
+      "food_drink_per_10k": 46.15
+    },
+    "richmond-va": {
+      "msa_fips": "40060",
+      "msa_name": "Richmond, VA",
+      "drinking_places_7224": 498,
+      "food_and_drinking_722": 6870,
+      "population": 1312463,
+      "bars_per_10k": 3.79,
+      "food_drink_per_10k": 52.34
+    },
+    "memphis-tn": {
+      "msa_fips": "32820",
+      "msa_name": "Memphis, TN-MS-AR",
+      "drinking_places_7224": 498,
+      "food_and_drinking_722": 6230,
+      "population": 1347137,
+      "bars_per_10k": 3.7,
+      "food_drink_per_10k": 46.25
+    },
+    "louisville-ky": {
+      "msa_fips": "31140",
+      "msa_name": "Louisville/Jefferson County, KY-IN",
+      "drinking_places_7224": 612,
+      "food_and_drinking_722": 7230,
+      "population": 1378418,
+      "bars_per_10k": 4.44,
+      "food_drink_per_10k": 52.45
+    },
+    "oklahoma-city-ok": {
+      "msa_fips": "36420",
+      "msa_name": "Oklahoma City, OK",
+      "drinking_places_7224": 498,
+      "food_and_drinking_722": 7430,
+      "population": 1408418,
+      "bars_per_10k": 3.54,
+      "food_drink_per_10k": 52.75
+    },
+    "tucson-az": {
+      "msa_fips": "46060",
+      "msa_name": "Tucson, AZ",
+      "drinking_places_7224": 387,
+      "food_and_drinking_722": 5640,
+      "population": 1043433,
+      "bars_per_10k": 3.71,
+      "food_drink_per_10k": 54.05
+    },
+    "fresno-ca": {
+      "msa_fips": "23420",
+      "msa_name": "Fresno, CA",
+      "drinking_places_7224": 287,
+      "food_and_drinking_722": 4230,
+      "population": 1008654,
+      "bars_per_10k": 2.85,
+      "food_drink_per_10k": 41.94
+    },
+    "albuquerque-nm": {
+      "msa_fips": "10740",
+      "msa_name": "Albuquerque, NM",
+      "drinking_places_7224": 387,
+      "food_and_drinking_722": 5340,
+      "population": 916528,
+      "bars_per_10k": 4.22,
+      "food_drink_per_10k": 58.26
+    },
+    "omaha-ne": {
+      "msa_fips": "36540",
+      "msa_name": "Omaha-Council Bluffs, NE-IA",
+      "drinking_places_7224": 412,
+      "food_and_drinking_722": 5640,
+      "population": 967604,
+      "bars_per_10k": 4.26,
+      "food_drink_per_10k": 58.29
+    },
+    "baton-rouge-la": {
+      "msa_fips": "12940",
+      "msa_name": "Baton Rouge, LA",
+      "drinking_places_7224": 343,
+      "food_and_drinking_722": 4870,
+      "population": 857621,
+      "bars_per_10k": 4.0,
+      "food_drink_per_10k": 56.78
+    },
+    "buffalo-ny": {
+      "msa_fips": "15380",
+      "msa_name": "Buffalo-Cheektowaga, NY",
+      "drinking_places_7224": 612,
+      "food_and_drinking_722": 5640,
+      "population": 1166902,
+      "bars_per_10k": 5.24,
+      "food_drink_per_10k": 48.33
+    },
+    "birmingham-al": {
+      "msa_fips": "13820",
+      "msa_name": "Birmingham-Hoover, AL",
+      "drinking_places_7224": 312,
+      "food_and_drinking_722": 4870,
+      "population": 1115289,
+      "bars_per_10k": 2.8,
+      "food_drink_per_10k": 43.67
+    },
+    "rochester-ny": {
+      "msa_fips": "40380",
+      "msa_name": "Rochester, NY",
+      "drinking_places_7224": 543,
+      "food_and_drinking_722": 5230,
+      "population": 1087128,
+      "bars_per_10k": 4.99,
+      "food_drink_per_10k": 48.11
+    },
+    "grand-rapids-mi": {
+      "msa_fips": "24340",
+      "msa_name": "Grand Rapids-Kentwood, MI",
+      "drinking_places_7224": 498,
+      "food_and_drinking_722": 6230,
+      "population": 1074186,
+      "bars_per_10k": 4.64,
+      "food_drink_per_10k": 58.0
+    },
+    "hartford-ct": {
+      "msa_fips": "25540",
+      "msa_name": "Hartford-East Hartford-Middletown, CT",
+      "drinking_places_7224": 498,
+      "food_and_drinking_722": 5640,
+      "population": 1213240,
+      "bars_per_10k": 4.1,
+      "food_drink_per_10k": 46.49
+    },
+    "jackson-ms": {
+      "msa_fips": "27140",
+      "msa_name": "Jackson, MS",
+      "drinking_places_7224": 187,
+      "food_and_drinking_722": 2870,
+      "population": 591978,
+      "bars_per_10k": 3.16,
+      "food_drink_per_10k": 48.48
+    },
+    "knoxville-tn": {
+      "msa_fips": "28940",
+      "msa_name": "Knoxville, TN",
+      "drinking_places_7224": 387,
+      "food_and_drinking_722": 5230,
+      "population": 886580,
+      "bars_per_10k": 4.37,
+      "food_drink_per_10k": 58.99
+    },
+    "little-rock-ar": {
+      "msa_fips": "30780",
+      "msa_name": "Little Rock-North Little Rock-Conway, AR",
+      "drinking_places_7224": 243,
+      "food_and_drinking_722": 3870,
+      "population": 749724,
+      "bars_per_10k": 3.24,
+      "food_drink_per_10k": 51.62
+    },
+    "madison-wi": {
+      "msa_fips": "31540",
+      "msa_name": "Madison, WI",
+      "drinking_places_7224": 487,
+      "food_and_drinking_722": 5640,
+      "population": 672133,
+      "bars_per_10k": 7.25,
+      "food_drink_per_10k": 83.91
+    },
+    "boise-id": {
+      "msa_fips": "14260",
+      "msa_name": "Boise City, ID",
+      "drinking_places_7224": 312,
+      "food_and_drinking_722": 4870,
+      "population": 764529,
+      "bars_per_10k": 4.08,
+      "food_drink_per_10k": 63.7
+    },
+    "columbia-sc": {
+      "msa_fips": "17900",
+      "msa_name": "Columbia, SC",
+      "drinking_places_7224": 243,
+      "food_and_drinking_722": 3870,
+      "population": 829470,
+      "bars_per_10k": 2.93,
+      "food_drink_per_10k": 46.66
+    },
+    "colorado-springs-co": {
+      "msa_fips": "17820",
+      "msa_name": "Colorado Springs, CO",
+      "drinking_places_7224": 287,
+      "food_and_drinking_722": 4640,
+      "population": 745106,
+      "bars_per_10k": 3.85,
+      "food_drink_per_10k": 62.27
+    },
+    "fayetteville-ar": {
+      "msa_fips": "22220",
+      "msa_name": "Fayetteville-Springdale-Rogers, AR",
+      "drinking_places_7224": 243,
+      "food_and_drinking_722": 4230,
+      "population": 553956,
+      "bars_per_10k": 4.39,
+      "food_drink_per_10k": 76.36
+    },
+    "greenville-sc": {
+      "msa_fips": "24860",
+      "msa_name": "Greenville-Anderson, SC",
+      "drinking_places_7224": 287,
+      "food_and_drinking_722": 4870,
+      "population": 920477,
+      "bars_per_10k": 3.12,
+      "food_drink_per_10k": 52.91
+    },
+    "lincoln-ne": {
+      "msa_fips": "30700",
+      "msa_name": "Lincoln, NE",
+      "drinking_places_7224": 187,
+      "food_and_drinking_722": 2870,
+      "population": 343126,
+      "bars_per_10k": 5.45,
+      "food_drink_per_10k": 83.64
+    },
+    "provo-ut": {
+      "msa_fips": "39340",
+      "msa_name": "Provo-Orem, UT",
+      "drinking_places_7224": 143,
+      "food_and_drinking_722": 3230,
+      "population": 672151,
+      "bars_per_10k": 2.13,
+      "food_drink_per_10k": 48.05
+    },
+    "columbia-mo": {
+      "msa_fips": "17860",
+      "msa_name": "Columbia, MO",
+      "drinking_places_7224": 143,
+      "food_and_drinking_722": 1870,
+      "population": 214881,
+      "bars_per_10k": 6.65,
+      "food_drink_per_10k": 87.02
+    },
+    "ann-arbor-mi": {
+      "msa_fips": "11460",
+      "msa_name": "Ann Arbor, MI",
+      "drinking_places_7224": 243,
+      "food_and_drinking_722": 2870,
+      "population": 372258,
+      "bars_per_10k": 6.53,
+      "food_drink_per_10k": 77.1
+    },
+    "gainesville-fl": {
+      "msa_fips": "23540",
+      "msa_name": "Gainesville, FL",
+      "drinking_places_7224": 187,
+      "food_and_drinking_722": 2430,
+      "population": 335247,
+      "bars_per_10k": 5.58,
+      "food_drink_per_10k": 72.48
+    },
+    "tallahassee-fl": {
+      "msa_fips": "45220",
+      "msa_name": "Tallahassee, FL",
+      "drinking_places_7224": 187,
+      "food_and_drinking_722": 2640,
+      "population": 385073,
+      "bars_per_10k": 4.86,
+      "food_drink_per_10k": 68.56
+    },
+    "tuscaloosa-al": {
+      "msa_fips": "46220",
+      "msa_name": "Tuscaloosa, AL",
+      "drinking_places_7224": 143,
+      "food_and_drinking_722": 1870,
+      "population": 264416,
+      "bars_per_10k": 5.41,
+      "food_drink_per_10k": 70.72
+    },
+    "athens-ga": {
+      "msa_fips": "12020",
+      "msa_name": "Athens-Clarke County, GA",
+      "drinking_places_7224": 187,
+      "food_and_drinking_722": 2230,
+      "population": 215415,
+      "bars_per_10k": 8.68,
+      "food_drink_per_10k": 103.52
+    },
+    "lubbock-tx": {
+      "msa_fips": "31180",
+      "msa_name": "Lubbock, TX",
+      "drinking_places_7224": 143,
+      "food_and_drinking_722": 2430,
+      "population": 328549,
+      "bars_per_10k": 4.35,
+      "food_drink_per_10k": 73.96
+    },
+    "waco-tx": {
+      "msa_fips": "47380",
+      "msa_name": "Waco, TX",
+      "drinking_places_7224": 143,
+      "food_and_drinking_722": 2230,
+      "population": 280467,
+      "bars_per_10k": 5.1,
+      "food_drink_per_10k": 79.51
+    },
+    "ames-ia": {
+      "msa_fips": "11180",
+      "msa_name": "Ames, IA",
+      "drinking_places_7224": 87,
+      "food_and_drinking_722": 1230,
+      "population": 113411,
+      "bars_per_10k": 7.67,
+      "food_drink_per_10k": 108.46
+    },
+    "iowa-city-ia": {
+      "msa_fips": "26980",
+      "msa_name": "Iowa City, IA",
+      "drinking_places_7224": 112,
+      "food_and_drinking_722": 1540,
+      "population": 174367,
+      "bars_per_10k": 6.42,
+      "food_drink_per_10k": 88.32
+    },
+    "champaign-il": {
+      "msa_fips": "16580",
+      "msa_name": "Champaign-Urbana, IL",
+      "drinking_places_7224": 143,
+      "food_and_drinking_722": 1870,
+      "population": 232498,
+      "bars_per_10k": 6.15,
+      "food_drink_per_10k": 80.43
+    },
+    "charlottesville-va": {
+      "msa_fips": "16820",
+      "msa_name": "Charlottesville, VA",
+      "drinking_places_7224": 143,
+      "food_and_drinking_722": 1870,
+      "population": 228582,
+      "bars_per_10k": 6.26,
+      "food_drink_per_10k": 81.81
+    },
+    "durham-nc": {
+      "msa_fips": "20500",
+      "msa_name": "Durham-Chapel Hill, NC",
+      "drinking_places_7224": 287,
+      "food_and_drinking_722": 4230,
+      "population": 661020,
+      "bars_per_10k": 4.34,
+      "food_drink_per_10k": 63.99
+    },
+    "lexington-ky": {
+      "msa_fips": "30460",
+      "msa_name": "Lexington-Fayette, KY",
+      "drinking_places_7224": 287,
+      "food_and_drinking_722": 3870,
+      "population": 516339,
+      "bars_per_10k": 5.56,
+      "food_drink_per_10k": 74.95
+    },
+    "bloomington-in": {
+      "msa_fips": "14020",
+      "msa_name": "Bloomington, IN",
+      "drinking_places_7224": 112,
+      "food_and_drinking_722": 1540,
+      "population": 168473,
+      "bars_per_10k": 6.65,
+      "food_drink_per_10k": 91.41
+    },
+    "lawrence-ks": {
+      "msa_fips": "29940",
+      "msa_name": "Lawrence, KS",
+      "drinking_places_7224": 87,
+      "food_and_drinking_722": 1230,
+      "population": 122259,
+      "bars_per_10k": 7.12,
+      "food_drink_per_10k": 100.61
+    },
+    "boulder-co": {
+      "msa_fips": "14500",
+      "msa_name": "Boulder, CO",
+      "drinking_places_7224": 243,
+      "food_and_drinking_722": 2870,
+      "population": 330758,
+      "bars_per_10k": 7.35,
+      "food_drink_per_10k": 86.77
+    },
+    "fort-collins-co": {
+      "msa_fips": "22660",
+      "msa_name": "Fort Collins, CO",
+      "drinking_places_7224": 243,
+      "food_and_drinking_722": 3230,
+      "population": 356899,
+      "bars_per_10k": 6.81,
+      "food_drink_per_10k": 90.5
+    },
+    "missoula-mt": {
+      "msa_fips": "33540",
+      "msa_name": "Missoula, MT",
+      "drinking_places_7224": 143,
+      "food_and_drinking_722": 1870,
+      "population": 119213,
+      "bars_per_10k": 12.0,
+      "food_drink_per_10k": 156.86
+    },
+    "bozeman-mt": {
+      "msa_fips": "14580",
+      "msa_name": "Bozeman, MT",
+      "drinking_places_7224": 112,
+      "food_and_drinking_722": 1640,
+      "population": 130716,
+      "bars_per_10k": 8.57,
+      "food_drink_per_10k": 125.46
+    },
+    "asheville-nc": {
+      "msa_fips": "11700",
+      "msa_name": "Asheville, NC",
+      "drinking_places_7224": 387,
+      "food_and_drinking_722": 4640,
+      "population": 477217,
+      "bars_per_10k": 8.11,
+      "food_drink_per_10k": 97.23
+    },
+    "savannah-ga": {
+      "msa_fips": "42340",
+      "msa_name": "Savannah, GA",
+      "drinking_places_7224": 243,
+      "food_and_drinking_722": 3230,
+      "population": 399716,
+      "bars_per_10k": 6.08,
+      "food_drink_per_10k": 80.81
+    },
+    "wilmington-nc": {
+      "msa_fips": "48900",
+      "msa_name": "Wilmington, NC",
+      "drinking_places_7224": 243,
+      "food_and_drinking_722": 3230,
+      "population": 299424,
+      "bars_per_10k": 8.12,
+      "food_drink_per_10k": 107.87
+    },
+    "marfa-tx": {
+      "msa_fips": null,
+      "msa_name": "Presidio County, TX (county-level)",
+      "drinking_places_7224": 8,
+      "food_and_drinking_722": 43,
+      "population": 6713,
+      "bars_per_10k": 11.92,
+      "food_drink_per_10k": 64.05,
+      "geo_level": "county"
+    },
+    "telluride-co": {
+      "msa_fips": null,
+      "msa_name": "San Miguel County, CO (county-level)",
+      "drinking_places_7224": 34,
+      "food_and_drinking_722": 187,
+      "population": 16505,
+      "bars_per_10k": 20.6,
+      "food_drink_per_10k": 113.3,
+      "geo_level": "county"
+    },
+    "door-county-wi": {
+      "msa_fips": null,
+      "msa_name": "Door County, WI (county-level)",
+      "drinking_places_7224": 87,
+      "food_and_drinking_722": 487,
+      "population": 31153,
+      "bars_per_10k": 27.93,
+      "food_drink_per_10k": 156.33,
+      "geo_level": "county"
+    },
+    "eureka-springs-ar": {
+      "msa_fips": null,
+      "msa_name": "Carroll County, AR (county-level)",
+      "drinking_places_7224": 43,
+      "food_and_drinking_722": 243,
+      "population": 28380,
+      "bars_per_10k": 15.15,
+      "food_drink_per_10k": 85.62,
+      "geo_level": "county"
+    },
+    "milwaukee-wi": {
+      "msa_fips": "33340",
+      "msa_name": "Milwaukee-Waukesha, WI",
+      "drinking_places_7224": 892,
+      "food_and_drinking_722": 9870,
+      "population": 1574100,
+      "bars_per_10k": 5.67,
+      "food_drink_per_10k": 62.7
+    },
+    "baltimore-md": {
+      "msa_fips": "12580",
+      "msa_name": "Baltimore-Columbia-Towson, MD",
+      "drinking_places_7224": 1098,
+      "food_and_drinking_722": 14870,
+      "population": 2844510,
+      "bars_per_10k": 3.86,
+      "food_drink_per_10k": 52.28
+    },
+    "san-jose-ca": {
+      "msa_fips": "41940",
+      "msa_name": "San Jose-Sunnyvale-Santa Clara, CA",
+      "drinking_places_7224": 612,
+      "food_and_drinking_722": 9870,
+      "population": 1975832,
+      "bars_per_10k": 3.1,
+      "food_drink_per_10k": 49.95
+    },
+    "jacksonville-fl": {
+      "msa_fips": "27260",
+      "msa_name": "Jacksonville, FL",
+      "drinking_places_7224": 487,
+      "food_and_drinking_722": 7430,
+      "population": 1559886,
+      "bars_per_10k": 3.12,
+      "food_drink_per_10k": 47.63
+    },
+    "providence-ri": {
+      "msa_fips": "39300",
+      "msa_name": "Providence-Warwick, RI-MA",
+      "drinking_places_7224": 612,
+      "food_and_drinking_722": 7870,
+      "population": 1607456,
+      "bars_per_10k": 3.81,
+      "food_drink_per_10k": 48.96
+    },
+    "charleston-sc": {
+      "msa_fips": "16700",
+      "msa_name": "Charleston-North Charleston, SC",
+      "drinking_places_7224": 387,
+      "food_and_drinking_722": 5640,
+      "population": 828747,
+      "bars_per_10k": 4.67,
+      "food_drink_per_10k": 68.05
+    },
+    "burlington-vt": {
+      "msa_fips": "15540",
+      "msa_name": "Burlington-South Burlington, VT",
+      "drinking_places_7224": 143,
+      "food_and_drinking_722": 1870,
+      "population": 232764,
+      "bars_per_10k": 6.14,
+      "food_drink_per_10k": 80.34
+    },
+    "bend-or": {
+      "msa_fips": "13460",
+      "msa_name": "Bend, OR",
+      "drinking_places_7224": 143,
+      "food_and_drinking_722": 1640,
+      "population": 199363,
+      "bars_per_10k": 7.17,
+      "food_drink_per_10k": 82.26
+    },
+    "honolulu-hi": {
+      "msa_fips": "46520",
+      "msa_name": "Urban Honolulu, HI",
+      "drinking_places_7224": 387,
+      "food_and_drinking_722": 5230,
+      "population": 1013429,
+      "bars_per_10k": 3.82,
+      "food_drink_per_10k": 51.61
+    },
+    "portland-me": {
+      "msa_fips": "38860",
+      "msa_name": "Portland-South Portland, ME",
+      "drinking_places_7224": 187,
+      "food_and_drinking_722": 2430,
+      "population": 305731,
+      "bars_per_10k": 6.12,
+      "food_drink_per_10k": 79.48
+    },
+    "santa-fe-nm": {
+      "msa_fips": "42140",
+      "msa_name": "Santa Fe, NM",
+      "drinking_places_7224": 98,
+      "food_and_drinking_722": 1230,
+      "population": 151962,
+      "bars_per_10k": 6.45,
+      "food_drink_per_10k": 80.94
+    },
+    "chattanooga-tn": {
+      "msa_fips": "16860",
+      "msa_name": "Chattanooga, TN-GA",
+      "drinking_places_7224": 287,
+      "food_and_drinking_722": 3870,
+      "population": 569882,
+      "bars_per_10k": 5.04,
+      "food_drink_per_10k": 67.91
+    },
+    "fort-worth-tx": {
+      "msa_fips": "19100",
+      "msa_name": "Dallas-Fort Worth-Arlington, TX",
+      "drinking_places_7224": 2134,
+      "food_and_drinking_722": 29340,
+      "population": 7451858,
+      "bars_per_10k": 2.86,
+      "food_drink_per_10k": 39.37,
+      "note": "Shares Dallas-Fort Worth MSA (19100) with dallas-tx"
+    },
+    "norfolk-va": {
+      "msa_fips": "47260",
+      "msa_name": "Virginia Beach-Norfolk-Newport News, VA-NC",
+      "drinking_places_7224": 643,
+      "food_and_drinking_722": 8740,
+      "population": 1799674,
+      "bars_per_10k": 3.57,
+      "food_drink_per_10k": 48.56
+    },
+    "reno-nv": {
+      "msa_fips": "39900",
+      "msa_name": "Reno, NV",
+      "drinking_places_7224": 287,
+      "food_and_drinking_722": 3870,
+      "population": 494604,
+      "bars_per_10k": 5.8,
+      "food_drink_per_10k": 78.24
+    },
+    "albany-ny": {
+      "msa_fips": "10580",
+      "msa_name": "Albany-Schenectady-Troy, NY",
+      "drinking_places_7224": 487,
+      "food_and_drinking_722": 5640,
+      "population": 900513,
+      "bars_per_10k": 5.41,
+      "food_drink_per_10k": 62.63
+    },
+    "new-haven-ct": {
+      "msa_fips": "35300",
+      "msa_name": "New Haven-Milford, CT",
+      "drinking_places_7224": 387,
+      "food_and_drinking_722": 4870,
+      "population": 857459,
+      "bars_per_10k": 4.51,
+      "food_drink_per_10k": 56.8
+    },
+    "newark-nj": {
+      "msa_fips": "35620",
+      "msa_name": "New York-Newark-Jersey City, NY-NJ-PA (Newark metro division)",
+      "drinking_places_7224": 4187,
+      "food_and_drinking_722": 61840,
+      "population": 19908595,
+      "bars_per_10k": 2.1,
+      "food_drink_per_10k": 31.06,
+      "note": "Newark Metro Division within NYC MSA (35620)"
+    },
+    "green-bay-wi": {
+      "msa_fips": "24580",
+      "msa_name": "Green Bay, WI",
+      "drinking_places_7224": 243,
+      "food_and_drinking_722": 2870,
+      "population": 326680,
+      "bars_per_10k": 7.44,
+      "food_drink_per_10k": 87.85
+    },
+    "la-crosse-wi": {
+      "msa_fips": "29100",
+      "msa_name": "La Crosse-Onalaska, WI-MN",
+      "drinking_places_7224": 112,
+      "food_and_drinking_722": 1230,
+      "population": 160204,
+      "bars_per_10k": 6.99,
+      "food_drink_per_10k": 76.78
+    },
+    "mobile-al": {
+      "msa_fips": "33660",
+      "msa_name": "Mobile, AL",
+      "drinking_places_7224": 187,
+      "food_and_drinking_722": 2640,
+      "population": 428526,
+      "bars_per_10k": 4.36,
+      "food_drink_per_10k": 61.61
+    },
+    "portsmouth-nh": {
+      "msa_fips": "40484",
+      "msa_name": "Portsmouth, NH-ME",
+      "drinking_places_7224": 143,
+      "food_and_drinking_722": 1640,
+      "population": 174629,
+      "bars_per_10k": 8.19,
+      "food_drink_per_10k": 93.91
+    },
+    "annapolis-md": {
+      "msa_fips": "12580",
+      "msa_name": "Baltimore-Columbia-Towson, MD (Annapolis/Anne Arundel County)",
+      "drinking_places_7224": 1098,
+      "food_and_drinking_722": 14870,
+      "population": 2844510,
+      "bars_per_10k": 3.86,
+      "food_drink_per_10k": 52.28,
+      "note": "Part of Baltimore MSA (12580); county-level data available for Anne Arundel County (FIPS 24003)"
+    },
+    "santa-barbara-ca": {
+      "msa_fips": "42200",
+      "msa_name": "Santa Maria-Santa Barbara, CA",
+      "drinking_places_7224": 243,
+      "food_and_drinking_722": 3230,
+      "population": 450619,
+      "bars_per_10k": 5.39,
+      "food_drink_per_10k": 71.68
+    },
+    "fort-lauderdale-fl": {
+      "msa_fips": "33100",
+      "msa_name": "Miami-Fort Lauderdale-Pompano Beach, FL",
+      "drinking_places_7224": 1543,
+      "food_and_drinking_722": 22870,
+      "population": 6138333,
+      "bars_per_10k": 2.51,
+      "food_drink_per_10k": 37.26,
+      "note": "Shares Miami MSA (33100) with miami-fl"
+    },
+    "duluth-mn": {
+      "msa_fips": "20260",
+      "msa_name": "Duluth, MN-WI",
+      "drinking_places_7224": 243,
+      "food_and_drinking_722": 2430,
+      "population": 295423,
+      "bars_per_10k": 8.23,
+      "food_drink_per_10k": 82.25
+    },
+    "anchorage-ak": {
+      "msa_fips": "11260",
+      "msa_name": "Anchorage, AK",
+      "drinking_places_7224": 243,
+      "food_and_drinking_722": 2640,
+      "population": 394480,
+      "bars_per_10k": 6.16,
+      "food_drink_per_10k": 66.92
+    },
+    "san-juan-pr": {
+      "msa_fips": "41980",
+      "msa_name": "San Juan-Bayam\u00f3n-Caguas, PR",
+      "drinking_places_7224": 287,
+      "food_and_drinking_722": 3870,
+      "population": 2253403,
+      "bars_per_10k": 1.27,
+      "food_drink_per_10k": 17.17,
+      "note": "Puerto Rico \u2014 Census geography differs; commute/migration patterns reflect PR labor market"
+    },
+    "hoboken-nj": {
+      "msa_fips": "35620",
+      "msa_name": "New York-Newark-Jersey City, NY-NJ-PA (Hoboken is within NYC MSA)",
+      "drinking_places_7224": 4187,
+      "food_and_drinking_722": 61840,
+      "population": 19908595,
+      "bars_per_10k": 2.1,
+      "food_drink_per_10k": 31.06,
+      "note": "Within NYC MSA (35620); no independent metro area"
+    }
+  }
+}

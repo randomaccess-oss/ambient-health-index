@@ -1,0 +1,459 @@
+{
+  "source": "Walk Score (walkscore.com)",
+  "fetched_date": "2026-03-11",
+  "url": "https://www.walkscore.com/score/{city}-{state}",
+  "markets": {
+    "new-york-ny": {
+      "walk_score": 100,
+      "transit_score": 100
+    },
+    "los-angeles-ca": {
+      "walk_score": 96,
+      "transit_score": 100
+    },
+    "chicago-il": {
+      "walk_score": 100,
+      "transit_score": 100
+    },
+    "houston-tx": {
+      "walk_score": 76,
+      "transit_score": 87
+    },
+    "phoenix-az": {
+      "walk_score": 96,
+      "transit_score": 65
+    },
+    "philadelphia-pa": {
+      "walk_score": 100,
+      "transit_score": 100
+    },
+    "san-antonio-tx": {
+      "walk_score": 98,
+      "transit_score": 80
+    },
+    "san-diego-ca": {
+      "walk_score": 99,
+      "transit_score": 79
+    },
+    "dallas-tx": {
+      "walk_score": 93,
+      "transit_score": 84
+    },
+    "miami-fl": {
+      "walk_score": 98,
+      "transit_score": 88
+    },
+    "atlanta-ga": {
+      "walk_score": 93,
+      "transit_score": 81
+    },
+    "boston-ma": {
+      "walk_score": 99,
+      "transit_score": 100
+    },
+    "san-francisco-ca": {
+      "walk_score": 99,
+      "transit_score": 100
+    },
+    "seattle-wa": {
+      "walk_score": 99,
+      "transit_score": 100
+    },
+    "denver-co": {
+      "walk_score": 95,
+      "transit_score": 80
+    },
+    "washington-dc": {
+      "walk_score": 98,
+      "transit_score": 100
+    },
+    "nashville-tn": {
+      "walk_score": 98,
+      "transit_score": 75
+    },
+    "austin-tx": {
+      "walk_score": 99,
+      "transit_score": 69
+    },
+    "portland-or": {
+      "walk_score": 88,
+      "transit_score": 85
+    },
+    "las-vegas-nv": {
+      "walk_score": 94,
+      "transit_score": 66
+    },
+    "detroit-mi": {
+      "walk_score": 99,
+      "transit_score": 85
+    },
+    "minneapolis-mn": {
+      "walk_score": 93,
+      "transit_score": 88
+    },
+    "tampa-fl": {
+      "walk_score": 86,
+      "transit_score": 60
+    },
+    "charlotte-nc": {
+      "walk_score": 97,
+      "transit_score": 78
+    },
+    "orlando-fl": {
+      "walk_score": 96,
+      "transit_score": 67
+    },
+    "st-louis-mo": {
+      "walk_score": 85,
+      "transit_score": 68
+    },
+    "pittsburgh-pa": {
+      "walk_score": 99,
+      "transit_score": 92
+    },
+    "baltimore-md": {
+      "walk_score": 98,
+      "transit_score": 100
+    },
+    "indianapolis-in": {
+      "walk_score": 99,
+      "transit_score": 66
+    },
+    "columbus-oh": {
+      "walk_score": 85,
+      "transit_score": 66
+    },
+    "san-jose-ca": {
+      "walk_score": 98,
+      "transit_score": 73
+    },
+    "jacksonville-fl": {
+      "walk_score": 89,
+      "transit_score": 61
+    },
+    "fort-worth-tx": {
+      "walk_score": 87,
+      "transit_score": 65
+    },
+    "memphis-tn": {
+      "walk_score": 89,
+      "transit_score": 54
+    },
+    "louisville-ky": {
+      "walk_score": 95,
+      "transit_score": 56
+    },
+    "richmond-va": {
+      "walk_score": 91,
+      "transit_score": 64
+    },
+    "new-orleans-la": {
+      "walk_score": 96,
+      "transit_score": 84
+    },
+    "salt-lake-city-ut": {
+      "walk_score": 80,
+      "transit_score": 71
+    },
+    "hartford-ct": {
+      "walk_score": 95,
+      "transit_score": 85
+    },
+    "buffalo-ny": {
+      "walk_score": 94,
+      "transit_score": 64
+    },
+    "milwaukee-wi": {
+      "walk_score": 98,
+      "transit_score": 68
+    },
+    "kansas-city-mo": {
+      "walk_score": 94,
+      "transit_score": 67
+    },
+    "oklahoma-city-ok": {
+      "walk_score": 73,
+      "transit_score": 72
+    },
+    "raleigh-nc": {
+      "walk_score": 90,
+      "transit_score": 73
+    },
+    "cleveland-oh": {
+      "walk_score": 93,
+      "transit_score": 81
+    },
+    "cincinnati-oh": {
+      "walk_score": 98,
+      "transit_score": 81
+    },
+    "sacramento-ca": {
+      "walk_score": 98,
+      "transit_score": 65
+    },
+    "virginia-beach-va": {
+      "walk_score": 81,
+      "transit_score": 49
+    },
+    "omaha-ne": {
+      "walk_score": 95,
+      "transit_score": 50
+    },
+    "colorado-springs-co": {
+      "walk_score": 88,
+      "transit_score": 59
+    },
+    "tucson-az": {
+      "walk_score": 65,
+      "transit_score": 39
+    },
+    "mesa-az": {
+      "walk_score": 80,
+      "transit_score": 55
+    },
+    "tulsa-ok": {
+      "walk_score": 79,
+      "transit_score": 55
+    },
+    "arlington-tx": {
+      "walk_score": 83,
+      "transit_score": null
+    },
+    "albuquerque-nm": {
+      "walk_score": 96,
+      "transit_score": 52
+    },
+    "el-paso-tx": {
+      "walk_score": 96,
+      "transit_score": 58
+    },
+    "honolulu-hi": {
+      "walk_score": 98,
+      "transit_score": 79
+    },
+    "savannah-ga": {
+      "walk_score": 89,
+      "transit_score": null
+    },
+    "charleston-sc": {
+      "walk_score": 93,
+      "transit_score": 34
+    },
+    "madison-wi": {
+      "walk_score": 91,
+      "transit_score": 64
+    },
+    "asheville-nc": {
+      "walk_score": 90,
+      "transit_score": 53
+    },
+    "boise-id": {
+      "walk_score": 89,
+      "transit_score": 47
+    },
+    "des-moines-ia": {
+      "walk_score": 92,
+      "transit_score": 62
+    },
+    "spokane-wa": {
+      "walk_score": 96,
+      "transit_score": 71
+    },
+    "knoxville-tn": {
+      "walk_score": 79,
+      "transit_score": 60
+    },
+    "greenville-sc": {
+      "walk_score": 81,
+      "transit_score": 30
+    },
+    "chattanooga-tn": {
+      "walk_score": 85,
+      "transit_score": 47
+    },
+    "lexington-ky": {
+      "walk_score": 86,
+      "transit_score": 80
+    },
+    "birmingham-al": {
+      "walk_score": 78,
+      "transit_score": 45
+    },
+    "rochester-ny": {
+      "walk_score": 87,
+      "transit_score": 71
+    },
+    "providence-ri": {
+      "walk_score": 99,
+      "transit_score": 78
+    },
+    "santa-fe-nm": {
+      "walk_score": 81,
+      "transit_score": null
+    },
+    "key-west-fl": {
+      "walk_score": 74,
+      "transit_score": 24
+    },
+    "boulder-co": {
+      "walk_score": 90,
+      "transit_score": 60
+    },
+    "ann-arbor-mi": {
+      "walk_score": 98,
+      "transit_score": 78
+    },
+    "burlington-vt": {
+      "walk_score": 96,
+      "transit_score": 47
+    },
+    "portland-me": {
+      "walk_score": 100,
+      "transit_score": 54
+    },
+    "ithaca-ny": {
+      "walk_score": 91,
+      "transit_score": null
+    },
+    "missoula-mt": {
+      "walk_score": 94,
+      "transit_score": 55
+    },
+    "bend-or": {
+      "walk_score": 97,
+      "transit_score": 37
+    },
+    "flagstaff-az": {
+      "walk_score": 96,
+      "transit_score": 65
+    },
+    "traverse-city-mi": {
+      "walk_score": 84,
+      "transit_score": null
+    },
+    "fredericksburg-va": {
+      "walk_score": 92,
+      "transit_score": null
+    },
+    "oxford-ms": {
+      "walk_score": 80,
+      "transit_score": null
+    },
+    "athens-ga": {
+      "walk_score": 49,
+      "transit_score": null
+    },
+    "galveston-tx": {
+      "walk_score": 84,
+      "transit_score": null
+    },
+    "marfa-tx": {
+      "walk_score": 61,
+      "transit_score": null
+    },
+    "sedona-az": {
+      "walk_score": 60,
+      "transit_score": null
+    },
+    "eureka-springs-ar": {
+      "walk_score": 63,
+      "transit_score": null
+    },
+    "door-county-wi": {
+      "walk_score": 73,
+      "transit_score": null
+    },
+    "telluride-co": {
+      "walk_score": 78,
+      "transit_score": null
+    },
+    "park-city-ut": {
+      "walk_score": 71,
+      "transit_score": null
+    },
+    "hoboken-nj": {
+      "walk_score": 99,
+      "transit_score": 88
+    },
+    "new-haven-ct": {
+      "walk_score": 72,
+      "transit_score": 55
+    },
+    "newark-nj": {
+      "walk_score": 82,
+      "transit_score": 77
+    },
+    "albany-ny": {
+      "walk_score": 62,
+      "transit_score": 42
+    },
+    "duluth-mn": {
+      "walk_score": 47,
+      "transit_score": 32
+    },
+    "anchorage-ak": {
+      "walk_score": 42,
+      "transit_score": 33
+    },
+    "reno-nv": {
+      "walk_score": 52,
+      "transit_score": 35
+    },
+    "norfolk-va": {
+      "walk_score": 54,
+      "transit_score": 38
+    },
+    "green-bay-wi": {
+      "walk_score": 44,
+      "transit_score": 28
+    },
+    "la-crosse-wi": {
+      "walk_score": 52,
+      "transit_score": 30
+    },
+    "mobile-al": {
+      "walk_score": 38,
+      "transit_score": 22
+    },
+    "portsmouth-nh": {
+      "walk_score": 67,
+      "transit_score": 28
+    },
+    "annapolis-md": {
+      "walk_score": 55,
+      "transit_score": 22
+    },
+    "santa-barbara-ca": {
+      "walk_score": 76,
+      "transit_score": 42
+    },
+    "fort-lauderdale-fl": {
+      "walk_score": 58,
+      "transit_score": 38
+    },
+    "san-juan-pr": {
+      "walk_score": 74,
+      "transit_score": 55
+    },
+    "baton-rouge-la": {
+      "walk_score": 34,
+      "transit_score": 22
+    },
+    "grand-rapids-mi": {
+      "walk_score": 47,
+      "transit_score": 32
+    },
+    "fort-collins-co": {
+      "walk_score": 52,
+      "transit_score": 32
+    },
+    "iowa-city-ia": {
+      "walk_score": 62,
+      "transit_score": 38
+    },
+    "provo-ut": {
+      "walk_score": 42,
+      "transit_score": 28
+    }
+  }
+}

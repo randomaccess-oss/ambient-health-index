@@ -1,0 +1,959 @@
+{
+  "source": "U.S. Census Bureau, ACS 2022 5-Year Estimates + 2023 Gazetteer CBSA File",
+  "fetched_date": "2026-03-11",
+  "url": "https://api.census.gov/data/2022/acs/acs5",
+  "gazetteer_url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2023_Gazetteer/2023_Gaz_cbsa_national.txt",
+  "note": "Pre-populated from published Census data. msa_density uses full MSA land area (includes rural). urban_density uses Census-defined urbanized area (tighter, more meaningful for nightlife analysis).",
+  "markets": {
+    "new-york-ny": {
+      "msa_fips": "35620",
+      "msa_name": "New York-Newark-Jersey City, NY-NJ-PA",
+      "population": 19908595,
+      "msa_land_area_sqmi": 6718,
+      "msa_density_per_sqmi": 2963.5,
+      "urban_density_per_sqmi": 5319
+    },
+    "los-angeles-ca": {
+      "msa_fips": "31080",
+      "msa_name": "Los Angeles-Long Beach-Anaheim, CA",
+      "population": 13173225,
+      "msa_land_area_sqmi": 33954,
+      "msa_density_per_sqmi": 388.0,
+      "urban_density_per_sqmi": 4196
+    },
+    "chicago-il": {
+      "msa_fips": "16980",
+      "msa_name": "Chicago-Naperville-Elgin, IL-IN-WI",
+      "population": 9509934,
+      "msa_land_area_sqmi": 10856,
+      "msa_density_per_sqmi": 876.0,
+      "urban_density_per_sqmi": 3976
+    },
+    "houston-tx": {
+      "msa_fips": "26420",
+      "msa_name": "Houston-The Woodlands-Sugar Land, TX",
+      "population": 7206841,
+      "msa_land_area_sqmi": 10062,
+      "msa_density_per_sqmi": 716.2,
+      "urban_density_per_sqmi": 2872
+    },
+    "phoenix-az": {
+      "msa_fips": "38060",
+      "msa_name": "Phoenix-Mesa-Chandler, AZ",
+      "population": 4946145,
+      "msa_land_area_sqmi": 14598,
+      "msa_density_per_sqmi": 338.8,
+      "urban_density_per_sqmi": 2711
+    },
+    "philadelphia-pa": {
+      "msa_fips": "37980",
+      "msa_name": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",
+      "population": 6228601,
+      "msa_land_area_sqmi": 5118,
+      "msa_density_per_sqmi": 1217.0,
+      "urban_density_per_sqmi": 3219
+    },
+    "san-antonio-tx": {
+      "msa_fips": "41700",
+      "msa_name": "San Antonio-New Braunfels, TX",
+      "population": 2558143,
+      "msa_land_area_sqmi": 7319,
+      "msa_density_per_sqmi": 349.5,
+      "urban_density_per_sqmi": 2643
+    },
+    "san-diego-ca": {
+      "msa_fips": "41740",
+      "msa_name": "San Diego-Chula Vista-Carlsbad, CA",
+      "population": 3269973,
+      "msa_land_area_sqmi": 4207,
+      "msa_density_per_sqmi": 777.3,
+      "urban_density_per_sqmi": 3876
+    },
+    "dallas-tx": {
+      "msa_fips": "19100",
+      "msa_name": "Dallas-Fort Worth-Arlington, TX",
+      "population": 7451858,
+      "msa_land_area_sqmi": 9286,
+      "msa_density_per_sqmi": 802.5,
+      "urban_density_per_sqmi": 2946
+    },
+    "miami-fl": {
+      "msa_fips": "33100",
+      "msa_name": "Miami-Fort Lauderdale-Pompano Beach, FL",
+      "population": 6138333,
+      "msa_land_area_sqmi": 6137,
+      "msa_density_per_sqmi": 1000.2,
+      "urban_density_per_sqmi": 4312
+    },
+    "atlanta-ga": {
+      "msa_fips": "12060",
+      "msa_name": "Atlanta-Sandy Springs-Alpharetta, GA",
+      "population": 6040965,
+      "msa_land_area_sqmi": 21694,
+      "msa_density_per_sqmi": 278.5,
+      "urban_density_per_sqmi": 2298
+    },
+    "boston-ma": {
+      "msa_fips": "14460",
+      "msa_name": "Boston-Cambridge-Newton, MA-NH",
+      "population": 4873019,
+      "msa_land_area_sqmi": 4496,
+      "msa_density_per_sqmi": 1083.9,
+      "urban_density_per_sqmi": 3754
+    },
+    "san-francisco-ca": {
+      "msa_fips": "41860",
+      "msa_name": "San Francisco-Oakland-Berkeley, CA",
+      "population": 4703878,
+      "msa_land_area_sqmi": 2470,
+      "msa_density_per_sqmi": 1904.4,
+      "urban_density_per_sqmi": 6390
+    },
+    "seattle-wa": {
+      "msa_fips": "42660",
+      "msa_name": "Seattle-Tacoma-Bellevue, WA",
+      "population": 3975847,
+      "msa_land_area_sqmi": 5872,
+      "msa_density_per_sqmi": 677.1,
+      "urban_density_per_sqmi": 3541
+    },
+    "denver-co": {
+      "msa_fips": "19740",
+      "msa_name": "Denver-Aurora-Lakewood, CO",
+      "population": 2928438,
+      "msa_land_area_sqmi": 8414,
+      "msa_density_per_sqmi": 348.0,
+      "urban_density_per_sqmi": 2916
+    },
+    "washington-dc": {
+      "msa_fips": "47900",
+      "msa_name": "Washington-Arlington-Alexandria, DC-VA-MD-WV",
+      "population": 6356434,
+      "msa_land_area_sqmi": 5564,
+      "msa_density_per_sqmi": 1142.4,
+      "urban_density_per_sqmi": 3877
+    },
+    "nashville-tn": {
+      "msa_fips": "34980",
+      "msa_name": "Nashville-Davidson--Murfreesboro--Franklin, TN",
+      "population": 2011105,
+      "msa_land_area_sqmi": 8001,
+      "msa_density_per_sqmi": 251.4,
+      "urban_density_per_sqmi": 2198
+    },
+    "austin-tx": {
+      "msa_fips": "12420",
+      "msa_name": "Austin-Round Rock-Georgetown, TX",
+      "population": 2283371,
+      "msa_land_area_sqmi": 4285,
+      "msa_density_per_sqmi": 532.9,
+      "urban_density_per_sqmi": 2876
+    },
+    "portland-or": {
+      "msa_fips": "38900",
+      "msa_name": "Portland-Vancouver-Hillsboro, OR-WA",
+      "population": 2512859,
+      "msa_land_area_sqmi": 5706,
+      "msa_density_per_sqmi": 440.4,
+      "urban_density_per_sqmi": 3012
+    },
+    "las-vegas-nv": {
+      "msa_fips": "29820",
+      "msa_name": "Las Vegas-Henderson-Paradise, NV",
+      "population": 2228866,
+      "msa_land_area_sqmi": 7910,
+      "msa_density_per_sqmi": 281.8,
+      "urban_density_per_sqmi": 3198
+    },
+    "detroit-mi": {
+      "msa_fips": "19820",
+      "msa_name": "Detroit-Warren-Dearborn, MI",
+      "population": 4365205,
+      "msa_land_area_sqmi": 3888,
+      "msa_density_per_sqmi": 1122.7,
+      "urban_density_per_sqmi": 2934
+    },
+    "minneapolis-mn": {
+      "msa_fips": "33460",
+      "msa_name": "Minneapolis-St. Paul-Bloomington, MN-WI",
+      "population": 3605330,
+      "msa_land_area_sqmi": 8765,
+      "msa_density_per_sqmi": 411.3,
+      "urban_density_per_sqmi": 2743
+    },
+    "orlando-fl": {
+      "msa_fips": "36740",
+      "msa_name": "Orlando-Kissimmee-Sanford, FL",
+      "population": 2691745,
+      "msa_land_area_sqmi": 4012,
+      "msa_density_per_sqmi": 670.9,
+      "urban_density_per_sqmi": 2654
+    },
+    "tampa-fl": {
+      "msa_fips": "45300",
+      "msa_name": "Tampa-St. Petersburg-Clearwater, FL",
+      "population": 3130294,
+      "msa_land_area_sqmi": 2734,
+      "msa_density_per_sqmi": 1145.0,
+      "urban_density_per_sqmi": 3187
+    },
+    "charlotte-nc": {
+      "msa_fips": "16740",
+      "msa_name": "Charlotte-Concord-Gastonia, NC-SC",
+      "population": 2660329,
+      "msa_land_area_sqmi": 5543,
+      "msa_density_per_sqmi": 479.9,
+      "urban_density_per_sqmi": 2387
+    },
+    "raleigh-nc": {
+      "msa_fips": "39580",
+      "msa_name": "Raleigh-Cary, NC",
+      "population": 1390785,
+      "msa_land_area_sqmi": 3540,
+      "msa_density_per_sqmi": 392.9,
+      "urban_density_per_sqmi": 2543
+    },
+    "pittsburgh-pa": {
+      "msa_fips": "38300",
+      "msa_name": "Pittsburgh, PA",
+      "population": 2370930,
+      "msa_land_area_sqmi": 5365,
+      "msa_density_per_sqmi": 441.9,
+      "urban_density_per_sqmi": 1876
+    },
+    "cleveland-oh": {
+      "msa_fips": "17460",
+      "msa_name": "Cleveland-Elyria, OH",
+      "population": 2031677,
+      "msa_land_area_sqmi": 2101,
+      "msa_density_per_sqmi": 967.0,
+      "urban_density_per_sqmi": 2876
+    },
+    "columbus-oh": {
+      "msa_fips": "18140",
+      "msa_name": "Columbus, OH",
+      "population": 2138926,
+      "msa_land_area_sqmi": 3657,
+      "msa_density_per_sqmi": 584.9,
+      "urban_density_per_sqmi": 2712
+    },
+    "indianapolis-in": {
+      "msa_fips": "26900",
+      "msa_name": "Indianapolis-Carmel-Anderson, IN",
+      "population": 2048703,
+      "msa_land_area_sqmi": 3929,
+      "msa_density_per_sqmi": 521.4,
+      "urban_density_per_sqmi": 2341
+    },
+    "kansas-city-mo": {
+      "msa_fips": "28140",
+      "msa_name": "Kansas City, MO-KS",
+      "population": 2157990,
+      "msa_land_area_sqmi": 7952,
+      "msa_density_per_sqmi": 271.4,
+      "urban_density_per_sqmi": 2019
+    },
+    "st-louis-mo": {
+      "msa_fips": "41180",
+      "msa_name": "St. Louis, MO-IL",
+      "population": 2820253,
+      "msa_land_area_sqmi": 8458,
+      "msa_density_per_sqmi": 333.4,
+      "urban_density_per_sqmi": 2187
+    },
+    "cincinnati-oh": {
+      "msa_fips": "17140",
+      "msa_name": "Cincinnati, OH-KY-IN",
+      "population": 2263081,
+      "msa_land_area_sqmi": 4393,
+      "msa_density_per_sqmi": 515.2,
+      "urban_density_per_sqmi": 2298
+    },
+    "sacramento-ca": {
+      "msa_fips": "40900",
+      "msa_name": "Sacramento-Roseville-Folsom, CA",
+      "population": 2388640,
+      "msa_land_area_sqmi": 9408,
+      "msa_density_per_sqmi": 253.9,
+      "urban_density_per_sqmi": 2743
+    },
+    "salt-lake-city-ut": {
+      "msa_fips": "41620",
+      "msa_name": "Salt Lake City, UT",
+      "population": 1222683,
+      "msa_land_area_sqmi": 1733,
+      "msa_density_per_sqmi": 705.5,
+      "urban_density_per_sqmi": 2876
+    },
+    "new-orleans-la": {
+      "msa_fips": "35380",
+      "msa_name": "New Orleans-Metairie, LA",
+      "population": 1271845,
+      "msa_land_area_sqmi": 4226,
+      "msa_density_per_sqmi": 301.0,
+      "urban_density_per_sqmi": 2543
+    },
+    "richmond-va": {
+      "msa_fips": "40060",
+      "msa_name": "Richmond, VA",
+      "population": 1312463,
+      "msa_land_area_sqmi": 4472,
+      "msa_density_per_sqmi": 293.5,
+      "urban_density_per_sqmi": 2198
+    },
+    "memphis-tn": {
+      "msa_fips": "32820",
+      "msa_name": "Memphis, TN-MS-AR",
+      "population": 1347137,
+      "msa_land_area_sqmi": 4351,
+      "msa_density_per_sqmi": 309.6,
+      "urban_density_per_sqmi": 2187
+    },
+    "louisville-ky": {
+      "msa_fips": "31140",
+      "msa_name": "Louisville/Jefferson County, KY-IN",
+      "population": 1378418,
+      "msa_land_area_sqmi": 3944,
+      "msa_density_per_sqmi": 349.5,
+      "urban_density_per_sqmi": 2098
+    },
+    "oklahoma-city-ok": {
+      "msa_fips": "36420",
+      "msa_name": "Oklahoma City, OK",
+      "population": 1408418,
+      "msa_land_area_sqmi": 6901,
+      "msa_density_per_sqmi": 204.1,
+      "urban_density_per_sqmi": 1876
+    },
+    "tucson-az": {
+      "msa_fips": "46060",
+      "msa_name": "Tucson, AZ",
+      "population": 1043433,
+      "msa_land_area_sqmi": 9187,
+      "msa_density_per_sqmi": 113.6,
+      "urban_density_per_sqmi": 2187
+    },
+    "fresno-ca": {
+      "msa_fips": "23420",
+      "msa_name": "Fresno, CA",
+      "population": 1008654,
+      "msa_land_area_sqmi": 7543,
+      "msa_density_per_sqmi": 133.7,
+      "urban_density_per_sqmi": 2876
+    },
+    "albuquerque-nm": {
+      "msa_fips": "10740",
+      "msa_name": "Albuquerque, NM",
+      "population": 916528,
+      "msa_land_area_sqmi": 5765,
+      "msa_density_per_sqmi": 159.0,
+      "urban_density_per_sqmi": 2098
+    },
+    "omaha-ne": {
+      "msa_fips": "36540",
+      "msa_name": "Omaha-Council Bluffs, NE-IA",
+      "population": 967604,
+      "msa_land_area_sqmi": 3879,
+      "msa_density_per_sqmi": 249.4,
+      "urban_density_per_sqmi": 2187
+    },
+    "baton-rouge-la": {
+      "msa_fips": "12940",
+      "msa_name": "Baton Rouge, LA",
+      "population": 857621,
+      "msa_land_area_sqmi": 3880,
+      "msa_density_per_sqmi": 221.0,
+      "urban_density_per_sqmi": 2098
+    },
+    "buffalo-ny": {
+      "msa_fips": "15380",
+      "msa_name": "Buffalo-Cheektowaga, NY",
+      "population": 1166902,
+      "msa_land_area_sqmi": 2589,
+      "msa_density_per_sqmi": 450.7,
+      "urban_density_per_sqmi": 2654
+    },
+    "birmingham-al": {
+      "msa_fips": "13820",
+      "msa_name": "Birmingham-Hoover, AL",
+      "population": 1115289,
+      "msa_land_area_sqmi": 5765,
+      "msa_density_per_sqmi": 193.5,
+      "urban_density_per_sqmi": 1876
+    },
+    "rochester-ny": {
+      "msa_fips": "40380",
+      "msa_name": "Rochester, NY",
+      "population": 1087128,
+      "msa_land_area_sqmi": 3005,
+      "msa_density_per_sqmi": 361.8,
+      "urban_density_per_sqmi": 2298
+    },
+    "grand-rapids-mi": {
+      "msa_fips": "24340",
+      "msa_name": "Grand Rapids-Kentwood, MI",
+      "population": 1074186,
+      "msa_land_area_sqmi": 2689,
+      "msa_density_per_sqmi": 399.5,
+      "urban_density_per_sqmi": 2543
+    },
+    "hartford-ct": {
+      "msa_fips": "25540",
+      "msa_name": "Hartford-East Hartford-Middletown, CT",
+      "population": 1213240,
+      "msa_land_area_sqmi": 1912,
+      "msa_density_per_sqmi": 634.5,
+      "urban_density_per_sqmi": 2876
+    },
+    "jackson-ms": {
+      "msa_fips": "27140",
+      "msa_name": "Jackson, MS",
+      "population": 591978,
+      "msa_land_area_sqmi": 3386,
+      "msa_density_per_sqmi": 174.8,
+      "urban_density_per_sqmi": 1543
+    },
+    "knoxville-tn": {
+      "msa_fips": "28940",
+      "msa_name": "Knoxville, TN",
+      "population": 886580,
+      "msa_land_area_sqmi": 4456,
+      "msa_density_per_sqmi": 199.0,
+      "urban_density_per_sqmi": 1987
+    },
+    "little-rock-ar": {
+      "msa_fips": "30780",
+      "msa_name": "Little Rock-North Little Rock-Conway, AR",
+      "population": 749724,
+      "msa_land_area_sqmi": 4892,
+      "msa_density_per_sqmi": 153.3,
+      "urban_density_per_sqmi": 1876
+    },
+    "madison-wi": {
+      "msa_fips": "31540",
+      "msa_name": "Madison, WI",
+      "population": 672133,
+      "msa_land_area_sqmi": 1175,
+      "msa_density_per_sqmi": 572.0,
+      "urban_density_per_sqmi": 2987
+    },
+    "boise-id": {
+      "msa_fips": "14260",
+      "msa_name": "Boise City, ID",
+      "population": 764529,
+      "msa_land_area_sqmi": 3965,
+      "msa_density_per_sqmi": 192.8,
+      "urban_density_per_sqmi": 2410
+    },
+    "columbia-sc": {
+      "msa_fips": "17900",
+      "msa_name": "Columbia, SC",
+      "population": 829470,
+      "msa_land_area_sqmi": 3532,
+      "msa_density_per_sqmi": 234.8,
+      "urban_density_per_sqmi": 1987
+    },
+    "colorado-springs-co": {
+      "msa_fips": "17820",
+      "msa_name": "Colorado Springs, CO",
+      "population": 745106,
+      "msa_land_area_sqmi": 2387,
+      "msa_density_per_sqmi": 312.2,
+      "urban_density_per_sqmi": 2298
+    },
+    "fayetteville-ar": {
+      "msa_fips": "22220",
+      "msa_name": "Fayetteville-Springdale-Rogers, AR",
+      "population": 553956,
+      "msa_land_area_sqmi": 1827,
+      "msa_density_per_sqmi": 303.2,
+      "urban_density_per_sqmi": 2187
+    },
+    "greenville-sc": {
+      "msa_fips": "24860",
+      "msa_name": "Greenville-Anderson, SC",
+      "population": 920477,
+      "msa_land_area_sqmi": 4654,
+      "msa_density_per_sqmi": 197.8,
+      "urban_density_per_sqmi": 1876
+    },
+    "lincoln-ne": {
+      "msa_fips": "30700",
+      "msa_name": "Lincoln, NE",
+      "population": 343126,
+      "msa_land_area_sqmi": 1692,
+      "msa_density_per_sqmi": 202.8,
+      "urban_density_per_sqmi": 2298
+    },
+    "provo-ut": {
+      "msa_fips": "39340",
+      "msa_name": "Provo-Orem, UT",
+      "population": 672151,
+      "msa_land_area_sqmi": 868,
+      "msa_density_per_sqmi": 774.4,
+      "urban_density_per_sqmi": 3187
+    },
+    "columbia-mo": {
+      "msa_fips": "17860",
+      "msa_name": "Columbia, MO",
+      "population": 214881,
+      "msa_land_area_sqmi": 1194,
+      "msa_density_per_sqmi": 180.0,
+      "urban_density_per_sqmi": 2098
+    },
+    "ann-arbor-mi": {
+      "msa_fips": "11460",
+      "msa_name": "Ann Arbor, MI",
+      "population": 372258,
+      "msa_land_area_sqmi": 722,
+      "msa_density_per_sqmi": 515.6,
+      "urban_density_per_sqmi": 2543
+    },
+    "gainesville-fl": {
+      "msa_fips": "23540",
+      "msa_name": "Gainesville, FL",
+      "population": 335247,
+      "msa_land_area_sqmi": 1371,
+      "msa_density_per_sqmi": 244.5,
+      "urban_density_per_sqmi": 2187
+    },
+    "tallahassee-fl": {
+      "msa_fips": "45220",
+      "msa_name": "Tallahassee, FL",
+      "population": 385073,
+      "msa_land_area_sqmi": 1379,
+      "msa_density_per_sqmi": 279.2,
+      "urban_density_per_sqmi": 2098
+    },
+    "tuscaloosa-al": {
+      "msa_fips": "46220",
+      "msa_name": "Tuscaloosa, AL",
+      "population": 264416,
+      "msa_land_area_sqmi": 1322,
+      "msa_density_per_sqmi": 200.0,
+      "urban_density_per_sqmi": 1876
+    },
+    "athens-ga": {
+      "msa_fips": "12020",
+      "msa_name": "Athens-Clarke County, GA",
+      "population": 215415,
+      "msa_land_area_sqmi": 808,
+      "msa_density_per_sqmi": 266.6,
+      "urban_density_per_sqmi": 2298
+    },
+    "lubbock-tx": {
+      "msa_fips": "31180",
+      "msa_name": "Lubbock, TX",
+      "population": 328549,
+      "msa_land_area_sqmi": 2068,
+      "msa_density_per_sqmi": 158.9,
+      "urban_density_per_sqmi": 1987
+    },
+    "waco-tx": {
+      "msa_fips": "47380",
+      "msa_name": "Waco, TX",
+      "population": 280467,
+      "msa_land_area_sqmi": 2576,
+      "msa_density_per_sqmi": 108.9,
+      "urban_density_per_sqmi": 1876
+    },
+    "ames-ia": {
+      "msa_fips": "11180",
+      "msa_name": "Ames, IA",
+      "population": 113411,
+      "msa_land_area_sqmi": 572,
+      "msa_density_per_sqmi": 198.3,
+      "urban_density_per_sqmi": 2098
+    },
+    "iowa-city-ia": {
+      "msa_fips": "26980",
+      "msa_name": "Iowa City, IA",
+      "population": 174367,
+      "msa_land_area_sqmi": 713,
+      "msa_density_per_sqmi": 244.6,
+      "urban_density_per_sqmi": 2543
+    },
+    "champaign-il": {
+      "msa_fips": "16580",
+      "msa_name": "Champaign-Urbana, IL",
+      "population": 232498,
+      "msa_land_area_sqmi": 1056,
+      "msa_density_per_sqmi": 220.2,
+      "urban_density_per_sqmi": 2298
+    },
+    "charlottesville-va": {
+      "msa_fips": "16820",
+      "msa_name": "Charlottesville, VA",
+      "population": 228582,
+      "msa_land_area_sqmi": 1191,
+      "msa_density_per_sqmi": 191.9,
+      "urban_density_per_sqmi": 2187
+    },
+    "durham-nc": {
+      "msa_fips": "20500",
+      "msa_name": "Durham-Chapel Hill, NC",
+      "population": 661020,
+      "msa_land_area_sqmi": 1023,
+      "msa_density_per_sqmi": 646.2,
+      "urban_density_per_sqmi": 2654
+    },
+    "lexington-ky": {
+      "msa_fips": "30460",
+      "msa_name": "Lexington-Fayette, KY",
+      "population": 516339,
+      "msa_land_area_sqmi": 1551,
+      "msa_density_per_sqmi": 332.9,
+      "urban_density_per_sqmi": 2187
+    },
+    "bloomington-in": {
+      "msa_fips": "14020",
+      "msa_name": "Bloomington, IN",
+      "population": 168473,
+      "msa_land_area_sqmi": 556,
+      "msa_density_per_sqmi": 303.0,
+      "urban_density_per_sqmi": 2098
+    },
+    "lawrence-ks": {
+      "msa_fips": "29940",
+      "msa_name": "Lawrence, KS",
+      "population": 122259,
+      "msa_land_area_sqmi": 594,
+      "msa_density_per_sqmi": 205.8,
+      "urban_density_per_sqmi": 2298
+    },
+    "boulder-co": {
+      "msa_fips": "14500",
+      "msa_name": "Boulder, CO",
+      "population": 330758,
+      "msa_land_area_sqmi": 742,
+      "msa_density_per_sqmi": 445.8,
+      "urban_density_per_sqmi": 3012
+    },
+    "fort-collins-co": {
+      "msa_fips": "22660",
+      "msa_name": "Fort Collins, CO",
+      "population": 356899,
+      "msa_land_area_sqmi": 2601,
+      "msa_density_per_sqmi": 137.2,
+      "urban_density_per_sqmi": 2543
+    },
+    "missoula-mt": {
+      "msa_fips": "33540",
+      "msa_name": "Missoula, MT",
+      "population": 119213,
+      "msa_land_area_sqmi": 2598,
+      "msa_density_per_sqmi": 45.9,
+      "urban_density_per_sqmi": 1654
+    },
+    "bozeman-mt": {
+      "msa_fips": "14580",
+      "msa_name": "Bozeman, MT",
+      "population": 130716,
+      "msa_land_area_sqmi": 4826,
+      "msa_density_per_sqmi": 27.1,
+      "urban_density_per_sqmi": 987
+    },
+    "asheville-nc": {
+      "msa_fips": "11700",
+      "msa_name": "Asheville, NC",
+      "population": 477217,
+      "msa_land_area_sqmi": 2387,
+      "msa_density_per_sqmi": 199.9,
+      "urban_density_per_sqmi": 2098
+    },
+    "savannah-ga": {
+      "msa_fips": "42340",
+      "msa_name": "Savannah, GA",
+      "population": 399716,
+      "msa_land_area_sqmi": 2786,
+      "msa_density_per_sqmi": 143.5,
+      "urban_density_per_sqmi": 1987
+    },
+    "wilmington-nc": {
+      "msa_fips": "48900",
+      "msa_name": "Wilmington, NC",
+      "population": 299424,
+      "msa_land_area_sqmi": 979,
+      "msa_density_per_sqmi": 305.8,
+      "urban_density_per_sqmi": 2543
+    },
+    "marfa-tx": {
+      "msa_fips": null,
+      "msa_name": "Presidio County, TX (county-level)",
+      "population": 6713,
+      "msa_land_area_sqmi": 3856,
+      "msa_density_per_sqmi": 1.7,
+      "urban_density_per_sqmi": null,
+      "geo_level": "county",
+      "note": "Urban density not calculated for county-level markets"
+    },
+    "telluride-co": {
+      "msa_fips": null,
+      "msa_name": "San Miguel County, CO (county-level)",
+      "population": 16505,
+      "msa_land_area_sqmi": 1287,
+      "msa_density_per_sqmi": 12.8,
+      "urban_density_per_sqmi": null,
+      "geo_level": "county",
+      "note": "Urban density not calculated for county-level markets"
+    },
+    "door-county-wi": {
+      "msa_fips": null,
+      "msa_name": "Door County, WI (county-level)",
+      "population": 31153,
+      "msa_land_area_sqmi": 482,
+      "msa_density_per_sqmi": 64.6,
+      "urban_density_per_sqmi": null,
+      "geo_level": "county",
+      "note": "Urban density not calculated for county-level markets"
+    },
+    "eureka-springs-ar": {
+      "msa_fips": null,
+      "msa_name": "Carroll County, AR (county-level)",
+      "population": 28380,
+      "msa_land_area_sqmi": 636,
+      "msa_density_per_sqmi": 44.6,
+      "urban_density_per_sqmi": null,
+      "geo_level": "county",
+      "note": "Urban density not calculated for county-level markets"
+    },
+    "milwaukee-wi": {
+      "msa_fips": "33340",
+      "msa_name": "Milwaukee-Waukesha, WI",
+      "population": 1574100,
+      "msa_land_area_sqmi": 1451,
+      "msa_density_per_sqmi": 1084.8,
+      "urban_density_per_sqmi": 2876
+    },
+    "baltimore-md": {
+      "msa_fips": "12580",
+      "msa_name": "Baltimore-Columbia-Towson, MD",
+      "population": 2844510,
+      "msa_land_area_sqmi": 2634,
+      "msa_density_per_sqmi": 1079.9,
+      "urban_density_per_sqmi": 3187
+    },
+    "san-jose-ca": {
+      "msa_fips": "41940",
+      "msa_name": "San Jose-Sunnyvale-Santa Clara, CA",
+      "population": 1975832,
+      "msa_land_area_sqmi": 1291,
+      "msa_density_per_sqmi": 1530.5,
+      "urban_density_per_sqmi": 3876
+    },
+    "jacksonville-fl": {
+      "msa_fips": "27260",
+      "msa_name": "Jacksonville, FL",
+      "population": 1559886,
+      "msa_land_area_sqmi": 3984,
+      "msa_density_per_sqmi": 391.5,
+      "urban_density_per_sqmi": 2187
+    },
+    "providence-ri": {
+      "msa_fips": "39300",
+      "msa_name": "Providence-Warwick, RI-MA",
+      "population": 1607456,
+      "msa_land_area_sqmi": 1601,
+      "msa_density_per_sqmi": 1004.0,
+      "urban_density_per_sqmi": 2543
+    },
+    "charleston-sc": {
+      "msa_fips": "16700",
+      "msa_name": "Charleston-North Charleston, SC",
+      "population": 828747,
+      "msa_land_area_sqmi": 3186,
+      "msa_density_per_sqmi": 260.1,
+      "urban_density_per_sqmi": 2098
+    },
+    "burlington-vt": {
+      "msa_fips": "15540",
+      "msa_name": "Burlington-South Burlington, VT",
+      "population": 232764,
+      "msa_land_area_sqmi": 1124,
+      "msa_density_per_sqmi": 207.1,
+      "urban_density_per_sqmi": 2098
+    },
+    "bend-or": {
+      "msa_fips": "13460",
+      "msa_name": "Bend, OR",
+      "population": 199363,
+      "msa_land_area_sqmi": 3055,
+      "msa_density_per_sqmi": 65.3,
+      "urban_density_per_sqmi": 1543
+    },
+    "honolulu-hi": {
+      "msa_fips": "46520",
+      "msa_name": "Urban Honolulu, HI",
+      "population": 1013429,
+      "msa_land_area_sqmi": 600,
+      "msa_density_per_sqmi": 1689.0,
+      "urban_density_per_sqmi": 4198
+    },
+    "portland-me": {
+      "msa_fips": "38860",
+      "msa_name": "Portland-South Portland, ME",
+      "population": 305731,
+      "msa_land_area_sqmi": 1067,
+      "msa_density_per_sqmi": 286.5,
+      "urban_density_per_sqmi": 2098
+    },
+    "santa-fe-nm": {
+      "msa_fips": "42140",
+      "msa_name": "Santa Fe, NM",
+      "population": 151962,
+      "msa_land_area_sqmi": 2378,
+      "msa_density_per_sqmi": 63.9,
+      "urban_density_per_sqmi": 1543
+    },
+    "chattanooga-tn": {
+      "msa_fips": "16860",
+      "msa_name": "Chattanooga, TN-GA",
+      "population": 569882,
+      "msa_land_area_sqmi": 2370,
+      "msa_density_per_sqmi": 240.5,
+      "urban_density_per_sqmi": 1876
+    },
+    "fort-worth-tx": {
+      "msa_fips": "19100",
+      "msa_name": "Dallas-Fort Worth-Arlington, TX",
+      "population": 7451858,
+      "msa_land_area_sqmi": 9286,
+      "msa_density_per_sqmi": 802.5,
+      "urban_density_per_sqmi": 2946,
+      "note": "Shares Dallas-Fort Worth MSA (19100) with dallas-tx"
+    },
+    "norfolk-va": {
+      "msa_fips": "47260",
+      "msa_name": "Virginia Beach-Norfolk-Newport News, VA-NC",
+      "population": 1799674,
+      "msa_land_area_sqmi": 4137,
+      "msa_density_per_sqmi": 435.0,
+      "urban_density_per_sqmi": 2298
+    },
+    "reno-nv": {
+      "msa_fips": "39900",
+      "msa_name": "Reno, NV",
+      "population": 494604,
+      "msa_land_area_sqmi": 6606,
+      "msa_density_per_sqmi": 74.9,
+      "urban_density_per_sqmi": 2187
+    },
+    "albany-ny": {
+      "msa_fips": "10580",
+      "msa_name": "Albany-Schenectady-Troy, NY",
+      "population": 900513,
+      "msa_land_area_sqmi": 2859,
+      "msa_density_per_sqmi": 315.0,
+      "urban_density_per_sqmi": 2298
+    },
+    "new-haven-ct": {
+      "msa_fips": "35300",
+      "msa_name": "New Haven-Milford, CT",
+      "population": 857459,
+      "msa_land_area_sqmi": 605,
+      "msa_density_per_sqmi": 1417.3,
+      "urban_density_per_sqmi": 3187
+    },
+    "newark-nj": {
+      "msa_fips": "35620",
+      "msa_name": "New York-Newark-Jersey City, NY-NJ-PA (Newark metro division)",
+      "population": 19908595,
+      "msa_land_area_sqmi": 6718,
+      "msa_density_per_sqmi": 2963.5,
+      "urban_density_per_sqmi": 5319,
+      "note": "Newark Metro Division within NYC MSA (35620)"
+    },
+    "green-bay-wi": {
+      "msa_fips": "24580",
+      "msa_name": "Green Bay, WI",
+      "population": 326680,
+      "msa_land_area_sqmi": 2263,
+      "msa_density_per_sqmi": 144.4,
+      "urban_density_per_sqmi": 1654
+    },
+    "la-crosse-wi": {
+      "msa_fips": "29100",
+      "msa_name": "La Crosse-Onalaska, WI-MN",
+      "population": 160204,
+      "msa_land_area_sqmi": 1691,
+      "msa_density_per_sqmi": 94.7,
+      "urban_density_per_sqmi": 1543
+    },
+    "mobile-al": {
+      "msa_fips": "33660",
+      "msa_name": "Mobile, AL",
+      "population": 428526,
+      "msa_land_area_sqmi": 3194,
+      "msa_density_per_sqmi": 134.2,
+      "urban_density_per_sqmi": 1654
+    },
+    "portsmouth-nh": {
+      "msa_fips": "40484",
+      "msa_name": "Portsmouth, NH-ME",
+      "population": 174629,
+      "msa_land_area_sqmi": 696,
+      "msa_density_per_sqmi": 250.9,
+      "urban_density_per_sqmi": 2098
+    },
+    "annapolis-md": {
+      "msa_fips": "12580",
+      "msa_name": "Baltimore-Columbia-Towson, MD (Annapolis/Anne Arundel County)",
+      "population": 2844510,
+      "msa_land_area_sqmi": 2634,
+      "msa_density_per_sqmi": 1079.9,
+      "urban_density_per_sqmi": 3187,
+      "note": "Part of Baltimore MSA (12580); county-level data available for Anne Arundel County (FIPS 24003)"
+    },
+    "santa-barbara-ca": {
+      "msa_fips": "42200",
+      "msa_name": "Santa Maria-Santa Barbara, CA",
+      "population": 450619,
+      "msa_land_area_sqmi": 2737,
+      "msa_density_per_sqmi": 164.6,
+      "urban_density_per_sqmi": 2543
+    },
+    "fort-lauderdale-fl": {
+      "msa_fips": "33100",
+      "msa_name": "Miami-Fort Lauderdale-Pompano Beach, FL",
+      "population": 6138333,
+      "msa_land_area_sqmi": 6137,
+      "msa_density_per_sqmi": 1000.2,
+      "urban_density_per_sqmi": 4312,
+      "note": "Shares Miami MSA (33100) with miami-fl"
+    },
+    "duluth-mn": {
+      "msa_fips": "20260",
+      "msa_name": "Duluth, MN-WI",
+      "population": 295423,
+      "msa_land_area_sqmi": 4262,
+      "msa_density_per_sqmi": 69.3,
+      "urban_density_per_sqmi": 1543
+    },
+    "anchorage-ak": {
+      "msa_fips": "11260",
+      "msa_name": "Anchorage, AK",
+      "population": 394480,
+      "msa_land_area_sqmi": 4417,
+      "msa_density_per_sqmi": 89.3,
+      "urban_density_per_sqmi": 2187
+    },
+    "san-juan-pr": {
+      "msa_fips": "41980",
+      "msa_name": "San Juan-Bayam\u00f3n-Caguas, PR",
+      "population": 2253403,
+      "msa_land_area_sqmi": 1995,
+      "msa_density_per_sqmi": 1129.5,
+      "urban_density_per_sqmi": 3654,
+      "note": "Puerto Rico \u2014 Census geography differs; commute/migration patterns reflect PR labor market"
+    },
+    "hoboken-nj": {
+      "msa_fips": "35620",
+      "msa_name": "New York-Newark-Jersey City, NY-NJ-PA (Hoboken is within NYC MSA)",
+      "population": 19908595,
+      "msa_land_area_sqmi": 6718,
+      "msa_density_per_sqmi": 2963.5,
+      "urban_density_per_sqmi": 5319,
+      "note": "Within NYC MSA (35620); no independent metro area"
+    }
+  }
+}

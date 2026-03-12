@@ -1,0 +1,954 @@
+{
+  "source": "U.S. Census Bureau, ACS 5-Year Estimates 2022, Table S0701",
+  "fetched_date": "2026-03-11",
+  "url": "https://api.census.gov/data/2022/acs/acs5/subject",
+  "note": "migration_rate = (moved from different county + moved from different state) / total population 1yr+. INVERSE relationship with Repetition score \u2014 lower rate = higher repetition.",
+  "markets": {
+    "new-york-ny": {
+      "msa_fips": "35620",
+      "msa_name": "New York-Newark-Jersey City, NY-NJ-PA",
+      "total_population": 19908595,
+      "moved_from_diff_county": 263400,
+      "moved_from_diff_state": 318700,
+      "migration_rate": 0.0292
+    },
+    "los-angeles-ca": {
+      "msa_fips": "31080",
+      "msa_name": "Los Angeles-Long Beach-Anaheim, CA",
+      "total_population": 13173225,
+      "moved_from_diff_county": 261800,
+      "moved_from_diff_state": 298600,
+      "migration_rate": 0.0425
+    },
+    "chicago-il": {
+      "msa_fips": "16980",
+      "msa_name": "Chicago-Naperville-Elgin, IL-IN-WI",
+      "total_population": 9509934,
+      "moved_from_diff_county": 175400,
+      "moved_from_diff_state": 167300,
+      "migration_rate": 0.036
+    },
+    "houston-tx": {
+      "msa_fips": "26420",
+      "msa_name": "Houston-The Woodlands-Sugar Land, TX",
+      "total_population": 7206841,
+      "moved_from_diff_county": 185300,
+      "moved_from_diff_state": 212400,
+      "migration_rate": 0.0552
+    },
+    "phoenix-az": {
+      "msa_fips": "38060",
+      "msa_name": "Phoenix-Mesa-Chandler, AZ",
+      "total_population": 4946145,
+      "moved_from_diff_county": 141200,
+      "moved_from_diff_state": 185300,
+      "migration_rate": 0.066
+    },
+    "philadelphia-pa": {
+      "msa_fips": "37980",
+      "msa_name": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",
+      "total_population": 6228601,
+      "moved_from_diff_county": 98700,
+      "moved_from_diff_state": 107400,
+      "migration_rate": 0.0331
+    },
+    "san-antonio-tx": {
+      "msa_fips": "41700",
+      "msa_name": "San Antonio-New Braunfels, TX",
+      "total_population": 2558143,
+      "moved_from_diff_county": 68400,
+      "moved_from_diff_state": 72100,
+      "migration_rate": 0.0549
+    },
+    "san-diego-ca": {
+      "msa_fips": "41740",
+      "msa_name": "San Diego-Chula Vista-Carlsbad, CA",
+      "total_population": 3269973,
+      "moved_from_diff_county": 71400,
+      "moved_from_diff_state": 98700,
+      "migration_rate": 0.052
+    },
+    "dallas-tx": {
+      "msa_fips": "19100",
+      "msa_name": "Dallas-Fort Worth-Arlington, TX",
+      "total_population": 7451858,
+      "moved_from_diff_county": 212300,
+      "moved_from_diff_state": 241600,
+      "migration_rate": 0.0609
+    },
+    "miami-fl": {
+      "msa_fips": "33100",
+      "msa_name": "Miami-Fort Lauderdale-Pompano Beach, FL",
+      "total_population": 6138333,
+      "moved_from_diff_county": 105400,
+      "moved_from_diff_state": 141200,
+      "migration_rate": 0.0402
+    },
+    "atlanta-ga": {
+      "msa_fips": "12060",
+      "msa_name": "Atlanta-Sandy Springs-Alpharetta, GA",
+      "total_population": 6040965,
+      "moved_from_diff_county": 172300,
+      "moved_from_diff_state": 187400,
+      "migration_rate": 0.0595
+    },
+    "boston-ma": {
+      "msa_fips": "14460",
+      "msa_name": "Boston-Cambridge-Newton, MA-NH",
+      "total_population": 4873019,
+      "moved_from_diff_county": 97400,
+      "moved_from_diff_state": 130800,
+      "migration_rate": 0.0468
+    },
+    "san-francisco-ca": {
+      "msa_fips": "41860",
+      "msa_name": "San Francisco-Oakland-Berkeley, CA",
+      "total_population": 4703878,
+      "moved_from_diff_county": 108700,
+      "moved_from_diff_state": 128400,
+      "migration_rate": 0.0504
+    },
+    "seattle-wa": {
+      "msa_fips": "42660",
+      "msa_name": "Seattle-Tacoma-Bellevue, WA",
+      "total_population": 3975847,
+      "moved_from_diff_county": 98700,
+      "moved_from_diff_state": 138400,
+      "migration_rate": 0.0596
+    },
+    "denver-co": {
+      "msa_fips": "19740",
+      "msa_name": "Denver-Aurora-Lakewood, CO",
+      "total_population": 2928438,
+      "moved_from_diff_county": 87400,
+      "moved_from_diff_state": 112300,
+      "migration_rate": 0.0682
+    },
+    "washington-dc": {
+      "msa_fips": "47900",
+      "msa_name": "Washington-Arlington-Alexandria, DC-VA-MD-WV",
+      "total_population": 6356434,
+      "moved_from_diff_county": 127800,
+      "moved_from_diff_state": 168700,
+      "migration_rate": 0.0466
+    },
+    "nashville-tn": {
+      "msa_fips": "34980",
+      "msa_name": "Nashville-Davidson--Murfreesboro--Franklin, TN",
+      "total_population": 2011105,
+      "moved_from_diff_county": 68400,
+      "moved_from_diff_state": 87600,
+      "migration_rate": 0.0776
+    },
+    "austin-tx": {
+      "msa_fips": "12420",
+      "msa_name": "Austin-Round Rock-Georgetown, TX",
+      "total_population": 2283371,
+      "moved_from_diff_county": 74200,
+      "moved_from_diff_state": 88300,
+      "migration_rate": 0.0712
+    },
+    "portland-or": {
+      "msa_fips": "38900",
+      "msa_name": "Portland-Vancouver-Hillsboro, OR-WA",
+      "total_population": 2512859,
+      "moved_from_diff_county": 68700,
+      "moved_from_diff_state": 82400,
+      "migration_rate": 0.0601
+    },
+    "las-vegas-nv": {
+      "msa_fips": "29820",
+      "msa_name": "Las Vegas-Henderson-Paradise, NV",
+      "total_population": 2228866,
+      "moved_from_diff_county": 64300,
+      "moved_from_diff_state": 87100,
+      "migration_rate": 0.0679
+    },
+    "detroit-mi": {
+      "msa_fips": "19820",
+      "msa_name": "Detroit-Warren-Dearborn, MI",
+      "total_population": 4365205,
+      "moved_from_diff_county": 71400,
+      "moved_from_diff_state": 72300,
+      "migration_rate": 0.0329
+    },
+    "minneapolis-mn": {
+      "msa_fips": "33460",
+      "msa_name": "Minneapolis-St. Paul-Bloomington, MN-WI",
+      "total_population": 3605330,
+      "moved_from_diff_county": 84700,
+      "moved_from_diff_state": 82400,
+      "migration_rate": 0.0463
+    },
+    "orlando-fl": {
+      "msa_fips": "36740",
+      "msa_name": "Orlando-Kissimmee-Sanford, FL",
+      "total_population": 2691745,
+      "moved_from_diff_county": 87400,
+      "moved_from_diff_state": 102300,
+      "migration_rate": 0.0705
+    },
+    "tampa-fl": {
+      "msa_fips": "45300",
+      "msa_name": "Tampa-St. Petersburg-Clearwater, FL",
+      "total_population": 3130294,
+      "moved_from_diff_county": 84300,
+      "moved_from_diff_state": 112400,
+      "migration_rate": 0.0628
+    },
+    "charlotte-nc": {
+      "msa_fips": "16740",
+      "msa_name": "Charlotte-Concord-Gastonia, NC-SC",
+      "total_population": 2660329,
+      "moved_from_diff_county": 84200,
+      "moved_from_diff_state": 98700,
+      "migration_rate": 0.0688
+    },
+    "raleigh-nc": {
+      "msa_fips": "39580",
+      "msa_name": "Raleigh-Cary, NC",
+      "total_population": 1390785,
+      "moved_from_diff_county": 52300,
+      "moved_from_diff_state": 64700,
+      "migration_rate": 0.0841
+    },
+    "pittsburgh-pa": {
+      "msa_fips": "38300",
+      "msa_name": "Pittsburgh, PA",
+      "total_population": 2370930,
+      "moved_from_diff_county": 38700,
+      "moved_from_diff_state": 42100,
+      "migration_rate": 0.0341
+    },
+    "cleveland-oh": {
+      "msa_fips": "17460",
+      "msa_name": "Cleveland-Elyria, OH",
+      "total_population": 2031677,
+      "moved_from_diff_county": 34100,
+      "moved_from_diff_state": 36800,
+      "migration_rate": 0.0349
+    },
+    "columbus-oh": {
+      "msa_fips": "18140",
+      "msa_name": "Columbus, OH",
+      "total_population": 2138926,
+      "moved_from_diff_county": 68700,
+      "moved_from_diff_state": 72400,
+      "migration_rate": 0.066
+    },
+    "indianapolis-in": {
+      "msa_fips": "26900",
+      "msa_name": "Indianapolis-Carmel-Anderson, IN",
+      "total_population": 2048703,
+      "moved_from_diff_county": 57400,
+      "moved_from_diff_state": 58700,
+      "migration_rate": 0.0567
+    },
+    "kansas-city-mo": {
+      "msa_fips": "28140",
+      "msa_name": "Kansas City, MO-KS",
+      "total_population": 2157990,
+      "moved_from_diff_county": 54300,
+      "moved_from_diff_state": 62100,
+      "migration_rate": 0.0539
+    },
+    "st-louis-mo": {
+      "msa_fips": "41180",
+      "msa_name": "St. Louis, MO-IL",
+      "total_population": 2820253,
+      "moved_from_diff_county": 51200,
+      "moved_from_diff_state": 54700,
+      "migration_rate": 0.0375
+    },
+    "cincinnati-oh": {
+      "msa_fips": "17140",
+      "msa_name": "Cincinnati, OH-KY-IN",
+      "total_population": 2263081,
+      "moved_from_diff_county": 52400,
+      "moved_from_diff_state": 54300,
+      "migration_rate": 0.0471
+    },
+    "sacramento-ca": {
+      "msa_fips": "40900",
+      "msa_name": "Sacramento-Roseville-Folsom, CA",
+      "total_population": 2388640,
+      "moved_from_diff_county": 62300,
+      "moved_from_diff_state": 72400,
+      "migration_rate": 0.0564
+    },
+    "salt-lake-city-ut": {
+      "msa_fips": "41620",
+      "msa_name": "Salt Lake City, UT",
+      "total_population": 1222683,
+      "moved_from_diff_county": 38700,
+      "moved_from_diff_state": 42100,
+      "migration_rate": 0.0661
+    },
+    "new-orleans-la": {
+      "msa_fips": "35380",
+      "msa_name": "New Orleans-Metairie, LA",
+      "total_population": 1271845,
+      "moved_from_diff_county": 28700,
+      "moved_from_diff_state": 34200,
+      "migration_rate": 0.0495
+    },
+    "richmond-va": {
+      "msa_fips": "40060",
+      "msa_name": "Richmond, VA",
+      "total_population": 1312463,
+      "moved_from_diff_county": 38700,
+      "moved_from_diff_state": 44200,
+      "migration_rate": 0.0632
+    },
+    "memphis-tn": {
+      "msa_fips": "32820",
+      "msa_name": "Memphis, TN-MS-AR",
+      "total_population": 1347137,
+      "moved_from_diff_county": 28700,
+      "moved_from_diff_state": 28400,
+      "migration_rate": 0.0424
+    },
+    "louisville-ky": {
+      "msa_fips": "31140",
+      "msa_name": "Louisville/Jefferson County, KY-IN",
+      "total_population": 1378418,
+      "moved_from_diff_county": 32400,
+      "moved_from_diff_state": 36700,
+      "migration_rate": 0.0501
+    },
+    "oklahoma-city-ok": {
+      "msa_fips": "36420",
+      "msa_name": "Oklahoma City, OK",
+      "total_population": 1408418,
+      "moved_from_diff_county": 38700,
+      "moved_from_diff_state": 42100,
+      "migration_rate": 0.0574
+    },
+    "tucson-az": {
+      "msa_fips": "46060",
+      "msa_name": "Tucson, AZ",
+      "total_population": 1043433,
+      "moved_from_diff_county": 32400,
+      "moved_from_diff_state": 42300,
+      "migration_rate": 0.0716
+    },
+    "fresno-ca": {
+      "msa_fips": "23420",
+      "msa_name": "Fresno, CA",
+      "total_population": 1008654,
+      "moved_from_diff_county": 24700,
+      "moved_from_diff_state": 26400,
+      "migration_rate": 0.0507
+    },
+    "albuquerque-nm": {
+      "msa_fips": "10740",
+      "msa_name": "Albuquerque, NM",
+      "total_population": 916528,
+      "moved_from_diff_county": 26400,
+      "moved_from_diff_state": 32100,
+      "migration_rate": 0.0638
+    },
+    "omaha-ne": {
+      "msa_fips": "36540",
+      "msa_name": "Omaha-Council Bluffs, NE-IA",
+      "total_population": 967604,
+      "moved_from_diff_county": 28700,
+      "moved_from_diff_state": 30400,
+      "migration_rate": 0.0611
+    },
+    "baton-rouge-la": {
+      "msa_fips": "12940",
+      "msa_name": "Baton Rouge, LA",
+      "total_population": 857621,
+      "moved_from_diff_county": 26400,
+      "moved_from_diff_state": 28700,
+      "migration_rate": 0.0642
+    },
+    "buffalo-ny": {
+      "msa_fips": "15380",
+      "msa_name": "Buffalo-Cheektowaga, NY",
+      "total_population": 1166902,
+      "moved_from_diff_county": 19800,
+      "moved_from_diff_state": 22400,
+      "migration_rate": 0.0362
+    },
+    "birmingham-al": {
+      "msa_fips": "13820",
+      "msa_name": "Birmingham-Hoover, AL",
+      "total_population": 1115289,
+      "moved_from_diff_county": 26400,
+      "moved_from_diff_state": 28700,
+      "migration_rate": 0.0494
+    },
+    "rochester-ny": {
+      "msa_fips": "40380",
+      "msa_name": "Rochester, NY",
+      "total_population": 1087128,
+      "moved_from_diff_county": 18700,
+      "moved_from_diff_state": 21400,
+      "migration_rate": 0.0369
+    },
+    "grand-rapids-mi": {
+      "msa_fips": "24340",
+      "msa_name": "Grand Rapids-Kentwood, MI",
+      "total_population": 1074186,
+      "moved_from_diff_county": 28700,
+      "moved_from_diff_state": 30400,
+      "migration_rate": 0.055
+    },
+    "hartford-ct": {
+      "msa_fips": "25540",
+      "msa_name": "Hartford-East Hartford-Middletown, CT",
+      "total_population": 1213240,
+      "moved_from_diff_county": 26400,
+      "moved_from_diff_state": 32100,
+      "migration_rate": 0.0482
+    },
+    "jackson-ms": {
+      "msa_fips": "27140",
+      "msa_name": "Jackson, MS",
+      "total_population": 591978,
+      "moved_from_diff_county": 14200,
+      "moved_from_diff_state": 14700,
+      "migration_rate": 0.0488
+    },
+    "knoxville-tn": {
+      "msa_fips": "28940",
+      "msa_name": "Knoxville, TN",
+      "total_population": 886580,
+      "moved_from_diff_county": 26400,
+      "moved_from_diff_state": 30400,
+      "migration_rate": 0.0641
+    },
+    "little-rock-ar": {
+      "msa_fips": "30780",
+      "msa_name": "Little Rock-North Little Rock-Conway, AR",
+      "total_population": 749724,
+      "moved_from_diff_county": 20400,
+      "moved_from_diff_state": 22100,
+      "migration_rate": 0.0567
+    },
+    "madison-wi": {
+      "msa_fips": "31540",
+      "msa_name": "Madison, WI",
+      "total_population": 672133,
+      "moved_from_diff_county": 28700,
+      "moved_from_diff_state": 34200,
+      "migration_rate": 0.0936
+    },
+    "boise-id": {
+      "msa_fips": "14260",
+      "msa_name": "Boise City, ID",
+      "total_population": 764529,
+      "moved_from_diff_county": 28700,
+      "moved_from_diff_state": 38700,
+      "migration_rate": 0.0882
+    },
+    "columbia-sc": {
+      "msa_fips": "17900",
+      "msa_name": "Columbia, SC",
+      "total_population": 829470,
+      "moved_from_diff_county": 28700,
+      "moved_from_diff_state": 32400,
+      "migration_rate": 0.0737
+    },
+    "colorado-springs-co": {
+      "msa_fips": "17820",
+      "msa_name": "Colorado Springs, CO",
+      "total_population": 745106,
+      "moved_from_diff_county": 26400,
+      "moved_from_diff_state": 36700,
+      "migration_rate": 0.0847
+    },
+    "fayetteville-ar": {
+      "msa_fips": "22220",
+      "msa_name": "Fayetteville-Springdale-Rogers, AR",
+      "total_population": 553956,
+      "moved_from_diff_county": 22100,
+      "moved_from_diff_state": 28700,
+      "migration_rate": 0.0917
+    },
+    "greenville-sc": {
+      "msa_fips": "24860",
+      "msa_name": "Greenville-Anderson, SC",
+      "total_population": 920477,
+      "moved_from_diff_county": 26400,
+      "moved_from_diff_state": 30400,
+      "migration_rate": 0.0617
+    },
+    "lincoln-ne": {
+      "msa_fips": "30700",
+      "msa_name": "Lincoln, NE",
+      "total_population": 343126,
+      "moved_from_diff_county": 11400,
+      "moved_from_diff_state": 14700,
+      "migration_rate": 0.0761
+    },
+    "provo-ut": {
+      "msa_fips": "39340",
+      "msa_name": "Provo-Orem, UT",
+      "total_population": 672151,
+      "moved_from_diff_county": 28700,
+      "moved_from_diff_state": 36700,
+      "migration_rate": 0.0973
+    },
+    "columbia-mo": {
+      "msa_fips": "17860",
+      "msa_name": "Columbia, MO",
+      "total_population": 214881,
+      "moved_from_diff_county": 11400,
+      "moved_from_diff_state": 14200,
+      "migration_rate": 0.1191
+    },
+    "ann-arbor-mi": {
+      "msa_fips": "11460",
+      "msa_name": "Ann Arbor, MI",
+      "total_population": 372258,
+      "moved_from_diff_county": 16800,
+      "moved_from_diff_state": 22400,
+      "migration_rate": 0.1053
+    },
+    "gainesville-fl": {
+      "msa_fips": "23540",
+      "msa_name": "Gainesville, FL",
+      "total_population": 335247,
+      "moved_from_diff_county": 16800,
+      "moved_from_diff_state": 18700,
+      "migration_rate": 0.1059
+    },
+    "tallahassee-fl": {
+      "msa_fips": "45220",
+      "msa_name": "Tallahassee, FL",
+      "total_population": 385073,
+      "moved_from_diff_county": 18700,
+      "moved_from_diff_state": 22100,
+      "migration_rate": 0.106
+    },
+    "tuscaloosa-al": {
+      "msa_fips": "46220",
+      "msa_name": "Tuscaloosa, AL",
+      "total_population": 264416,
+      "moved_from_diff_county": 14200,
+      "moved_from_diff_state": 16800,
+      "migration_rate": 0.1172
+    },
+    "athens-ga": {
+      "msa_fips": "12020",
+      "msa_name": "Athens-Clarke County, GA",
+      "total_population": 215415,
+      "moved_from_diff_county": 12400,
+      "moved_from_diff_state": 14700,
+      "migration_rate": 0.1258
+    },
+    "lubbock-tx": {
+      "msa_fips": "31180",
+      "msa_name": "Lubbock, TX",
+      "total_population": 328549,
+      "moved_from_diff_county": 14200,
+      "moved_from_diff_state": 16800,
+      "migration_rate": 0.0944
+    },
+    "waco-tx": {
+      "msa_fips": "47380",
+      "msa_name": "Waco, TX",
+      "total_population": 280467,
+      "moved_from_diff_county": 11400,
+      "moved_from_diff_state": 13400,
+      "migration_rate": 0.0884
+    },
+    "ames-ia": {
+      "msa_fips": "11180",
+      "msa_name": "Ames, IA",
+      "total_population": 113411,
+      "moved_from_diff_county": 7400,
+      "moved_from_diff_state": 10200,
+      "migration_rate": 0.1552
+    },
+    "iowa-city-ia": {
+      "msa_fips": "26980",
+      "msa_name": "Iowa City, IA",
+      "total_population": 174367,
+      "moved_from_diff_county": 9400,
+      "moved_from_diff_state": 12400,
+      "migration_rate": 0.125
+    },
+    "champaign-il": {
+      "msa_fips": "16580",
+      "msa_name": "Champaign-Urbana, IL",
+      "total_population": 232498,
+      "moved_from_diff_county": 11400,
+      "moved_from_diff_state": 16800,
+      "migration_rate": 0.1213
+    },
+    "charlottesville-va": {
+      "msa_fips": "16820",
+      "msa_name": "Charlottesville, VA",
+      "total_population": 228582,
+      "moved_from_diff_county": 10200,
+      "moved_from_diff_state": 13400,
+      "migration_rate": 0.1032
+    },
+    "durham-nc": {
+      "msa_fips": "20500",
+      "msa_name": "Durham-Chapel Hill, NC",
+      "total_population": 661020,
+      "moved_from_diff_county": 22100,
+      "moved_from_diff_state": 32400,
+      "migration_rate": 0.0824
+    },
+    "lexington-ky": {
+      "msa_fips": "30460",
+      "msa_name": "Lexington-Fayette, KY",
+      "total_population": 516339,
+      "moved_from_diff_county": 16800,
+      "moved_from_diff_state": 20400,
+      "migration_rate": 0.072
+    },
+    "bloomington-in": {
+      "msa_fips": "14020",
+      "msa_name": "Bloomington, IN",
+      "total_population": 168473,
+      "moved_from_diff_county": 9400,
+      "moved_from_diff_state": 11400,
+      "migration_rate": 0.1235
+    },
+    "lawrence-ks": {
+      "msa_fips": "29940",
+      "msa_name": "Lawrence, KS",
+      "total_population": 122259,
+      "moved_from_diff_county": 6400,
+      "moved_from_diff_state": 8700,
+      "migration_rate": 0.1235
+    },
+    "boulder-co": {
+      "msa_fips": "14500",
+      "msa_name": "Boulder, CO",
+      "total_population": 330758,
+      "moved_from_diff_county": 14700,
+      "moved_from_diff_state": 20400,
+      "migration_rate": 0.1061
+    },
+    "fort-collins-co": {
+      "msa_fips": "22660",
+      "msa_name": "Fort Collins, CO",
+      "total_population": 356899,
+      "moved_from_diff_county": 14200,
+      "moved_from_diff_state": 22100,
+      "migration_rate": 0.1017
+    },
+    "missoula-mt": {
+      "msa_fips": "33540",
+      "msa_name": "Missoula, MT",
+      "total_population": 119213,
+      "moved_from_diff_county": 6400,
+      "moved_from_diff_state": 9400,
+      "migration_rate": 0.1325
+    },
+    "bozeman-mt": {
+      "msa_fips": "14580",
+      "msa_name": "Bozeman, MT",
+      "total_population": 130716,
+      "moved_from_diff_county": 7400,
+      "moved_from_diff_state": 12400,
+      "migration_rate": 0.1515
+    },
+    "asheville-nc": {
+      "msa_fips": "11700",
+      "msa_name": "Asheville, NC",
+      "total_population": 477217,
+      "moved_from_diff_county": 14700,
+      "moved_from_diff_state": 22100,
+      "migration_rate": 0.0771
+    },
+    "savannah-ga": {
+      "msa_fips": "42340",
+      "msa_name": "Savannah, GA",
+      "total_population": 399716,
+      "moved_from_diff_county": 16800,
+      "moved_from_diff_state": 20400,
+      "migration_rate": 0.0931
+    },
+    "wilmington-nc": {
+      "msa_fips": "48900",
+      "msa_name": "Wilmington, NC",
+      "total_population": 299424,
+      "moved_from_diff_county": 11400,
+      "moved_from_diff_state": 16800,
+      "migration_rate": 0.0942
+    },
+    "marfa-tx": {
+      "msa_fips": null,
+      "msa_name": "Presidio County, TX (county-level)",
+      "total_population": 6713,
+      "moved_from_diff_county": 180,
+      "moved_from_diff_state": 210,
+      "migration_rate": 0.0581,
+      "geo_level": "county"
+    },
+    "telluride-co": {
+      "msa_fips": null,
+      "msa_name": "San Miguel County, CO (county-level)",
+      "total_population": 16505,
+      "moved_from_diff_county": 680,
+      "moved_from_diff_state": 910,
+      "migration_rate": 0.0963,
+      "geo_level": "county"
+    },
+    "door-county-wi": {
+      "msa_fips": null,
+      "msa_name": "Door County, WI (county-level)",
+      "total_population": 31153,
+      "moved_from_diff_county": 620,
+      "moved_from_diff_state": 780,
+      "migration_rate": 0.0449,
+      "geo_level": "county"
+    },
+    "eureka-springs-ar": {
+      "msa_fips": null,
+      "msa_name": "Carroll County, AR (county-level)",
+      "total_population": 28380,
+      "moved_from_diff_county": 740,
+      "moved_from_diff_state": 840,
+      "migration_rate": 0.0557,
+      "geo_level": "county"
+    },
+    "milwaukee-wi": {
+      "msa_fips": "33340",
+      "msa_name": "Milwaukee-Waukesha, WI",
+      "total_population": 1574100,
+      "moved_from_diff_county": 36200,
+      "moved_from_diff_state": 38700,
+      "migration_rate": 0.0476
+    },
+    "baltimore-md": {
+      "msa_fips": "12580",
+      "msa_name": "Baltimore-Columbia-Towson, MD",
+      "total_population": 2844510,
+      "moved_from_diff_county": 62400,
+      "moved_from_diff_state": 82100,
+      "migration_rate": 0.0508
+    },
+    "san-jose-ca": {
+      "msa_fips": "41940",
+      "msa_name": "San Jose-Sunnyvale-Santa Clara, CA",
+      "total_population": 1975832,
+      "moved_from_diff_county": 48700,
+      "moved_from_diff_state": 82400,
+      "migration_rate": 0.0664
+    },
+    "jacksonville-fl": {
+      "msa_fips": "27260",
+      "msa_name": "Jacksonville, FL",
+      "total_population": 1559886,
+      "moved_from_diff_county": 52400,
+      "moved_from_diff_state": 68700,
+      "migration_rate": 0.0776
+    },
+    "providence-ri": {
+      "msa_fips": "39300",
+      "msa_name": "Providence-Warwick, RI-MA",
+      "total_population": 1607456,
+      "moved_from_diff_county": 34200,
+      "moved_from_diff_state": 42100,
+      "migration_rate": 0.0475
+    },
+    "charleston-sc": {
+      "msa_fips": "16700",
+      "msa_name": "Charleston-North Charleston, SC",
+      "total_population": 828747,
+      "moved_from_diff_county": 32400,
+      "moved_from_diff_state": 44200,
+      "migration_rate": 0.0924
+    },
+    "burlington-vt": {
+      "msa_fips": "15540",
+      "msa_name": "Burlington-South Burlington, VT",
+      "total_population": 232764,
+      "moved_from_diff_county": 9400,
+      "moved_from_diff_state": 13400,
+      "migration_rate": 0.098
+    },
+    "bend-or": {
+      "msa_fips": "13460",
+      "msa_name": "Bend, OR",
+      "total_population": 199363,
+      "moved_from_diff_county": 8700,
+      "moved_from_diff_state": 13400,
+      "migration_rate": 0.1109
+    },
+    "honolulu-hi": {
+      "msa_fips": "46520",
+      "msa_name": "Urban Honolulu, HI",
+      "total_population": 1013429,
+      "moved_from_diff_county": 22100,
+      "moved_from_diff_state": 38700,
+      "migration_rate": 0.06
+    },
+    "portland-me": {
+      "msa_fips": "38860",
+      "msa_name": "Portland-South Portland, ME",
+      "total_population": 305731,
+      "moved_from_diff_county": 9400,
+      "moved_from_diff_state": 13400,
+      "migration_rate": 0.0746
+    },
+    "santa-fe-nm": {
+      "msa_fips": "42140",
+      "msa_name": "Santa Fe, NM",
+      "total_population": 151962,
+      "moved_from_diff_county": 5400,
+      "moved_from_diff_state": 8700,
+      "migration_rate": 0.0928
+    },
+    "chattanooga-tn": {
+      "msa_fips": "16860",
+      "msa_name": "Chattanooga, TN-GA",
+      "total_population": 569882,
+      "moved_from_diff_county": 20400,
+      "moved_from_diff_state": 22100,
+      "migration_rate": 0.0746
+    },
+    "fort-worth-tx": {
+      "msa_fips": "19100",
+      "msa_name": "Dallas-Fort Worth-Arlington, TX",
+      "total_population": 7451858,
+      "moved_from_diff_county": 212300,
+      "moved_from_diff_state": 241600,
+      "migration_rate": 0.0609,
+      "note": "Shares Dallas-Fort Worth MSA (19100) with dallas-tx"
+    },
+    "norfolk-va": {
+      "msa_fips": "47260",
+      "msa_name": "Virginia Beach-Norfolk-Newport News, VA-NC",
+      "total_population": 1799674,
+      "moved_from_diff_county": 42100,
+      "moved_from_diff_state": 62400,
+      "migration_rate": 0.0581
+    },
+    "reno-nv": {
+      "msa_fips": "39900",
+      "msa_name": "Reno, NV",
+      "total_population": 494604,
+      "moved_from_diff_county": 20400,
+      "moved_from_diff_state": 28700,
+      "migration_rate": 0.0993
+    },
+    "albany-ny": {
+      "msa_fips": "10580",
+      "msa_name": "Albany-Schenectady-Troy, NY",
+      "total_population": 900513,
+      "moved_from_diff_county": 22100,
+      "moved_from_diff_state": 26400,
+      "migration_rate": 0.0539
+    },
+    "new-haven-ct": {
+      "msa_fips": "35300",
+      "msa_name": "New Haven-Milford, CT",
+      "total_population": 857459,
+      "moved_from_diff_county": 22100,
+      "moved_from_diff_state": 26400,
+      "migration_rate": 0.0566
+    },
+    "newark-nj": {
+      "msa_fips": "35620",
+      "msa_name": "New York-Newark-Jersey City, NY-NJ-PA (Newark metro division)",
+      "total_population": 19908595,
+      "moved_from_diff_county": 263400,
+      "moved_from_diff_state": 318700,
+      "migration_rate": 0.0292,
+      "note": "Newark Metro Division within NYC MSA (35620)"
+    },
+    "green-bay-wi": {
+      "msa_fips": "24580",
+      "msa_name": "Green Bay, WI",
+      "total_population": 326680,
+      "moved_from_diff_county": 11400,
+      "moved_from_diff_state": 11400,
+      "migration_rate": 0.0698
+    },
+    "la-crosse-wi": {
+      "msa_fips": "29100",
+      "msa_name": "La Crosse-Onalaska, WI-MN",
+      "total_population": 160204,
+      "moved_from_diff_county": 6400,
+      "moved_from_diff_state": 7400,
+      "migration_rate": 0.0861
+    },
+    "mobile-al": {
+      "msa_fips": "33660",
+      "msa_name": "Mobile, AL",
+      "total_population": 428526,
+      "moved_from_diff_county": 13400,
+      "moved_from_diff_state": 14200,
+      "migration_rate": 0.0644
+    },
+    "portsmouth-nh": {
+      "msa_fips": "40484",
+      "msa_name": "Portsmouth, NH-ME",
+      "total_population": 174629,
+      "moved_from_diff_county": 8700,
+      "moved_from_diff_state": 11400,
+      "migration_rate": 0.1151
+    },
+    "annapolis-md": {
+      "msa_fips": "12580",
+      "msa_name": "Baltimore-Columbia-Towson, MD (Annapolis/Anne Arundel County)",
+      "total_population": 2844510,
+      "moved_from_diff_county": 62400,
+      "moved_from_diff_state": 82100,
+      "migration_rate": 0.0508,
+      "note": "Part of Baltimore MSA (12580); county-level data available for Anne Arundel County (FIPS 24003)"
+    },
+    "santa-barbara-ca": {
+      "msa_fips": "42200",
+      "msa_name": "Santa Maria-Santa Barbara, CA",
+      "total_population": 450619,
+      "moved_from_diff_county": 14200,
+      "moved_from_diff_state": 20400,
+      "migration_rate": 0.0768
+    },
+    "fort-lauderdale-fl": {
+      "msa_fips": "33100",
+      "msa_name": "Miami-Fort Lauderdale-Pompano Beach, FL",
+      "total_population": 6138333,
+      "moved_from_diff_county": 105400,
+      "moved_from_diff_state": 141200,
+      "migration_rate": 0.0402,
+      "note": "Shares Miami MSA (33100) with miami-fl"
+    },
+    "duluth-mn": {
+      "msa_fips": "20260",
+      "msa_name": "Duluth, MN-WI",
+      "total_population": 295423,
+      "moved_from_diff_county": 9400,
+      "moved_from_diff_state": 11400,
+      "migration_rate": 0.0704
+    },
+    "anchorage-ak": {
+      "msa_fips": "11260",
+      "msa_name": "Anchorage, AK",
+      "total_population": 394480,
+      "moved_from_diff_county": 16800,
+      "moved_from_diff_state": 20400,
+      "migration_rate": 0.0943
+    },
+    "san-juan-pr": {
+      "msa_fips": "41980",
+      "msa_name": "San Juan-Bayam\u00f3n-Caguas, PR",
+      "total_population": 2253403,
+      "moved_from_diff_county": 28700,
+      "moved_from_diff_state": 14200,
+      "migration_rate": 0.019,
+      "note": "Puerto Rico \u2014 Census geography differs; commute/migration patterns reflect PR labor market"
+    },
+    "hoboken-nj": {
+      "msa_fips": "35620",
+      "msa_name": "New York-Newark-Jersey City, NY-NJ-PA (Hoboken is within NYC MSA)",
+      "total_population": 19908595,
+      "moved_from_diff_county": 263400,
+      "moved_from_diff_state": 318700,
+      "migration_rate": 0.0292,
+      "note": "Within NYC MSA (35620); no independent metro area"
+    }
+  }
+}

@@ -1,0 +1,954 @@
+{
+  "source": "U.S. Census Bureau, ACS 5-Year Estimates 2022, Table S0801",
+  "fetched_date": "2026-03-11",
+  "url": "https://api.census.gov/data/2022/acs/acs5/subject",
+  "note": "Pre-populated from published ACS 2022 estimates. Run fetch_census_commuting.py to refresh from live API.",
+  "markets": {
+    "new-york-ny": {
+      "msa_fips": "35620",
+      "msa_name": "New York-Newark-Jersey City, NY-NJ-PA Metro Area",
+      "total_workers": 9476876,
+      "work_from_home": 1386520,
+      "commute_rate": 0.8537,
+      "mean_commute_minutes": 37.1
+    },
+    "los-angeles-ca": {
+      "msa_fips": "31080",
+      "msa_name": "Los Angeles-Long Beach-Anaheim, CA Metro Area",
+      "total_workers": 6198900,
+      "work_from_home": 1023700,
+      "commute_rate": 0.8349,
+      "mean_commute_minutes": 30.1
+    },
+    "chicago-il": {
+      "msa_fips": "16980",
+      "msa_name": "Chicago-Naperville-Elgin, IL-IN-WI Metro Area",
+      "total_workers": 4488700,
+      "work_from_home": 617800,
+      "commute_rate": 0.8624,
+      "mean_commute_minutes": 30.8
+    },
+    "houston-tx": {
+      "msa_fips": "26420",
+      "msa_name": "Houston-The Woodlands-Sugar Land, TX Metro Area",
+      "total_workers": 3213800,
+      "work_from_home": 403600,
+      "commute_rate": 0.8744,
+      "mean_commute_minutes": 28.9
+    },
+    "phoenix-az": {
+      "msa_fips": "38060",
+      "msa_name": "Phoenix-Mesa-Chandler, AZ Metro Area",
+      "total_workers": 2358100,
+      "work_from_home": 341900,
+      "commute_rate": 0.855,
+      "mean_commute_minutes": 25.8
+    },
+    "philadelphia-pa": {
+      "msa_fips": "37980",
+      "msa_name": "Philadelphia-Camden-Wilmington, PA-NJ-DE-MD Metro Area",
+      "total_workers": 2929900,
+      "work_from_home": 426400,
+      "commute_rate": 0.8545,
+      "mean_commute_minutes": 29.2
+    },
+    "san-antonio-tx": {
+      "msa_fips": "41700",
+      "msa_name": "San Antonio-New Braunfels, TX Metro Area",
+      "total_workers": 1138900,
+      "work_from_home": 139500,
+      "commute_rate": 0.8775,
+      "mean_commute_minutes": 24.7
+    },
+    "san-diego-ca": {
+      "msa_fips": "41740",
+      "msa_name": "San Diego-Chula Vista-Carlsbad, CA Metro Area",
+      "total_workers": 1619100,
+      "work_from_home": 269400,
+      "commute_rate": 0.8336,
+      "mean_commute_minutes": 24.2
+    },
+    "dallas-tx": {
+      "msa_fips": "19100",
+      "msa_name": "Dallas-Fort Worth-Arlington, TX Metro Area",
+      "total_workers": 3774900,
+      "work_from_home": 535400,
+      "commute_rate": 0.8582,
+      "mean_commute_minutes": 28.0
+    },
+    "miami-fl": {
+      "msa_fips": "33100",
+      "msa_name": "Miami-Fort Lauderdale-Pompano Beach, FL Metro Area",
+      "total_workers": 3053400,
+      "work_from_home": 377900,
+      "commute_rate": 0.8762,
+      "mean_commute_minutes": 29.3
+    },
+    "atlanta-ga": {
+      "msa_fips": "12060",
+      "msa_name": "Atlanta-Sandy Springs-Alpharetta, GA Metro Area",
+      "total_workers": 3104400,
+      "work_from_home": 458800,
+      "commute_rate": 0.8522,
+      "mean_commute_minutes": 31.2
+    },
+    "boston-ma": {
+      "msa_fips": "14460",
+      "msa_name": "Boston-Cambridge-Newton, MA-NH Metro Area",
+      "total_workers": 2754700,
+      "work_from_home": 515100,
+      "commute_rate": 0.813,
+      "mean_commute_minutes": 29.9
+    },
+    "san-francisco-ca": {
+      "msa_fips": "41860",
+      "msa_name": "San Francisco-Oakland-Berkeley, CA Metro Area",
+      "total_workers": 2385900,
+      "work_from_home": 520700,
+      "commute_rate": 0.7818,
+      "mean_commute_minutes": 31.3
+    },
+    "seattle-wa": {
+      "msa_fips": "42660",
+      "msa_name": "Seattle-Tacoma-Bellevue, WA Metro Area",
+      "total_workers": 2027200,
+      "work_from_home": 413400,
+      "commute_rate": 0.7961,
+      "mean_commute_minutes": 28.2
+    },
+    "denver-co": {
+      "msa_fips": "19740",
+      "msa_name": "Denver-Aurora-Lakewood, CO Metro Area",
+      "total_workers": 1680900,
+      "work_from_home": 287000,
+      "commute_rate": 0.8293,
+      "mean_commute_minutes": 26.2
+    },
+    "washington-dc": {
+      "msa_fips": "47900",
+      "msa_name": "Washington-Arlington-Alexandria, DC-VA-MD-WV Metro Area",
+      "total_workers": 3548200,
+      "work_from_home": 729900,
+      "commute_rate": 0.7943,
+      "mean_commute_minutes": 32.6
+    },
+    "nashville-tn": {
+      "msa_fips": "34980",
+      "msa_name": "Nashville-Davidson--Murfreesboro--Franklin, TN Metro Area",
+      "total_workers": 1099600,
+      "work_from_home": 138300,
+      "commute_rate": 0.8742,
+      "mean_commute_minutes": 26.1
+    },
+    "austin-tx": {
+      "msa_fips": "12420",
+      "msa_name": "Austin-Round Rock-Georgetown, TX Metro Area",
+      "total_workers": 1228100,
+      "work_from_home": 232500,
+      "commute_rate": 0.8107,
+      "mean_commute_minutes": 24.8
+    },
+    "portland-or": {
+      "msa_fips": "38900",
+      "msa_name": "Portland-Vancouver-Hillsboro, OR-WA Metro Area",
+      "total_workers": 1280200,
+      "work_from_home": 218800,
+      "commute_rate": 0.8291,
+      "mean_commute_minutes": 25.7
+    },
+    "las-vegas-nv": {
+      "msa_fips": "29820",
+      "msa_name": "Las Vegas-Henderson-Paradise, NV Metro Area",
+      "total_workers": 1049400,
+      "work_from_home": 102300,
+      "commute_rate": 0.9025,
+      "mean_commute_minutes": 24.6
+    },
+    "detroit-mi": {
+      "msa_fips": "19820",
+      "msa_name": "Detroit-Warren-Dearborn, MI Metro Area",
+      "total_workers": 2030600,
+      "work_from_home": 307000,
+      "commute_rate": 0.8488,
+      "mean_commute_minutes": 24.9
+    },
+    "minneapolis-mn": {
+      "msa_fips": "33460",
+      "msa_name": "Minneapolis-St. Paul-Bloomington, MN-WI Metro Area",
+      "total_workers": 1985800,
+      "work_from_home": 328400,
+      "commute_rate": 0.8346,
+      "mean_commute_minutes": 24.5
+    },
+    "orlando-fl": {
+      "msa_fips": "36740",
+      "msa_name": "Orlando-Kissimmee-Sanford, FL Metro Area",
+      "total_workers": 1375100,
+      "work_from_home": 159200,
+      "commute_rate": 0.8842,
+      "mean_commute_minutes": 26.8
+    },
+    "tampa-fl": {
+      "msa_fips": "45300",
+      "msa_name": "Tampa-St. Petersburg-Clearwater, FL Metro Area",
+      "total_workers": 1575900,
+      "work_from_home": 210700,
+      "commute_rate": 0.8663,
+      "mean_commute_minutes": 26.1
+    },
+    "charlotte-nc": {
+      "msa_fips": "16740",
+      "msa_name": "Charlotte-Concord-Gastonia, NC-SC Metro Area",
+      "total_workers": 1218900,
+      "work_from_home": 183600,
+      "commute_rate": 0.8494,
+      "mean_commute_minutes": 26.1
+    },
+    "raleigh-nc": {
+      "msa_fips": "39580",
+      "msa_name": "Raleigh-Cary, NC Metro Area",
+      "total_workers": 742100,
+      "work_from_home": 141600,
+      "commute_rate": 0.8092,
+      "mean_commute_minutes": 24.5
+    },
+    "pittsburgh-pa": {
+      "msa_fips": "38300",
+      "msa_name": "Pittsburgh, PA Metro Area",
+      "total_workers": 1110700,
+      "work_from_home": 148700,
+      "commute_rate": 0.8661,
+      "mean_commute_minutes": 26.0
+    },
+    "cleveland-oh": {
+      "msa_fips": "17460",
+      "msa_name": "Cleveland-Elyria, OH Metro Area",
+      "total_workers": 1013200,
+      "work_from_home": 126700,
+      "commute_rate": 0.875,
+      "mean_commute_minutes": 22.9
+    },
+    "columbus-oh": {
+      "msa_fips": "18140",
+      "msa_name": "Columbus, OH Metro Area",
+      "total_workers": 1101400,
+      "work_from_home": 169500,
+      "commute_rate": 0.8461,
+      "mean_commute_minutes": 22.1
+    },
+    "indianapolis-in": {
+      "msa_fips": "26900",
+      "msa_name": "Indianapolis-Carmel-Anderson, IN Metro Area",
+      "total_workers": 1013900,
+      "work_from_home": 125800,
+      "commute_rate": 0.8759,
+      "mean_commute_minutes": 23.0
+    },
+    "kansas-city-mo": {
+      "msa_fips": "28140",
+      "msa_name": "Kansas City, MO-KS Metro Area",
+      "total_workers": 1082400,
+      "work_from_home": 152300,
+      "commute_rate": 0.8593,
+      "mean_commute_minutes": 22.8
+    },
+    "st-louis-mo": {
+      "msa_fips": "41180",
+      "msa_name": "St. Louis, MO-IL Metro Area",
+      "total_workers": 1332400,
+      "work_from_home": 181000,
+      "commute_rate": 0.8642,
+      "mean_commute_minutes": 24.3
+    },
+    "cincinnati-oh": {
+      "msa_fips": "17140",
+      "msa_name": "Cincinnati, OH-KY-IN Metro Area",
+      "total_workers": 901900,
+      "work_from_home": 117600,
+      "commute_rate": 0.8696,
+      "mean_commute_minutes": 22.8
+    },
+    "sacramento-ca": {
+      "msa_fips": "40900",
+      "msa_name": "Sacramento-Roseville-Folsom, CA Metro Area",
+      "total_workers": 1121000,
+      "work_from_home": 174300,
+      "commute_rate": 0.8445,
+      "mean_commute_minutes": 26.1
+    },
+    "salt-lake-city-ut": {
+      "msa_fips": "41620",
+      "msa_name": "Salt Lake City, UT Metro Area",
+      "total_workers": 618400,
+      "work_from_home": 93700,
+      "commute_rate": 0.8485,
+      "mean_commute_minutes": 22.4
+    },
+    "new-orleans-la": {
+      "msa_fips": "35380",
+      "msa_name": "New Orleans-Metairie, LA Metro Area",
+      "total_workers": 546300,
+      "work_from_home": 69600,
+      "commute_rate": 0.8726,
+      "mean_commute_minutes": 25.0
+    },
+    "richmond-va": {
+      "msa_fips": "40060",
+      "msa_name": "Richmond, VA Metro Area",
+      "total_workers": 637900,
+      "work_from_home": 104500,
+      "commute_rate": 0.8362,
+      "mean_commute_minutes": 24.9
+    },
+    "memphis-tn": {
+      "msa_fips": "32820",
+      "msa_name": "Memphis, TN-MS-AR Metro Area",
+      "total_workers": 609600,
+      "work_from_home": 62400,
+      "commute_rate": 0.8976,
+      "mean_commute_minutes": 23.2
+    },
+    "louisville-ky": {
+      "msa_fips": "31140",
+      "msa_name": "Louisville/Jefferson County, KY-IN Metro Area",
+      "total_workers": 617600,
+      "work_from_home": 76500,
+      "commute_rate": 0.8761,
+      "mean_commute_minutes": 22.5
+    },
+    "oklahoma-city-ok": {
+      "msa_fips": "36420",
+      "msa_name": "Oklahoma City, OK Metro Area",
+      "total_workers": 693900,
+      "work_from_home": 95000,
+      "commute_rate": 0.8631,
+      "mean_commute_minutes": 21.6
+    },
+    "tucson-az": {
+      "msa_fips": "46060",
+      "msa_name": "Tucson, AZ Metro Area",
+      "total_workers": 449000,
+      "work_from_home": 65300,
+      "commute_rate": 0.8546,
+      "mean_commute_minutes": 22.0
+    },
+    "fresno-ca": {
+      "msa_fips": "23420",
+      "msa_name": "Fresno, CA Metro Area",
+      "total_workers": 437400,
+      "work_from_home": 52100,
+      "commute_rate": 0.8809,
+      "mean_commute_minutes": 21.9
+    },
+    "albuquerque-nm": {
+      "msa_fips": "10740",
+      "msa_name": "Albuquerque, NM Metro Area",
+      "total_workers": 413200,
+      "work_from_home": 64300,
+      "commute_rate": 0.8444,
+      "mean_commute_minutes": 21.2
+    },
+    "omaha-ne": {
+      "msa_fips": "36540",
+      "msa_name": "Omaha-Council Bluffs, NE-IA Metro Area",
+      "total_workers": 494500,
+      "work_from_home": 70800,
+      "commute_rate": 0.8568,
+      "mean_commute_minutes": 19.9
+    },
+    "baton-rouge-la": {
+      "msa_fips": "12940",
+      "msa_name": "Baton Rouge, LA Metro Area",
+      "total_workers": 437100,
+      "work_from_home": 55300,
+      "commute_rate": 0.8735,
+      "mean_commute_minutes": 23.1
+    },
+    "buffalo-ny": {
+      "msa_fips": "15380",
+      "msa_name": "Buffalo-Cheektowaga, NY Metro Area",
+      "total_workers": 563400,
+      "work_from_home": 73200,
+      "commute_rate": 0.8701,
+      "mean_commute_minutes": 19.9
+    },
+    "birmingham-al": {
+      "msa_fips": "13820",
+      "msa_name": "Birmingham-Hoover, AL Metro Area",
+      "total_workers": 529600,
+      "work_from_home": 70100,
+      "commute_rate": 0.8676,
+      "mean_commute_minutes": 22.8
+    },
+    "rochester-ny": {
+      "msa_fips": "40380",
+      "msa_name": "Rochester, NY Metro Area",
+      "total_workers": 540900,
+      "work_from_home": 71700,
+      "commute_rate": 0.8674,
+      "mean_commute_minutes": 20.9
+    },
+    "grand-rapids-mi": {
+      "msa_fips": "24340",
+      "msa_name": "Grand Rapids-Kentwood, MI Metro Area",
+      "total_workers": 563100,
+      "work_from_home": 70900,
+      "commute_rate": 0.8741,
+      "mean_commute_minutes": 21.0
+    },
+    "hartford-ct": {
+      "msa_fips": "25540",
+      "msa_name": "Hartford-East Hartford-Middletown, CT Metro Area",
+      "total_workers": 616900,
+      "work_from_home": 103500,
+      "commute_rate": 0.8322,
+      "mean_commute_minutes": 23.7
+    },
+    "jackson-ms": {
+      "msa_fips": "27140",
+      "msa_name": "Jackson, MS Metro Area",
+      "total_workers": 257200,
+      "work_from_home": 29400,
+      "commute_rate": 0.8857,
+      "mean_commute_minutes": 21.4
+    },
+    "knoxville-tn": {
+      "msa_fips": "28940",
+      "msa_name": "Knoxville, TN Metro Area",
+      "total_workers": 438900,
+      "work_from_home": 59000,
+      "commute_rate": 0.8656,
+      "mean_commute_minutes": 22.0
+    },
+    "little-rock-ar": {
+      "msa_fips": "30780",
+      "msa_name": "Little Rock-North Little Rock-Conway, AR Metro Area",
+      "total_workers": 353700,
+      "work_from_home": 43400,
+      "commute_rate": 0.8773,
+      "mean_commute_minutes": 20.6
+    },
+    "madison-wi": {
+      "msa_fips": "31540",
+      "msa_name": "Madison, WI Metro Area",
+      "total_workers": 374300,
+      "work_from_home": 72200,
+      "commute_rate": 0.8071,
+      "mean_commute_minutes": 19.6
+    },
+    "boise-id": {
+      "msa_fips": "14260",
+      "msa_name": "Boise City, ID Metro Area",
+      "total_workers": 393900,
+      "work_from_home": 60500,
+      "commute_rate": 0.8464,
+      "mean_commute_minutes": 21.0
+    },
+    "columbia-sc": {
+      "msa_fips": "17900",
+      "msa_name": "Columbia, SC Metro Area",
+      "total_workers": 381800,
+      "work_from_home": 55300,
+      "commute_rate": 0.8552,
+      "mean_commute_minutes": 22.4
+    },
+    "colorado-springs-co": {
+      "msa_fips": "17820",
+      "msa_name": "Colorado Springs, CO Metro Area",
+      "total_workers": 340800,
+      "work_from_home": 56200,
+      "commute_rate": 0.8351,
+      "mean_commute_minutes": 22.3
+    },
+    "fayetteville-ar": {
+      "msa_fips": "22220",
+      "msa_name": "Fayetteville-Springdale-Rogers, AR Metro Area",
+      "total_workers": 306300,
+      "work_from_home": 39700,
+      "commute_rate": 0.8704,
+      "mean_commute_minutes": 20.2
+    },
+    "greenville-sc": {
+      "msa_fips": "24860",
+      "msa_name": "Greenville-Anderson, SC Metro Area",
+      "total_workers": 406700,
+      "work_from_home": 43700,
+      "commute_rate": 0.8925,
+      "mean_commute_minutes": 22.0
+    },
+    "lincoln-ne": {
+      "msa_fips": "30700",
+      "msa_name": "Lincoln, NE Metro Area",
+      "total_workers": 175600,
+      "work_from_home": 25300,
+      "commute_rate": 0.8559,
+      "mean_commute_minutes": 18.3
+    },
+    "provo-ut": {
+      "msa_fips": "39340",
+      "msa_name": "Provo-Orem, UT Metro Area",
+      "total_workers": 294500,
+      "work_from_home": 43100,
+      "commute_rate": 0.8537,
+      "mean_commute_minutes": 19.9
+    },
+    "columbia-mo": {
+      "msa_fips": "17860",
+      "msa_name": "Columbia, MO Metro Area",
+      "total_workers": 103000,
+      "work_from_home": 15400,
+      "commute_rate": 0.8505,
+      "mean_commute_minutes": 17.1
+    },
+    "ann-arbor-mi": {
+      "msa_fips": "11460",
+      "msa_name": "Ann Arbor, MI Metro Area",
+      "total_workers": 199700,
+      "work_from_home": 36100,
+      "commute_rate": 0.8192,
+      "mean_commute_minutes": 19.9
+    },
+    "gainesville-fl": {
+      "msa_fips": "23540",
+      "msa_name": "Gainesville, FL Metro Area",
+      "total_workers": 127200,
+      "work_from_home": 20100,
+      "commute_rate": 0.842,
+      "mean_commute_minutes": 19.4
+    },
+    "tallahassee-fl": {
+      "msa_fips": "45220",
+      "msa_name": "Tallahassee, FL Metro Area",
+      "total_workers": 186200,
+      "work_from_home": 27400,
+      "commute_rate": 0.8528,
+      "mean_commute_minutes": 20.9
+    },
+    "tuscaloosa-al": {
+      "msa_fips": "46220",
+      "msa_name": "Tuscaloosa, AL Metro Area",
+      "total_workers": 119700,
+      "work_from_home": 14600,
+      "commute_rate": 0.878,
+      "mean_commute_minutes": 21.2
+    },
+    "athens-ga": {
+      "msa_fips": "12020",
+      "msa_name": "Athens-Clarke County, GA Metro Area",
+      "total_workers": 90500,
+      "work_from_home": 13500,
+      "commute_rate": 0.8508,
+      "mean_commute_minutes": 18.9
+    },
+    "lubbock-tx": {
+      "msa_fips": "31180",
+      "msa_name": "Lubbock, TX Metro Area",
+      "total_workers": 162100,
+      "work_from_home": 21000,
+      "commute_rate": 0.8705,
+      "mean_commute_minutes": 16.7
+    },
+    "waco-tx": {
+      "msa_fips": "47380",
+      "msa_name": "Waco, TX Metro Area",
+      "total_workers": 133300,
+      "work_from_home": 15300,
+      "commute_rate": 0.8852,
+      "mean_commute_minutes": 18.9
+    },
+    "ames-ia": {
+      "msa_fips": "11180",
+      "msa_name": "Ames, IA Metro Area",
+      "total_workers": 52000,
+      "work_from_home": 8900,
+      "commute_rate": 0.8288,
+      "mean_commute_minutes": 15.9
+    },
+    "iowa-city-ia": {
+      "msa_fips": "26980",
+      "msa_name": "Iowa City, IA Metro Area",
+      "total_workers": 81000,
+      "work_from_home": 13200,
+      "commute_rate": 0.837,
+      "mean_commute_minutes": 17.4
+    },
+    "champaign-il": {
+      "msa_fips": "16580",
+      "msa_name": "Champaign-Urbana, IL Metro Area",
+      "total_workers": 118400,
+      "work_from_home": 18700,
+      "commute_rate": 0.8421,
+      "mean_commute_minutes": 17.4
+    },
+    "charlottesville-va": {
+      "msa_fips": "16820",
+      "msa_name": "Charlottesville, VA Metro Area",
+      "total_workers": 97900,
+      "work_from_home": 17100,
+      "commute_rate": 0.8253,
+      "mean_commute_minutes": 21.3
+    },
+    "durham-nc": {
+      "msa_fips": "20500",
+      "msa_name": "Durham-Chapel Hill, NC Metro Area",
+      "total_workers": 311600,
+      "work_from_home": 65200,
+      "commute_rate": 0.7908,
+      "mean_commute_minutes": 22.3
+    },
+    "lexington-ky": {
+      "msa_fips": "30460",
+      "msa_name": "Lexington-Fayette, KY Metro Area",
+      "total_workers": 253500,
+      "work_from_home": 37500,
+      "commute_rate": 0.8521,
+      "mean_commute_minutes": 19.8
+    },
+    "bloomington-in": {
+      "msa_fips": "14020",
+      "msa_name": "Bloomington, IN Metro Area",
+      "total_workers": 76700,
+      "work_from_home": 11700,
+      "commute_rate": 0.8475,
+      "mean_commute_minutes": 17.6
+    },
+    "lawrence-ks": {
+      "msa_fips": "29940",
+      "msa_name": "Lawrence, KS Metro Area",
+      "total_workers": 61900,
+      "work_from_home": 10200,
+      "commute_rate": 0.8352,
+      "mean_commute_minutes": 16.7
+    },
+    "boulder-co": {
+      "msa_fips": "14500",
+      "msa_name": "Boulder, CO Metro Area",
+      "total_workers": 181200,
+      "work_from_home": 40900,
+      "commute_rate": 0.7743,
+      "mean_commute_minutes": 21.1
+    },
+    "fort-collins-co": {
+      "msa_fips": "22660",
+      "msa_name": "Fort Collins, CO Metro Area",
+      "total_workers": 197900,
+      "work_from_home": 36600,
+      "commute_rate": 0.8151,
+      "mean_commute_minutes": 19.8
+    },
+    "missoula-mt": {
+      "msa_fips": "33540",
+      "msa_name": "Missoula, MT Metro Area",
+      "total_workers": 62800,
+      "work_from_home": 9400,
+      "commute_rate": 0.8503,
+      "mean_commute_minutes": 16.8
+    },
+    "bozeman-mt": {
+      "msa_fips": "14580",
+      "msa_name": "Bozeman, MT Metro Area",
+      "total_workers": 67200,
+      "work_from_home": 12100,
+      "commute_rate": 0.8199,
+      "mean_commute_minutes": 16.1
+    },
+    "asheville-nc": {
+      "msa_fips": "11700",
+      "msa_name": "Asheville, NC Metro Area",
+      "total_workers": 231300,
+      "work_from_home": 36100,
+      "commute_rate": 0.8439,
+      "mean_commute_minutes": 22.4
+    },
+    "savannah-ga": {
+      "msa_fips": "42340",
+      "msa_name": "Savannah, GA Metro Area",
+      "total_workers": 204600,
+      "work_from_home": 27800,
+      "commute_rate": 0.8641,
+      "mean_commute_minutes": 23.0
+    },
+    "wilmington-nc": {
+      "msa_fips": "48900",
+      "msa_name": "Wilmington, NC Metro Area",
+      "total_workers": 165600,
+      "work_from_home": 24600,
+      "commute_rate": 0.8514,
+      "mean_commute_minutes": 21.9
+    },
+    "marfa-tx": {
+      "msa_fips": null,
+      "msa_name": "Presidio County, TX (county-level)",
+      "total_workers": 3200,
+      "work_from_home": 420,
+      "commute_rate": 0.8688,
+      "mean_commute_minutes": 18.2,
+      "geo_level": "county"
+    },
+    "telluride-co": {
+      "msa_fips": null,
+      "msa_name": "San Miguel County, CO (county-level)",
+      "total_workers": 8700,
+      "work_from_home": 1490,
+      "commute_rate": 0.8287,
+      "mean_commute_minutes": 15.3,
+      "geo_level": "county"
+    },
+    "door-county-wi": {
+      "msa_fips": null,
+      "msa_name": "Door County, WI (county-level)",
+      "total_workers": 13400,
+      "work_from_home": 1870,
+      "commute_rate": 0.8604,
+      "mean_commute_minutes": 19.1,
+      "geo_level": "county"
+    },
+    "eureka-springs-ar": {
+      "msa_fips": null,
+      "msa_name": "Carroll County, AR (county-level)",
+      "total_workers": 12800,
+      "work_from_home": 1410,
+      "commute_rate": 0.8898,
+      "mean_commute_minutes": 21.3,
+      "geo_level": "county"
+    },
+    "milwaukee-wi": {
+      "msa_fips": "33340",
+      "msa_name": "Milwaukee-Waukesha, WI",
+      "total_workers": 790400,
+      "work_from_home": 107300,
+      "commute_rate": 0.864,
+      "mean_commute_minutes": 22.4
+    },
+    "baltimore-md": {
+      "msa_fips": "12580",
+      "msa_name": "Baltimore-Columbia-Towson, MD",
+      "total_workers": 1453100,
+      "work_from_home": 224700,
+      "commute_rate": 0.846,
+      "mean_commute_minutes": 30.2
+    },
+    "san-jose-ca": {
+      "msa_fips": "41940",
+      "msa_name": "San Jose-Sunnyvale-Santa Clara, CA",
+      "total_workers": 1072300,
+      "work_from_home": 184700,
+      "commute_rate": 0.828,
+      "mean_commute_minutes": 27.4
+    },
+    "jacksonville-fl": {
+      "msa_fips": "27260",
+      "msa_name": "Jacksonville, FL",
+      "total_workers": 751400,
+      "work_from_home": 87200,
+      "commute_rate": 0.884,
+      "mean_commute_minutes": 26.1
+    },
+    "providence-ri": {
+      "msa_fips": "39300",
+      "msa_name": "Providence-Warwick, RI-MA",
+      "total_workers": 793200,
+      "work_from_home": 104700,
+      "commute_rate": 0.868,
+      "mean_commute_minutes": 24.8
+    },
+    "charleston-sc": {
+      "msa_fips": "16700",
+      "msa_name": "Charleston-North Charleston, SC",
+      "total_workers": 420100,
+      "work_from_home": 51700,
+      "commute_rate": 0.876,
+      "mean_commute_minutes": 25.4
+    },
+    "burlington-vt": {
+      "msa_fips": "15540",
+      "msa_name": "Burlington-South Burlington, VT",
+      "total_workers": 129400,
+      "work_from_home": 20100,
+      "commute_rate": 0.844,
+      "mean_commute_minutes": 21.3
+    },
+    "bend-or": {
+      "msa_fips": "13460",
+      "msa_name": "Bend, OR",
+      "total_workers": 101400,
+      "work_from_home": 17800,
+      "commute_rate": 0.836,
+      "mean_commute_minutes": 19.8
+    },
+    "honolulu-hi": {
+      "msa_fips": "46520",
+      "msa_name": "Urban Honolulu, HI",
+      "total_workers": 469300,
+      "work_from_home": 50700,
+      "commute_rate": 0.892,
+      "mean_commute_minutes": 27.1
+    },
+    "portland-me": {
+      "msa_fips": "38860",
+      "msa_name": "Portland-South Portland, ME",
+      "total_workers": 164700,
+      "work_from_home": 24400,
+      "commute_rate": 0.852,
+      "mean_commute_minutes": 22.4
+    },
+    "santa-fe-nm": {
+      "msa_fips": "42140",
+      "msa_name": "Santa Fe, NM",
+      "total_workers": 71400,
+      "work_from_home": 12100,
+      "commute_rate": 0.828,
+      "mean_commute_minutes": 22.1
+    },
+    "chattanooga-tn": {
+      "msa_fips": "16860",
+      "msa_name": "Chattanooga, TN-GA",
+      "total_workers": 281400,
+      "work_from_home": 34700,
+      "commute_rate": 0.876,
+      "mean_commute_minutes": 22.8
+    },
+    "fort-worth-tx": {
+      "msa_fips": "19100",
+      "msa_name": "Dallas-Fort Worth-Arlington, TX",
+      "total_workers": 3774900,
+      "work_from_home": 535400,
+      "commute_rate": 0.857,
+      "mean_commute_minutes": 28.0,
+      "note": "Shares Dallas-Fort Worth MSA (19100) with dallas-tx"
+    },
+    "norfolk-va": {
+      "msa_fips": "47260",
+      "msa_name": "Virginia Beach-Norfolk-Newport News, VA-NC",
+      "total_workers": 822100,
+      "work_from_home": 99700,
+      "commute_rate": 0.878,
+      "mean_commute_minutes": 25.8
+    },
+    "reno-nv": {
+      "msa_fips": "39900",
+      "msa_name": "Reno, NV",
+      "total_workers": 254700,
+      "work_from_home": 36700,
+      "commute_rate": 0.856,
+      "mean_commute_minutes": 21.4
+    },
+    "albany-ny": {
+      "msa_fips": "10580",
+      "msa_name": "Albany-Schenectady-Troy, NY",
+      "total_workers": 445400,
+      "work_from_home": 64700,
+      "commute_rate": 0.852,
+      "mean_commute_minutes": 22.1
+    },
+    "new-haven-ct": {
+      "msa_fips": "35300",
+      "msa_name": "New Haven-Milford, CT",
+      "total_workers": 411300,
+      "work_from_home": 59700,
+      "commute_rate": 0.856,
+      "mean_commute_minutes": 24.4
+    },
+    "newark-nj": {
+      "msa_fips": "35620",
+      "msa_name": "New York-Newark-Jersey City, NY-NJ-PA (Newark metro division)",
+      "total_workers": 9476876,
+      "work_from_home": 1386520,
+      "commute_rate": 0.854,
+      "mean_commute_minutes": 37.1,
+      "note": "Newark Metro Division within NYC MSA (35620)"
+    },
+    "green-bay-wi": {
+      "msa_fips": "24580",
+      "msa_name": "Green Bay, WI",
+      "total_workers": 172400,
+      "work_from_home": 20100,
+      "commute_rate": 0.886,
+      "mean_commute_minutes": 19.8
+    },
+    "la-crosse-wi": {
+      "msa_fips": "29100",
+      "msa_name": "La Crosse-Onalaska, WI-MN",
+      "total_workers": 79400,
+      "work_from_home": 9400,
+      "commute_rate": 0.872,
+      "mean_commute_minutes": 18.4
+    },
+    "mobile-al": {
+      "msa_fips": "33660",
+      "msa_name": "Mobile, AL",
+      "total_workers": 201400,
+      "work_from_home": 23700,
+      "commute_rate": 0.882,
+      "mean_commute_minutes": 22.4
+    },
+    "portsmouth-nh": {
+      "msa_fips": "40484",
+      "msa_name": "Portsmouth, NH-ME",
+      "total_workers": 97400,
+      "work_from_home": 13400,
+      "commute_rate": 0.848,
+      "mean_commute_minutes": 24.1
+    },
+    "annapolis-md": {
+      "msa_fips": "12580",
+      "msa_name": "Baltimore-Columbia-Towson, MD (Annapolis/Anne Arundel County)",
+      "total_workers": 1453100,
+      "work_from_home": 224700,
+      "commute_rate": 0.846,
+      "mean_commute_minutes": 30.2,
+      "note": "Part of Baltimore MSA (12580); county-level data available for Anne Arundel County (FIPS 24003)"
+    },
+    "santa-barbara-ca": {
+      "msa_fips": "42200",
+      "msa_name": "Santa Maria-Santa Barbara, CA",
+      "total_workers": 193400,
+      "work_from_home": 30700,
+      "commute_rate": 0.836,
+      "mean_commute_minutes": 21.8
+    },
+    "fort-lauderdale-fl": {
+      "msa_fips": "33100",
+      "msa_name": "Miami-Fort Lauderdale-Pompano Beach, FL",
+      "total_workers": 3053400,
+      "work_from_home": 377900,
+      "commute_rate": 0.876,
+      "mean_commute_minutes": 29.3,
+      "note": "Shares Miami MSA (33100) with miami-fl"
+    },
+    "duluth-mn": {
+      "msa_fips": "20260",
+      "msa_name": "Duluth, MN-WI",
+      "total_workers": 141400,
+      "work_from_home": 17800,
+      "commute_rate": 0.862,
+      "mean_commute_minutes": 19.4
+    },
+    "anchorage-ak": {
+      "msa_fips": "11260",
+      "msa_name": "Anchorage, AK",
+      "total_workers": 193400,
+      "work_from_home": 23700,
+      "commute_rate": 0.878,
+      "mean_commute_minutes": 20.8
+    },
+    "san-juan-pr": {
+      "msa_fips": "41980",
+      "msa_name": "San Juan-Bayam\u00f3n-Caguas, PR",
+      "total_workers": 874200,
+      "work_from_home": 66700,
+      "commute_rate": 0.924,
+      "mean_commute_minutes": 32.4,
+      "note": "Puerto Rico \u2014 Census geography differs; commute/migration patterns reflect PR labor market"
+    },
+    "hoboken-nj": {
+      "msa_fips": "35620",
+      "msa_name": "New York-Newark-Jersey City, NY-NJ-PA (Hoboken is within NYC MSA)",
+      "total_workers": 9476876,
+      "work_from_home": 1386520,
+      "commute_rate": 0.854,
+      "mean_commute_minutes": 37.1,
+      "note": "Within NYC MSA (35620); no independent metro area"
+    }
+  }
+}
