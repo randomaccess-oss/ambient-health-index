@@ -18,16 +18,16 @@
           "note": "85% commute rate with 37.1-min average travel time"
         },
         "spatial": {
-          "score": 80,
+          "score": 82,
           "note": "Walk Score 100, 2.1 bars/10K, very dense urban core"
         },
         "planning": {
-          "score": 68,
-          "note": "Transit Score 100 and 2.1 bars/10K make spontaneous outings easy"
+          "score": 99,
+          "note": "Transit Score 100 and Walk Score 100 make spontaneous outings easy"
         },
         "permission": {
-          "score": 43,
-          "note": "NY ranks above-average in per-capita consumption (2.76 gal), fewer on-premise venues"
+          "score": 50,
+          "note": "NY ranks above-average in per-capita consumption (2.76 gal)"
         },
         "repetition": {
           "score": 88,
@@ -48,15 +48,15 @@
           "note": "86% commute rate with 30.8-min average travel time"
         },
         "spatial": {
-          "score": 77,
+          "score": 76,
           "note": "Walk Score 100, 2.9 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 77,
-          "note": "Transit Score 100 and 2.9 bars/10K make spontaneous outings easy"
+          "score": 94,
+          "note": "Transit Score 100 and Walk Score 100 make spontaneous outings easy"
         },
         "permission": {
-          "score": 48,
+          "score": 42,
           "note": "IL ranks above-average in per-capita consumption (2.56 gal)"
         },
         "repetition": {
@@ -78,16 +78,16 @@
           "note": "87% commute rate with 25.0-min average travel time"
         },
         "spatial": {
-          "score": 78,
+          "score": 73,
           "note": "Walk Score 96, 4.6 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 87,
-          "note": "Transit Score 84 and 4.6 bars/10K make spontaneous outings easy"
+          "score": 79,
+          "note": "Transit Score 84 and Walk Score 96 make spontaneous outings easy"
         },
         "permission": {
-          "score": 68,
-          "note": "LA ranks above-average in per-capita consumption (2.65 gal), strong on-premise culture"
+          "score": 46,
+          "note": "LA ranks above-average in per-capita consumption (2.65 gal)"
         },
         "repetition": {
           "score": 63,
@@ -108,15 +108,15 @@
           "note": "81% commute rate with 29.9-min average travel time"
         },
         "spatial": {
-          "score": 78,
+          "score": 76,
           "note": "Walk Score 99, 3.3 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 81,
-          "note": "Transit Score 100 and 3.3 bars/10K make spontaneous outings easy"
+          "score": 93,
+          "note": "Transit Score 100 and Walk Score 99 make spontaneous outings easy"
         },
         "permission": {
-          "score": 55,
+          "score": 48,
           "note": "MA ranks above-average in per-capita consumption (2.71 gal)"
         },
         "repetition": {
@@ -138,15 +138,15 @@
           "note": "85% commute rate with 29.2-min average travel time"
         },
         "spatial": {
-          "score": 71,
+          "score": 69,
           "note": "Walk Score 100, 2.7 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 75,
-          "note": "Transit Score 100 and 2.7 bars/10K make spontaneous outings easy"
+          "score": 91,
+          "note": "Transit Score 100 and Walk Score 100 make spontaneous outings easy"
         },
         "permission": {
-          "score": 43,
+          "score": 37,
           "note": "PA ranks above-average in per-capita consumption (2.43 gal)"
         },
         "repetition": {
@@ -172,12 +172,12 @@
           "note": "Walk Score 98, 2.2 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 69,
-          "note": "Transit Score 100 and 2.2 bars/10K make spontaneous outings easy"
+          "score": 93,
+          "note": "Transit Score 100 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 69,
-          "note": "DC ranks high in per-capita consumption (5.08 gal), fewer on-premise venues"
+          "score": 100,
+          "note": "DC ranks high in per-capita consumption (5.08 gal)"
         },
         "repetition": {
           "score": 67,
@@ -198,16 +198,16 @@
           "note": "83% commute rate with 24.5-min average travel time"
         },
         "spatial": {
-          "score": 79,
+          "score": 74,
           "note": "Walk Score 93, 4.7 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 90,
-          "note": "Transit Score 88 and 4.7 bars/10K make spontaneous outings easy"
+          "score": 81,
+          "note": "Transit Score 88 and Walk Score 93 make spontaneous outings easy"
         },
         "permission": {
-          "score": 67,
-          "note": "MN ranks above-average in per-capita consumption (2.55 gal), strong on-premise culture"
+          "score": 42,
+          "note": "MN ranks above-average in per-capita consumption (2.55 gal)"
         },
         "repetition": {
           "score": 67,
@@ -228,16 +228,16 @@
           "note": "83% commute rate with 25.7-min average travel time"
         },
         "spatial": {
-          "score": 76,
+          "score": 73,
           "note": "Walk Score 88, 4.4 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 86,
-          "note": "Transit Score 85 and 4.4 bars/10K make spontaneous outings easy"
+          "score": 79,
+          "note": "Transit Score 85 and Walk Score 88 make spontaneous outings easy"
         },
         "permission": {
-          "score": 67,
-          "note": "OR ranks above-average in per-capita consumption (2.71 gal), strong on-premise culture"
+          "score": 48,
+          "note": "OR ranks above-average in per-capita consumption (2.71 gal)"
         },
         "repetition": {
           "score": 50,
@@ -258,15 +258,15 @@
           "note": "88% commute rate with 29.3-min average travel time"
         },
         "spatial": {
-          "score": 75,
+          "score": 76,
           "note": "Walk Score 98, 2.5 bars/10K, very dense urban core"
         },
         "planning": {
-          "score": 66,
-          "note": "Transit Score 88 and 2.5 bars/10K make spontaneous outings easy"
+          "score": 89,
+          "note": "Transit Score 88 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 47,
+          "score": 48,
           "note": "FL ranks above-average in per-capita consumption (2.71 gal)"
         },
         "repetition": {
@@ -288,16 +288,16 @@
           "note": "87% commute rate with 26.1-min average travel time"
         },
         "spatial": {
-          "score": 76,
+          "score": 70,
           "note": "Walk Score 98, 4.4 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 81,
-          "note": "Transit Score 75 and 4.4 bars/10K make spontaneous outings easy"
+          "score": 74,
+          "note": "Transit Score 75 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 57,
-          "note": "TN ranks moderate in per-capita consumption (2.17 gal), strong on-premise culture"
+          "score": 27,
+          "note": "TN ranks moderate in per-capita consumption (2.17 gal)"
         },
         "repetition": {
           "score": 28,
@@ -318,16 +318,16 @@
           "note": "83% commute rate with 26.2-min average travel time"
         },
         "spatial": {
-          "score": 78,
+          "score": 73,
           "note": "Walk Score 95, 4.3 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 82,
-          "note": "Transit Score 80 and 4.3 bars/10K make spontaneous outings easy"
+          "score": 78,
+          "note": "Transit Score 80 and Walk Score 95 make spontaneous outings easy"
         },
         "permission": {
-          "score": 69,
-          "note": "CO ranks above-average in per-capita consumption (2.84 gal), strong on-premise culture"
+          "score": 54,
+          "note": "CO ranks above-average in per-capita consumption (2.84 gal)"
         },
         "repetition": {
           "score": 40,
@@ -348,15 +348,15 @@
           "note": "81% commute rate with 24.8-min average travel time"
         },
         "spatial": {
-          "score": 77,
+          "score": 73,
           "note": "Walk Score 99, 4.0 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 73,
-          "note": "Transit Score 69 and 4.0 bars/10K make spontaneous outings easy"
+          "score": 74,
+          "note": "Transit Score 69 and Walk Score 99 make spontaneous outings easy"
         },
         "permission": {
-          "score": 57,
+          "score": 37,
           "note": "TX ranks above-average in per-capita consumption (2.42 gal)"
         },
         "repetition": {
@@ -378,15 +378,15 @@
           "note": "High remote-work rate (22% WFH) with 31.3-min avg commute"
         },
         "spatial": {
-          "score": 93,
+          "score": 94,
           "note": "Walk Score 99, 4.0 bars/10K, very dense urban core"
         },
         "planning": {
-          "score": 89,
-          "note": "Transit Score 100 and 4.0 bars/10K make spontaneous outings easy"
+          "score": 100,
+          "note": "Transit Score 100 and Walk Score 99 make spontaneous outings easy"
         },
         "permission": {
-          "score": 60,
+          "score": 42,
           "note": "CA ranks above-average in per-capita consumption (2.54 gal)"
         },
         "repetition": {
@@ -408,15 +408,15 @@
           "note": "High remote-work rate (20% WFH) with 28.2-min avg commute"
         },
         "spatial": {
-          "score": 80,
+          "score": 78,
           "note": "Walk Score 99, 3.9 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 88,
-          "note": "Transit Score 100 and 3.9 bars/10K make spontaneous outings easy"
+          "score": 92,
+          "note": "Transit Score 100 and Walk Score 99 make spontaneous outings easy"
         },
         "permission": {
-          "score": 61,
+          "score": 47,
           "note": "WA ranks above-average in per-capita consumption (2.67 gal)"
         },
         "repetition": {
@@ -438,16 +438,16 @@
           "note": "85% commute rate with 31.2-min average travel time"
         },
         "spatial": {
-          "score": 61,
+          "score": 58,
           "note": "Walk Score 93, 2.5 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 62,
-          "note": "Transit Score 81 and 2.5 bars/10K make spontaneous outings easy"
+          "score": 76,
+          "note": "Transit Score 81 and Walk Score 93 make spontaneous outings easy"
         },
         "permission": {
-          "score": 35,
-          "note": "GA ranks moderate in per-capita consumption (2.14 gal), fewer on-premise venues"
+          "score": 26,
+          "note": "GA ranks moderate in per-capita consumption (2.14 gal)"
         },
         "repetition": {
           "score": 51,
@@ -468,16 +468,16 @@
           "note": "83% commute rate with 30.1-min average travel time"
         },
         "spatial": {
-          "score": 72,
+          "score": 73,
           "note": "Walk Score 96, 2.2 bars/10K, very dense urban core"
         },
         "planning": {
-          "score": 69,
-          "note": "Transit Score 100 and 2.2 bars/10K make spontaneous outings easy"
+          "score": 94,
+          "note": "Transit Score 100 and Walk Score 96 make spontaneous outings easy"
         },
         "permission": {
-          "score": 40,
-          "note": "CA ranks above-average in per-capita consumption (2.54 gal), fewer on-premise venues"
+          "score": 42,
+          "note": "CA ranks above-average in per-capita consumption (2.54 gal)"
         },
         "repetition": {
           "score": 72,
@@ -498,15 +498,15 @@
           "note": "86% commute rate with 25.8-min average travel time"
         },
         "spatial": {
-          "score": 65,
+          "score": 62,
           "note": "Walk Score 96, 2.5 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 55,
-          "note": "Transit Score 65 and 2.5 bars/10K make spontaneous outings easy"
+          "score": 70,
+          "note": "Transit Score 65 and Walk Score 96 make spontaneous outings easy"
         },
         "permission": {
-          "score": 43,
+          "score": 42,
           "note": "AZ ranks above-average in per-capita consumption (2.55 gal)"
         },
         "repetition": {
@@ -528,15 +528,15 @@
           "note": "86% commute rate with 28.0-min average travel time"
         },
         "spatial": {
-          "score": 68,
+          "score": 65,
           "note": "Walk Score 93, 2.9 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 68,
-          "note": "Transit Score 84 and 2.9 bars/10K make spontaneous outings easy"
+          "score": 80,
+          "note": "Transit Score 84 and Walk Score 93 make spontaneous outings easy"
         },
         "permission": {
-          "score": 45,
+          "score": 37,
           "note": "TX ranks above-average in per-capita consumption (2.42 gal)"
         },
         "repetition": {
@@ -558,16 +558,16 @@
           "note": "87% commute rate with 28.9-min average travel time"
         },
         "spatial": {
-          "score": 56,
+          "score": 55,
           "note": "Walk Score 76, 2.2 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 63,
-          "note": "Transit Score 87 and 2.2 bars/10K make spontaneous outings easy"
+          "score": 76,
+          "note": "Transit Score 87 and Walk Score 76 make spontaneous outings easy"
         },
         "permission": {
-          "score": 38,
-          "note": "TX ranks above-average in per-capita consumption (2.42 gal), fewer on-premise venues"
+          "score": 37,
+          "note": "TX ranks above-average in per-capita consumption (2.42 gal)"
         },
         "repetition": {
           "score": 56,
@@ -588,16 +588,16 @@
           "note": "86% commute rate with 22.4-min average travel time"
         },
         "spatial": {
-          "score": 83,
+          "score": 78,
           "note": "Walk Score 98, 5.7 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 84,
-          "note": "Transit Score 68 and 5.7 bars/10K make spontaneous outings easy"
+          "score": 73,
+          "note": "Transit Score 68 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 80,
-          "note": "WI ranks above-average in per-capita consumption (2.98 gal), strong on-premise culture"
+          "score": 59,
+          "note": "WI ranks above-average in per-capita consumption (2.98 gal)"
         },
         "repetition": {
           "score": 66,
@@ -618,16 +618,16 @@
           "note": "87% commute rate with 26.0-min average travel time"
         },
         "spatial": {
-          "score": 78,
+          "score": 71,
           "note": "Walk Score 99, 5.5 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 96,
-          "note": "Transit Score 92 and 5.5 bars/10K make spontaneous outings easy"
+          "score": 81,
+          "note": "Transit Score 92 and Walk Score 99 make spontaneous outings easy"
         },
         "permission": {
-          "score": 69,
-          "note": "PA ranks above-average in per-capita consumption (2.43 gal), strong on-premise culture"
+          "score": 37,
+          "note": "PA ranks above-average in per-capita consumption (2.43 gal)"
         },
         "repetition": {
           "score": 82,
@@ -648,15 +648,15 @@
           "note": "86% commute rate with 24.3-min average travel time"
         },
         "spatial": {
-          "score": 64,
+          "score": 60,
           "note": "Walk Score 85, 3.5 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 67,
-          "note": "Transit Score 68 and 3.5 bars/10K make spontaneous outings easy"
+          "score": 66,
+          "note": "Transit Score 68 and Walk Score 85 make spontaneous outings easy"
         },
         "permission": {
-          "score": 52,
+          "score": 36,
           "note": "MO ranks above-average in per-capita consumption (2.41 gal)"
         },
         "repetition": {
@@ -678,16 +678,16 @@
           "note": "88% commute rate with 22.9-min average travel time"
         },
         "spatial": {
-          "score": 81,
+          "score": 76,
           "note": "Walk Score 93, 4.9 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 89,
-          "note": "Transit Score 81 and 4.9 bars/10K make spontaneous outings easy"
+          "score": 78,
+          "note": "Transit Score 81 and Walk Score 93 make spontaneous outings easy"
         },
         "permission": {
-          "score": 64,
-          "note": "OH ranks moderate in per-capita consumption (2.28 gal), strong on-premise culture"
+          "score": 31,
+          "note": "OH ranks moderate in per-capita consumption (2.28 gal)"
         },
         "repetition": {
           "score": 81,
@@ -708,15 +708,15 @@
           "note": "87% commute rate with 22.8-min average travel time"
         },
         "spatial": {
-          "score": 71,
+          "score": 66,
           "note": "Walk Score 98, 3.6 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 75,
-          "note": "Transit Score 81 and 3.6 bars/10K make spontaneous outings easy"
+          "score": 77,
+          "note": "Transit Score 81 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 50,
+          "score": 31,
           "note": "OH ranks moderate in per-capita consumption (2.28 gal)"
         },
         "repetition": {
@@ -738,15 +738,15 @@
           "note": "85% commute rate with 24.9-min average travel time"
         },
         "spatial": {
-          "score": 74,
+          "score": 71,
           "note": "Walk Score 99, 3.5 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 76,
-          "note": "Transit Score 85 and 3.5 bars/10K make spontaneous outings easy"
+          "score": 82,
+          "note": "Transit Score 85 and Walk Score 99 make spontaneous outings easy"
         },
         "permission": {
-          "score": 51,
+          "score": 34,
           "note": "MI ranks above-average in per-capita consumption (2.36 gal)"
         },
         "repetition": {
@@ -768,15 +768,15 @@
           "note": "85% commute rate with 30.2-min average travel time"
         },
         "spatial": {
-          "score": 78,
+          "score": 74,
           "note": "Walk Score 98, 3.9 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 87,
-          "note": "Transit Score 100 and 3.9 bars/10K make spontaneous outings easy"
+          "score": 90,
+          "note": "Transit Score 100 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 58,
+          "score": 41,
           "note": "MD ranks above-average in per-capita consumption (2.52 gal)"
         },
         "repetition": {
@@ -798,15 +798,15 @@
           "note": "83% commute rate with 24.2-min average travel time"
         },
         "spatial": {
-          "score": 77,
+          "score": 76,
           "note": "Walk Score 99, 3.0 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 68,
-          "note": "Transit Score 79 and 3.0 bars/10K make spontaneous outings easy"
+          "score": 83,
+          "note": "Transit Score 79 and Walk Score 99 make spontaneous outings easy"
         },
         "permission": {
-          "score": 49,
+          "score": 42,
           "note": "CA ranks above-average in per-capita consumption (2.54 gal)"
         },
         "repetition": {
@@ -828,15 +828,15 @@
           "note": "88% commute rate with 24.7-min average travel time"
         },
         "spatial": {
-          "score": 68,
+          "score": 65,
           "note": "Walk Score 98, 2.9 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 67,
-          "note": "Transit Score 80 and 2.9 bars/10K make spontaneous outings easy"
+          "score": 78,
+          "note": "Transit Score 80 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 45,
+          "score": 37,
           "note": "TX ranks above-average in per-capita consumption (2.42 gal)"
         },
         "repetition": {
@@ -858,15 +858,15 @@
           "note": "85% commute rate with 22.1-min average travel time"
         },
         "spatial": {
-          "score": 69,
+          "score": 66,
           "note": "Walk Score 85, 3.8 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 70,
-          "note": "Transit Score 66 and 3.8 bars/10K make spontaneous outings easy"
+          "score": 67,
+          "note": "Transit Score 66 and Walk Score 85 make spontaneous outings easy"
         },
         "permission": {
-          "score": 52,
+          "score": 31,
           "note": "OH ranks moderate in per-capita consumption (2.28 gal)"
         },
         "repetition": {
@@ -888,15 +888,15 @@
           "note": "88% commute rate with 23.0-min average travel time"
         },
         "spatial": {
-          "score": 72,
+          "score": 67,
           "note": "Walk Score 99, 3.6 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 68,
-          "note": "Transit Score 66 and 3.6 bars/10K make spontaneous outings easy"
+          "score": 70,
+          "note": "Transit Score 66 and Walk Score 99 make spontaneous outings easy"
         },
         "permission": {
-          "score": 49,
+          "score": 28,
           "note": "IN ranks moderate in per-capita consumption (2.19 gal)"
         },
         "repetition": {
@@ -918,15 +918,15 @@
           "note": "85% commute rate with 26.1-min average travel time"
         },
         "spatial": {
-          "score": 65,
+          "score": 61,
           "note": "Walk Score 97, 2.7 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 63,
-          "note": "Transit Score 78 and 2.7 bars/10K make spontaneous outings easy"
+          "score": 76,
+          "note": "Transit Score 78 and Walk Score 97 make spontaneous outings easy"
         },
         "permission": {
-          "score": 37,
+          "score": 26,
           "note": "NC ranks moderate in per-capita consumption (2.16 gal)"
         },
         "repetition": {
@@ -948,15 +948,15 @@
           "note": "87% commute rate with 26.1-min average travel time"
         },
         "spatial": {
-          "score": 69,
+          "score": 67,
           "note": "Walk Score 86, 3.3 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 61,
-          "note": "Moderate transit (score 60), 3.3 bars/10K"
+          "score": 67,
+          "note": "Moderate transit (score 60), Walk Score 86"
         },
         "permission": {
-          "score": 55,
+          "score": 48,
           "note": "FL ranks above-average in per-capita consumption (2.71 gal)"
         },
         "repetition": {
@@ -978,15 +978,15 @@
           "note": "Strong commuter presence (88% commute), avg 26.8-min travel time"
         },
         "spatial": {
-          "score": 68,
+          "score": 65,
           "note": "Walk Score 96, 3.0 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 62,
-          "note": "Transit Score 67 and 3.0 bars/10K make spontaneous outings easy"
+          "score": 71,
+          "note": "Transit Score 67 and Walk Score 96 make spontaneous outings easy"
         },
         "permission": {
-          "score": 52,
+          "score": 48,
           "note": "FL ranks above-average in per-capita consumption (2.71 gal)"
         },
         "repetition": {
@@ -1008,15 +1008,15 @@
           "note": "86% commute rate with 22.8-min average travel time"
         },
         "spatial": {
-          "score": 69,
+          "score": 64,
           "note": "Walk Score 94, 3.9 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 71,
-          "note": "Transit Score 67 and 3.9 bars/10K make spontaneous outings easy"
+          "score": 68,
+          "note": "Transit Score 67 and Walk Score 94 make spontaneous outings easy"
         },
         "permission": {
-          "score": 56,
+          "score": 36,
           "note": "MO ranks above-average in per-capita consumption (2.41 gal)"
         },
         "repetition": {
@@ -1038,15 +1038,15 @@
           "note": "81% commute rate with 24.5-min average travel time"
         },
         "spatial": {
-          "score": 69,
+          "score": 65,
           "note": "Walk Score 90, 3.6 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 71,
-          "note": "Transit Score 73 and 3.6 bars/10K make spontaneous outings easy"
+          "score": 72,
+          "note": "Transit Score 73 and Walk Score 90 make spontaneous outings easy"
         },
         "permission": {
-          "score": 47,
+          "score": 26,
           "note": "NC ranks moderate in per-capita consumption (2.16 gal)"
         },
         "repetition": {
@@ -1068,15 +1068,15 @@
           "note": "84% commute rate with 26.1-min average travel time"
         },
         "spatial": {
-          "score": 66,
+          "score": 64,
           "note": "Walk Score 98, 2.6 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 55,
-          "note": "Transit Score 65 and 2.6 bars/10K make spontaneous outings easy"
+          "score": 71,
+          "note": "Transit Score 65 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 44,
+          "score": 42,
           "note": "CA ranks above-average in per-capita consumption (2.54 gal)"
         },
         "repetition": {
@@ -1098,15 +1098,15 @@
           "note": "83% commute rate with 27.4-min average travel time"
         },
         "spatial": {
-          "score": 77,
+          "score": 76,
           "note": "Walk Score 98, 3.1 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 65,
-          "note": "Transit Score 73 and 3.1 bars/10K make spontaneous outings easy"
+          "score": 79,
+          "note": "Transit Score 73 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 50,
+          "score": 42,
           "note": "CA ranks above-average in per-capita consumption (2.54 gal)"
         },
         "repetition": {
@@ -1128,15 +1128,15 @@
           "note": "Strong commuter presence (88% commute), avg 26.1-min travel time"
         },
         "spatial": {
-          "score": 63,
+          "score": 59,
           "note": "Walk Score 89, 3.1 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 60,
-          "note": "Transit Score 61 and 3.1 bars/10K make spontaneous outings easy"
+          "score": 64,
+          "note": "Transit Score 61 and Walk Score 89 make spontaneous outings easy"
         },
         "permission": {
-          "score": 53,
+          "score": 48,
           "note": "FL ranks above-average in per-capita consumption (2.71 gal)"
         },
         "repetition": {
@@ -1158,15 +1158,15 @@
           "note": "Strong commuter presence (90% commute), avg 23.2-min travel time"
         },
         "spatial": {
-          "score": 67,
+          "score": 62,
           "note": "Walk Score 89, 3.7 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 63,
-          "note": "Moderate transit (score 54), 3.7 bars/10K"
+          "score": 60,
+          "note": "Moderate transit (score 54), Walk Score 89"
         },
         "permission": {
-          "score": 49,
+          "score": 27,
           "note": "TN ranks moderate in per-capita consumption (2.17 gal)"
         },
         "repetition": {
@@ -1188,16 +1188,16 @@
           "note": "88% commute rate with 22.5-min average travel time"
         },
         "spatial": {
-          "score": 74,
+          "score": 68,
           "note": "Walk Score 95, 4.4 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 72,
-          "note": "Moderate transit (score 56), 4.4 bars/10K"
+          "score": 63,
+          "note": "Moderate transit (score 56), Walk Score 95"
         },
         "permission": {
-          "score": 56,
-          "note": "KY ranks moderate in per-capita consumption (2.11 gal), strong on-premise culture"
+          "score": 24,
+          "note": "KY ranks moderate in per-capita consumption (2.11 gal)"
         },
         "repetition": {
           "score": 62,
@@ -1218,15 +1218,15 @@
           "note": "84% commute rate with 24.9-min average travel time"
         },
         "spatial": {
-          "score": 69,
+          "score": 64,
           "note": "Walk Score 91, 3.8 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 69,
-          "note": "Transit Score 64 and 3.8 bars/10K make spontaneous outings easy"
+          "score": 66,
+          "note": "Transit Score 64 and Walk Score 91 make spontaneous outings easy"
         },
         "permission": {
-          "score": 56,
+          "score": 40,
           "note": "VA ranks above-average in per-capita consumption (2.49 gal)"
         },
         "repetition": {
@@ -1248,16 +1248,16 @@
           "note": "87% commute rate with 19.9-min average travel time"
         },
         "spatial": {
-          "score": 81,
+          "score": 75,
           "note": "Walk Score 94, 5.2 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 82,
-          "note": "Transit Score 64 and 5.2 bars/10K make spontaneous outings easy"
+          "score": 69,
+          "note": "Transit Score 64 and Walk Score 94 make spontaneous outings easy"
         },
         "permission": {
-          "score": 75,
-          "note": "NY ranks above-average in per-capita consumption (2.76 gal), strong on-premise culture"
+          "score": 50,
+          "note": "NY ranks above-average in per-capita consumption (2.76 gal)"
         },
         "repetition": {
           "score": 80,
@@ -1278,15 +1278,15 @@
           "note": "87% commute rate with 24.8-min average travel time"
         },
         "spatial": {
-          "score": 74,
+          "score": 69,
           "note": "Walk Score 99, 3.8 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 76,
-          "note": "Transit Score 78 and 3.8 bars/10K make spontaneous outings easy"
+          "score": 77,
+          "note": "Transit Score 78 and Walk Score 99 make spontaneous outings easy"
         },
         "permission": {
-          "score": 62,
+          "score": 51,
           "note": "RI ranks above-average in per-capita consumption (2.78 gal)"
         },
         "repetition": {
@@ -1308,16 +1308,16 @@
           "note": "86% commute rate with 24.4-min average travel time"
         },
         "spatial": {
-          "score": 72,
+          "score": 69,
           "note": "Walk Score 72, 4.5 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 72,
-          "note": "Moderate transit (score 55), 4.5 bars/10K"
+          "score": 60,
+          "note": "Moderate transit (score 55), Walk Score 72"
         },
         "permission": {
-          "score": 68,
-          "note": "CT ranks above-average in per-capita consumption (2.68 gal), strong on-premise culture"
+          "score": 47,
+          "note": "CT ranks above-average in per-capita consumption (2.68 gal)"
         },
         "repetition": {
           "score": 54,
@@ -1338,16 +1338,16 @@
           "note": "88% commute rate with 25.4-min average travel time"
         },
         "spatial": {
-          "score": 75,
+          "score": 69,
           "note": "Walk Score 93, 4.7 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 63,
-          "note": "Moderate transit (score 34), 4.7 bars/10K"
+          "score": 51,
+          "note": "Moderate transit (score 34), Walk Score 93"
         },
         "permission": {
-          "score": 67,
-          "note": "SC ranks above-average in per-capita consumption (2.51 gal), strong on-premise culture"
+          "score": 40,
+          "note": "SC ranks above-average in per-capita consumption (2.51 gal)"
         },
         "repetition": {
           "score": 10,
@@ -1368,16 +1368,16 @@
           "note": "86% commute rate with 23.0-min average travel time"
         },
         "spatial": {
-          "score": 75,
+          "score": 68,
           "note": "Walk Score 89, 6.1 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 85,
-          "note": "Car-dependent but 6.1 bars/10K keeps options accessible"
+          "score": 57,
+          "note": "Car-dependent but walkable core (Walk Score 89)"
         },
         "permission": {
-          "score": 63,
-          "note": "GA ranks moderate in per-capita consumption (2.14 gal), strong on-premise culture"
+          "score": 26,
+          "note": "GA ranks moderate in per-capita consumption (2.14 gal)"
         },
         "repetition": {
           "score": 9,
@@ -1398,16 +1398,16 @@
           "note": "81% commute rate with 19.6-min average travel time"
         },
         "spatial": {
-          "score": 81,
+          "score": 77,
           "note": "Walk Score 91, 7.2 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 82,
-          "note": "Transit Score 64 and 7.2 bars/10K make spontaneous outings easy"
+          "score": 69,
+          "note": "Transit Score 64 and Walk Score 91 make spontaneous outings easy"
         },
         "permission": {
-          "score": 80,
-          "note": "WI ranks above-average in per-capita consumption (2.98 gal), strong on-premise culture"
+          "score": 59,
+          "note": "WI ranks above-average in per-capita consumption (2.98 gal)"
         },
         "repetition": {
           "score": 8,
@@ -1428,16 +1428,16 @@
           "note": "84% commute rate with 21.3-min average travel time"
         },
         "spatial": {
-          "score": 78,
+          "score": 71,
           "note": "Walk Score 96, 6.1 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 74,
-          "note": "Moderate transit (score 47), 6.1 bars/10K"
+          "score": 59,
+          "note": "Moderate transit (score 47), Walk Score 96"
         },
         "permission": {
-          "score": 81,
-          "note": "VT ranks high in per-capita consumption (3.05 gal), strong on-premise culture"
+          "score": 62,
+          "note": "VT ranks high in per-capita consumption (3.05 gal)"
         },
         "repetition": {
           "score": 3,
@@ -1458,16 +1458,16 @@
           "note": "84% commute rate with 22.4-min average travel time"
         },
         "spatial": {
-          "score": 76,
+          "score": 69,
           "note": "Walk Score 90, 8.1 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 76,
-          "note": "Moderate transit (score 53), 8.1 bars/10K"
+          "score": 60,
+          "note": "Moderate transit (score 53), Walk Score 90"
         },
         "permission": {
-          "score": 63,
-          "note": "NC ranks moderate in per-capita consumption (2.16 gal), strong on-premise culture"
+          "score": 26,
+          "note": "NC ranks moderate in per-capita consumption (2.16 gal)"
         },
         "repetition": {
           "score": 29,
@@ -1488,15 +1488,15 @@
           "note": "Limited commuting data available"
         },
         "spatial": {
-          "score": 60,
+          "score": 58,
           "note": "Walk Score 74"
         },
         "planning": {
-          "score": 37,
-          "note": "Transit Score 24"
+          "score": 44,
+          "note": "Moderate transit (score 24), Walk Score 74"
         },
         "permission": {
-          "score": 49,
+          "score": 48,
           "note": "FL ranks above-average in per-capita consumption (2.71 gal)"
         },
         "repetition": {
@@ -1518,16 +1518,16 @@
           "note": "85% commute rate with 37.1-min average travel time"
         },
         "spatial": {
-          "score": 79,
+          "score": 82,
           "note": "Walk Score 99, 2.1 bars/10K, very dense urban core"
         },
         "planning": {
-          "score": 62,
-          "note": "Transit Score 88 and 2.1 bars/10K make spontaneous outings easy"
+          "score": 93,
+          "note": "Transit Score 88 and Walk Score 99 make spontaneous outings easy"
         },
         "permission": {
-          "score": 38,
-          "note": "NJ ranks above-average in per-capita consumption (2.49 gal), fewer on-premise venues"
+          "score": 40,
+          "note": "NJ ranks above-average in per-capita consumption (2.49 gal)"
         },
         "repetition": {
           "score": 88,
@@ -1548,16 +1548,16 @@
           "note": "82% commute rate with 19.9-min average travel time"
         },
         "spatial": {
-          "score": 81,
+          "score": 76,
           "note": "Walk Score 98, 6.5 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 89,
-          "note": "Transit Score 78 and 6.5 bars/10K make spontaneous outings easy"
+          "score": 77,
+          "note": "Transit Score 78 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 67,
-          "note": "MI ranks above-average in per-capita consumption (2.36 gal), strong on-premise culture"
+          "score": 34,
+          "note": "MI ranks above-average in per-capita consumption (2.36 gal)"
         },
         "repetition": {
           "score": 0,
@@ -1578,16 +1578,16 @@
           "note": "High remote-work rate (23% WFH) with 21.1-min avg commute"
         },
         "spatial": {
-          "score": 81,
+          "score": 77,
           "note": "Walk Score 90, 7.3 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 80,
-          "note": "Moderate transit (score 60), 7.3 bars/10K"
+          "score": 67,
+          "note": "Moderate transit (score 60), Walk Score 90"
         },
         "permission": {
-          "score": 77,
-          "note": "CO ranks above-average in per-capita consumption (2.84 gal), strong on-premise culture"
+          "score": 54,
+          "note": "CO ranks above-average in per-capita consumption (2.84 gal)"
         },
         "repetition": {
           "score": 0,
@@ -1608,16 +1608,16 @@
           "note": "85% commute rate with 21.0-min average travel time"
         },
         "spatial": {
-          "score": 71,
+          "score": 66,
           "note": "Walk Score 89, 4.1 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 63,
-          "note": "Moderate transit (score 47), 4.1 bars/10K"
+          "score": 58,
+          "note": "Moderate transit (score 47), Walk Score 89"
         },
         "permission": {
-          "score": 55,
-          "note": "ID ranks moderate in per-capita consumption (2.24 gal), strong on-premise culture"
+          "score": 30,
+          "note": "ID ranks moderate in per-capita consumption (2.24 gal)"
         },
         "repetition": {
           "score": 15,
@@ -1638,16 +1638,16 @@
           "note": "84% commute rate with 19.8-min average travel time"
         },
         "spatial": {
-          "score": 75,
+          "score": 67,
           "note": "Walk Score 97, 7.2 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 68,
-          "note": "Moderate transit (score 37), 7.2 bars/10K"
+          "score": 52,
+          "note": "Moderate transit (score 37), Walk Score 97"
         },
         "permission": {
-          "score": 74,
-          "note": "OR ranks above-average in per-capita consumption (2.71 gal), strong on-premise culture"
+          "score": 48,
+          "note": "OR ranks above-average in per-capita consumption (2.71 gal)"
         },
         "repetition": {
           "score": 0,
@@ -1668,16 +1668,16 @@
           "note": "86% commute rate with 19.4-min average travel time"
         },
         "spatial": {
-          "score": 55,
+          "score": 50,
           "note": "Walk Score 47, 8.2 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 66,
-          "note": "Moderate transit (score 32), 8.2 bars/10K"
+          "score": 34,
+          "note": "Moderate transit (score 32), Walk Score 47"
         },
         "permission": {
-          "score": 71,
-          "note": "MN ranks above-average in per-capita consumption (2.55 gal), strong on-premise culture"
+          "score": 42,
+          "note": "MN ranks above-average in per-capita consumption (2.55 gal)"
         },
         "repetition": {
           "score": 37,
@@ -1698,16 +1698,16 @@
           "note": "85% commute rate with 16.8-min average travel time"
         },
         "spatial": {
-          "score": 75,
+          "score": 67,
           "note": "Walk Score 94, 12.0 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 78,
-          "note": "Moderate transit (score 55), 12.0 bars/10K"
+          "score": 60,
+          "note": "Moderate transit (score 55), Walk Score 94"
         },
         "permission": {
-          "score": 79,
-          "note": "MT ranks above-average in per-capita consumption (2.95 gal), strong on-premise culture"
+          "score": 58,
+          "note": "MT ranks above-average in per-capita consumption (2.95 gal)"
         },
         "repetition": {
           "score": 0,
@@ -1728,16 +1728,16 @@
           "note": "86% commute rate with 19.9-min average travel time"
         },
         "spatial": {
-          "score": 73,
+          "score": 68,
           "note": "Walk Score 95, 4.3 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 67,
-          "note": "Moderate transit (score 50), 4.3 bars/10K"
+          "score": 60,
+          "note": "Moderate transit (score 50), Walk Score 95"
         },
         "permission": {
-          "score": 62,
-          "note": "NE ranks above-average in per-capita consumption (2.51 gal), strong on-premise culture"
+          "score": 40,
+          "note": "NE ranks above-average in per-capita consumption (2.51 gal)"
         },
         "repetition": {
           "score": 49,
@@ -1758,16 +1758,16 @@
           "note": "84% commute rate with 21.2-min average travel time"
         },
         "spatial": {
-          "score": 73,
+          "score": 67,
           "note": "Walk Score 96, 4.2 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 67,
-          "note": "Moderate transit (score 52), 4.2 bars/10K"
+          "score": 61,
+          "note": "Moderate transit (score 52), Walk Score 96"
         },
         "permission": {
-          "score": 63,
-          "note": "NM ranks above-average in per-capita consumption (2.56 gal), strong on-premise culture"
+          "score": 42,
+          "note": "NM ranks above-average in per-capita consumption (2.56 gal)"
         },
         "repetition": {
           "score": 45,
@@ -1788,15 +1788,15 @@
           "note": "85% commute rate with 22.0-min average travel time"
         },
         "spatial": {
-          "score": 58,
+          "score": 54,
           "note": "Walk Score 65, 3.7 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 55,
-          "note": "Moderate transit (score 39), 3.7 bars/10K"
+          "score": 46,
+          "note": "Moderate transit (score 39), Walk Score 65"
         },
         "permission": {
-          "score": 57,
+          "score": 42,
           "note": "AZ ranks above-average in per-capita consumption (2.55 gal)"
         },
         "repetition": {
@@ -1818,15 +1818,15 @@
           "note": "Strong commuter presence (89% commute), avg 27.1-min travel time"
         },
         "spatial": {
-          "score": 84,
+          "score": 82,
           "note": "Walk Score 98, 3.8 bars/10K, very dense urban core"
         },
         "planning": {
-          "score": 76,
-          "note": "Transit Score 79 and 3.8 bars/10K make spontaneous outings easy"
+          "score": 84,
+          "note": "Transit Score 79 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 62,
+          "score": 50,
           "note": "HI ranks above-average in per-capita consumption (2.76 gal)"
         },
         "repetition": {
@@ -1848,16 +1848,16 @@
           "note": "88% commute rate with 20.8-min average travel time"
         },
         "spatial": {
-          "score": 57,
+          "score": 53,
           "note": "Walk Score 42, 6.2 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 66,
-          "note": "Moderate transit (score 33), 6.2 bars/10K"
+          "score": 36,
+          "note": "Moderate transit (score 33), Walk Score 42"
         },
         "permission": {
-          "score": 80,
-          "note": "AK ranks above-average in per-capita consumption (2.98 gal), strong on-premise culture"
+          "score": 59,
+          "note": "AK ranks above-average in per-capita consumption (2.98 gal)"
         },
         "repetition": {
           "score": 7,
@@ -1878,15 +1878,15 @@
           "note": "85% commute rate with 22.4-min average travel time"
         },
         "spatial": {
-          "score": 62,
+          "score": 60,
           "note": "Walk Score 80, 2.8 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 61,
-          "note": "Transit Score 71 and 2.8 bars/10K make spontaneous outings easy"
+          "score": 69,
+          "note": "Transit Score 71 and Walk Score 80 make spontaneous outings easy"
         },
         "permission": {
-          "score": 26,
+          "score": 0,
           "note": "UT ranks low in per-capita consumption (1.35 gal)"
         },
         "repetition": {
@@ -1908,16 +1908,16 @@
           "note": "Strong commuter presence (90% commute), avg 24.6-min travel time"
         },
         "spatial": {
-          "score": 83,
+          "score": 79,
           "note": "Walk Score 94, 4.9 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 82,
-          "note": "Transit Score 66 and 4.9 bars/10K make spontaneous outings easy"
+          "score": 72,
+          "note": "Transit Score 66 and Walk Score 94 make spontaneous outings easy"
         },
         "permission": {
           "score": 97,
-          "note": "NV ranks high in per-capita consumption (3.93 gal), strong on-premise culture"
+          "note": "NV ranks high in per-capita consumption (3.93 gal)"
         },
         "repetition": {
           "score": 40,
@@ -1938,16 +1938,16 @@
           "note": "85% commute rate with 22.4-min average travel time"
         },
         "spatial": {
-          "score": 80,
+          "score": 73,
           "note": "Walk Score 100, 6.1 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 77,
-          "note": "Moderate transit (score 54), 6.1 bars/10K"
+          "score": 63,
+          "note": "Moderate transit (score 54), Walk Score 100"
         },
         "permission": {
-          "score": 77,
-          "note": "ME ranks above-average in per-capita consumption (2.87 gal), strong on-premise culture"
+          "score": 55,
+          "note": "ME ranks above-average in per-capita consumption (2.87 gal)"
         },
         "repetition": {
           "score": 32,
@@ -1968,16 +1968,16 @@
           "note": "85% commute rate with 22.1-min average travel time"
         },
         "spatial": {
-          "score": 66,
+          "score": 61,
           "note": "Walk Score 62, 5.4 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 71,
-          "note": "Moderate transit (score 42), 5.4 bars/10K"
+          "score": 47,
+          "note": "Moderate transit (score 42), Walk Score 62"
         },
         "permission": {
-          "score": 75,
-          "note": "NY ranks above-average in per-capita consumption (2.76 gal), strong on-premise culture"
+          "score": 50,
+          "note": "NY ranks above-average in per-capita consumption (2.76 gal)"
         },
         "repetition": {
           "score": 58,
@@ -1998,15 +1998,15 @@
           "note": "86% commute rate with 21.6-min average travel time"
         },
         "spatial": {
-          "score": 58,
+          "score": 53,
           "note": "Walk Score 73, 3.5 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 70,
-          "note": "Transit Score 72 and 3.5 bars/10K make spontaneous outings easy"
+          "score": 63,
+          "note": "Transit Score 72 and Walk Score 73 make spontaneous outings easy"
         },
         "permission": {
-          "score": 44,
+          "score": 20,
           "note": "OK ranks moderate in per-capita consumption (2.00 gal)"
         },
         "repetition": {
@@ -2028,15 +2028,15 @@
           "note": "87% commute rate with 22.8-min average travel time"
         },
         "spatial": {
-          "score": 55,
+          "score": 51,
           "note": "Walk Score 78, 2.8 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 48,
-          "note": "Moderate transit (score 45), 2.8 bars/10K"
+          "score": 51,
+          "note": "Moderate transit (score 45), Walk Score 78"
         },
         "permission": {
-          "score": 35,
+          "score": 18,
           "note": "AL ranks moderate in per-capita consumption (1.96 gal)"
         },
         "repetition": {
@@ -2058,16 +2058,16 @@
           "note": "83% commute rate with 22.1-min average travel time"
         },
         "spatial": {
-          "score": 69,
+          "score": 62,
           "note": "Walk Score 81, 6.5 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 85,
-          "note": "Car-dependent but 6.5 bars/10K keeps options accessible"
+          "score": 50,
+          "note": "Car-dependent but walkable core (Walk Score 81)"
         },
         "permission": {
-          "score": 71,
-          "note": "NM ranks above-average in per-capita consumption (2.56 gal), strong on-premise culture"
+          "score": 42,
+          "note": "NM ranks above-average in per-capita consumption (2.56 gal)"
         },
         "repetition": {
           "score": 9,
@@ -2088,16 +2088,16 @@
           "note": "86% commute rate with 21.4-min average travel time"
         },
         "spatial": {
-          "score": 61,
+          "score": 57,
           "note": "Walk Score 52, 5.8 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 68,
-          "note": "Moderate transit (score 35), 5.8 bars/10K"
+          "score": 40,
+          "note": "Moderate transit (score 35), Walk Score 52"
         },
         "permission": {
-          "score": 99,
-          "note": "NV ranks high in per-capita consumption (3.93 gal), strong on-premise culture"
+          "score": 97,
+          "note": "NV ranks high in per-capita consumption (3.93 gal)"
         },
         "repetition": {
           "score": 1,
@@ -2118,15 +2118,15 @@
           "note": "87% commute rate with 23.1-min average travel time"
         },
         "spatial": {
-          "score": 47,
+          "score": 44,
           "note": "Walk Score 34, 4.0 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 50,
-          "note": "Moderate transit (score 22), 4.0 bars/10K"
+          "score": 28,
+          "note": "Moderate transit (score 22), Walk Score 34"
         },
         "permission": {
-          "score": 62,
+          "score": 46,
           "note": "LA ranks above-average in per-capita consumption (2.65 gal)"
         },
         "repetition": {
@@ -2148,15 +2148,15 @@
           "note": "Strong commuter presence (89% commute), avg 22.0-min travel time"
         },
         "spatial": {
-          "score": 58,
+          "score": 54,
           "note": "Walk Score 81, 3.1 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 44,
-          "note": "Moderate transit (score 30), 3.1 bars/10K"
+          "score": 45,
+          "note": "Moderate transit (score 30), Walk Score 81"
         },
         "permission": {
-          "score": 49,
+          "score": 40,
           "note": "SC ranks above-average in per-capita consumption (2.51 gal)"
         },
         "repetition": {
@@ -2178,16 +2178,16 @@
           "note": "87% commute rate with 22.0-min average travel time"
         },
         "spatial": {
-          "score": 66,
+          "score": 61,
           "note": "Walk Score 79, 4.4 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 73,
-          "note": "Moderate transit (score 60), 4.4 bars/10K"
+          "score": 60,
+          "note": "Moderate transit (score 60), Walk Score 79"
         },
         "permission": {
-          "score": 56,
-          "note": "TN ranks moderate in per-capita consumption (2.17 gal), strong on-premise culture"
+          "score": 27,
+          "note": "TN ranks moderate in per-capita consumption (2.17 gal)"
         },
         "repetition": {
           "score": 45,
@@ -2208,16 +2208,16 @@
           "note": "88% commute rate with 22.8-min average travel time"
         },
         "spatial": {
-          "score": 72,
+          "score": 66,
           "note": "Walk Score 85, 5.0 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 74,
-          "note": "Moderate transit (score 47), 5.0 bars/10K"
+          "score": 55,
+          "note": "Moderate transit (score 47), Walk Score 85"
         },
         "permission": {
-          "score": 63,
-          "note": "TN ranks moderate in per-capita consumption (2.17 gal), strong on-premise culture"
+          "score": 27,
+          "note": "TN ranks moderate in per-capita consumption (2.17 gal)"
         },
         "repetition": {
           "score": 32,
@@ -2238,16 +2238,16 @@
           "note": "85% commute rate with 19.8-min average travel time"
         },
         "spatial": {
-          "score": 75,
+          "score": 69,
           "note": "Walk Score 86, 5.6 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 90,
-          "note": "Transit Score 80 and 5.6 bars/10K make spontaneous outings easy"
+          "score": 73,
+          "note": "Transit Score 80 and Walk Score 86 make spontaneous outings easy"
         },
         "permission": {
-          "score": 62,
-          "note": "KY ranks moderate in per-capita consumption (2.11 gal), strong on-premise culture"
+          "score": 24,
+          "note": "KY ranks moderate in per-capita consumption (2.11 gal)"
         },
         "repetition": {
           "score": 35,
@@ -2268,15 +2268,15 @@
           "note": "86% commute rate with 28.0-min average travel time"
         },
         "spatial": {
-          "score": 65,
+          "score": 63,
           "note": "Walk Score 87, 2.9 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 59,
-          "note": "Transit Score 65 and 2.9 bars/10K make spontaneous outings easy"
+          "score": 68,
+          "note": "Transit Score 65 and Walk Score 87 make spontaneous outings easy"
         },
         "permission": {
-          "score": 45,
+          "score": 37,
           "note": "TX ranks above-average in per-capita consumption (2.42 gal)"
         },
         "repetition": {
@@ -2298,15 +2298,15 @@
           "note": "88% commute rate with 25.8-min average travel time"
         },
         "spatial": {
-          "score": 53,
+          "score": 50,
           "note": "Walk Score 54, 3.6 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 53,
-          "note": "Moderate transit (score 38), 3.6 bars/10K"
+          "score": 42,
+          "note": "Moderate transit (score 38), Walk Score 54"
         },
         "permission": {
-          "score": 54,
+          "score": 40,
           "note": "VA ranks above-average in per-capita consumption (2.49 gal)"
         },
         "repetition": {
@@ -2328,16 +2328,16 @@
           "note": "85% commute rate with 37.1-min average travel time"
         },
         "spatial": {
-          "score": 72,
+          "score": 76,
           "note": "Walk Score 82, 2.1 bars/10K, very dense urban core"
         },
         "planning": {
-          "score": 56,
-          "note": "Transit Score 77 and 2.1 bars/10K make spontaneous outings easy"
+          "score": 82,
+          "note": "Transit Score 77 and Walk Score 82 make spontaneous outings easy"
         },
         "permission": {
-          "score": 38,
-          "note": "NJ ranks above-average in per-capita consumption (2.49 gal), fewer on-premise venues"
+          "score": 40,
+          "note": "NJ ranks above-average in per-capita consumption (2.49 gal)"
         },
         "repetition": {
           "score": 88,
@@ -2358,16 +2358,16 @@
           "note": "87% commute rate with 21.0-min average travel time"
         },
         "spatial": {
-          "score": 59,
+          "score": 56,
           "note": "Walk Score 47, 4.6 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 62,
-          "note": "Moderate transit (score 32), 4.6 bars/10K"
+          "score": 38,
+          "note": "Moderate transit (score 32), Walk Score 47"
         },
         "permission": {
-          "score": 63,
-          "note": "MI ranks above-average in per-capita consumption (2.36 gal), strong on-premise culture"
+          "score": 34,
+          "note": "MI ranks above-average in per-capita consumption (2.36 gal)"
         },
         "repetition": {
           "score": 56,
@@ -2388,16 +2388,16 @@
           "note": "Strong commuter presence (89% commute), avg 19.8-min travel time"
         },
         "spatial": {
-          "score": 55,
+          "score": 50,
           "note": "Walk Score 44, 7.4 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 64,
-          "note": "Moderate transit (score 28), 7.4 bars/10K"
+          "score": 32,
+          "note": "Moderate transit (score 28), Walk Score 44"
         },
         "permission": {
-          "score": 80,
-          "note": "WI ranks above-average in per-capita consumption (2.98 gal), strong on-premise culture"
+          "score": 59,
+          "note": "WI ranks above-average in per-capita consumption (2.98 gal)"
         },
         "repetition": {
           "score": 38,
@@ -2418,16 +2418,16 @@
           "note": "87% commute rate with 18.4-min average travel time"
         },
         "spatial": {
-          "score": 57,
+          "score": 52,
           "note": "Walk Score 52, 7.0 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 65,
-          "note": "Moderate transit (score 30), 7.0 bars/10K"
+          "score": 35,
+          "note": "Moderate transit (score 30), Walk Score 52"
         },
         "permission": {
-          "score": 80,
-          "note": "WI ranks above-average in per-capita consumption (2.98 gal), strong on-premise culture"
+          "score": 59,
+          "note": "WI ranks above-average in per-capita consumption (2.98 gal)"
         },
         "repetition": {
           "score": 17,
@@ -2448,15 +2448,15 @@
           "note": "Strong commuter presence (92% commute), avg 32.4-min travel time"
         },
         "spatial": {
-          "score": 54,
+          "score": 55,
           "note": "Walk Score 74, 1.3 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 36,
-          "note": "Moderate transit (score 55), 1.3 bars/10K"
+          "score": 62,
+          "note": "Moderate transit (score 55), Walk Score 74"
         },
         "permission": {
-          "score": 34,
+          "score": 50,
           "note": "State consumption data unavailable"
         },
         "repetition": {
@@ -2478,15 +2478,15 @@
           "note": "84% commute rate with 22.3-min average travel time"
         },
         "spatial": {
-          "score": 68,
+          "score": 64,
           "note": "Walk Score 88, 3.9 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 67,
-          "note": "Moderate transit (score 59), 3.9 bars/10K"
+          "score": 63,
+          "note": "Moderate transit (score 59), Walk Score 88"
         },
         "permission": {
-          "score": 64,
+          "score": 54,
           "note": "CO ranks above-average in per-capita consumption (2.84 gal)"
         },
         "repetition": {
@@ -2508,16 +2508,16 @@
           "note": "82% commute rate with 19.8-min average travel time"
         },
         "spatial": {
-          "score": 63,
+          "score": 60,
           "note": "Walk Score 52, 6.8 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 66,
-          "note": "Moderate transit (score 32), 6.8 bars/10K"
+          "score": 40,
+          "note": "Moderate transit (score 32), Walk Score 52"
         },
         "permission": {
-          "score": 77,
-          "note": "CO ranks above-average in per-capita consumption (2.84 gal), strong on-premise culture"
+          "score": 54,
+          "note": "CO ranks above-average in per-capita consumption (2.84 gal)"
         },
         "repetition": {
           "score": 0,
@@ -2538,16 +2538,16 @@
           "note": "Strong commuter presence (88% commute), avg 22.4-min travel time"
         },
         "spatial": {
-          "score": 48,
+          "score": 44,
           "note": "Walk Score 38, 4.4 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 54,
-          "note": "Moderate transit (score 22), 4.4 bars/10K"
+          "score": 27,
+          "note": "Moderate transit (score 22), Walk Score 38"
         },
         "permission": {
-          "score": 52,
-          "note": "AL ranks moderate in per-capita consumption (1.96 gal), strong on-premise culture"
+          "score": 18,
+          "note": "AL ranks moderate in per-capita consumption (1.96 gal)"
         },
         "repetition": {
           "score": 45,
@@ -2568,16 +2568,16 @@
           "note": "85% commute rate with 24.1-min average travel time"
         },
         "spatial": {
-          "score": 66,
+          "score": 61,
           "note": "Walk Score 67, 8.2 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 64,
-          "note": "Moderate transit (score 28), 8.2 bars/10K"
+          "score": 40,
+          "note": "Moderate transit (score 28), Walk Score 67"
         },
         "permission": {
           "score": 100,
-          "note": "NH ranks high in per-capita consumption (4.56 gal), strong on-premise culture"
+          "note": "NH ranks high in per-capita consumption (4.56 gal)"
         },
         "repetition": {
           "score": 0,
@@ -2598,15 +2598,15 @@
           "note": "85% commute rate with 30.2-min average travel time"
         },
         "spatial": {
-          "score": 61,
+          "score": 59,
           "note": "Walk Score 55, 3.9 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 48,
-          "note": "Moderate transit (score 22), 3.9 bars/10K"
+          "score": 38,
+          "note": "Moderate transit (score 22), Walk Score 55"
         },
         "permission": {
-          "score": 58,
+          "score": 41,
           "note": "MD ranks above-average in per-capita consumption (2.52 gal)"
         },
         "repetition": {
@@ -2628,16 +2628,16 @@
           "note": "84% commute rate with 17.4-min average travel time"
         },
         "spatial": {
-          "score": 67,
+          "score": 63,
           "note": "Walk Score 62, 6.4 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 69,
-          "note": "Moderate transit (score 38), 6.4 bars/10K"
+          "score": 46,
+          "note": "Moderate transit (score 38), Walk Score 62"
         },
         "permission": {
-          "score": 71,
-          "note": "IA ranks above-average in per-capita consumption (2.57 gal), strong on-premise culture"
+          "score": 43,
+          "note": "IA ranks above-average in per-capita consumption (2.57 gal)"
         },
         "repetition": {
           "score": 0,
@@ -2658,16 +2658,16 @@
           "note": "85% commute rate with 18.9-min average travel time"
         },
         "spatial": {
-          "score": 60,
+          "score": 57,
           "note": "Walk Score 49, 8.7 bars/10K, spread-out metro"
         },
         "planning": {
-          "score": 85,
-          "note": "Car-dependent but 8.7 bars/10K keeps options accessible"
+          "score": 39,
+          "note": "Car-dependent, Walk Score 49; planning needed"
         },
         "permission": {
-          "score": 63,
-          "note": "GA ranks moderate in per-capita consumption (2.14 gal), strong on-premise culture"
+          "score": 26,
+          "note": "GA ranks moderate in per-capita consumption (2.14 gal)"
         },
         "repetition": {
           "score": 0,
@@ -2688,16 +2688,16 @@
           "note": "84% commute rate with 21.8-min average travel time"
         },
         "spatial": {
-          "score": 73,
+          "score": 68,
           "note": "Walk Score 76, 5.4 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 71,
-          "note": "Moderate transit (score 42), 5.4 bars/10K"
+          "score": 52,
+          "note": "Moderate transit (score 42), Walk Score 76"
         },
         "permission": {
-          "score": 71,
-          "note": "CA ranks above-average in per-capita consumption (2.54 gal), strong on-premise culture"
+          "score": 42,
+          "note": "CA ranks above-average in per-capita consumption (2.54 gal)"
         },
         "repetition": {
           "score": 29,
@@ -2718,15 +2718,15 @@
           "note": "88% commute rate with 29.3-min average travel time"
         },
         "spatial": {
-          "score": 59,
+          "score": 62,
           "note": "Walk Score 58, 2.5 bars/10K, very dense urban core"
         },
         "planning": {
-          "score": 41,
-          "note": "Moderate transit (score 38), 2.5 bars/10K"
+          "score": 52,
+          "note": "Moderate transit (score 38), Walk Score 58"
         },
         "permission": {
-          "score": 47,
+          "score": 48,
           "note": "FL ranks above-average in per-capita consumption (2.71 gal)"
         },
         "repetition": {
@@ -2748,16 +2748,16 @@
           "note": "85% commute rate with 19.9-min average travel time"
         },
         "spatial": {
-          "score": 44,
+          "score": 45,
           "note": "Walk Score 42, 2.1 bars/10K, moderate urban density"
         },
         "planning": {
-          "score": 32,
-          "note": "Moderate transit (score 28), 2.1 bars/10K"
+          "score": 37,
+          "note": "Moderate transit (score 28), Walk Score 42"
         },
         "permission": {
-          "score": 18,
-          "note": "UT ranks low in per-capita consumption (1.35 gal), fewer on-premise venues"
+          "score": 0,
+          "note": "UT ranks low in per-capita consumption (1.35 gal)"
         },
         "repetition": {
           "score": 3,

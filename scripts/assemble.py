@@ -122,7 +122,7 @@ for m in markets_data["markets"]:
     else:
         density_comp = 50
     bar_density_comp = normalize(bars_per_10k, 0.5, 5.0) * 100 if bars_per_10k is not None else 50
-    spatial_score = round(walk_comp * 0.4 + density_comp * 0.3 + bar_density_comp * 0.3)
+    spatial_score = round(walk_comp * 0.35 + density_comp * 0.40 + bar_density_comp * 0.25)
 
     spatial_note = ""
     parts = []
@@ -145,31 +145,33 @@ for m in markets_data["markets"]:
     spatial_note = ", ".join(parts) if parts else "Limited spatial data"
 
     # --- LOW PLANNING COST ---
-    bar_plan_comp = normalize(bars_per_10k, 0.5, 5.0) * 100 if bars_per_10k is not None else 50
-    if transit_score is not None:
-        transit_comp = transit_score
-        planning_score = round(transit_comp * 0.5 + bar_plan_comp * 0.5)
+    # Planning = how easy is it to go out spontaneously? Transit + walkability + density
+    transit_comp = transit_score if transit_score is not None else None
+    walk_plan_comp = walk_score if walk_score is not None else 50
+    if transit_comp is not None:
+        planning_score = round(transit_comp * 0.50 + walk_plan_comp * 0.30 + density_comp * 0.20)
     else:
-        planning_score = round(bar_plan_comp * 0.7 + 15)
+        # No transit data — lean on walkability and density
+        planning_score = round(walk_plan_comp * 0.50 + density_comp * 0.35 + 15 * 0.15)
         planning_score = min(planning_score, 100)
 
     planning_note = ""
-    if transit_score is not None and transit_score > 60:
-        planning_note = f"Transit Score {transit_score} and {bars_per_10k:.1f} bars/10K make spontaneous outings easy" if bars_per_10k else f"Strong transit (score {transit_score}) supports spontaneous outings"
-    elif transit_score is not None:
-        planning_note = f"Moderate transit (score {transit_score}), {bars_per_10k:.1f} bars/10K" if bars_per_10k else f"Transit Score {transit_score}"
+    if transit_comp is not None and transit_comp > 60:
+        planning_note = f"Transit Score {transit_comp} and Walk Score {walk_score} make spontaneous outings easy"
+    elif transit_comp is not None:
+        planning_note = f"Moderate transit (score {transit_comp}), Walk Score {walk_score}"
     else:
-        if bars_per_10k and bars_per_10k > 3:
-            planning_note = f"Car-dependent but {bars_per_10k:.1f} bars/10K keeps options accessible"
-        elif bars_per_10k:
-            planning_note = f"Car-dependent with {bars_per_10k:.1f} bars/10K; planning needed"
+        if walk_score and walk_score > 60:
+            planning_note = f"Car-dependent but walkable core (Walk Score {walk_score})"
+        elif walk_score:
+            planning_note = f"Car-dependent, Walk Score {walk_score}; planning needed"
         else:
             planning_note = "Transit data unavailable; car-dependent market"
 
     # --- SOCIAL PERMISSION ---
+    # Permission = cultural attitude toward drinking. 100% ethanol consumption (state-level).
     consumption_comp = normalize(ethanol, 1.5, 4.0) * 100 if ethanol is not None else 50
-    bar_culture_comp = normalize(bars_per_10k, 0.5, 5.0) * 100 if bars_per_10k is not None else 50
-    permission_score = round(consumption_comp * 0.5 + bar_culture_comp * 0.5)
+    permission_score = round(consumption_comp)
 
     permission_note = ""
     if ethanol is not None:
@@ -183,10 +185,6 @@ for m in markets_data["markets"]:
         else:
             level = "low"
         permission_note = f"{state_label} ranks {level} in per-capita consumption ({ethanol:.2f} gal)"
-        if bars_per_10k and bars_per_10k > 4.0:
-            permission_note += ", strong on-premise culture"
-        elif bars_per_10k and bars_per_10k < 2.5:
-            permission_note += ", fewer on-premise venues"
     else:
         permission_note = "State consumption data unavailable"
 
