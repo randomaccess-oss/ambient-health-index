@@ -27,14 +27,15 @@
         },
         "permission": {
           "score": 50,
-          "note": "NY ranks above-average in per-capita consumption (2.76 gal)"
+          "note": "NY ranks mid-range in per-capita consumption (2.76 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 88,
           "note": "Very stable population (2.9% moved in), regulars keep coming back"
         }
       },
-      "dataQuality": "full"
+      "dataQuality": "full",
+      "msaCaveat": "Scores reflect the full New York-Newark-Jersey City, NY-NJ-PA MSA (19,908,595 people, 6,718 sq mi). The urban core likely outperforms these numbers\u2014suburban sprawl dilutes timing, density, and walkability metrics."
     },
     {
       "id": "chicago-il",
@@ -57,14 +58,15 @@
         },
         "permission": {
           "score": 42,
-          "note": "IL ranks above-average in per-capita consumption (2.56 gal)"
+          "note": "IL ranks mid-range in per-capita consumption (2.56 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 80,
           "note": "Moderate stability (3.6% moved in), decent repeat-crowd potential"
         }
       },
-      "dataQuality": "full"
+      "dataQuality": "full",
+      "msaCaveat": "Scores reflect the full Chicago-Naperville-Elgin, IL-IN-WI MSA (9,509,934 people, 10,856 sq mi). The urban core likely outperforms these numbers\u2014suburban sprawl dilutes timing, density, and walkability metrics."
     },
     {
       "id": "new-orleans-la",
@@ -87,7 +89,7 @@
         },
         "permission": {
           "score": 46,
-          "note": "LA ranks above-average in per-capita consumption (2.65 gal)"
+          "note": "LA ranks mid-range in per-capita consumption (2.65 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 63,
@@ -117,7 +119,7 @@
         },
         "permission": {
           "score": 48,
-          "note": "MA ranks above-average in per-capita consumption (2.71 gal)"
+          "note": "MA ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 66,
@@ -147,7 +149,7 @@
         },
         "permission": {
           "score": 37,
-          "note": "PA ranks above-average in per-capita consumption (2.43 gal)"
+          "note": "PA ranks below-average in per-capita consumption (2.43 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 84,
@@ -177,7 +179,7 @@
         },
         "permission": {
           "score": 100,
-          "note": "DC ranks high in per-capita consumption (5.08 gal)"
+          "note": "DC ranks high in per-capita consumption (5.08 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 67,
@@ -207,7 +209,7 @@
         },
         "permission": {
           "score": 42,
-          "note": "MN ranks above-average in per-capita consumption (2.55 gal)"
+          "note": "MN ranks mid-range in per-capita consumption (2.55 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 67,
@@ -237,7 +239,7 @@
         },
         "permission": {
           "score": 48,
-          "note": "OR ranks above-average in per-capita consumption (2.71 gal)"
+          "note": "OR ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 50,
@@ -267,7 +269,7 @@
         },
         "permission": {
           "score": 48,
-          "note": "FL ranks above-average in per-capita consumption (2.71 gal)"
+          "note": "FL ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 75,
@@ -297,7 +299,7 @@
         },
         "permission": {
           "score": 27,
-          "note": "TN ranks moderate in per-capita consumption (2.17 gal)"
+          "note": "TN ranks below-average in per-capita consumption (2.17 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 28,
@@ -327,7 +329,7 @@
         },
         "permission": {
           "score": 54,
-          "note": "CO ranks above-average in per-capita consumption (2.84 gal)"
+          "note": "CO ranks mid-range in per-capita consumption (2.84 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 40,
@@ -357,7 +359,7 @@
         },
         "permission": {
           "score": 37,
-          "note": "TX ranks above-average in per-capita consumption (2.42 gal)"
+          "note": "TX ranks below-average in per-capita consumption (2.42 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 36,
@@ -387,7 +389,7 @@
         },
         "permission": {
           "score": 42,
-          "note": "CA ranks above-average in per-capita consumption (2.54 gal)"
+          "note": "CA ranks mid-range in per-capita consumption (2.54 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 62,
@@ -417,7 +419,7 @@
         },
         "permission": {
           "score": 47,
-          "note": "WA ranks above-average in per-capita consumption (2.67 gal)"
+          "note": "WA ranks mid-range in per-capita consumption (2.67 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 51,
@@ -447,7 +449,7 @@
         },
         "permission": {
           "score": 26,
-          "note": "GA ranks moderate in per-capita consumption (2.14 gal)"
+          "note": "GA ranks below-average in per-capita consumption (2.14 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 51,
@@ -477,14 +479,15 @@
         },
         "permission": {
           "score": 42,
-          "note": "CA ranks above-average in per-capita consumption (2.54 gal)"
+          "note": "CA ranks mid-range in per-capita consumption (2.54 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 72,
           "note": "Moderate stability (4.2% moved in), decent repeat-crowd potential"
         }
       },
-      "dataQuality": "full"
+      "dataQuality": "full",
+      "msaCaveat": "Scores reflect the full Los Angeles-Long Beach-Anaheim, CA MSA (13,173,225 people, 33,954 sq mi). The urban core likely outperforms these numbers\u2014suburban sprawl dilutes timing, density, and walkability metrics."
     },
     {
       "id": "phoenix-az",
@@ -507,7 +510,7 @@
         },
         "permission": {
           "score": 42,
-          "note": "AZ ranks above-average in per-capita consumption (2.55 gal)"
+          "note": "AZ ranks mid-range in per-capita consumption (2.55 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 43,
@@ -537,14 +540,15 @@
         },
         "permission": {
           "score": 37,
-          "note": "TX ranks above-average in per-capita consumption (2.42 gal)"
+          "note": "TX ranks below-average in per-capita consumption (2.42 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 49,
           "note": "Above-average turnover (6.1% moved in), some churn in the crowd"
         }
       },
-      "dataQuality": "full"
+      "dataQuality": "full",
+      "msaCaveat": "Scores reflect the full Dallas-Fort Worth-Arlington, TX MSA (7,451,858 people, 9,286 sq mi). The urban core likely outperforms these numbers\u2014suburban sprawl dilutes timing, density, and walkability metrics."
     },
     {
       "id": "houston-tx",
@@ -567,14 +571,15 @@
         },
         "permission": {
           "score": 37,
-          "note": "TX ranks above-average in per-capita consumption (2.42 gal)"
+          "note": "TX ranks below-average in per-capita consumption (2.42 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 56,
           "note": "Moderate stability (5.5% moved in), decent repeat-crowd potential"
         }
       },
-      "dataQuality": "full"
+      "dataQuality": "full",
+      "msaCaveat": "Scores reflect the full Houston-The Woodlands-Sugar Land, TX MSA (7,206,841 people, 10,062 sq mi). The urban core likely outperforms these numbers\u2014suburban sprawl dilutes timing, density, and walkability metrics."
     },
     {
       "id": "milwaukee-wi",
@@ -597,7 +602,7 @@
         },
         "permission": {
           "score": 59,
-          "note": "WI ranks above-average in per-capita consumption (2.98 gal)"
+          "note": "WI ranks mid-range in per-capita consumption (2.98 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 66,
@@ -627,7 +632,7 @@
         },
         "permission": {
           "score": 37,
-          "note": "PA ranks above-average in per-capita consumption (2.43 gal)"
+          "note": "PA ranks below-average in per-capita consumption (2.43 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 82,
@@ -657,7 +662,7 @@
         },
         "permission": {
           "score": 36,
-          "note": "MO ranks above-average in per-capita consumption (2.41 gal)"
+          "note": "MO ranks below-average in per-capita consumption (2.41 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 78,
@@ -687,7 +692,7 @@
         },
         "permission": {
           "score": 31,
-          "note": "OH ranks moderate in per-capita consumption (2.28 gal)"
+          "note": "OH ranks below-average in per-capita consumption (2.28 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 81,
@@ -717,7 +722,7 @@
         },
         "permission": {
           "score": 31,
-          "note": "OH ranks moderate in per-capita consumption (2.28 gal)"
+          "note": "OH ranks below-average in per-capita consumption (2.28 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 66,
@@ -747,7 +752,7 @@
         },
         "permission": {
           "score": 34,
-          "note": "MI ranks above-average in per-capita consumption (2.36 gal)"
+          "note": "MI ranks below-average in per-capita consumption (2.36 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 84,
@@ -777,7 +782,7 @@
         },
         "permission": {
           "score": 41,
-          "note": "MD ranks above-average in per-capita consumption (2.52 gal)"
+          "note": "MD ranks mid-range in per-capita consumption (2.52 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 62,
@@ -807,7 +812,7 @@
         },
         "permission": {
           "score": 42,
-          "note": "CA ranks above-average in per-capita consumption (2.54 gal)"
+          "note": "CA ranks mid-range in per-capita consumption (2.54 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 60,
@@ -837,7 +842,7 @@
         },
         "permission": {
           "score": 37,
-          "note": "TX ranks above-average in per-capita consumption (2.42 gal)"
+          "note": "TX ranks below-average in per-capita consumption (2.42 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 56,
@@ -867,7 +872,7 @@
         },
         "permission": {
           "score": 31,
-          "note": "OH ranks moderate in per-capita consumption (2.28 gal)"
+          "note": "OH ranks below-average in per-capita consumption (2.28 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 43,
@@ -897,7 +902,7 @@
         },
         "permission": {
           "score": 28,
-          "note": "IN ranks moderate in per-capita consumption (2.19 gal)"
+          "note": "IN ranks below-average in per-capita consumption (2.19 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 54,
@@ -927,7 +932,7 @@
         },
         "permission": {
           "score": 26,
-          "note": "NC ranks moderate in per-capita consumption (2.16 gal)"
+          "note": "NC ranks below-average in per-capita consumption (2.16 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 39,
@@ -957,7 +962,7 @@
         },
         "permission": {
           "score": 48,
-          "note": "FL ranks above-average in per-capita consumption (2.71 gal)"
+          "note": "FL ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 47,
@@ -987,7 +992,7 @@
         },
         "permission": {
           "score": 48,
-          "note": "FL ranks above-average in per-capita consumption (2.71 gal)"
+          "note": "FL ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 37,
@@ -1017,7 +1022,7 @@
         },
         "permission": {
           "score": 36,
-          "note": "MO ranks above-average in per-capita consumption (2.41 gal)"
+          "note": "MO ranks below-average in per-capita consumption (2.41 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 58,
@@ -1047,7 +1052,7 @@
         },
         "permission": {
           "score": 26,
-          "note": "NC ranks moderate in per-capita consumption (2.16 gal)"
+          "note": "NC ranks below-average in per-capita consumption (2.16 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 20,
@@ -1077,7 +1082,7 @@
         },
         "permission": {
           "score": 42,
-          "note": "CA ranks above-average in per-capita consumption (2.54 gal)"
+          "note": "CA ranks mid-range in per-capita consumption (2.54 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 54,
@@ -1107,7 +1112,7 @@
         },
         "permission": {
           "score": 42,
-          "note": "CA ranks above-average in per-capita consumption (2.54 gal)"
+          "note": "CA ranks mid-range in per-capita consumption (2.54 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 42,
@@ -1137,7 +1142,7 @@
         },
         "permission": {
           "score": 48,
-          "note": "FL ranks above-average in per-capita consumption (2.71 gal)"
+          "note": "FL ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 28,
@@ -1167,7 +1172,7 @@
         },
         "permission": {
           "score": 27,
-          "note": "TN ranks moderate in per-capita consumption (2.17 gal)"
+          "note": "TN ranks below-average in per-capita consumption (2.17 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 72,
@@ -1197,7 +1202,7 @@
         },
         "permission": {
           "score": 24,
-          "note": "KY ranks moderate in per-capita consumption (2.11 gal)"
+          "note": "KY ranks below-average in per-capita consumption (2.11 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 62,
@@ -1227,7 +1232,7 @@
         },
         "permission": {
           "score": 40,
-          "note": "VA ranks above-average in per-capita consumption (2.49 gal)"
+          "note": "VA ranks below-average in per-capita consumption (2.49 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 46,
@@ -1257,7 +1262,7 @@
         },
         "permission": {
           "score": 50,
-          "note": "NY ranks above-average in per-capita consumption (2.76 gal)"
+          "note": "NY ranks mid-range in per-capita consumption (2.76 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 80,
@@ -1287,7 +1292,7 @@
         },
         "permission": {
           "score": 51,
-          "note": "RI ranks above-average in per-capita consumption (2.78 gal)"
+          "note": "RI ranks mid-range in per-capita consumption (2.78 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 66,
@@ -1317,7 +1322,7 @@
         },
         "permission": {
           "score": 47,
-          "note": "CT ranks above-average in per-capita consumption (2.68 gal)"
+          "note": "CT ranks mid-range in per-capita consumption (2.68 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 54,
@@ -1347,7 +1352,7 @@
         },
         "permission": {
           "score": 40,
-          "note": "SC ranks above-average in per-capita consumption (2.51 gal)"
+          "note": "SC ranks mid-range in per-capita consumption (2.51 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 10,
@@ -1377,7 +1382,7 @@
         },
         "permission": {
           "score": 26,
-          "note": "GA ranks moderate in per-capita consumption (2.14 gal)"
+          "note": "GA ranks below-average in per-capita consumption (2.14 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 9,
@@ -1407,7 +1412,7 @@
         },
         "permission": {
           "score": 59,
-          "note": "WI ranks above-average in per-capita consumption (2.98 gal)"
+          "note": "WI ranks mid-range in per-capita consumption (2.98 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 8,
@@ -1437,7 +1442,7 @@
         },
         "permission": {
           "score": 62,
-          "note": "VT ranks high in per-capita consumption (3.05 gal)"
+          "note": "VT ranks above-average in per-capita consumption (3.05 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 3,
@@ -1467,7 +1472,7 @@
         },
         "permission": {
           "score": 26,
-          "note": "NC ranks moderate in per-capita consumption (2.16 gal)"
+          "note": "NC ranks below-average in per-capita consumption (2.16 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 29,
@@ -1475,36 +1480,6 @@
         }
       },
       "dataQuality": "full"
-    },
-    {
-      "id": "key-west-fl",
-      "city": "Key West",
-      "state": "FL",
-      "region": "South",
-      "populationTier": "Small",
-      "conditions": {
-        "temporal": {
-          "score": 50,
-          "note": "Limited commuting data available"
-        },
-        "spatial": {
-          "score": 58,
-          "note": "Walk Score 74"
-        },
-        "planning": {
-          "score": 44,
-          "note": "Moderate transit (score 24), Walk Score 74"
-        },
-        "permission": {
-          "score": 48,
-          "note": "FL ranks above-average in per-capita consumption (2.71 gal)"
-        },
-        "repetition": {
-          "score": 50,
-          "note": "Migration data unavailable"
-        }
-      },
-      "dataQuality": "partial"
     },
     {
       "id": "hoboken-nj",
@@ -1527,7 +1502,7 @@
         },
         "permission": {
           "score": 40,
-          "note": "NJ ranks above-average in per-capita consumption (2.49 gal)"
+          "note": "NJ ranks below-average in per-capita consumption (2.49 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 88,
@@ -1557,7 +1532,7 @@
         },
         "permission": {
           "score": 34,
-          "note": "MI ranks above-average in per-capita consumption (2.36 gal)"
+          "note": "MI ranks below-average in per-capita consumption (2.36 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 0,
@@ -1587,7 +1562,7 @@
         },
         "permission": {
           "score": 54,
-          "note": "CO ranks above-average in per-capita consumption (2.84 gal)"
+          "note": "CO ranks mid-range in per-capita consumption (2.84 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 0,
@@ -1617,7 +1592,7 @@
         },
         "permission": {
           "score": 30,
-          "note": "ID ranks moderate in per-capita consumption (2.24 gal)"
+          "note": "ID ranks below-average in per-capita consumption (2.24 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 15,
@@ -1647,7 +1622,7 @@
         },
         "permission": {
           "score": 48,
-          "note": "OR ranks above-average in per-capita consumption (2.71 gal)"
+          "note": "OR ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 0,
@@ -1677,7 +1652,7 @@
         },
         "permission": {
           "score": 42,
-          "note": "MN ranks above-average in per-capita consumption (2.55 gal)"
+          "note": "MN ranks mid-range in per-capita consumption (2.55 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 37,
@@ -1707,7 +1682,7 @@
         },
         "permission": {
           "score": 58,
-          "note": "MT ranks above-average in per-capita consumption (2.95 gal)"
+          "note": "MT ranks mid-range in per-capita consumption (2.95 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 0,
@@ -1737,7 +1712,7 @@
         },
         "permission": {
           "score": 40,
-          "note": "NE ranks above-average in per-capita consumption (2.51 gal)"
+          "note": "NE ranks mid-range in per-capita consumption (2.51 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 49,
@@ -1767,7 +1742,7 @@
         },
         "permission": {
           "score": 42,
-          "note": "NM ranks above-average in per-capita consumption (2.56 gal)"
+          "note": "NM ranks mid-range in per-capita consumption (2.56 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 45,
@@ -1797,7 +1772,7 @@
         },
         "permission": {
           "score": 42,
-          "note": "AZ ranks above-average in per-capita consumption (2.55 gal)"
+          "note": "AZ ranks mid-range in per-capita consumption (2.55 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 36,
@@ -1827,7 +1802,7 @@
         },
         "permission": {
           "score": 50,
-          "note": "HI ranks above-average in per-capita consumption (2.76 gal)"
+          "note": "HI ranks mid-range in per-capita consumption (2.76 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 50,
@@ -1857,7 +1832,7 @@
         },
         "permission": {
           "score": 59,
-          "note": "AK ranks above-average in per-capita consumption (2.98 gal)"
+          "note": "AK ranks mid-range in per-capita consumption (2.98 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 7,
@@ -1887,7 +1862,7 @@
         },
         "permission": {
           "score": 0,
-          "note": "UT ranks low in per-capita consumption (1.35 gal)"
+          "note": "UT ranks low in per-capita consumption (1.35 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 42,
@@ -1917,7 +1892,7 @@
         },
         "permission": {
           "score": 97,
-          "note": "NV ranks high in per-capita consumption (3.93 gal)"
+          "note": "NV ranks high in per-capita consumption (3.93 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 40,
@@ -1947,7 +1922,7 @@
         },
         "permission": {
           "score": 55,
-          "note": "ME ranks above-average in per-capita consumption (2.87 gal)"
+          "note": "ME ranks mid-range in per-capita consumption (2.87 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 32,
@@ -1977,7 +1952,7 @@
         },
         "permission": {
           "score": 50,
-          "note": "NY ranks above-average in per-capita consumption (2.76 gal)"
+          "note": "NY ranks mid-range in per-capita consumption (2.76 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 58,
@@ -2007,7 +1982,7 @@
         },
         "permission": {
           "score": 20,
-          "note": "OK ranks moderate in per-capita consumption (2.00 gal)"
+          "note": "OK ranks below-average in per-capita consumption (2.00 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 53,
@@ -2037,7 +2012,7 @@
         },
         "permission": {
           "score": 18,
-          "note": "AL ranks moderate in per-capita consumption (1.96 gal)"
+          "note": "AL ranks low in per-capita consumption (1.96 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 63,
@@ -2067,7 +2042,7 @@
         },
         "permission": {
           "score": 42,
-          "note": "NM ranks above-average in per-capita consumption (2.56 gal)"
+          "note": "NM ranks mid-range in per-capita consumption (2.56 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 9,
@@ -2097,7 +2072,7 @@
         },
         "permission": {
           "score": 97,
-          "note": "NV ranks high in per-capita consumption (3.93 gal)"
+          "note": "NV ranks high in per-capita consumption (3.93 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 1,
@@ -2127,7 +2102,7 @@
         },
         "permission": {
           "score": 46,
-          "note": "LA ranks above-average in per-capita consumption (2.65 gal)"
+          "note": "LA ranks mid-range in per-capita consumption (2.65 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 45,
@@ -2157,7 +2132,7 @@
         },
         "permission": {
           "score": 40,
-          "note": "SC ranks above-average in per-capita consumption (2.51 gal)"
+          "note": "SC ranks mid-range in per-capita consumption (2.51 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 48,
@@ -2187,7 +2162,7 @@
         },
         "permission": {
           "score": 27,
-          "note": "TN ranks moderate in per-capita consumption (2.17 gal)"
+          "note": "TN ranks below-average in per-capita consumption (2.17 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 45,
@@ -2217,7 +2192,7 @@
         },
         "permission": {
           "score": 27,
-          "note": "TN ranks moderate in per-capita consumption (2.17 gal)"
+          "note": "TN ranks below-average in per-capita consumption (2.17 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 32,
@@ -2247,7 +2222,7 @@
         },
         "permission": {
           "score": 24,
-          "note": "KY ranks moderate in per-capita consumption (2.11 gal)"
+          "note": "KY ranks below-average in per-capita consumption (2.11 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 35,
@@ -2277,7 +2252,7 @@
         },
         "permission": {
           "score": 37,
-          "note": "TX ranks above-average in per-capita consumption (2.42 gal)"
+          "note": "TX ranks below-average in per-capita consumption (2.42 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 49,
@@ -2307,7 +2282,7 @@
         },
         "permission": {
           "score": 40,
-          "note": "VA ranks above-average in per-capita consumption (2.49 gal)"
+          "note": "VA ranks below-average in per-capita consumption (2.49 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 52,
@@ -2337,7 +2312,7 @@
         },
         "permission": {
           "score": 40,
-          "note": "NJ ranks above-average in per-capita consumption (2.49 gal)"
+          "note": "NJ ranks below-average in per-capita consumption (2.49 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 88,
@@ -2367,7 +2342,7 @@
         },
         "permission": {
           "score": 34,
-          "note": "MI ranks above-average in per-capita consumption (2.36 gal)"
+          "note": "MI ranks below-average in per-capita consumption (2.36 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 56,
@@ -2397,7 +2372,7 @@
         },
         "permission": {
           "score": 59,
-          "note": "WI ranks above-average in per-capita consumption (2.98 gal)"
+          "note": "WI ranks mid-range in per-capita consumption (2.98 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 38,
@@ -2427,7 +2402,7 @@
         },
         "permission": {
           "score": 59,
-          "note": "WI ranks above-average in per-capita consumption (2.98 gal)"
+          "note": "WI ranks mid-range in per-capita consumption (2.98 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 17,
@@ -2435,36 +2410,6 @@
         }
       },
       "dataQuality": "full"
-    },
-    {
-      "id": "san-juan-pr",
-      "city": "San Juan",
-      "state": "PR",
-      "region": "South",
-      "populationTier": "Large",
-      "conditions": {
-        "temporal": {
-          "score": 66,
-          "note": "Strong commuter presence (92% commute), avg 32.4-min travel time"
-        },
-        "spatial": {
-          "score": 55,
-          "note": "Walk Score 74, 1.3 bars/10K, moderate urban density"
-        },
-        "planning": {
-          "score": 62,
-          "note": "Moderate transit (score 55), Walk Score 74"
-        },
-        "permission": {
-          "score": 50,
-          "note": "State consumption data unavailable"
-        },
-        "repetition": {
-          "score": 100,
-          "note": "Very stable population (1.9% moved in), regulars keep coming back"
-        }
-      },
-      "dataQuality": "estimated"
     },
     {
       "id": "colorado-springs-co",
@@ -2487,7 +2432,7 @@
         },
         "permission": {
           "score": 54,
-          "note": "CO ranks above-average in per-capita consumption (2.84 gal)"
+          "note": "CO ranks mid-range in per-capita consumption (2.84 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 19,
@@ -2517,7 +2462,7 @@
         },
         "permission": {
           "score": 54,
-          "note": "CO ranks above-average in per-capita consumption (2.84 gal)"
+          "note": "CO ranks mid-range in per-capita consumption (2.84 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 0,
@@ -2547,7 +2492,7 @@
         },
         "permission": {
           "score": 18,
-          "note": "AL ranks moderate in per-capita consumption (1.96 gal)"
+          "note": "AL ranks low in per-capita consumption (1.96 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 45,
@@ -2577,7 +2522,7 @@
         },
         "permission": {
           "score": 100,
-          "note": "NH ranks high in per-capita consumption (4.56 gal)"
+          "note": "NH ranks high in per-capita consumption (4.56 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 0,
@@ -2607,7 +2552,7 @@
         },
         "permission": {
           "score": 41,
-          "note": "MD ranks above-average in per-capita consumption (2.52 gal)"
+          "note": "MD ranks mid-range in per-capita consumption (2.52 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 62,
@@ -2637,7 +2582,7 @@
         },
         "permission": {
           "score": 43,
-          "note": "IA ranks above-average in per-capita consumption (2.57 gal)"
+          "note": "IA ranks mid-range in per-capita consumption (2.57 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 0,
@@ -2667,7 +2612,7 @@
         },
         "permission": {
           "score": 26,
-          "note": "GA ranks moderate in per-capita consumption (2.14 gal)"
+          "note": "GA ranks below-average in per-capita consumption (2.14 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 0,
@@ -2697,7 +2642,7 @@
         },
         "permission": {
           "score": 42,
-          "note": "CA ranks above-average in per-capita consumption (2.54 gal)"
+          "note": "CA ranks mid-range in per-capita consumption (2.54 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 29,
@@ -2727,7 +2672,7 @@
         },
         "permission": {
           "score": 48,
-          "note": "FL ranks above-average in per-capita consumption (2.71 gal)"
+          "note": "FL ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 75,
@@ -2757,7 +2702,7 @@
         },
         "permission": {
           "score": 0,
-          "note": "UT ranks low in per-capita consumption (1.35 gal)"
+          "note": "UT ranks low in per-capita consumption (1.35 gal, range 1.5\u20134.0)"
         },
         "repetition": {
           "score": 3,

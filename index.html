@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="logo.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kalam:wght@400;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     html, body { height: 100%; }
@@ -21,14 +21,64 @@
       letter-spacing: 1px; color: #8b6a3e;
       background: rgba(242,237,227,0.92);
       border-top: 1.5px solid rgba(26,26,26,0.12);
-      z-index: 100;
+      z-index: 80;
     }
     .pp-footer a { color: #c0392b; text-decoration: none; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; font-size: 11px; }
     .pp-footer a:hover { text-decoration: underline; }
+    .condition-tip { position: relative; cursor: help; }
+    .condition-tip .tip-icon {
+      display: inline-flex; align-items: center; justify-content: center;
+      width: 14px; height: 14px; border-radius: 50%; border: 1.5px solid #8b6a3e;
+      font-family: 'DM Sans', sans-serif; font-size: 9px; font-weight: 700; color: #8b6a3e;
+      margin-left: 4px; vertical-align: middle; line-height: 1; flex-shrink: 0;
+    }
+    .condition-tip .tip-box {
+      display: none; position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%);
+      background: #1a1a1a; color: #f2ede3; font-family: 'DM Sans', sans-serif; font-size: 11px;
+      padding: 10px 14px; width: 260px; z-index: 300; line-height: 1.5;
+      border: 1.5px solid #8b6a3e; box-shadow: 4px 4px 0 rgba(0,0,0,0.3);
+      pointer-events: none; margin-bottom: 8px;
+    }
+    .condition-tip .tip-box .tip-source { color: #8b6a3e; font-size: 10px; margin-top: 6px; font-style: italic; }
+    .condition-tip:hover .tip-box { display: block; }
     input[type="range"] { -webkit-appearance: none; appearance: none; width: 100%; height: 6px; background: #e1dcd2; border: 1.5px solid #1a1a1a; border-radius: 0; outline: none; cursor: pointer; }
     input[type="range"]::-webkit-slider-thumb { -webkit-appearance: none; appearance: none; width: 16px; height: 16px; background: #c0392b; border: 2px solid #1a1a1a; border-radius: 0; cursor: pointer; }
     input[type="range"]::-moz-range-thumb { width: 16px; height: 16px; background: #c0392b; border: 2px solid #1a1a1a; border-radius: 0; cursor: pointer; }
     select { -webkit-appearance: none; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%231a1a1a'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 10px center; padding-right: 28px !important; }
+
+    /* ── Mobile responsive ── */
+    @media (max-width: 768px) {
+      .desktop-header-row { display: none !important; }
+      .desktop-conditions { display: none !important; }
+      .mobile-conditions { display: grid !important; }
+      .market-row { flex-wrap: wrap !important; padding: 12px 10px !important; gap: 0 !important; }
+      .market-row > .market-checkbox { display: none !important; }
+      .market-row > .market-name { width: auto !important; flex: 1 !important; min-width: 0 !important; }
+      .market-row > .market-score { width: auto !important; text-align: right !important; }
+      .scoring-criteria-grid { grid-template-columns: 1fr !important; }
+      .search-filter-bar { flex-direction: column !important; }
+      .search-filter-bar > * { width: 100% !important; flex: none !important; }
+      .search-filter-bar .action-buttons { margin-left: 0 !important; justify-content: stretch !important; }
+      .search-filter-bar .action-buttons button { flex: 1 !important; }
+      .detail-panel { width: 100% !important; max-width: 100vw !important; padding: 20px 16px 100px !important; }
+      .detail-panel h2 { font-size: 28px !important; }
+      .compare-grid { grid-template-columns: 1fr !important; }
+      .weight-grid { grid-template-columns: 100px 1fr 36px !important; }
+      .app-container { padding: 16px 12px 60px !important; }
+      .app-title { font-size: clamp(32px, 10vw, 48px) !important; }
+      .scoring-criteria-box { padding: 12px 14px !important; }
+      .condition-tip .tip-box { width: 220px; font-size: 10px; padding: 8px 10px; }
+      .methodology-box { padding: 12px 14px !important; }
+      .methodology-box p { font-size: 11px !important; }
+    }
+    @media (max-width: 480px) {
+      .mobile-conditions { grid-template-columns: repeat(5, 1fr) !important; gap: 2px !important; }
+      .mobile-conditions > div { font-size: 7px !important; }
+      .app-container { padding: 12px 8px 60px !important; }
+    }
+    @media (min-width: 769px) {
+      .mobile-conditions { display: none !important; }
+    }
   </style>
 </head>
 <body>
@@ -57,7 +107,7 @@
   var TAN_C = "#8b6a3e";
   var CARD = "rgba(255,255,255,0.55)";
   var DISPLAY_F = "'Bebas Neue', Impact, 'Arial Black', sans-serif";
-  var HAND = "'Kalam', 'Comic Sans MS', cursive";
+  var HAND = "'DM Sans', 'Helvetica Neue', sans-serif";
   var UI = "'DM Sans', 'Helvetica Neue', sans-serif";
 
   var GRID_BG = {
@@ -80,20 +130,30 @@
 
   // ── Condition metadata ──
   var CONDITION_META = [
-    { key: "temporal", label: "Temporal Synchronization", short: "Temporal" },
-    { key: "spatial", label: "Spatial Concentration", short: "Spatial" },
-    { key: "planning", label: "Low Planning Cost", short: "Planning" },
-    { key: "permission", label: "Social Permission", short: "Permission" },
-    { key: "repetition", label: "Repetition", short: "Repetition" },
+    { key: "temporal", label: "Temporal Synchronization", short: "Temporal",
+      tip: "Are people out at the same time? If everyone works from home or commutes by car, there\u2019s no shared \u201Chappy hour.\u201D You can\u2019t fix this with ad spend.",
+      source: "Census ACS Table S0801 (2022)" },
+    { key: "spatial", label: "Spatial Concentration", short: "Spatial",
+      tip: "Are bars, restaurants, and people packed into walkable areas? If venues are spread across sprawl, foot traffic won\u2019t find you. You can\u2019t fix this with ad spend.",
+      source: "Walk Score, Census Gazetteer, Census CBP NAICS 7224" },
+    { key: "planning", label: "Low Planning Cost", short: "Planning",
+      tip: "Can someone go out without a car or a plan? High transit + walkability = \u201CI\u2019ll just stop in.\u201D You can influence this with delivery, pop-ups, and placement.",
+      source: "Walk Score Transit Score, Walk Score, Census Gazetteer" },
+    { key: "permission", label: "Social Permission", short: "Permission",
+      tip: "Does the culture say \u201Cyes\u201D to drinking? Markets where people already drink more are easier to activate. You can influence this with cultural marketing.",
+      source: "NIAAA Surveillance Report #120" },
+    { key: "repetition", label: "Repetition", short: "Repetition",
+      tip: "Do people stick around? Stable populations build habits and become regulars. Transient markets mean you\u2019re always re-acquiring. You can influence this with loyalty and community.",
+      source: "Census ACS Table S0701 (2022)" },
   ];
 
   // ── Weight presets ──
   var WEIGHT_PRESETS = {
-    equal: { label: "Equal Weight", weights: { temporal: 20, spatial: 20, planning: 20, permission: 20, repetition: 20 }, floors: null, desc: "No thumb on the scale. All five conditions weighted equally." },
-    newBrand: { label: "New Brand Launch", weights: { temporal: 10, spatial: 30, planning: 20, permission: 30, repetition: 10 }, floors: null, desc: "Where should a new brand seed itself? Prioritizes visible venues and cultural openness." },
-    expand: { label: "Expand Existing Brand", weights: { temporal: 25, spatial: 20, planning: 10, permission: 15, repetition: 30 }, floors: null, desc: "Where to go next? Prioritizes regulars and reliable traffic patterns." },
-    activation: { label: "Activation / Sampling", weights: { temporal: 10, spatial: 30, planning: 30, permission: 20, repetition: 10 }, floors: null, desc: "Short-term push, maximum reach. Low-friction, high-density environments." },
-    onPremise: { label: "On-Premise Distribution", weights: { temporal: 20, spatial: 20, planning: 20, permission: 20, repetition: 20 }, floors: { temporal: 50, spatial: 50 }, desc: "Is the bar infrastructure investable? Equal weight with structural floor requirements." },
+    equal: { label: "Equal Weight", weights: { temporal: 20, spatial: 20, planning: 20, permission: 20, repetition: 20 }, floors: null, desc: "No thumb on the scale. All five conditions weighted equally. Good starting point." },
+    newBrand: { label: "New Brand Launch", weights: { temporal: 10, spatial: 30, planning: 20, permission: 30, repetition: 10 }, floors: null, desc: "Where should a new brand show up first? Favors dense venue clusters and drinking-friendly cultures." },
+    expand: { label: "Expand Existing Brand", weights: { temporal: 25, spatial: 20, planning: 10, permission: 15, repetition: 30 }, floors: null, desc: "Where to grow next? Favors markets where people stick around and build habits." },
+    activation: { label: "Activation / Sampling", weights: { temporal: 10, spatial: 30, planning: 30, permission: 20, repetition: 10 }, floors: null, desc: "Maximum eyeballs, minimum friction. Favors walkable, high-density areas where people show up without planning." },
+    onPremise: { label: "On-Premise Distribution", weights: { temporal: 20, spatial: 20, planning: 20, permission: 20, repetition: 20 }, floors: { temporal: 50, spatial: 50 }, desc: "Is the bar scene worth investing in? Equal weight, but penalizes markets where timing or density fall short." },
   };
 
   // ── Tier definitions ──
@@ -161,14 +221,7 @@
   }
 
   function Corners() {
-    return html`<${React.Fragment}>
-      <${Star} size=${26} color=${NAVY} style=${{ position: "fixed", top: 24, left: 24, pointerEvents: "none", zIndex: 200 }} />
-      <${Star} size=${18} color=${RED} style=${{ position: "fixed", top: 46, left: 50, pointerEvents: "none", zIndex: 200 }} />
-      <${Star} size=${26} color=${RED} style=${{ position: "fixed", top: 24, right: 32, pointerEvents: "none", zIndex: 200 }} />
-      <${Star} size=${20} color=${NAVY} style=${{ position: "fixed", bottom: 44, right: 24, pointerEvents: "none", zIndex: 200 }} />
-      <${Star} size=${16} color=${TAN_C} style=${{ position: "fixed", bottom: 68, right: 52, pointerEvents: "none", zIndex: 200 }} />
-      <${Star} size=${20} color=${NAVY} style=${{ position: "fixed", bottom: 44, left: 32, pointerEvents: "none", zIndex: 200 }} />
-    </${React.Fragment}>`;
+    return null;
   }
 
   function LogoBadge() {
@@ -196,9 +249,14 @@
     var color = getScoreColor(score);
     return html`<div style=${{ marginBottom: 16 }}>
       <div style=${{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 6 }}>
-        <div>
+        <div class="condition-tip" style=${{ display: "inline-flex", alignItems: "center", gap: 4 }}>
           <span style=${{ fontFamily: HAND, fontSize: "14px", color: INK }}>${c.label}</span>
-          ${isLoadBearing ? html`<span style=${{ marginLeft: 8, fontFamily: UI, fontSize: "9px", fontWeight: 600, color: NAVY, textTransform: "uppercase", letterSpacing: "1.5px" }}>load-bearing</span>` : null}
+          <span class="tip-icon">i</span>
+          ${isLoadBearing ? html`<span style=${{ marginLeft: 4, fontFamily: UI, fontSize: "9px", fontWeight: 600, color: NAVY, textTransform: "uppercase", letterSpacing: "1.5px" }}>can\u2019t buy this</span>` : null}
+          <div class="tip-box" style=${{ left: 0, transform: "none" }}>
+            <div>${c.tip}</div>
+            <div class="tip-source">Source: ${c.source}</div>
+          </div>
         </div>
         <span style=${{ fontFamily: DISPLAY_F, fontSize: "22px", color: color, lineHeight: 1 }}>${score}</span>
       </div>
@@ -267,7 +325,7 @@
           ${activePreset === "custom" ? html`<span style=${{ fontFamily: HAND, fontSize: "12px", color: TAN_C, alignSelf: "center", fontStyle: "italic" }}>Custom weights active</span>` : null}
         </div>
         ${activeP ? html`<p style=${{ fontFamily: HAND, fontSize: "13px", color: TAN_C, marginBottom: 16, lineHeight: 1.6, fontStyle: "italic" }}>${activeP.desc}</p>` : null}
-        <div style=${{ display: "grid", gridTemplateColumns: "140px 1fr 40px", gap: "10px 12px", alignItems: "center" }}>
+        <div class="weight-grid" style=${{ display: "grid", gridTemplateColumns: "140px 1fr 40px", gap: "10px 12px", alignItems: "center" }}>
           ${CONDITION_META.map(function(c) {
             return html`<${React.Fragment} key=${c.key}>
               <span style=${{ fontFamily: UI, fontSize: "12px", color: INK }}>${c.short}</span>
@@ -279,8 +337,8 @@
           })}
         </div>
         ${WEIGHT_PRESETS[activePreset] && WEIGHT_PRESETS[activePreset].floors ? html`<div style=${{ marginTop: 12, padding: "8px 12px", background: "rgba(26,39,68,0.06)", border: "1.5px solid rgba(26,39,68,0.15)" }}>
-          <span style=${{ fontFamily: UI, fontSize: "10px", fontWeight: 600, color: NAVY, letterSpacing: "1px", textTransform: "uppercase" }}>Floor requirement: </span>
-          <span style=${{ fontFamily: HAND, fontSize: "12px", color: INK }}>Temporal \u2265 50 and Spatial \u2265 50 (30% penalty if unmet)</span>
+          <span style=${{ fontFamily: UI, fontSize: "10px", fontWeight: 600, color: NAVY, letterSpacing: "1px", textTransform: "uppercase" }}>Minimum bar: </span>
+          <span style=${{ fontFamily: HAND, fontSize: "12px", color: INK }}>Temporal and Spatial must each score 50+, or the overall gets a 30% haircut. These are the conditions you can\u2019t fix.</span>
         </div>` : null}
       </div>` : null}
     </div>`;
@@ -294,7 +352,7 @@
     var tier = getTier(overall);
     var loadBearing = getLoadBearingStatus(market);
 
-    return html`<div style=${{
+    return html`<div class="detail-panel" style=${{
       position: "fixed", top: 0, right: 0, bottom: 0, width: "400px", maxWidth: "90vw",
       background: BG_C, borderLeft: "2.5px solid " + INK, zIndex: 90,
       overflowY: "auto", padding: "28px 24px 60px",
@@ -312,12 +370,20 @@
         <div style=${{ fontFamily: DISPLAY_F, fontSize: "64px", color: tier.color, lineHeight: 1 }}>${overall}</div>
         <div style=${{ fontFamily: UI, fontSize: "10px", fontWeight: 600, color: tier.color, textTransform: "uppercase", letterSpacing: "2px", marginTop: 4 }}>${tier.name}</div>
         <div style=${{ marginTop: 12, display: "flex", alignItems: "center", justifyContent: "center", gap: 6 }}>
-          <div style=${{ width: 8, height: 8, borderRadius: "50%", background: loadBearing ? RED : "#999" }} />
-          <span style=${{ fontFamily: UI, fontSize: "10px", color: loadBearing ? NAVY : "#999" }}>
-            Load-bearing conditions ${loadBearing ? "intact" : "compromised"}
+          <div style=${{ width: 8, height: 8, borderRadius: "50%", background: loadBearing ? "#2d8a4e" : "#c0392b" }} />
+          <span style=${{ fontFamily: UI, fontSize: "10px", fontWeight: 600, color: loadBearing ? "#2d8a4e" : "#c0392b" }}>
+            ${loadBearing ? "Infrastructure does the work" : "You do the work"}
           </span>
         </div>
       </div>
+
+      ${market.msaCaveat ? html`<div style=${{
+        background: "rgba(192,57,43,0.06)", border: "1.5px solid rgba(192,57,43,0.25)",
+        padding: "12px 14px", marginBottom: 16, display: "flex", gap: 8, alignItems: "flex-start",
+      }}>
+        <span style=${{ fontFamily: UI, fontSize: "14px", fontWeight: 700, color: RED, lineHeight: 1, flexShrink: 0 }}>\u2021</span>
+        <p style=${{ fontFamily: HAND, fontSize: "12px", color: INK, lineHeight: 1.6, margin: 0 }}>${market.msaCaveat}</p>
+      </div>` : null}
 
       <div style=${{ fontFamily: UI, fontSize: "10px", fontWeight: 600, letterSpacing: "3px", color: TAN_C, textTransform: "uppercase", marginBottom: 14 }}>Condition Breakdown</div>
       ${CONDITION_META.map(function(c) {
@@ -327,14 +393,14 @@
 
       <div style=${bbox({
         padding: "16px 18px", marginTop: 8,
-        background: loadBearing ? "rgba(192,57,43,0.06)" : "rgba(0,0,0,0.04)",
-        borderColor: loadBearing ? "rgba(192,57,43,0.3)" : "rgba(0,0,0,0.15)",
+        background: loadBearing ? "rgba(45,138,78,0.06)" : "rgba(192,57,43,0.06)",
+        borderColor: loadBearing ? "rgba(45,138,78,0.3)" : "rgba(192,57,43,0.3)",
       })}>
-        <div style=${{ fontFamily: UI, fontSize: "10px", fontWeight: 600, letterSpacing: "2px", color: loadBearing ? RED : "#999", textTransform: "uppercase", marginBottom: 6 }}>Investment Signal</div>
+        <div style=${{ fontFamily: UI, fontSize: "10px", fontWeight: 600, letterSpacing: "2px", color: loadBearing ? "#2d8a4e" : "#c0392b", textTransform: "uppercase", marginBottom: 6 }}>What This Means For Your Brand</div>
         <p style=${{ fontFamily: HAND, fontSize: "13px", color: INK, lineHeight: 1.7, margin: 0 }}>
           ${loadBearing
-            ? "Structural basis for ambient occasion investment present. Temporal synchronization and spatial concentration intact. Deficient conditions are addressable through programming and brand investment."
-            : "Load-bearing conditions compromised. Investment in ambient occasions faces structural headwinds that promotional spend cannot address. Eventized occasion strategy more appropriate."}
+            ? "This market generates occasions on its own. People are already out, in the right places, at the right times. Prioritize distribution and visibility\u2014the environment is working for you. Weak conditions here are fixable with programming and brand investment."
+            : "This market won\u2019t hand you occasions. The built environment doesn\u2019t naturally put people near bars at the right times. Budget for activation, events, and cultural programming to create what the infrastructure doesn\u2019t provide."}
         </p>
       </div>
     </div>`;
@@ -374,7 +440,7 @@
         <path d="M2 6 Q65 2 130 7 Q195 12 258 5" stroke=${INK} strokeWidth="2.5" fill="none" strokeLinecap="round" />
       </svg>
 
-      <div style=${{ display: "grid", gridTemplateColumns: "repeat(" + markets.length + ", 1fr)", gap: 16, marginBottom: 28 }}>
+      <div class="compare-grid" style=${{ display: "grid", gridTemplateColumns: "repeat(" + markets.length + ", 1fr)", gap: 16, marginBottom: 28 }}>
         ${markets.map(function(m, i) {
           var tier = getTier(overalls[i]);
           return html`<div key=${m.id} style=${bbox({ padding: "20px", background: CARD, textAlign: "center", position: "relative" })}>
@@ -395,7 +461,7 @@
           return html`<div key=${c.key} style=${{ marginBottom: 20 }}>
             <div style=${{ display: "flex", alignItems: "center", gap: 8, marginBottom: 10 }}>
               <span style=${{ fontFamily: HAND, fontSize: "14px", color: INK, fontWeight: 700 }}>${c.label}</span>
-              ${isLB ? html`<span style=${{ fontFamily: UI, fontSize: "9px", fontWeight: 600, color: NAVY, textTransform: "uppercase", letterSpacing: "1px" }}>load-bearing</span>` : null}
+              ${isLB ? html`<span style=${{ fontFamily: UI, fontSize: "9px", fontWeight: 600, color: NAVY, textTransform: "uppercase", letterSpacing: "1px" }}>can\u2019t buy this</span>` : null}
             </div>
             <div style=${{ display: "grid", gridTemplateColumns: "repeat(" + markets.length + ", 1fr)", gap: 16 }}>
               ${markets.map(function(m, i) {
@@ -421,7 +487,7 @@
 
   // ── Excel export ──
   function exportToExcel(marketList, weights, presetName, floors) {
-    var rows = [["City", "State", "Region", "Pop Tier", "Overall Score", "Temporal", "Spatial", "Planning", "Permission", "Repetition", "Load-Bearing"]];
+    var rows = [["City", "State", "Region", "Pop Tier", "Overall Score", "Temporal", "Spatial", "Planning", "Permission", "Repetition", "Infrastructure Signal"]];
     marketList.forEach(function(m) {
       rows.push([
         m.city, m.state, m.region, m.populationTier,
@@ -429,7 +495,7 @@
         m.conditions.temporal.score, m.conditions.spatial.score,
         m.conditions.planning.score, m.conditions.permission.score,
         m.conditions.repetition.score,
-        getLoadBearingStatus(m) ? "Intact" : "Compromised"
+        getLoadBearingStatus(m) ? "Infrastructure does the work" : "You do the work"
       ]);
     });
     var ws = XLSX.utils.aoa_to_sheet([["Ambient Health Index — Proof Points"], ["Scoring Strategy: " + presetName], [], rows[0]].concat(rows.slice(1)));
@@ -474,7 +540,7 @@
 
     // Fetch data
     useEffect(function() {
-      fetch("markets.json")
+      fetch("markets.json?v=3")
         .then(function(r) { if (!r.ok) throw new Error("Failed to load"); return r.json(); })
         .then(function(d) { setMarkets(d.markets); })
         .catch(function(e) { setLoadErr(e.message); });
@@ -603,7 +669,7 @@
     var WRAP = {
       minHeight: "100vh", background: BG_C,
       backgroundImage: GRID_BG.backgroundImage, backgroundSize: GRID_BG.backgroundSize,
-      color: INK, padding: "32px 40px 60px",
+      color: INK, padding: "clamp(16px, 4vw, 32px) clamp(12px, 4vw, 40px) 60px",
     };
 
     // Loading state
@@ -635,21 +701,37 @@
       >${label}${isActive ? (sortDir === "desc" ? " \u25BC" : " \u25B2") : ""}</div>`;
     }
 
-    return html`<div style=${WRAP}>
+    return html`<div style=${WRAP} class="app-container">
       <${Corners} />
       <div style=${{ maxWidth: 1100, margin: "0 auto" }}>
         <${LogoBadge} />
         <div style=${{ fontFamily: UI, fontSize: "11px", fontWeight: 600, letterSpacing: "3px", color: TAN_C, textTransform: "uppercase", marginBottom: 6 }}>Social Infrastructure Analysis</div>
-        <h1 style=${{ fontFamily: DISPLAY_F, fontSize: "clamp(36px,7vw,62px)", lineHeight: 0.95, margin: "0 0 4px", color: INK }}>AMBIENT HEALTH</h1>
-        <h1 style=${{ fontFamily: DISPLAY_F, fontSize: "clamp(36px,7vw,62px)", lineHeight: 0.95, margin: "0 0 10px", color: RED }}>INDEX</h1>
+        <h1 class="app-title" style=${{ fontFamily: DISPLAY_F, fontSize: "clamp(36px,7vw,62px)", lineHeight: 0.95, margin: "0 0 4px", color: INK }}>AMBIENT HEALTH</h1>
+        <h1 class="app-title" style=${{ fontFamily: DISPLAY_F, fontSize: "clamp(36px,7vw,62px)", lineHeight: 0.95, margin: "0 0 10px", color: RED }}>INDEX</h1>
         <svg width="340" height="10" style=${{ display: "block", marginBottom: 8 }}>
           <path d="M2 6 Q85 2 170 7 Q255 12 338 5" stroke=${INK} strokeWidth="2.5" fill="none" strokeLinecap="round" />
         </svg>
-        <p style=${{ fontFamily: HAND, fontSize: "14px", color: TAN_C, maxWidth: 540, lineHeight: 1.7, marginBottom: 28, fontStyle: "italic" }}>
-          Scoring ${markets.length} U.S. markets across Tannenbaum\u2019s Five Conditions of Ambient Social Infrastructure. A directional instrument for brand marketers evaluating where ambient occasion investment has structural support.
+        <p style=${{ fontFamily: HAND, fontSize: "14px", color: TAN_C, maxWidth: 540, lineHeight: 1.7, marginBottom: 10, fontStyle: "italic" }}>
+          Does this market hand you drinking occasions, or do you have to manufacture them yourself?
         </p>
-        <div style=${{ fontFamily: UI, fontSize: "11px", fontWeight: 600, background: "#e8dfd1", border: "1.5px solid " + TAN_C, borderRadius: 4, padding: "6px 12px", display: "inline-block", marginBottom: 20, color: TAN_C }}>
-          v2.0 \u2014 Scored from Walk Score, Census ACS/CBP 2022, NIAAA. ${markets.filter(function(m){return m.dataQuality==="full"}).length} markets fully sourced, ${markets.filter(function(m){return m.dataQuality!=="full"}).length} partial/estimated.
+        <p style=${{ fontFamily: HAND, fontSize: "12px", color: TAN_C, maxWidth: 540, lineHeight: 1.7, marginBottom: 28 }}>
+          ${markets.length} U.S. markets scored on five things that drive spontaneous, repeat drinking occasions. High score = the environment does the work. Low score = you need events, promos, and activation to make up the difference.
+        </p>
+        <div class="scoring-criteria-box" style=${{ background: "rgba(255,255,255,0.5)", border: "1.5px solid rgba(26,26,26,0.12)", padding: "16px 20px", marginBottom: 24, lineHeight: 1.7 }}>
+          <div style=${{ fontFamily: UI, fontSize: "10px", fontWeight: 600, letterSpacing: "3px", color: TAN_C, textTransform: "uppercase", marginBottom: 10 }}>Scoring Criteria</div>
+          <div class="scoring-criteria-grid" style=${{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "6px 24px", fontFamily: UI, fontSize: "11px", color: INK, marginBottom: 12 }}>
+            ${CONDITION_META.map(function(c) {
+              return html`<div key=${c.key} style=${{ display: "flex", gap: 6 }}>
+                <span style=${{ fontWeight: 700, color: NAVY, minWidth: 70 }}>${c.short}</span>
+                <span style=${{ color: TAN_C }}>${c.tip}</span>
+              </div>`;
+            })}
+          </div>
+          <div style=${{ borderTop: "1px solid rgba(26,26,26,0.08)", paddingTop: 10, fontFamily: UI, fontSize: "10px", color: TAN_C }}>
+            <span style=${{ fontWeight: 600 }}>All scores derived from public data.</span> ${markets.length} markets, all fully sourced.
+            Sources: Walk Score \u2022 Census ACS 2022 (S0801, S0701) \u2022 Census CBP NAICS 7224 \u2022 Census Gazetteer \u2022 NIAAA Report #120.
+            <div style=${{ marginTop: 8, fontWeight: 600 }}>Hover any column header \u24D8 for details. <span style=${{ color: RED }}>\u2021</span> = mega-metro MSA caveat\u2014scores reflect the full metro area, not just the urban core.</div>
+          </div>
         </div>
 
         ${view === "compare" && compareMarkets.length > 0 ? html`<${CompareView}
@@ -663,7 +745,7 @@
             collapsed=${wpCollapsed} onToggle=${function() { setWpCollapsed(!wpCollapsed); }}
           />
 
-          <div style=${bbox({ background: CARD, padding: "12px 16px", marginBottom: 20, display: "flex", alignItems: "center", gap: 12, flexWrap: "wrap" })}>
+          <div class="search-filter-bar" style=${bbox({ background: CARD, padding: "12px 16px", marginBottom: 20, display: "flex", alignItems: "center", gap: 12, flexWrap: "wrap" })}>
             <input type="text" value=${searchTerm}
               onInput=${function(e) { setSearch(e.target.value); }}
               placeholder="Search markets..."
@@ -682,7 +764,7 @@
               ${popTiers.map(function(t) { return html`<option key=${t} value=${t}>${t}</option>`; })}
             </select>
 
-            <div style=${{ marginLeft: "auto", display: "flex", gap: 8, alignItems: "center" }}>
+            <div class="action-buttons" style=${{ marginLeft: "auto", display: "flex", gap: 8, alignItems: "center" }}>
               ${compareIds.length > 0 ? html`<button
                 onClick=${function() { setView("compare"); }}
                 onMouseEnter=${function() { setHovered("compare"); }}
@@ -710,14 +792,22 @@
 
           <div style=${{ fontFamily: UI, fontSize: "11px", color: TAN_C, marginBottom: 12 }}>${processed.length} market${processed.length !== 1 ? "s" : ""} shown</div>
 
-          <div style=${{ display: "flex", alignItems: "center", gap: 8, padding: "8px 14px", marginBottom: 4 }}>
+          <div class="desktop-header-row" style=${{ display: "flex", alignItems: "center", gap: 8, padding: "8px 14px", marginBottom: 4 }}>
             <div style=${{ width: 28 }}></div>
             ${sortHeader("city", "Market", "180px")}
             ${sortHeader("overall", "Score", "60px")}
             ${CONDITION_META.map(function(c) {
-              return html`<div key=${c.key} style=${{ flex: 1 }}>${sortHeader(c.key, c.short, "100%")}</div>`;
+              return html`<div key=${c.key} style=${{ flex: 1 }} class="condition-tip">
+                <div style=${{ display: "flex", alignItems: "center" }}>
+                  ${sortHeader(c.key, c.short, "auto")}
+                  <span class="tip-icon">i</span>
+                </div>
+                <div class="tip-box">
+                  <div>${c.tip}</div>
+                  <div class="tip-source">Source: ${c.source}</div>
+                </div>
+              </div>`;
             })}
-            <div style=${{ width: 80 }}>${sortHeader("loadBearing", "Status", "80px")}</div>
           </div>
 
           ${tieredGroups.map(function(group) {
@@ -727,8 +817,7 @@
                 var isComparing = compareIds.indexOf(m.id) !== -1;
                 var isDetail = detailId === m.id;
                 var tier = getTier(m.overall);
-                var loadBearing = getLoadBearingStatus(m);
-                return html`<div key=${m.id}
+                return html`<div key=${m.id} class="market-row"
                   onClick=${function() { setDetailId(isDetail ? null : m.id); }}
                   style=${{
                     display: "flex", alignItems: "center", gap: 8, padding: "10px 14px",
@@ -740,7 +829,7 @@
                   onMouseEnter=${function(e) { e.currentTarget.style.background = "rgba(255,255,255,0.4)"; }}
                   onMouseLeave=${function(e) { e.currentTarget.style.background = isDetail ? "rgba(255,255,255,0.5)" : "transparent"; }}
                 >
-                  <div style=${{ width: 28, display: "flex", alignItems: "center", justifyContent: "center" }}
+                  <div class="market-checkbox" style=${{ width: 28, display: "flex", alignItems: "center", justifyContent: "center" }}
                     onClick=${function(e) { e.stopPropagation(); toggleCompare(m.id); }}
                   >
                     <div style=${{
@@ -750,27 +839,29 @@
                       cursor: "pointer", fontSize: "11px", color: "#fff", fontWeight: 700,
                     }}>${isComparing ? "\u2713" : ""}</div>
                   </div>
-                  <div style=${{ width: 180 }}>
-                    <div style=${{ fontFamily: HAND, fontSize: "14px", color: INK, fontWeight: 700 }}>${m.city}</div>
+                  <div class="market-name" style=${{ width: 180 }}>
+                    <div style=${{ fontFamily: HAND, fontSize: "14px", color: INK, fontWeight: 700 }}>${m.city}${m.msaCaveat ? html`<span style=${{ color: "#c0392b", fontSize: "11px", marginLeft: 3, fontFamily: UI, fontWeight: 700 }} title="MSA boundary caveat — click for details">\u2021</span>` : null}</div>
                     <div style=${{ fontFamily: UI, fontSize: "10px", color: TAN_C, letterSpacing: "0.5px" }}>${m.state} \u2022 ${m.region}</div>
                   </div>
-                  <div style=${{ width: 60, textAlign: "center" }}>
+                  <div class="market-score" style=${{ width: 60, textAlign: "center" }}>
                     <div style=${{ fontFamily: DISPLAY_F, fontSize: "26px", color: tier.color, lineHeight: 1 }}>${m.overall}</div>
+                    <div style=${{ fontFamily: UI, fontSize: "9px", color: tier.color, textTransform: "uppercase", letterSpacing: "1px", fontWeight: 600 }} class="mobile-conditions">${tier.name}</div>
                   </div>
-                  ${CONDITION_META.map(function(c) {
-                    return html`<div key=${c.key} style=${{ flex: 1, padding: "0 2px" }}>
-                      <${MiniBar} score=${m.conditions[c.key].score} />
-                      <div style=${{ fontFamily: UI, fontSize: "9px", color: TAN_C, textAlign: "center", marginTop: 2 }}>${m.conditions[c.key].score}</div>
-                    </div>`;
-                  })}
-                  <div style=${{ width: 80, textAlign: "right" }}>
-                    <span style=${{
-                      fontFamily: UI, fontSize: "9px", fontWeight: 600, letterSpacing: "0.5px", textTransform: "uppercase",
-                      padding: "3px 8px", display: "inline-block",
-                      color: loadBearing ? RED : "#999",
-                      background: loadBearing ? "rgba(192,57,43,0.08)" : "rgba(0,0,0,0.04)",
-                      border: "1px solid " + (loadBearing ? "rgba(192,57,43,0.25)" : "rgba(0,0,0,0.1)"),
-                    }}>${loadBearing ? "INTACT" : "WEAK"}</span>
+                  <div class="desktop-conditions" style=${{ display: "flex", flex: 1, alignItems: "center" }}>
+                    ${CONDITION_META.map(function(c) {
+                      return html`<div key=${c.key} style=${{ flex: 1, padding: "0 2px" }}>
+                        <${MiniBar} score=${m.conditions[c.key].score} />
+                        <div style=${{ fontFamily: UI, fontSize: "9px", color: TAN_C, textAlign: "center", marginTop: 2 }}>${m.conditions[c.key].score}</div>
+                      </div>`;
+                    })}
+                  </div>
+                  <div class="mobile-conditions" style=${{ display: "none", gridTemplateColumns: "repeat(5, 1fr)", gap: 4, width: "100%", marginTop: 8, paddingTop: 8, borderTop: "1px solid rgba(26,26,26,0.06)" }}>
+                    ${CONDITION_META.map(function(c) {
+                      return html`<div key=${c.key} style=${{ textAlign: "center" }}>
+                        <div style=${{ fontFamily: UI, fontSize: "8px", color: TAN_C, textTransform: "uppercase", letterSpacing: "0.5px", marginBottom: 2 }}>${c.short.slice(0,4)}</div>
+                        <div style=${{ fontFamily: DISPLAY_F, fontSize: "16px", color: getScoreColor(m.conditions[c.key].score), lineHeight: 1 }}>${m.conditions[c.key].score}</div>
+                      </div>`;
+                    })}
                   </div>
                 </div>`;
               })}
@@ -778,9 +869,12 @@
           })}
 
           <div style=${{ marginTop: 32, padding: "16px 20px", border: "1.5px solid rgba(26,26,26,0.12)", background: "rgba(255,255,255,0.3)" }}>
-            <div style=${{ fontFamily: UI, fontSize: "10px", fontWeight: 600, letterSpacing: "3px", color: TAN_C, textTransform: "uppercase", marginBottom: 8 }}>Methodology</div>
-            <p style=${{ fontFamily: HAND, fontSize: "12px", color: TAN_C, lineHeight: 1.7, margin: 0 }}>
-              Scores are directional instruments, not causal measurements. Each condition is proxied from publicly available data: remote work penetration and office occupancy (BLS, CBRE) for temporal synchronization; residential density and walkability indices (Census, Walk Score) for spatial concentration; bar establishment density (Census CBP) for planning cost; state alcohol culture indices for social permission; and venue tenure and population stability metrics for repetition. Load-bearing status reflects whether temporal synchronization and spatial concentration both score above 60.
+            <div style=${{ fontFamily: UI, fontSize: "10px", fontWeight: 600, letterSpacing: "3px", color: TAN_C, textTransform: "uppercase", marginBottom: 8 }}>How To Read This</div>
+            <p class="methodology-box" style=${{ fontFamily: HAND, fontSize: "12px", color: TAN_C, lineHeight: 1.7, margin: 0 }}>
+              These scores tell you how much a market\u2019s infrastructure is working for you vs. how much you need to do yourself. Each condition uses public data (Census, Walk Score, NIAAA) as a proxy for real-world drinking behavior.
+            </p>
+            <p class="methodology-box" style=${{ fontFamily: HAND, fontSize: "12px", color: TAN_C, lineHeight: 1.7, margin: 0, marginTop: 8 }}>
+              <span style=${{ fontWeight: 700 }}>Temporal + Spatial are the ones you can\u2019t buy.</span> If people aren\u2019t out at the same time in walkable areas with bars, no campaign fixes that. <span style=${{ fontWeight: 700 }}>Planning, Permission, and Repetition are where you can make a difference</span>\u2014delivery, pop-ups, cultural marketing, loyalty programs. Use the scoring strategy presets above to weight what matters for your specific play.
             </p>
           </div>
         </${React.Fragment}>`}

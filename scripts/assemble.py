@@ -176,15 +176,17 @@ for m in markets_data["markets"]:
     permission_note = ""
     if ethanol is not None:
         state_label = niaaa_state
-        if ethanol >= 3.0:
+        if ethanol >= 3.5:
             level = "high"
-        elif ethanol >= 2.3:
+        elif ethanol >= 3.0:
             level = "above-average"
-        elif ethanol >= 1.8:
-            level = "moderate"
+        elif ethanol >= 2.5:
+            level = "mid-range"
+        elif ethanol >= 2.0:
+            level = "below-average"
         else:
             level = "low"
-        permission_note = f"{state_label} ranks {level} in per-capita consumption ({ethanol:.2f} gal)"
+        permission_note = f"{state_label} ranks {level} in per-capita consumption ({ethanol:.2f} gal, range 1.5\u20134.0)"
     else:
         permission_note = "State consumption data unavailable"
 
@@ -229,6 +231,14 @@ for m in markets_data["markets"]:
     else:
         data_quality = "estimated"
 
+    # --- MSA caveat for Mega metros ---
+    msa_area = dn.get("msa_land_area_sqmi", 0)
+    msa_name = cm.get("msa_name", "")
+    msa_pop = dn.get("population", 0)
+    msa_caveat = None
+    if m.get("populationTier") == "Mega":
+        msa_caveat = f"Scores reflect the full {msa_name.split(' Metro')[0]} MSA ({msa_pop:,.0f} people, {msa_area:,.0f} sq mi). The urban core likely outperforms these numbers\u2014suburban sprawl dilutes timing, density, and walkability metrics."
+
     # --- Build market entry ---
     m["conditions"] = {
         "temporal": {"score": temporal_score, "note": temporal_note},
@@ -238,6 +248,8 @@ for m in markets_data["markets"]:
         "repetition": {"score": repetition_score, "note": repetition_note}
     }
     m["dataQuality"] = data_quality
+    if msa_caveat:
+        m["msaCaveat"] = msa_caveat
     results.append(m)
 
 # --- Update metadata ---
