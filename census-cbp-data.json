@@ -1066,6 +1066,48 @@
       "bars_per_10k": 2.1,
       "food_drink_per_10k": 31.06,
       "note": "Within NYC MSA (35620); no independent metro area"
+    },
+    "manhattan-ny": {
+      "msa_fips": "36061",
+      "msa_name": "New York County (Manhattan), NY",
+      "drinking_places_7224": 639,
+      "population": 1645867,
+      "bars_per_10k": 3.88
+    },
+    "brooklyn-ny": {
+      "msa_fips": "36047",
+      "msa_name": "Kings County (Brooklyn), NY",
+      "drinking_places_7224": 437,
+      "population": 2679620,
+      "bars_per_10k": 1.63
+    },
+    "san-francisco-ca-county": {
+      "msa_fips": "06075",
+      "msa_name": "San Francisco County, CA",
+      "drinking_places_7224": 369,
+      "population": 851036,
+      "bars_per_10k": 4.34
+    },
+    "washington-dc-county": {
+      "msa_fips": "11001",
+      "msa_name": "District of Columbia",
+      "drinking_places_7224": 160,
+      "population": 670587,
+      "bars_per_10k": 2.39
+    },
+    "chicago-il-county": {
+      "msa_fips": "17031",
+      "msa_name": "Cook County, IL",
+      "drinking_places_7224": 869,
+      "population": 5225367,
+      "bars_per_10k": 1.66
+    },
+    "boston-ma-county": {
+      "msa_fips": "25025",
+      "msa_name": "Suffolk County (Boston), MA",
+      "drinking_places_7224": 108,
+      "population": 785443,
+      "bars_per_10k": 1.38
     }
   }
 }

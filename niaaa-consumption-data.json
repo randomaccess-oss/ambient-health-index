@@ -400,6 +400,12 @@
     "hartford-ct": "CT",
     "missoula-mt": "MT",
     "bozeman-mt": "MT",
-    "lawrence-ks": "KS"
+    "lawrence-ks": "KS",
+    "manhattan-ny": "NY",
+    "brooklyn-ny": "NY",
+    "san-francisco-ca-county": "CA",
+    "washington-dc-county": "DC",
+    "chicago-il-county": "IL",
+    "boston-ma-county": "MA"
   }
 }

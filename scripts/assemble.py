@@ -98,18 +98,33 @@ for m in markets_data["markets"]:
     # --- TEMPORAL SYNCHRONIZATION ---
     commute_comp = normalize(commute_rate, 0.70, 0.95) * 100 if commute_rate else 50
     commute_time_comp = normalize_inverse(mean_commute, 15, 40) * 100 if mean_commute else 50
+
+    # Dense urban core modifier: WFH workers in walkable, dense areas are still
+    # "in the market" — they walk past bars, eat out, go out at night. And long
+    # commute times via subway in dense cities still expose people to bars/venues,
+    # unlike highway commutes. Both penalties are reduced proportionally to density.
+    effective_density = urban_density if urban_density else (msa_density or 0)
+    if effective_density > 10000:
+        # Scale boost from 0% at 10K to 35% at 50K+ density
+        density_boost = min(0.35, (effective_density - 10000) / 114000)
+        commute_comp = commute_comp + (100 - commute_comp) * density_boost
+        commute_time_comp = commute_time_comp + (100 - commute_time_comp) * density_boost * 0.5
+
     temporal_score = round(commute_comp * 0.6 + commute_time_comp * 0.4)
 
     temporal_note = ""
     if commute_rate and mean_commute:
         pct = round(commute_rate * 100)
         mins = round(mean_commute, 1)
+        density_note = ""
+        if effective_density > 10000:
+            density_note = f", density-adjusted"
         if commute_rate > 0.88:
-            temporal_note = f"Strong commuter presence ({pct}% commute), avg {mins}-min travel time"
+            temporal_note = f"Strong commuter presence ({pct}% commute), avg {mins}-min travel time{density_note}"
         elif commute_rate < 0.80:
-            temporal_note = f"High remote-work rate ({100-pct}% WFH) with {mins}-min avg commute"
+            temporal_note = f"High remote-work rate ({100-pct}% WFH) with {mins}-min avg commute{density_note}"
         else:
-            temporal_note = f"{pct}% commute rate with {mins}-min average travel time"
+            temporal_note = f"{pct}% commute rate with {mins}-min average travel time{density_note}"
     else:
         temporal_note = "Limited commuting data available"
 

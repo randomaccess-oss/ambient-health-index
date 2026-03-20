@@ -2710,6 +2710,194 @@
         }
       },
       "dataQuality": "full"
+    },
+    {
+      "id": "manhattan-ny",
+      "city": "Manhattan",
+      "state": "NY",
+      "region": "Northeast",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 53,
+          "note": "High remote-work rate (21% WFH) with 31.8-min avg commute, density-adjusted"
+        },
+        "spatial": {
+          "score": 93,
+          "note": "Walk Score 98, 3.9 bars/10K, very dense urban core"
+        },
+        "planning": {
+          "score": 99,
+          "note": "Transit Score 100 and Walk Score 98 make spontaneous outings easy"
+        },
+        "permission": {
+          "score": 50,
+          "note": "NY ranks mid-range in per-capita consumption (2.76 gal, range 1.5\u20134.0)"
+        },
+        "repetition": {
+          "score": 69,
+          "note": "Moderate stability (4.5% moved in), decent repeat-crowd potential"
+        }
+      },
+      "dataQuality": "full"
+    },
+    {
+      "id": "brooklyn-ny",
+      "city": "Brooklyn",
+      "state": "NY",
+      "region": "Northeast",
+      "populationTier": "Large",
+      "conditions": {
+        "temporal": {
+          "score": 48,
+          "note": "85% commute rate with 42.7-min average travel time, density-adjusted"
+        },
+        "spatial": {
+          "score": 81,
+          "note": "Walk Score 98, 1.6 bars/10K, very dense urban core"
+        },
+        "planning": {
+          "score": 94,
+          "note": "Transit Score 89 and Walk Score 98 make spontaneous outings easy"
+        },
+        "permission": {
+          "score": 50,
+          "note": "NY ranks mid-range in per-capita consumption (2.76 gal, range 1.5\u20134.0)"
+        },
+        "repetition": {
+          "score": 93,
+          "note": "Very stable population (2.6% moved in), regulars keep coming back"
+        }
+      },
+      "dataQuality": "full"
+    },
+    {
+      "id": "san-francisco-ca-county",
+      "city": "San Francisco",
+      "state": "CA",
+      "region": "West",
+      "populationTier": "Mid",
+      "countyLevel": true,
+      "countyNote": "County-level scoring (San Francisco County only). Compare with the MSA-level San Francisco entry.",
+      "conditions": {
+        "temporal": {
+          "score": 33,
+          "note": "High remote-work rate (23% WFH) with 31.8-min avg commute, density-adjusted"
+        },
+        "spatial": {
+          "score": 94,
+          "note": "Walk Score 94, 4.3 bars/10K, very dense urban core"
+        },
+        "planning": {
+          "score": 88,
+          "note": "Transit Score 80 and Walk Score 94 make spontaneous outings easy"
+        },
+        "permission": {
+          "score": 42,
+          "note": "CA ranks mid-range in per-capita consumption (2.54 gal, range 1.5\u20134.0)"
+        },
+        "repetition": {
+          "score": 50,
+          "note": "Above-average turnover (6.0% moved in), some churn in the crowd"
+        }
+      },
+      "dataQuality": "full"
+    },
+    {
+      "id": "washington-dc-county",
+      "city": "Washington DC",
+      "state": "DC",
+      "region": "Northeast",
+      "populationTier": "Mid",
+      "countyLevel": true,
+      "countyNote": "County-level scoring (District of Columbia only). Compare with the MSA-level Washington entry.",
+      "conditions": {
+        "temporal": {
+          "score": 28,
+          "note": "High remote-work rate (25% WFH) with 30.5-min avg commute, density-adjusted"
+        },
+        "spatial": {
+          "score": 77,
+          "note": "Walk Score 77, 2.4 bars/10K, very dense urban core"
+        },
+        "planning": {
+          "score": 78,
+          "note": "Transit Score 69 and Walk Score 77 make spontaneous outings easy"
+        },
+        "permission": {
+          "score": 100,
+          "note": "DC ranks high in per-capita consumption (5.08 gal, range 1.5\u20134.0)"
+        },
+        "repetition": {
+          "score": 27,
+          "note": "Above-average turnover (7.8% moved in), some churn in the crowd"
+        }
+      },
+      "dataQuality": "full"
+    },
+    {
+      "id": "chicago-il-county",
+      "city": "Chicago",
+      "state": "IL",
+      "region": "Midwest",
+      "populationTier": "Large",
+      "countyLevel": true,
+      "countyNote": "County-level scoring (Cook County only). Compare with the MSA-level Chicago entry.",
+      "conditions": {
+        "temporal": {
+          "score": 50,
+          "note": "86% commute rate with 32.3-min average travel time"
+        },
+        "spatial": {
+          "score": 74,
+          "note": "Walk Score 78, 1.7 bars/10K, very dense urban core"
+        },
+        "planning": {
+          "score": 76,
+          "note": "Transit Score 65 and Walk Score 78 make spontaneous outings easy"
+        },
+        "permission": {
+          "score": 42,
+          "note": "IL ranks mid-range in per-capita consumption (2.56 gal, range 1.5\u20134.0)"
+        },
+        "repetition": {
+          "score": 100,
+          "note": "Very stable population (1.5% moved in), regulars keep coming back"
+        }
+      },
+      "dataQuality": "full"
+    },
+    {
+      "id": "boston-ma-county",
+      "city": "Boston",
+      "state": "MA",
+      "region": "Northeast",
+      "populationTier": "Mid",
+      "countyLevel": true,
+      "countyNote": "County-level scoring (Suffolk County only). Compare with the MSA-level Boston entry.",
+      "conditions": {
+        "temporal": {
+          "score": 51,
+          "note": "85% commute rate with 31.1-min average travel time, density-adjusted"
+        },
+        "spatial": {
+          "score": 74,
+          "note": "Walk Score 83, 1.4 bars/10K, very dense urban core"
+        },
+        "planning": {
+          "score": 81,
+          "note": "Transit Score 72 and Walk Score 83 make spontaneous outings easy"
+        },
+        "permission": {
+          "score": 48,
+          "note": "MA ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
+        },
+        "repetition": {
+          "score": 52,
+          "note": "Moderate stability (5.9% moved in), decent repeat-crowd potential"
+        }
+      },
+      "dataQuality": "full"
     }
   ]
 }

@@ -949,6 +949,54 @@
       "commute_rate": 0.854,
       "mean_commute_minutes": 37.1,
       "note": "Within NYC MSA (35620); no independent metro area"
+    },
+    "manhattan-ny": {
+      "msa_fips": "36061",
+      "msa_name": "New York County (Manhattan), NY",
+      "total_workers": 870794,
+      "work_from_home": 179384,
+      "commute_rate": 0.794,
+      "mean_commute_minutes": 31.8
+    },
+    "brooklyn-ny": {
+      "msa_fips": "36047",
+      "msa_name": "Kings County (Brooklyn), NY",
+      "total_workers": 1222797,
+      "work_from_home": 178528,
+      "commute_rate": 0.854,
+      "mean_commute_minutes": 42.7
+    },
+    "san-francisco-ca-county": {
+      "msa_fips": "06075",
+      "msa_name": "San Francisco County, CA",
+      "total_workers": 487526,
+      "work_from_home": 114081,
+      "commute_rate": 0.766,
+      "mean_commute_minutes": 31.8
+    },
+    "washington-dc-county": {
+      "msa_fips": "11001",
+      "msa_name": "District of Columbia",
+      "total_workers": 366965,
+      "work_from_home": 91741,
+      "commute_rate": 0.75,
+      "mean_commute_minutes": 30.5
+    },
+    "chicago-il-county": {
+      "msa_fips": "17031",
+      "msa_name": "Cook County, IL",
+      "total_workers": 2547260,
+      "work_from_home": 361711,
+      "commute_rate": 0.858,
+      "mean_commute_minutes": 32.3
+    },
+    "boston-ma-county": {
+      "msa_fips": "25025",
+      "msa_name": "Suffolk County (Boston), MA",
+      "total_workers": 424949,
+      "work_from_home": 63742,
+      "commute_rate": 0.85,
+      "mean_commute_minutes": 31.1
     }
   }
 }

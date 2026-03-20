@@ -949,6 +949,54 @@
       "moved_from_diff_state": 318700,
       "migration_rate": 0.0292,
       "note": "Within NYC MSA (35620); no independent metro area"
+    },
+    "manhattan-ny": {
+      "msa_fips": "36061",
+      "msa_name": "New York County (Manhattan), NY",
+      "total_population": 1629764,
+      "moved_from_diff_county": 43621,
+      "moved_from_diff_state": 29425,
+      "migration_rate": 0.0448
+    },
+    "brooklyn-ny": {
+      "msa_fips": "36047",
+      "msa_name": "Kings County (Brooklyn), NY",
+      "total_population": 2643499,
+      "moved_from_diff_county": 50938,
+      "moved_from_diff_state": 17123,
+      "migration_rate": 0.0257
+    },
+    "san-francisco-ca-county": {
+      "msa_fips": "06075",
+      "msa_name": "San Francisco County, CA",
+      "total_population": 843279,
+      "moved_from_diff_county": 32339,
+      "moved_from_diff_state": 18276,
+      "migration_rate": 0.06
+    },
+    "washington-dc-county": {
+      "msa_fips": "11001",
+      "msa_name": "District of Columbia",
+      "total_population": 662242,
+      "moved_from_diff_county": 0,
+      "moved_from_diff_state": 51695,
+      "migration_rate": 0.0781
+    },
+    "chicago-il-county": {
+      "msa_fips": "17031",
+      "msa_name": "Cook County, IL",
+      "total_population": 5167895,
+      "moved_from_diff_county": 45790,
+      "moved_from_diff_state": 33888,
+      "migration_rate": 0.0154
+    },
+    "boston-ma-county": {
+      "msa_fips": "25025",
+      "msa_name": "Suffolk County (Boston), MA",
+      "total_population": 777707,
+      "moved_from_diff_county": 31845,
+      "moved_from_diff_state": 13787,
+      "migration_rate": 0.0587
     }
   }
 }

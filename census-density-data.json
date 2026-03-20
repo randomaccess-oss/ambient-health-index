@@ -954,6 +954,54 @@
       "msa_density_per_sqmi": 2963.5,
       "urban_density_per_sqmi": 5319,
       "note": "Within NYC MSA (35620); no independent metro area"
+    },
+    "manhattan-ny": {
+      "msa_fips": "36061",
+      "msa_name": "New York County (Manhattan), NY",
+      "population": 1645867,
+      "msa_land_area_sqmi": 22.83,
+      "msa_density_per_sqmi": 72092,
+      "urban_density_per_sqmi": 72092
+    },
+    "brooklyn-ny": {
+      "msa_fips": "36047",
+      "msa_name": "Kings County (Brooklyn), NY",
+      "population": 2679620,
+      "msa_land_area_sqmi": 69.37,
+      "msa_density_per_sqmi": 38628,
+      "urban_density_per_sqmi": 38628
+    },
+    "san-francisco-ca-county": {
+      "msa_fips": "06075",
+      "msa_name": "San Francisco County, CA",
+      "population": 851036,
+      "msa_land_area_sqmi": 46.87,
+      "msa_density_per_sqmi": 18155,
+      "urban_density_per_sqmi": 18155
+    },
+    "washington-dc-county": {
+      "msa_fips": "11001",
+      "msa_name": "District of Columbia",
+      "population": 670587,
+      "msa_land_area_sqmi": 61.05,
+      "msa_density_per_sqmi": 10984,
+      "urban_density_per_sqmi": 10984
+    },
+    "chicago-il-county": {
+      "msa_fips": "17031",
+      "msa_name": "Cook County, IL",
+      "population": 5225367,
+      "msa_land_area_sqmi": 945.33,
+      "msa_density_per_sqmi": 5528,
+      "urban_density_per_sqmi": 5528
+    },
+    "boston-ma-county": {
+      "msa_fips": "25025",
+      "msa_name": "Suffolk County (Boston), MA",
+      "population": 785443,
+      "msa_land_area_sqmi": 58.05,
+      "msa_density_per_sqmi": 13530,
+      "urban_density_per_sqmi": 13530
     }
   }
 }

@@ -454,6 +454,30 @@
     "provo-ut": {
       "walk_score": 42,
       "transit_score": 28
+    },
+    "manhattan-ny": {
+      "walk_score": 98,
+      "transit_score": 100
+    },
+    "brooklyn-ny": {
+      "walk_score": 98,
+      "transit_score": 89
+    },
+    "san-francisco-ca-county": {
+      "walk_score": 94,
+      "transit_score": 80
+    },
+    "washington-dc-county": {
+      "walk_score": 77,
+      "transit_score": 69
+    },
+    "chicago-il-county": {
+      "walk_score": 78,
+      "transit_score": 65
+    },
+    "boston-ma-county": {
+      "walk_score": 83,
+      "transit_score": 72
     }
   }
 }
