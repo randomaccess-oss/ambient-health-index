@@ -142,18 +142,18 @@
     { key: "permission", label: "Social Permission", short: "Permission",
       tip: "Does the culture say \u201Cyes\u201D to drinking? Markets where people already drink more are easier to activate. You can influence this with cultural marketing.",
       source: "NIAAA Surveillance Report #120" },
-    { key: "repetition", label: "Repetition", short: "Repetition",
-      tip: "Do people stick around? Stable populations build habits and become regulars. Transient markets mean you\u2019re always re-acquiring. You can influence this with loyalty and community.",
-      source: "Census ACS Table S0701 (2022)" },
+    { key: "frequency", label: "Occasion Frequency", short: "Frequency",
+      tip: "How often do people drink here? Markets with high drinking frequency and lots of bars generate more occasions for your brand. More occasions = more impressions without extra spend.",
+      source: "CDC BRFSS SMART 2023, Census CBP NAICS 7224" },
   ];
 
   // ── Weight presets ──
   var WEIGHT_PRESETS = {
-    equal: { label: "Equal Weight", weights: { temporal: 20, spatial: 20, planning: 20, permission: 20, repetition: 20 }, floors: null, desc: "No thumb on the scale. All five conditions weighted equally. Good starting point." },
-    newBrand: { label: "New Brand Launch", weights: { temporal: 10, spatial: 30, planning: 20, permission: 30, repetition: 10 }, floors: null, desc: "Where should a new brand show up first? Favors dense venue clusters and drinking-friendly cultures." },
-    expand: { label: "Expand Existing Brand", weights: { temporal: 25, spatial: 20, planning: 10, permission: 15, repetition: 30 }, floors: null, desc: "Where to grow next? Favors markets where people stick around and build habits." },
-    activation: { label: "Activation / Sampling", weights: { temporal: 10, spatial: 30, planning: 30, permission: 20, repetition: 10 }, floors: null, desc: "Maximum eyeballs, minimum friction. Favors walkable, high-density areas where people show up without planning." },
-    onPremise: { label: "On-Premise Distribution", weights: { temporal: 20, spatial: 20, planning: 20, permission: 20, repetition: 20 }, floors: { temporal: 50, spatial: 50 }, desc: "Is the bar scene worth investing in? Equal weight, but penalizes markets where timing or density fall short." },
+    equal: { label: "Equal Weight", weights: { temporal: 20, spatial: 20, planning: 20, permission: 20, frequency: 20 }, floors: null, desc: "No thumb on the scale. All five conditions weighted equally. Good starting point." },
+    newBrand: { label: "New Brand Launch", weights: { temporal: 10, spatial: 25, planning: 20, permission: 25, frequency: 20 }, floors: null, desc: "Where should a new brand show up first? Favors drinking culture and dense venue clusters." },
+    expand: { label: "Expand Existing Brand", weights: { temporal: 25, spatial: 25, planning: 15, permission: 15, frequency: 20 }, floors: null, desc: "Where to grow next? Favors markets with strong infrastructure and frequent drinking occasions." },
+    activation: { label: "Activation / Sampling", weights: { temporal: 10, spatial: 30, planning: 30, permission: 15, frequency: 15 }, floors: null, desc: "Maximum eyeballs, minimum friction. Favors walkable, high-density areas where people show up without planning." },
+    onPremise: { label: "On-Premise Distribution", weights: { temporal: 15, spatial: 20, planning: 15, permission: 25, frequency: 25 }, floors: { temporal: 50, spatial: 50 }, desc: "Is the bar scene worth investing in? Favors frequent drinking occasions and cultural permission. Penalizes markets where timing or density fall short." },
   };
 
   // ── Tier definitions ──
@@ -211,19 +211,6 @@
   }
 
   // ── Branded components ──
-  function Star(props) {
-    var size = props.size || 24;
-    var color = props.color || NAVY;
-    var style = props.style || {};
-    return html`<svg width=${size} height=${size} viewBox="0 0 24 24" style=${style} aria-hidden="true">
-      <path d="M12 2 L13.8 9 L21 9 L15 13.5 L17.2 21 L12 16.8 L6.8 21 L9 13.5 L3 9 L10.2 9 Z" fill=${color} />
-    </svg>`;
-  }
-
-  function Corners() {
-    return null;
-  }
-
   function LogoBadge() {
     return html`<a href="https://proof-points.com" target="_blank" rel="noopener" style=${{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "12px", textDecoration: "none" }}>
       <img src=${LOGO_URI} alt="Proof Points" style=${{ width: 34, height: 42, objectFit: "contain" }} />
@@ -494,14 +481,14 @@
 
   // ── Excel export ──
   function exportToExcel(marketList, weights, presetName, floors) {
-    var rows = [["City", "State", "Region", "Pop Tier", "Overall Score", "Temporal", "Spatial", "Planning", "Permission", "Repetition", "Infrastructure Signal"]];
+    var rows = [["City", "State", "Region", "Pop Tier", "Overall Score", "Temporal", "Spatial", "Planning", "Permission", "Frequency", "Infrastructure Signal"]];
     marketList.forEach(function(m) {
       rows.push([
         m.city, m.state, m.region, m.populationTier,
         computeOverall(m, weights, floors),
         m.conditions.temporal.score, m.conditions.spatial.score,
         m.conditions.planning.score, m.conditions.permission.score,
-        m.conditions.repetition.score,
+        m.conditions.frequency.score,
         getLoadBearingStatus(m) ? "Infrastructure does the work" : "You do the work"
       ]);
     });
@@ -509,7 +496,7 @@
     ws["!cols"] = [{ wch: 20 }, { wch: 6 }, { wch: 12 }, { wch: 10 }, { wch: 14 }, { wch: 10 }, { wch: 10 }, { wch: 10 }, { wch: 12 }, { wch: 12 }, { wch: 14 }];
     var wb = XLSX.utils.book_new();
     XLSX.utils.book_append_sheet(wb, ws, "Market Index");
-    XLSX.writeFile(wb, "ambient-health-index.xlsx");
+    XLSX.writeFile(wb, "market-index.xlsx");
   }
 
   // ── Main App ──
@@ -522,7 +509,7 @@
     var s_view = useState("index"); var view = s_view[0]; var setView = s_view[1];
 
     // Weights
-    var s_weights = useState({ temporal: 20, spatial: 20, planning: 20, permission: 20, repetition: 20 });
+    var s_weights = useState({ temporal: 20, spatial: 20, planning: 20, permission: 20, frequency: 20 });
     var weights = s_weights[0]; var setWeights = s_weights[1];
     var s_preset = useState("equal"); var activePreset = s_preset[0]; var setActivePreset = s_preset[1];
 
@@ -682,7 +669,7 @@
     // Loading state
     if (!markets && !loadErr) {
       return html`<div style=${Object.assign({}, WRAP, { display: "flex", alignItems: "center", justifyContent: "center" })}>
-        <${Corners} />
+
         <div style=${{ textAlign: "center" }}>
           <div style=${{ fontFamily: DISPLAY_F, fontSize: "32px", color: TAN_C }}>LOADING MARKETS...</div>
           <div style=${{ fontFamily: HAND, fontSize: "14px", color: TAN_C, marginTop: 8 }}>Fetching market data</div>
@@ -692,7 +679,7 @@
 
     if (loadErr) {
       return html`<div style=${Object.assign({}, WRAP, { display: "flex", alignItems: "center", justifyContent: "center" })}>
-        <${Corners} />
+
         <div style=${{ textAlign: "center" }}>
           <div style=${{ fontFamily: DISPLAY_F, fontSize: "32px", color: RED }}>FAILED TO LOAD</div>
           <div style=${{ fontFamily: HAND, fontSize: "14px", color: TAN_C, marginTop: 8 }}>${loadErr}</div>
@@ -736,7 +723,7 @@
           </div>
           <div style=${{ borderTop: "1px solid rgba(26,26,26,0.08)", paddingTop: 10, fontFamily: UI, fontSize: "10px", color: TAN_C }}>
             <span style=${{ fontWeight: 600 }}>All scores derived from public data.</span> ${markets.length} markets, all fully sourced.
-            Sources: Walk Score \u2022 Census ACS 2022 (S0801, S0701) \u2022 Census CBP NAICS 7224 \u2022 Census Gazetteer \u2022 NIAAA Report #120.
+            Sources: Walk Score \u2022 Census ACS 2022 (S0801) \u2022 Census CBP NAICS 7224 \u2022 Census Gazetteer \u2022 NIAAA Report #120 \u2022 CDC BRFSS SMART 2023.
             <div style=${{ marginTop: 8, fontWeight: 600 }}>Hover any column header \u24D8 for details. <span style=${{ color: RED }}>\u2021</span> = mega-metro MSA caveat\u2014scores reflect the full metro area, not just the urban core.</div>
           </div>
         </div>
@@ -881,7 +868,7 @@
               These scores tell you how much a market\u2019s infrastructure is working for you vs. how much you need to do yourself. Each condition uses public data (Census, Walk Score, NIAAA) as a proxy for real-world drinking behavior.
             </p>
             <p class="methodology-box" style=${{ fontFamily: HAND, fontSize: "12px", color: TAN_C, lineHeight: 1.7, margin: 0, marginTop: 8 }}>
-              <span style=${{ fontWeight: 700 }}>Temporal + Spatial are the ones you can\u2019t buy.</span> If people aren\u2019t out at the same time in walkable areas with bars, no campaign fixes that. <span style=${{ fontWeight: 700 }}>Planning, Permission, and Repetition are where you can make a difference</span>\u2014delivery, pop-ups, cultural marketing, loyalty programs. Use the scoring strategy presets above to weight what matters for your specific play.
+              <span style=${{ fontWeight: 700 }}>Temporal + Spatial are the ones you can\u2019t buy.</span> If people aren\u2019t out at the same time in walkable areas with bars, no campaign fixes that. <span style=${{ fontWeight: 700 }}>Planning, Permission, and Frequency are where you can make a difference</span>\u2014delivery, pop-ups, cultural marketing, loyalty programs. Use the scoring strategy presets above to weight what matters for your specific play.
             </p>
           </div>
         </${React.Fragment}>`}

@@ -24,6 +24,16 @@ density = load("census-density-data.json")["markets"]
 niaaa_raw = load("niaaa-consumption-data.json")
 niaaa_states = niaaa_raw["states"]
 niaaa_mapping = niaaa_raw["market_mapping"]
+brfss_raw = load("brfss-combined-data.json")
+brfss_mmsa = brfss_raw["mmsa_markets"]
+brfss_state_fallback = brfss_raw["state_fallback"]
+
+# --- County-level markets: parent MSA FIPS for BRFSS lookup ---
+COUNTY_TO_MSA = {
+    "manhattan-ny": "35620", "brooklyn-ny": "35620",
+    "san-francisco-ca-county": "41860", "washington-dc-county": "47900",
+    "chicago-il-county": "16980", "boston-ma-county": "14460",
+}
 
 # --- Tourist markets: cap bars_per_10k at 4.0 ---
 TOURIST_MARKETS = {"door-county-wi", "telluride-co", "marfa-tx", "eureka-springs-ar"}
@@ -205,35 +215,54 @@ for m in markets_data["markets"]:
     else:
         permission_note = "State consumption data unavailable"
 
-    # --- REPETITION ---
-    if migration_rate is not None:
-        stability_comp = normalize_inverse(migration_rate, 0.02, 0.10) * 100
-        repetition_score = round(stability_comp)
-    else:
-        repetition_score = 50
+    # --- OCCASION FREQUENCY (replaces Repetition) ---
+    # 70% BRFSS drinking days/month + 30% CBP bars/capita
+    # BRFSS: prefer MMSA-level, fall back to state-level estimate
+    brfss_fips = COUNTY_TO_MSA.get(mid, cm.get("msa_fips", ""))
+    brfss_source = None
+    drinking_days = None
 
-    repetition_note = ""
-    if migration_rate is not None:
-        pct_moved = round(migration_rate * 100, 1)
-        if migration_rate < 0.035:
-            repetition_note = f"Very stable population ({pct_moved}% moved in), regulars keep coming back"
-        elif migration_rate < 0.06:
-            repetition_note = f"Moderate stability ({pct_moved}% moved in), decent repeat-crowd potential"
-        elif migration_rate < 0.08:
-            repetition_note = f"Above-average turnover ({pct_moved}% moved in), some churn in the crowd"
-        elif migration_rate < 0.10:
-            repetition_note = f"High population churn ({pct_moved}% moved in), harder to build regulars"
-        else:
-            repetition_note = f"Very high turnover ({pct_moved}% moved in), transient population"
+    if brfss_fips in brfss_mmsa:
+        drinking_days = brfss_mmsa[brfss_fips]["mean_drinking_days_per_month"]
+        brfss_source = "mmsa"
+    elif state in brfss_state_fallback:
+        drinking_days = brfss_state_fallback[state]["estimated_drinking_days_per_month"]
+        brfss_source = "state"
+
+    if drinking_days is not None:
+        # Normalize drinking days: range 1.5 (low) to 7.0 (high) days/month
+        frequency_comp = normalize(drinking_days, 1.5, 7.0) * 100
     else:
-        repetition_note = "Migration data unavailable"
+        frequency_comp = 50
+
+    # Bar density component (already computed for Spatial, reuse)
+    bar_freq_comp = normalize(bars_per_10k, 0.5, 5.0) * 100 if bars_per_10k is not None else 50
+
+    # Composite: 70% behavioral frequency + 30% structural opportunity
+    frequency_score = round(frequency_comp * 0.70 + bar_freq_comp * 0.30)
+
+    frequency_note = ""
+    if drinking_days is not None:
+        days_str = f"{drinking_days:.1f}"
+        bars_str = f"{bars_per_10k:.1f}" if bars_per_10k else "N/A"
+        src_label = "BRFSS SMART" if brfss_source == "mmsa" else "BRFSS state-level"
+        if drinking_days >= 5.5:
+            frequency_note = f"High drinking frequency ({days_str} days/mo, {src_label}), {bars_str} bars/10K — strong habitual culture"
+        elif drinking_days >= 4.5:
+            frequency_note = f"Above-average drinking frequency ({days_str} days/mo, {src_label}), {bars_str} bars/10K"
+        elif drinking_days >= 3.5:
+            frequency_note = f"Moderate drinking frequency ({days_str} days/mo, {src_label}), {bars_str} bars/10K"
+        else:
+            frequency_note = f"Below-average drinking frequency ({days_str} days/mo, {src_label}), {bars_str} bars/10K"
+    else:
+        frequency_note = "Drinking frequency data unavailable"
 
     # --- Clamp all scores ---
     temporal_score = max(0, min(100, temporal_score))
     spatial_score = max(0, min(100, spatial_score))
     planning_score = max(0, min(100, planning_score))
     permission_score = max(0, min(100, permission_score))
-    repetition_score = max(0, min(100, repetition_score))
+    frequency_score = max(0, min(100, frequency_score))
 
     # --- Data quality tag ---
     has_ws = bool(ws)
@@ -260,7 +289,7 @@ for m in markets_data["markets"]:
         "spatial": {"score": spatial_score, "note": spatial_note},
         "planning": {"score": planning_score, "note": planning_note},
         "permission": {"score": permission_score, "note": permission_note},
-        "repetition": {"score": repetition_score, "note": repetition_note}
+        "frequency": {"score": frequency_score, "note": frequency_note}
     }
     m["dataQuality"] = data_quality
     if msa_caveat:
@@ -296,7 +325,7 @@ if missing_report:
         print(f"  {line}")
 
 # --- Score distribution summary ---
-scores = {"temporal": [], "spatial": [], "planning": [], "permission": [], "repetition": []}
+scores = {"temporal": [], "spatial": [], "planning": [], "permission": [], "frequency": []}
 for m in results:
     for cond in scores:
         scores[cond].append(m["conditions"][cond]["score"])

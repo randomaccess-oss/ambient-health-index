@@ -1,0 +1,647 @@
+{
+  "source": "CDC BRFSS SMART 2023",
+  "variable": "ALCDAY4 / _DRNKDY4",
+  "description": "Average drinking days per month by MMSA",
+  "markets": {
+    "10100": {
+      "mmsa_name": "Aberdeen, SD, Micropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.89,
+      "sample_size": 475
+    },
+    "10420": {
+      "mmsa_name": "Akron, OH, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 3.86,
+      "sample_size": 483
+    },
+    "10580": {
+      "mmsa_name": "Albany-Schenectady-Troy, NY, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.84,
+      "sample_size": 1014
+    },
+    "10740": {
+      "mmsa_name": "Albuquerque, NM, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.1,
+      "sample_size": 788
+    },
+    "11260": {
+      "mmsa_name": "Anchorage, AK, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 5.39,
+      "sample_size": 2014
+    },
+    "12060": {
+      "mmsa_name": "Atlanta-Sandy Springs-Alpharetta, GA, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.47,
+      "sample_size": 3170
+    },
+    "12260": {
+      "mmsa_name": "Augusta-Richmond County, GA-SC, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 3.49,
+      "sample_size": 1120
+    },
+    "12420": {
+      "mmsa_name": "Austin-Round Rock-Georgetown, TX, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.87,
+      "sample_size": 1353
+    },
+    "12580": {
+      "mmsa_name": "Baltimore-Columbia-Towson, MD, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 3.93,
+      "sample_size": 5015
+    },
+    "12940": {
+      "mmsa_name": "Baton Rouge, LA, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.44,
+      "sample_size": 865
+    },
+    "13740": {
+      "mmsa_name": "Billings, MT, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 5.51,
+      "sample_size": 873
+    },
+    "13820": {
+      "mmsa_name": "Birmingham-Hoover, AL, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.54,
+      "sample_size": 927
+    },
+    "13900": {
+      "mmsa_name": "Bismarck, ND, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 5.49,
+      "sample_size": 901
+    },
+    "14260": {
+      "mmsa_name": "Boise City, ID, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.96,
+      "sample_size": 1658
+    },
+    "14454": {
+      "mmsa_name": "Boston, MA, Metropolitan Division",
+      "mean_drinking_days_per_month": 5.02,
+      "sample_size": 2507
+    },
+    "15380": {
+      "mmsa_name": "Buffalo-Cheektowaga, NY, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 5.1,
+      "sample_size": 688
+    },
+    "15540": {
+      "mmsa_name": "Burlington-South Burlington, VT, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 6.44,
+      "sample_size": 2546
+    },
+    "15764": {
+      "mmsa_name": "Cambridge-Newton-Framingham, MA, Metropolitan Division",
+      "mean_drinking_days_per_month": 5.56,
+      "sample_size": 2938
+    },
+    "15804": {
+      "mmsa_name": "Camden, NJ, Metropolitan Division",
+      "mean_drinking_days_per_month": 3.76,
+      "sample_size": 1256
+    },
+    "16300": {
+      "mmsa_name": "Cedar Rapids, IA, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.76,
+      "sample_size": 600
+    },
+    "16620": {
+      "mmsa_name": "Charleston, WV, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 2.96,
+      "sample_size": 715
+    },
+    "16700": {
+      "mmsa_name": "Charleston-North Charleston, SC, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 5.44,
+      "sample_size": 1080
+    },
+    "16740": {
+      "mmsa_name": "Charlotte-Concord-Gastonia, NC-SC, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.65,
+      "sample_size": 1384
+    },
+    "16860": {
+      "mmsa_name": "Chattanooga, TN-GA, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.22,
+      "sample_size": 531
+    },
+    "16980": {
+      "mmsa_name": "Chicago-Naperville-Elgin, IL-IN-WI, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.1,
+      "sample_size": 5148
+    },
+    "17140": {
+      "mmsa_name": "Cincinnati, OH-KY-IN, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.9,
+      "sample_size": 1344
+    },
+    "17460": {
+      "mmsa_name": "Cleveland-Elyria, OH, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.78,
+      "sample_size": 1269
+    },
+    "17820": {
+      "mmsa_name": "Colorado Springs, CO, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 5.03,
+      "sample_size": 999
+    },
+    "17900": {
+      "mmsa_name": "Columbia, SC, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.29,
+      "sample_size": 1246
+    },
+    "18140": {
+      "mmsa_name": "Columbus, OH, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.31,
+      "sample_size": 1998
+    },
+    "19060": {
+      "mmsa_name": "Cumberland, MD-WV, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 3.29,
+      "sample_size": 551
+    },
+    "19124": {
+      "mmsa_name": "Dallas-Plano-Irving, TX, Metropolitan Division",
+      "mean_drinking_days_per_month": 3.79,
+      "sample_size": 1139
+    },
+    "19430": {
+      "mmsa_name": "Dayton-Kettering, OH, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.42,
+      "sample_size": 514
+    },
+    "19740": {
+      "mmsa_name": "Denver-Aurora-Lakewood, CO, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 5.92,
+      "sample_size": 4053
+    },
+    "19780": {
+      "mmsa_name": "Des Moines-West Des Moines, IA, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 5.16,
+      "sample_size": 1613
+    },
+    "20260": {
+      "mmsa_name": "Duluth, MN-WI, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.91,
+      "sample_size": 840
+    },
+    "22020": {
+      "mmsa_name": "Fargo, ND-MN, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.74,
+      "sample_size": 1322
+    },
+    "22220": {
+      "mmsa_name": "Fayetteville-Springdale-Rogers, AR, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.27,
+      "sample_size": 794
+    },
+    "23060": {
+      "mmsa_name": "Fort Wayne, IN, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.13,
+      "sample_size": 675
+    },
+    "23104": {
+      "mmsa_name": "Fort Worth-Arlington-Grapevine, TX, Metropolitan Division",
+      "mean_drinking_days_per_month": 4.02,
+      "sample_size": 558
+    },
+    "23224": {
+      "mmsa_name": "Frederick-Gaithersburg-Rockville, MD, Metropolitan Division",
+      "mean_drinking_days_per_month": 4.17,
+      "sample_size": 3048
+    },
+    "23540": {
+      "mmsa_name": "Gainesville, FL, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 5.48,
+      "sample_size": 459
+    },
+    "24220": {
+      "mmsa_name": "Grand Forks, ND-MN, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.84,
+      "sample_size": 512
+    },
+    "24260": {
+      "mmsa_name": "Grand Island, NE, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 3.93,
+      "sample_size": 533
+    },
+    "24340": {
+      "mmsa_name": "Grand Rapids-Kentwood, MI, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.91,
+      "sample_size": 753
+    },
+    "24580": {
+      "mmsa_name": "Green Bay, WI, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.81,
+      "sample_size": 487
+    },
+    "24860": {
+      "mmsa_name": "Greenville-Anderson, SC, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.15,
+      "sample_size": 1163
+    },
+    "25180": {
+      "mmsa_name": "Hagerstown-Martinsburg, MD-WV, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 3.26,
+      "sample_size": 1407
+    },
+    "25540": {
+      "mmsa_name": "Hartford-East Hartford-Middletown, CT, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.92,
+      "sample_size": 3190
+    },
+    "25720": {
+      "mmsa_name": "Heber, UT, Micropolitan Statistical Area",
+      "mean_drinking_days_per_month": 5.49,
+      "sample_size": 509
+    },
+    "25740": {
+      "mmsa_name": "Helena, MT, Micropolitan Statistical Area",
+      "mean_drinking_days_per_month": 6.09,
+      "sample_size": 503
+    },
+    "25940": {
+      "mmsa_name": "Hilton Head Island-Bluffton, SC, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 6.59,
+      "sample_size": 546
+    },
+    "26420": {
+      "mmsa_name": "Houston-The Woodlands-Sugar Land, TX, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 3.49,
+      "sample_size": 1134
+    },
+    "26580": {
+      "mmsa_name": "Huntington-Ashland, WV-KY-OH, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 3.16,
+      "sample_size": 673
+    },
+    "26820": {
+      "mmsa_name": "Idaho Falls, ID, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 3.55,
+      "sample_size": 526
+    },
+    "26900": {
+      "mmsa_name": "Indianapolis-Carmel-Anderson, IN, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.02,
+      "sample_size": 3318
+    },
+    "27260": {
+      "mmsa_name": "Jacksonville, FL, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.81,
+      "sample_size": 1033
+    },
+    "28140": {
+      "mmsa_name": "Kansas City, MO-KS, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.69,
+      "sample_size": 3576
+    },
+    "28420": {
+      "mmsa_name": "Kennewick-Richland, WA, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.38,
+      "sample_size": 824
+    },
+    "28660": {
+      "mmsa_name": "Killeen-Temple, TX, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 3.75,
+      "sample_size": 485
+    },
+    "28700": {
+      "mmsa_name": "Kingsport-Bristol, TN-VA, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 3.19,
+      "sample_size": 545
+    },
+    "28940": {
+      "mmsa_name": "Knoxville, TN, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.96,
+      "sample_size": 690
+    },
+    "29180": {
+      "mmsa_name": "Lafayette, LA, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.16,
+      "sample_size": 499
+    },
+    "30100": {
+      "mmsa_name": "Lebanon, NH-VT, Micropolitan Statistical Area",
+      "mean_drinking_days_per_month": 6.38,
+      "sample_size": 1745
+    },
+    "30300": {
+      "mmsa_name": "Lewiston, ID-WA, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 5.07,
+      "sample_size": 639
+    },
+    "30700": {
+      "mmsa_name": "Lincoln, NE, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.75,
+      "sample_size": 1616
+    },
+    "30780": {
+      "mmsa_name": "Little Rock-North Little Rock-Conway, AR, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.36,
+      "sample_size": 1009
+    },
+    "31080": {
+      "mmsa_name": "Los Angeles-Long Beach-Anaheim, CA, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 3.69,
+      "sample_size": 3513
+    },
+    "31540": {
+      "mmsa_name": "Madison, WI, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 5.16,
+      "sample_size": 812
+    },
+    "32820": {
+      "mmsa_name": "Memphis, TN-MS-AR, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.0,
+      "sample_size": 737
+    },
+    "33100": {
+      "mmsa_name": "Miami-Fort Lauderdale-Pompano Beach, FL, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 3.76,
+      "sample_size": 779
+    },
+    "33340": {
+      "mmsa_name": "Milwaukee-Waukesha, WI, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 5.15,
+      "sample_size": 2603
+    },
+    "33460": {
+      "mmsa_name": "Minneapolis-St. Paul-Bloomington, MN-WI, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 5.09,
+      "sample_size": 8165
+    },
+    "33660": {
+      "mmsa_name": "Mobile, AL, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 3.92,
+      "sample_size": 489
+    },
+    "34820": {
+      "mmsa_name": "Myrtle Beach-Conway-North Myrtle Beach, SC-NC, Metropolitan Statistical",
+      "mean_drinking_days_per_month": 5.55,
+      "sample_size": 810
+    },
+    "34980": {
+      "mmsa_name": "Nashville-Davidson--Murfreesboro--Franklin, TN, Metropolitan Statistical",
+      "mean_drinking_days_per_month": 4.82,
+      "sample_size": 841
+    },
+    "35004": {
+      "mmsa_name": "Nassau County-Suffolk County, NY, Metropolitan Division",
+      "mean_drinking_days_per_month": 4.06,
+      "sample_size": 1636
+    },
+    "35084": {
+      "mmsa_name": "Newark, NJ-PA, Metropolitan Division",
+      "mean_drinking_days_per_month": 4.58,
+      "sample_size": 1970
+    },
+    "35154": {
+      "mmsa_name": "New Brunswick-Lakewood, NJ, Metropolitan Division",
+      "mean_drinking_days_per_month": 4.04,
+      "sample_size": 2432
+    },
+    "35380": {
+      "mmsa_name": "New Orleans-Metairie, LA, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.58,
+      "sample_size": 1279
+    },
+    "35614": {
+      "mmsa_name": "New York-Jersey City-White Plains, NY-NJ, Metropolitan Division",
+      "mean_drinking_days_per_month": 3.73,
+      "sample_size": 8792
+    },
+    "36084": {
+      "mmsa_name": "Oakland-Berkeley-Livermore, CA, Metropolitan Division",
+      "mean_drinking_days_per_month": 4.05,
+      "sample_size": 734
+    },
+    "36260": {
+      "mmsa_name": "Ogden-Clearfield, UT, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 2.02,
+      "sample_size": 2008
+    },
+    "36420": {
+      "mmsa_name": "Oklahoma City, OK, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 3.6,
+      "sample_size": 2160
+    },
+    "36540": {
+      "mmsa_name": "Omaha-Council Bluffs, NE-IA, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.83,
+      "sample_size": 3419
+    },
+    "36740": {
+      "mmsa_name": "Orlando-Kissimmee-Sanford, FL, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.65,
+      "sample_size": 814
+    },
+    "38060": {
+      "mmsa_name": "Phoenix-Mesa-Chandler, AZ, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.29,
+      "sample_size": 4277
+    },
+    "38860": {
+      "mmsa_name": "Portland-South Portland, ME, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 6.58,
+      "sample_size": 3423
+    },
+    "38900": {
+      "mmsa_name": "Portland-Vancouver-Hillsboro, OR-WA, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 5.45,
+      "sample_size": 4200
+    },
+    "39300": {
+      "mmsa_name": "Providence-Warwick, RI-MA, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.84,
+      "sample_size": 6000
+    },
+    "39340": {
+      "mmsa_name": "Provo-Orem, UT, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 1.6,
+      "sample_size": 1900
+    },
+    "39580": {
+      "mmsa_name": "Raleigh-Cary, NC, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.04,
+      "sample_size": 501
+    },
+    "39660": {
+      "mmsa_name": "Rapid City, SD, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 5.54,
+      "sample_size": 1075
+    },
+    "39900": {
+      "mmsa_name": "Reno, NV, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 5.83,
+      "sample_size": 703
+    },
+    "40060": {
+      "mmsa_name": "Richmond, VA, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.86,
+      "sample_size": 1036
+    },
+    "40140": {
+      "mmsa_name": "Riverside-San Bernardino-Ontario, CA, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 3.49,
+      "sample_size": 1285
+    },
+    "40340": {
+      "mmsa_name": "Rochester, MN, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.58,
+      "sample_size": 520
+    },
+    "40380": {
+      "mmsa_name": "Rochester, NY, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 5.65,
+      "sample_size": 656
+    },
+    "40484": {
+      "mmsa_name": "Rockingham County-Strafford County, NH, Metropolitan Division",
+      "mean_drinking_days_per_month": 5.87,
+      "sample_size": 1714
+    },
+    "40900": {
+      "mmsa_name": "Sacramento-Roseville-Folsom, CA, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 5.05,
+      "sample_size": 593
+    },
+    "41060": {
+      "mmsa_name": "St. Cloud, MN, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.69,
+      "sample_size": 454
+    },
+    "41180": {
+      "mmsa_name": "St. Louis, MO-IL, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.47,
+      "sample_size": 2188
+    },
+    "41420": {
+      "mmsa_name": "Salem, OR, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.18,
+      "sample_size": 575
+    },
+    "41540": {
+      "mmsa_name": "Salisbury, MD-DE, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.71,
+      "sample_size": 2672
+    },
+    "41620": {
+      "mmsa_name": "Salt Lake City, UT, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 3.52,
+      "sample_size": 3417
+    },
+    "41700": {
+      "mmsa_name": "San Antonio-New Braunfels, TX, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.41,
+      "sample_size": 1226
+    },
+    "41940": {
+      "mmsa_name": "San Jose-Sunnyvale-Santa Clara, CA, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 3.67,
+      "sample_size": 503
+    },
+    "41980": {
+      "mmsa_name": "San Juan-Bayam\u00f3n-Caguas, PR, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 1.66,
+      "sample_size": 2910
+    },
+    "42644": {
+      "mmsa_name": "Seattle-Bellevue-Kent, WA, Metropolitan Division",
+      "mean_drinking_days_per_month": 5.55,
+      "sample_size": 8672
+    },
+    "43580": {
+      "mmsa_name": "Sioux City, IA-NE-SD, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.21,
+      "sample_size": 885
+    },
+    "43620": {
+      "mmsa_name": "Sioux Falls, SD, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 5.5,
+      "sample_size": 1129
+    },
+    "44060": {
+      "mmsa_name": "Spokane-Spokane Valley, WA, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 5.18,
+      "sample_size": 1967
+    },
+    "44140": {
+      "mmsa_name": "Springfield, MA, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.62,
+      "sample_size": 965
+    },
+    "45060": {
+      "mmsa_name": "Syracuse, NY, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 5.17,
+      "sample_size": 548
+    },
+    "45220": {
+      "mmsa_name": "Tallahassee, FL, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.44,
+      "sample_size": 866
+    },
+    "45300": {
+      "mmsa_name": "Tampa-St. Petersburg-Clearwater, FL, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.54,
+      "sample_size": 868
+    },
+    "45780": {
+      "mmsa_name": "Toledo, OH, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.16,
+      "sample_size": 689
+    },
+    "45820": {
+      "mmsa_name": "Topeka, KS, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.27,
+      "sample_size": 1113
+    },
+    "46140": {
+      "mmsa_name": "Tulsa, OK, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 3.38,
+      "sample_size": 1356
+    },
+    "46300": {
+      "mmsa_name": "Twin Falls, ID, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.25,
+      "sample_size": 484
+    },
+    "47260": {
+      "mmsa_name": "Virginia Beach-Norfolk-Newport News, VA-NC, Metropolitan Statistical Are",
+      "mean_drinking_days_per_month": 4.33,
+      "sample_size": 1276
+    },
+    "47664": {
+      "mmsa_name": "Warren-Troy-Farmington Hills, MI, Metropolitan Division",
+      "mean_drinking_days_per_month": 4.37,
+      "sample_size": 2127
+    },
+    "47894": {
+      "mmsa_name": "Washington-Arlington-Alexandria, DC-VA-MD-WV, Metropolitan Division",
+      "mean_drinking_days_per_month": 4.51,
+      "sample_size": 7111
+    },
+    "47940": {
+      "mmsa_name": "Waterloo-Cedar Falls, IA, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 5.1,
+      "sample_size": 665
+    },
+    "48140": {
+      "mmsa_name": "Wausau-Weston, WI, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.85,
+      "sample_size": 522
+    },
+    "48620": {
+      "mmsa_name": "Wichita, KS, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.38,
+      "sample_size": 1528
+    },
+    "48864": {
+      "mmsa_name": "Wilmington, DE-MD-NJ, Metropolitan Division",
+      "mean_drinking_days_per_month": 4.01,
+      "sample_size": 1948
+    },
+    "49340": {
+      "mmsa_name": "Worcester, MA-CT, Metropolitan Statistical Area",
+      "mean_drinking_days_per_month": 4.91,
+      "sample_size": 1628
+    }
+  }
+}

@@ -1,0 +1,1060 @@
+{
+  "source": "CDC BRFSS SMART 2022-2023 (MMSA-level) + CDC BRFSS 2023 (state-level fallback)",
+  "description": "Drinking frequency data. MMSA-level from BRFSS SMART microdata (ALCDAY4 weighted means). State-level from BRFSS prevalence API (converted to estimated days/month).",
+  "mmsa_markets": {
+    "10100": {
+      "mean_drinking_days_per_month": 4.89,
+      "sample_size": 475,
+      "year": 2023
+    },
+    "10380": {
+      "mean_drinking_days_per_month": 1.21,
+      "sample_size": 493,
+      "year": 2022
+    },
+    "10420": {
+      "mean_drinking_days_per_month": 3.86,
+      "sample_size": 483,
+      "year": 2023
+    },
+    "10580": {
+      "mean_drinking_days_per_month": 4.84,
+      "sample_size": 1014,
+      "year": 2023
+    },
+    "10740": {
+      "mean_drinking_days_per_month": 4.1,
+      "sample_size": 788,
+      "year": 2023
+    },
+    "11260": {
+      "mean_drinking_days_per_month": 5.39,
+      "sample_size": 2014,
+      "year": 2023
+    },
+    "12060": {
+      "mean_drinking_days_per_month": 4.47,
+      "sample_size": 3170,
+      "year": 2023
+    },
+    "12260": {
+      "mean_drinking_days_per_month": 3.49,
+      "sample_size": 1120,
+      "year": 2023
+    },
+    "12420": {
+      "mean_drinking_days_per_month": 4.87,
+      "sample_size": 1353,
+      "year": 2023
+    },
+    "12580": {
+      "mean_drinking_days_per_month": 3.93,
+      "sample_size": 5015,
+      "year": 2023
+    },
+    "12940": {
+      "mean_drinking_days_per_month": 4.44,
+      "sample_size": 865,
+      "year": 2023
+    },
+    "13740": {
+      "mean_drinking_days_per_month": 5.51,
+      "sample_size": 873,
+      "year": 2023
+    },
+    "13820": {
+      "mean_drinking_days_per_month": 4.54,
+      "sample_size": 927,
+      "year": 2023
+    },
+    "13900": {
+      "mean_drinking_days_per_month": 5.49,
+      "sample_size": 901,
+      "year": 2023
+    },
+    "14260": {
+      "mean_drinking_days_per_month": 4.96,
+      "sample_size": 1658,
+      "year": 2023
+    },
+    "14454": {
+      "mean_drinking_days_per_month": 5.02,
+      "sample_size": 2507,
+      "year": 2023
+    },
+    "15380": {
+      "mean_drinking_days_per_month": 5.1,
+      "sample_size": 688,
+      "year": 2023
+    },
+    "15540": {
+      "mean_drinking_days_per_month": 6.44,
+      "sample_size": 2546,
+      "year": 2023
+    },
+    "15764": {
+      "mean_drinking_days_per_month": 5.56,
+      "sample_size": 2938,
+      "year": 2023
+    },
+    "15804": {
+      "mean_drinking_days_per_month": 3.76,
+      "sample_size": 1256,
+      "year": 2023
+    },
+    "16300": {
+      "mean_drinking_days_per_month": 4.76,
+      "sample_size": 600,
+      "year": 2023
+    },
+    "16620": {
+      "mean_drinking_days_per_month": 2.96,
+      "sample_size": 715,
+      "year": 2023
+    },
+    "16700": {
+      "mean_drinking_days_per_month": 5.44,
+      "sample_size": 1080,
+      "year": 2023
+    },
+    "16740": {
+      "mean_drinking_days_per_month": 4.65,
+      "sample_size": 1384,
+      "year": 2023
+    },
+    "16860": {
+      "mean_drinking_days_per_month": 4.22,
+      "sample_size": 531,
+      "year": 2023
+    },
+    "16980": {
+      "mean_drinking_days_per_month": 4.1,
+      "sample_size": 5148,
+      "year": 2023
+    },
+    "17140": {
+      "mean_drinking_days_per_month": 4.9,
+      "sample_size": 1344,
+      "year": 2023
+    },
+    "17460": {
+      "mean_drinking_days_per_month": 4.78,
+      "sample_size": 1269,
+      "year": 2023
+    },
+    "17820": {
+      "mean_drinking_days_per_month": 5.03,
+      "sample_size": 999,
+      "year": 2023
+    },
+    "17900": {
+      "mean_drinking_days_per_month": 4.29,
+      "sample_size": 1246,
+      "year": 2023
+    },
+    "18140": {
+      "mean_drinking_days_per_month": 4.31,
+      "sample_size": 1998,
+      "year": 2023
+    },
+    "19060": {
+      "mean_drinking_days_per_month": 3.29,
+      "sample_size": 551,
+      "year": 2023
+    },
+    "19124": {
+      "mean_drinking_days_per_month": 3.79,
+      "sample_size": 1139,
+      "year": 2023
+    },
+    "19430": {
+      "mean_drinking_days_per_month": 4.42,
+      "sample_size": 514,
+      "year": 2023
+    },
+    "19740": {
+      "mean_drinking_days_per_month": 5.92,
+      "sample_size": 4053,
+      "year": 2023
+    },
+    "19780": {
+      "mean_drinking_days_per_month": 5.16,
+      "sample_size": 1613,
+      "year": 2023
+    },
+    "20260": {
+      "mean_drinking_days_per_month": 4.91,
+      "sample_size": 840,
+      "year": 2023
+    },
+    "22020": {
+      "mean_drinking_days_per_month": 4.74,
+      "sample_size": 1322,
+      "year": 2023
+    },
+    "22220": {
+      "mean_drinking_days_per_month": 4.27,
+      "sample_size": 794,
+      "year": 2023
+    },
+    "23060": {
+      "mean_drinking_days_per_month": 4.13,
+      "sample_size": 675,
+      "year": 2023
+    },
+    "23104": {
+      "mean_drinking_days_per_month": 4.02,
+      "sample_size": 558,
+      "year": 2023
+    },
+    "23224": {
+      "mean_drinking_days_per_month": 4.17,
+      "sample_size": 3048,
+      "year": 2023
+    },
+    "23540": {
+      "mean_drinking_days_per_month": 5.48,
+      "sample_size": 459,
+      "year": 2023
+    },
+    "24340": {
+      "mean_drinking_days_per_month": 4.91,
+      "sample_size": 753,
+      "year": 2023
+    },
+    "24860": {
+      "mean_drinking_days_per_month": 4.15,
+      "sample_size": 1163,
+      "year": 2023
+    },
+    "25180": {
+      "mean_drinking_days_per_month": 3.26,
+      "sample_size": 1407,
+      "year": 2023
+    },
+    "25540": {
+      "mean_drinking_days_per_month": 4.92,
+      "sample_size": 3190,
+      "year": 2023
+    },
+    "25740": {
+      "mean_drinking_days_per_month": 6.09,
+      "sample_size": 503,
+      "year": 2023
+    },
+    "25940": {
+      "mean_drinking_days_per_month": 6.59,
+      "sample_size": 546,
+      "year": 2023
+    },
+    "26420": {
+      "mean_drinking_days_per_month": 3.49,
+      "sample_size": 1134,
+      "year": 2023
+    },
+    "26580": {
+      "mean_drinking_days_per_month": 3.16,
+      "sample_size": 673,
+      "year": 2023
+    },
+    "26820": {
+      "mean_drinking_days_per_month": 3.55,
+      "sample_size": 526,
+      "year": 2023
+    },
+    "26900": {
+      "mean_drinking_days_per_month": 4.02,
+      "sample_size": 3318,
+      "year": 2023
+    },
+    "27260": {
+      "mean_drinking_days_per_month": 4.81,
+      "sample_size": 1033,
+      "year": 2023
+    },
+    "28140": {
+      "mean_drinking_days_per_month": 4.69,
+      "sample_size": 3576,
+      "year": 2023
+    },
+    "28420": {
+      "mean_drinking_days_per_month": 4.38,
+      "sample_size": 824,
+      "year": 2023
+    },
+    "28700": {
+      "mean_drinking_days_per_month": 3.19,
+      "sample_size": 545,
+      "year": 2023
+    },
+    "28940": {
+      "mean_drinking_days_per_month": 4.96,
+      "sample_size": 690,
+      "year": 2023
+    },
+    "29180": {
+      "mean_drinking_days_per_month": 4.16,
+      "sample_size": 499,
+      "year": 2023
+    },
+    "29620": {
+      "mean_drinking_days_per_month": 4.74,
+      "sample_size": 481,
+      "year": 2022
+    },
+    "30100": {
+      "mean_drinking_days_per_month": 6.38,
+      "sample_size": 1745,
+      "year": 2023
+    },
+    "30300": {
+      "mean_drinking_days_per_month": 5.07,
+      "sample_size": 639,
+      "year": 2023
+    },
+    "30700": {
+      "mean_drinking_days_per_month": 4.75,
+      "sample_size": 1616,
+      "year": 2023
+    },
+    "30780": {
+      "mean_drinking_days_per_month": 4.36,
+      "sample_size": 1009,
+      "year": 2023
+    },
+    "31080": {
+      "mean_drinking_days_per_month": 3.69,
+      "sample_size": 3513,
+      "year": 2023
+    },
+    "31140": {
+      "mean_drinking_days_per_month": 3.58,
+      "sample_size": 906,
+      "year": 2022
+    },
+    "31540": {
+      "mean_drinking_days_per_month": 5.16,
+      "sample_size": 812,
+      "year": 2023
+    },
+    "32820": {
+      "mean_drinking_days_per_month": 4.0,
+      "sample_size": 737,
+      "year": 2023
+    },
+    "33100": {
+      "mean_drinking_days_per_month": 3.76,
+      "sample_size": 779,
+      "year": 2023
+    },
+    "33340": {
+      "mean_drinking_days_per_month": 5.15,
+      "sample_size": 2603,
+      "year": 2023
+    },
+    "33460": {
+      "mean_drinking_days_per_month": 5.09,
+      "sample_size": 8165,
+      "year": 2023
+    },
+    "33660": {
+      "mean_drinking_days_per_month": 3.92,
+      "sample_size": 489,
+      "year": 2023
+    },
+    "34820": {
+      "mean_drinking_days_per_month": 5.55,
+      "sample_size": 810,
+      "year": 2023
+    },
+    "34980": {
+      "mean_drinking_days_per_month": 4.82,
+      "sample_size": 841,
+      "year": 2023
+    },
+    "35004": {
+      "mean_drinking_days_per_month": 4.06,
+      "sample_size": 1636,
+      "year": 2023
+    },
+    "35084": {
+      "mean_drinking_days_per_month": 4.58,
+      "sample_size": 1970,
+      "year": 2023
+    },
+    "35154": {
+      "mean_drinking_days_per_month": 4.04,
+      "sample_size": 2432,
+      "year": 2023
+    },
+    "35380": {
+      "mean_drinking_days_per_month": 4.58,
+      "sample_size": 1279,
+      "year": 2023
+    },
+    "35614": {
+      "mean_drinking_days_per_month": 3.73,
+      "sample_size": 8792,
+      "year": 2023
+    },
+    "35840": {
+      "mean_drinking_days_per_month": 6.88,
+      "sample_size": 441,
+      "year": 2022
+    },
+    "36084": {
+      "mean_drinking_days_per_month": 4.05,
+      "sample_size": 734,
+      "year": 2023
+    },
+    "36260": {
+      "mean_drinking_days_per_month": 2.02,
+      "sample_size": 2008,
+      "year": 2023
+    },
+    "36420": {
+      "mean_drinking_days_per_month": 3.6,
+      "sample_size": 2160,
+      "year": 2023
+    },
+    "36540": {
+      "mean_drinking_days_per_month": 4.83,
+      "sample_size": 3419,
+      "year": 2023
+    },
+    "36740": {
+      "mean_drinking_days_per_month": 4.65,
+      "sample_size": 814,
+      "year": 2023
+    },
+    "37964": {
+      "mean_drinking_days_per_month": 4.38,
+      "sample_size": 792,
+      "year": 2022
+    },
+    "38060": {
+      "mean_drinking_days_per_month": 4.29,
+      "sample_size": 4277,
+      "year": 2023
+    },
+    "38300": {
+      "mean_drinking_days_per_month": 4.7,
+      "sample_size": 998,
+      "year": 2022
+    },
+    "38860": {
+      "mean_drinking_days_per_month": 6.58,
+      "sample_size": 3423,
+      "year": 2023
+    },
+    "38900": {
+      "mean_drinking_days_per_month": 5.45,
+      "sample_size": 4200,
+      "year": 2023
+    },
+    "39100": {
+      "mean_drinking_days_per_month": 5.15,
+      "sample_size": 442,
+      "year": 2022
+    },
+    "39300": {
+      "mean_drinking_days_per_month": 4.84,
+      "sample_size": 6000,
+      "year": 2023
+    },
+    "39340": {
+      "mean_drinking_days_per_month": 1.6,
+      "sample_size": 1900,
+      "year": 2023
+    },
+    "39580": {
+      "mean_drinking_days_per_month": 4.04,
+      "sample_size": 501,
+      "year": 2023
+    },
+    "39660": {
+      "mean_drinking_days_per_month": 5.54,
+      "sample_size": 1075,
+      "year": 2023
+    },
+    "39900": {
+      "mean_drinking_days_per_month": 5.83,
+      "sample_size": 703,
+      "year": 2023
+    },
+    "40060": {
+      "mean_drinking_days_per_month": 4.86,
+      "sample_size": 1036,
+      "year": 2023
+    },
+    "40140": {
+      "mean_drinking_days_per_month": 3.49,
+      "sample_size": 1285,
+      "year": 2023
+    },
+    "40380": {
+      "mean_drinking_days_per_month": 5.65,
+      "sample_size": 656,
+      "year": 2023
+    },
+    "40484": {
+      "mean_drinking_days_per_month": 5.87,
+      "sample_size": 1714,
+      "year": 2023
+    },
+    "40900": {
+      "mean_drinking_days_per_month": 5.05,
+      "sample_size": 593,
+      "year": 2023
+    },
+    "41180": {
+      "mean_drinking_days_per_month": 4.47,
+      "sample_size": 2188,
+      "year": 2023
+    },
+    "41420": {
+      "mean_drinking_days_per_month": 4.18,
+      "sample_size": 575,
+      "year": 2023
+    },
+    "41540": {
+      "mean_drinking_days_per_month": 4.71,
+      "sample_size": 2672,
+      "year": 2023
+    },
+    "41620": {
+      "mean_drinking_days_per_month": 3.52,
+      "sample_size": 3417,
+      "year": 2023
+    },
+    "41700": {
+      "mean_drinking_days_per_month": 4.41,
+      "sample_size": 1226,
+      "year": 2023
+    },
+    "41940": {
+      "mean_drinking_days_per_month": 3.67,
+      "sample_size": 503,
+      "year": 2023
+    },
+    "41980": {
+      "mean_drinking_days_per_month": 1.66,
+      "sample_size": 2910,
+      "year": 2023
+    },
+    "42644": {
+      "mean_drinking_days_per_month": 5.55,
+      "sample_size": 8672,
+      "year": 2023
+    },
+    "43340": {
+      "mean_drinking_days_per_month": 4.4,
+      "sample_size": 434,
+      "year": 2022
+    },
+    "43580": {
+      "mean_drinking_days_per_month": 4.21,
+      "sample_size": 885,
+      "year": 2023
+    },
+    "43620": {
+      "mean_drinking_days_per_month": 5.5,
+      "sample_size": 1129,
+      "year": 2023
+    },
+    "44060": {
+      "mean_drinking_days_per_month": 5.18,
+      "sample_size": 1967,
+      "year": 2023
+    },
+    "44140": {
+      "mean_drinking_days_per_month": 4.62,
+      "sample_size": 965,
+      "year": 2023
+    },
+    "45060": {
+      "mean_drinking_days_per_month": 5.17,
+      "sample_size": 548,
+      "year": 2023
+    },
+    "45220": {
+      "mean_drinking_days_per_month": 4.44,
+      "sample_size": 866,
+      "year": 2023
+    },
+    "45300": {
+      "mean_drinking_days_per_month": 4.54,
+      "sample_size": 868,
+      "year": 2023
+    },
+    "45780": {
+      "mean_drinking_days_per_month": 4.16,
+      "sample_size": 689,
+      "year": 2023
+    },
+    "45820": {
+      "mean_drinking_days_per_month": 4.27,
+      "sample_size": 1113,
+      "year": 2023
+    },
+    "46140": {
+      "mean_drinking_days_per_month": 3.38,
+      "sample_size": 1356,
+      "year": 2023
+    },
+    "47260": {
+      "mean_drinking_days_per_month": 4.33,
+      "sample_size": 1276,
+      "year": 2023
+    },
+    "47664": {
+      "mean_drinking_days_per_month": 4.37,
+      "sample_size": 2127,
+      "year": 2023
+    },
+    "47894": {
+      "mean_drinking_days_per_month": 4.51,
+      "sample_size": 7111,
+      "year": 2023
+    },
+    "47940": {
+      "mean_drinking_days_per_month": 5.1,
+      "sample_size": 665,
+      "year": 2023
+    },
+    "47980": {
+      "mean_drinking_days_per_month": 4.7,
+      "sample_size": 999,
+      "year": 2022
+    },
+    "48140": {
+      "mean_drinking_days_per_month": 4.85,
+      "sample_size": 522,
+      "year": 2023
+    },
+    "48300": {
+      "mean_drinking_days_per_month": 5.13,
+      "sample_size": 488,
+      "year": 2022
+    },
+    "48620": {
+      "mean_drinking_days_per_month": 4.38,
+      "sample_size": 1528,
+      "year": 2023
+    },
+    "48864": {
+      "mean_drinking_days_per_month": 4.01,
+      "sample_size": 1948,
+      "year": 2023
+    },
+    "49340": {
+      "mean_drinking_days_per_month": 4.91,
+      "sample_size": 1628,
+      "year": 2023
+    },
+    "49660": {
+      "mean_drinking_days_per_month": 3.7,
+      "sample_size": 586,
+      "year": 2022
+    },
+    "24220": {
+      "mean_drinking_days_per_month": 4.84,
+      "sample_size": 512,
+      "year": 2023
+    },
+    "24260": {
+      "mean_drinking_days_per_month": 3.93,
+      "sample_size": 533,
+      "year": 2023
+    },
+    "24580": {
+      "mean_drinking_days_per_month": 4.81,
+      "sample_size": 487,
+      "year": 2023
+    },
+    "25720": {
+      "mean_drinking_days_per_month": 5.49,
+      "sample_size": 509,
+      "year": 2023
+    },
+    "28660": {
+      "mean_drinking_days_per_month": 3.75,
+      "sample_size": 485,
+      "year": 2023
+    },
+    "40340": {
+      "mean_drinking_days_per_month": 4.58,
+      "sample_size": 520,
+      "year": 2023
+    },
+    "41060": {
+      "mean_drinking_days_per_month": 4.69,
+      "sample_size": 454,
+      "year": 2023
+    },
+    "46300": {
+      "mean_drinking_days_per_month": 4.25,
+      "sample_size": 484,
+      "year": 2023
+    }
+  },
+  "state_fallback": {
+    "AK": {
+      "pct_drinkers": 52.8,
+      "pct_binge": 17.0,
+      "pct_heavy": 8.4,
+      "estimated_drinking_days_per_month": 5.15,
+      "year": 2023
+    },
+    "AL": {
+      "pct_drinkers": 44.0,
+      "pct_binge": 12.9,
+      "pct_heavy": 6.0,
+      "estimated_drinking_days_per_month": 4.21,
+      "year": 2023
+    },
+    "AR": {
+      "pct_drinkers": 42.8,
+      "pct_binge": 13.5,
+      "pct_heavy": 5.5,
+      "estimated_drinking_days_per_month": 4.1,
+      "year": 2023
+    },
+    "AZ": {
+      "pct_drinkers": 51.1,
+      "pct_binge": 14.5,
+      "pct_heavy": 5.8,
+      "estimated_drinking_days_per_month": 4.81,
+      "year": 2023
+    },
+    "CA": {
+      "pct_drinkers": 50.6,
+      "pct_binge": 14.2,
+      "pct_heavy": 4.8,
+      "estimated_drinking_days_per_month": 4.71,
+      "year": 2023
+    },
+    "CO": {
+      "pct_drinkers": 60.9,
+      "pct_binge": 18.0,
+      "pct_heavy": 6.7,
+      "estimated_drinking_days_per_month": 5.75,
+      "year": 2023
+    },
+    "CT": {
+      "pct_drinkers": 58.3,
+      "pct_binge": 14.8,
+      "pct_heavy": 5.9,
+      "estimated_drinking_days_per_month": 5.4,
+      "year": 2023
+    },
+    "DC": {
+      "pct_drinkers": 67.5,
+      "pct_binge": 27.1,
+      "pct_heavy": 8.4,
+      "estimated_drinking_days_per_month": 6.63,
+      "year": 2023
+    },
+    "DE": {
+      "pct_drinkers": 53.1,
+      "pct_binge": 13.6,
+      "pct_heavy": 5.2,
+      "estimated_drinking_days_per_month": 4.92,
+      "year": 2023
+    },
+    "FL": {
+      "pct_drinkers": 53.5,
+      "pct_binge": 14.3,
+      "pct_heavy": 6.6,
+      "estimated_drinking_days_per_month": 5.04,
+      "year": 2023
+    },
+    "GA": {
+      "pct_drinkers": 49.7,
+      "pct_binge": 13.9,
+      "pct_heavy": 5.5,
+      "estimated_drinking_days_per_month": 4.67,
+      "year": 2023
+    },
+    "HI": {
+      "pct_drinkers": 49.8,
+      "pct_binge": 18.2,
+      "pct_heavy": 8.6,
+      "estimated_drinking_days_per_month": 4.96,
+      "year": 2023
+    },
+    "IA": {
+      "pct_drinkers": 57.4,
+      "pct_binge": 20.5,
+      "pct_heavy": 7.2,
+      "estimated_drinking_days_per_month": 5.57,
+      "year": 2023
+    },
+    "ID": {
+      "pct_drinkers": 47.3,
+      "pct_binge": 14.8,
+      "pct_heavy": 5.9,
+      "estimated_drinking_days_per_month": 4.52,
+      "year": 2023
+    },
+    "IL": {
+      "pct_drinkers": 55.8,
+      "pct_binge": 18.1,
+      "pct_heavy": 5.3,
+      "estimated_drinking_days_per_month": 5.27,
+      "year": 2023
+    },
+    "IN": {
+      "pct_drinkers": 49.5,
+      "pct_binge": 15.2,
+      "pct_heavy": 5.2,
+      "estimated_drinking_days_per_month": 4.68,
+      "year": 2023
+    },
+    "KS": {
+      "pct_drinkers": 53.1,
+      "pct_binge": 16.0,
+      "pct_heavy": 6.4,
+      "estimated_drinking_days_per_month": 5.05,
+      "year": 2023
+    },
+    "KY": {
+      "pct_drinkers": 35.2,
+      "pct_binge": 12.8,
+      "pct_heavy": 4.6,
+      "estimated_drinking_days_per_month": 3.43,
+      "year": 2022
+    },
+    "LA": {
+      "pct_drinkers": 49.5,
+      "pct_binge": 15.9,
+      "pct_heavy": 6.6,
+      "estimated_drinking_days_per_month": 4.77,
+      "year": 2023
+    },
+    "MA": {
+      "pct_drinkers": 58.8,
+      "pct_binge": 16.4,
+      "pct_heavy": 6.4,
+      "estimated_drinking_days_per_month": 5.52,
+      "year": 2023
+    },
+    "MD": {
+      "pct_drinkers": 51.9,
+      "pct_binge": 12.9,
+      "pct_heavy": 4.0,
+      "estimated_drinking_days_per_month": 4.74,
+      "year": 2023
+    },
+    "ME": {
+      "pct_drinkers": 55.5,
+      "pct_binge": 15.0,
+      "pct_heavy": 8.2,
+      "estimated_drinking_days_per_month": 5.3,
+      "year": 2023
+    },
+    "MI": {
+      "pct_drinkers": 52.2,
+      "pct_binge": 15.2,
+      "pct_heavy": 5.8,
+      "estimated_drinking_days_per_month": 4.92,
+      "year": 2023
+    },
+    "MN": {
+      "pct_drinkers": 58.4,
+      "pct_binge": 17.0,
+      "pct_heavy": 5.9,
+      "estimated_drinking_days_per_month": 5.48,
+      "year": 2023
+    },
+    "MO": {
+      "pct_drinkers": 49.5,
+      "pct_binge": 16.3,
+      "pct_heavy": 5.7,
+      "estimated_drinking_days_per_month": 4.73,
+      "year": 2023
+    },
+    "MS": {
+      "pct_drinkers": 43.3,
+      "pct_binge": 13.1,
+      "pct_heavy": 6.1,
+      "estimated_drinking_days_per_month": 4.16,
+      "year": 2023
+    },
+    "MT": {
+      "pct_drinkers": 59.1,
+      "pct_binge": 19.5,
+      "pct_heavy": 8.2,
+      "estimated_drinking_days_per_month": 5.72,
+      "year": 2023
+    },
+    "NC": {
+      "pct_drinkers": 48.4,
+      "pct_binge": 13.6,
+      "pct_heavy": 5.2,
+      "estimated_drinking_days_per_month": 4.54,
+      "year": 2023
+    },
+    "ND": {
+      "pct_drinkers": 58.8,
+      "pct_binge": 21.2,
+      "pct_heavy": 6.3,
+      "estimated_drinking_days_per_month": 5.66,
+      "year": 2023
+    },
+    "NE": {
+      "pct_drinkers": 57.2,
+      "pct_binge": 19.0,
+      "pct_heavy": 6.2,
+      "estimated_drinking_days_per_month": 5.46,
+      "year": 2023
+    },
+    "NH": {
+      "pct_drinkers": 62.0,
+      "pct_binge": 15.5,
+      "pct_heavy": 7.7,
+      "estimated_drinking_days_per_month": 5.81,
+      "year": 2023
+    },
+    "NJ": {
+      "pct_drinkers": 54.6,
+      "pct_binge": 14.6,
+      "pct_heavy": 4.3,
+      "estimated_drinking_days_per_month": 5.02,
+      "year": 2023
+    },
+    "NM": {
+      "pct_drinkers": 45.8,
+      "pct_binge": 12.5,
+      "pct_heavy": 4.9,
+      "estimated_drinking_days_per_month": 4.28,
+      "year": 2023
+    },
+    "NV": {
+      "pct_drinkers": 54.1,
+      "pct_binge": 15.9,
+      "pct_heavy": 6.7,
+      "estimated_drinking_days_per_month": 5.14,
+      "year": 2023
+    },
+    "NY": {
+      "pct_drinkers": 54.2,
+      "pct_binge": 14.9,
+      "pct_heavy": 5.0,
+      "estimated_drinking_days_per_month": 5.03,
+      "year": 2023
+    },
+    "OH": {
+      "pct_drinkers": 51.5,
+      "pct_binge": 15.6,
+      "pct_heavy": 6.3,
+      "estimated_drinking_days_per_month": 4.9,
+      "year": 2023
+    },
+    "OK": {
+      "pct_drinkers": 44.3,
+      "pct_binge": 13.7,
+      "pct_heavy": 4.8,
+      "estimated_drinking_days_per_month": 4.19,
+      "year": 2023
+    },
+    "OR": {
+      "pct_drinkers": 55.7,
+      "pct_binge": 14.5,
+      "pct_heavy": 6.8,
+      "estimated_drinking_days_per_month": 5.23,
+      "year": 2023
+    },
+    "PA": {
+      "pct_drinkers": 51.8,
+      "pct_binge": 17.0,
+      "pct_heavy": 6.6,
+      "estimated_drinking_days_per_month": 4.98,
+      "year": 2022
+    },
+    "RI": {
+      "pct_drinkers": 56.3,
+      "pct_binge": 16.4,
+      "pct_heavy": 6.6,
+      "estimated_drinking_days_per_month": 5.33,
+      "year": 2023
+    },
+    "SC": {
+      "pct_drinkers": 49.6,
+      "pct_binge": 14.5,
+      "pct_heavy": 6.3,
+      "estimated_drinking_days_per_month": 4.72,
+      "year": 2023
+    },
+    "SD": {
+      "pct_drinkers": 60.5,
+      "pct_binge": 19.8,
+      "pct_heavy": 7.2,
+      "estimated_drinking_days_per_month": 5.79,
+      "year": 2023
+    },
+    "TN": {
+      "pct_drinkers": 47.7,
+      "pct_binge": 13.6,
+      "pct_heavy": 5.7,
+      "estimated_drinking_days_per_month": 4.51,
+      "year": 2023
+    },
+    "TX": {
+      "pct_drinkers": 49.7,
+      "pct_binge": 17.0,
+      "pct_heavy": 5.9,
+      "estimated_drinking_days_per_month": 4.78,
+      "year": 2023
+    },
+    "UT": {
+      "pct_drinkers": 32.6,
+      "pct_binge": 11.9,
+      "pct_heavy": 3.9,
+      "estimated_drinking_days_per_month": 3.16,
+      "year": 2023
+    },
+    "VA": {
+      "pct_drinkers": 52.2,
+      "pct_binge": 13.0,
+      "pct_heavy": 5.6,
+      "estimated_drinking_days_per_month": 4.85,
+      "year": 2023
+    },
+    "VT": {
+      "pct_drinkers": 60.4,
+      "pct_binge": 15.7,
+      "pct_heavy": 7.6,
+      "estimated_drinking_days_per_month": 5.68,
+      "year": 2023
+    },
+    "WA": {
+      "pct_drinkers": 57.8,
+      "pct_binge": 15.6,
+      "pct_heavy": 6.4,
+      "estimated_drinking_days_per_month": 5.41,
+      "year": 2023
+    },
+    "WI": {
+      "pct_drinkers": 58.0,
+      "pct_binge": 18.4,
+      "pct_heavy": 7.3,
+      "estimated_drinking_days_per_month": 5.56,
+      "year": 2023
+    },
+    "WV": {
+      "pct_drinkers": 39.8,
+      "pct_binge": 12.5,
+      "pct_heavy": 5.2,
+      "estimated_drinking_days_per_month": 3.82,
+      "year": 2023
+    },
+    "WY": {
+      "pct_drinkers": 50.4,
+      "pct_binge": 14.5,
+      "pct_heavy": 6.5,
+      "estimated_drinking_days_per_month": 4.79,
+      "year": 2023
+    }
+  }
+}

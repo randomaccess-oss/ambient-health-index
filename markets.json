@@ -29,9 +29,9 @@
           "score": 50,
           "note": "NY ranks mid-range in per-capita consumption (2.76 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 88,
-          "note": "Very stable population (2.9% moved in), regulars keep coming back"
+        "frequency": {
+          "score": 56,
+          "note": "Above-average drinking frequency (5.0 days/mo, BRFSS state-level), 2.1 bars/10K"
         }
       },
       "dataQuality": "full",
@@ -60,9 +60,9 @@
           "score": 42,
           "note": "IL ranks mid-range in per-capita consumption (2.56 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 80,
-          "note": "Moderate stability (3.6% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 49,
+          "note": "Moderate drinking frequency (4.1 days/mo, BRFSS SMART), 2.9 bars/10K"
         }
       },
       "dataQuality": "full",
@@ -91,9 +91,9 @@
           "score": 46,
           "note": "LA ranks mid-range in per-capita consumption (2.65 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 63,
-          "note": "Moderate stability (5.0% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 66,
+          "note": "Above-average drinking frequency (4.6 days/mo, BRFSS SMART), 4.6 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -121,9 +121,9 @@
           "score": 48,
           "note": "MA ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 66,
-          "note": "Moderate stability (4.7% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 70,
+          "note": "High drinking frequency (5.5 days/mo, BRFSS state-level), 3.3 bars/10K \u2014 strong habitual culture"
         }
       },
       "dataQuality": "full"
@@ -151,9 +151,9 @@
           "score": 37,
           "note": "PA ranks below-average in per-capita consumption (2.43 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 84,
-          "note": "Very stable population (3.3% moved in), regulars keep coming back"
+        "frequency": {
+          "score": 59,
+          "note": "Above-average drinking frequency (5.0 days/mo, BRFSS state-level), 2.7 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -181,9 +181,9 @@
           "score": 100,
           "note": "DC ranks high in per-capita consumption (5.08 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 67,
-          "note": "Moderate stability (4.7% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 77,
+          "note": "High drinking frequency (6.6 days/mo, BRFSS state-level), 2.2 bars/10K \u2014 strong habitual culture"
         }
       },
       "dataQuality": "full"
@@ -211,9 +211,9 @@
           "score": 42,
           "note": "MN ranks mid-range in per-capita consumption (2.55 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 67,
-          "note": "Moderate stability (4.6% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 74,
+          "note": "Above-average drinking frequency (5.1 days/mo, BRFSS SMART), 4.7 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -241,9 +241,9 @@
           "score": 48,
           "note": "OR ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 50,
-          "note": "Above-average turnover (6.0% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 76,
+          "note": "Above-average drinking frequency (5.5 days/mo, BRFSS SMART), 4.4 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -271,9 +271,9 @@
           "score": 48,
           "note": "FL ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 75,
-          "note": "Moderate stability (4.0% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 42,
+          "note": "Moderate drinking frequency (3.8 days/mo, BRFSS SMART), 2.5 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -301,9 +301,9 @@
           "score": 27,
           "note": "TN ranks below-average in per-capita consumption (2.17 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 28,
-          "note": "Above-average turnover (7.8% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 69,
+          "note": "Above-average drinking frequency (4.8 days/mo, BRFSS SMART), 4.4 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -331,9 +331,9 @@
           "score": 54,
           "note": "CO ranks mid-range in per-capita consumption (2.84 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 40,
-          "note": "Above-average turnover (6.8% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 81,
+          "note": "High drinking frequency (5.9 days/mo, BRFSS SMART), 4.3 bars/10K \u2014 strong habitual culture"
         }
       },
       "dataQuality": "full"
@@ -361,9 +361,9 @@
           "score": 37,
           "note": "TX ranks below-average in per-capita consumption (2.42 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 36,
-          "note": "Above-average turnover (7.1% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 66,
+          "note": "Above-average drinking frequency (4.9 days/mo, BRFSS SMART), 4.0 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -391,9 +391,9 @@
           "score": 42,
           "note": "CA ranks mid-range in per-capita consumption (2.54 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 62,
-          "note": "Moderate stability (5.0% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 64,
+          "note": "Above-average drinking frequency (4.7 days/mo, BRFSS state-level), 4.0 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -421,9 +421,9 @@
           "score": 47,
           "note": "WA ranks mid-range in per-capita consumption (2.67 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 51,
-          "note": "Moderate stability (6.0% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 72,
+          "note": "Above-average drinking frequency (5.4 days/mo, BRFSS state-level), 3.9 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -451,9 +451,9 @@
           "score": 26,
           "note": "GA ranks below-average in per-capita consumption (2.14 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
+        "frequency": {
           "score": 51,
-          "note": "Moderate stability (5.9% moved in), decent repeat-crowd potential"
+          "note": "Moderate drinking frequency (4.5 days/mo, BRFSS SMART), 2.5 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -481,9 +481,9 @@
           "score": 42,
           "note": "CA ranks mid-range in per-capita consumption (2.54 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 72,
-          "note": "Moderate stability (4.2% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 39,
+          "note": "Moderate drinking frequency (3.7 days/mo, BRFSS SMART), 2.2 bars/10K"
         }
       },
       "dataQuality": "full",
@@ -512,9 +512,9 @@
           "score": 42,
           "note": "AZ ranks mid-range in per-capita consumption (2.55 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 43,
-          "note": "Above-average turnover (6.6% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 49,
+          "note": "Moderate drinking frequency (4.3 days/mo, BRFSS SMART), 2.5 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -542,9 +542,9 @@
           "score": 37,
           "note": "TX ranks below-average in per-capita consumption (2.42 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 49,
-          "note": "Above-average turnover (6.1% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 57,
+          "note": "Above-average drinking frequency (4.8 days/mo, BRFSS state-level), 2.9 bars/10K"
         }
       },
       "dataQuality": "full",
@@ -573,9 +573,9 @@
           "score": 37,
           "note": "TX ranks below-average in per-capita consumption (2.42 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 56,
-          "note": "Moderate stability (5.5% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 37,
+          "note": "Below-average drinking frequency (3.5 days/mo, BRFSS SMART), 2.2 bars/10K"
         }
       },
       "dataQuality": "full",
@@ -604,9 +604,9 @@
           "score": 59,
           "note": "WI ranks mid-range in per-capita consumption (2.98 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 66,
-          "note": "Moderate stability (4.8% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 76,
+          "note": "Above-average drinking frequency (5.2 days/mo, BRFSS SMART), 5.7 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -634,9 +634,9 @@
           "score": 37,
           "note": "PA ranks below-average in per-capita consumption (2.43 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 82,
-          "note": "Very stable population (3.4% moved in), regulars keep coming back"
+        "frequency": {
+          "score": 71,
+          "note": "Above-average drinking frequency (4.7 days/mo, BRFSS SMART), 5.5 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -664,9 +664,9 @@
           "score": 36,
           "note": "MO ranks below-average in per-capita consumption (2.41 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 78,
-          "note": "Moderate stability (3.8% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 58,
+          "note": "Moderate drinking frequency (4.5 days/mo, BRFSS SMART), 3.5 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -694,9 +694,9 @@
           "score": 31,
           "note": "OH ranks below-average in per-capita consumption (2.28 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 81,
-          "note": "Very stable population (3.5% moved in), regulars keep coming back"
+        "frequency": {
+          "score": 71,
+          "note": "Above-average drinking frequency (4.8 days/mo, BRFSS SMART), 4.9 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -724,9 +724,9 @@
           "score": 31,
           "note": "OH ranks below-average in per-capita consumption (2.28 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 66,
-          "note": "Moderate stability (4.7% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 64,
+          "note": "Above-average drinking frequency (4.9 days/mo, BRFSS SMART), 3.6 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -754,9 +754,9 @@
           "score": 34,
           "note": "MI ranks below-average in per-capita consumption (2.36 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 84,
-          "note": "Very stable population (3.3% moved in), regulars keep coming back"
+        "frequency": {
+          "score": 64,
+          "note": "Above-average drinking frequency (4.9 days/mo, BRFSS state-level), 3.5 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -784,9 +784,9 @@
           "score": 41,
           "note": "MD ranks mid-range in per-capita consumption (2.52 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 62,
-          "note": "Moderate stability (5.1% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 53,
+          "note": "Moderate drinking frequency (3.9 days/mo, BRFSS SMART), 3.9 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -814,9 +814,9 @@
           "score": 42,
           "note": "CA ranks mid-range in per-capita consumption (2.54 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 60,
-          "note": "Moderate stability (5.2% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 58,
+          "note": "Above-average drinking frequency (4.7 days/mo, BRFSS state-level), 3.0 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -844,9 +844,9 @@
           "score": 37,
           "note": "TX ranks below-average in per-capita consumption (2.42 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 56,
-          "note": "Moderate stability (5.5% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 53,
+          "note": "Moderate drinking frequency (4.4 days/mo, BRFSS SMART), 2.9 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -874,9 +874,9 @@
           "score": 31,
           "note": "OH ranks below-average in per-capita consumption (2.28 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 43,
-          "note": "Above-average turnover (6.6% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 58,
+          "note": "Moderate drinking frequency (4.3 days/mo, BRFSS SMART), 3.8 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -904,9 +904,9 @@
           "score": 28,
           "note": "IN ranks below-average in per-capita consumption (2.19 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 54,
-          "note": "Moderate stability (5.7% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 53,
+          "note": "Moderate drinking frequency (4.0 days/mo, BRFSS SMART), 3.6 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -934,9 +934,9 @@
           "score": 26,
           "note": "NC ranks below-average in per-capita consumption (2.16 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 39,
-          "note": "Above-average turnover (6.9% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 55,
+          "note": "Above-average drinking frequency (4.7 days/mo, BRFSS SMART), 2.7 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -964,9 +964,9 @@
           "score": 48,
           "note": "FL ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 47,
-          "note": "Above-average turnover (6.3% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 57,
+          "note": "Above-average drinking frequency (4.5 days/mo, BRFSS SMART), 3.3 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -994,9 +994,9 @@
           "score": 48,
           "note": "FL ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 37,
-          "note": "Above-average turnover (7.0% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 57,
+          "note": "Above-average drinking frequency (4.7 days/mo, BRFSS SMART), 3.0 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1024,9 +1024,9 @@
           "score": 36,
           "note": "MO ranks below-average in per-capita consumption (2.41 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 58,
-          "note": "Moderate stability (5.4% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 63,
+          "note": "Above-average drinking frequency (4.7 days/mo, BRFSS SMART), 3.9 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1054,9 +1054,9 @@
           "score": 26,
           "note": "NC ranks below-average in per-capita consumption (2.16 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 20,
-          "note": "High population churn (8.4% moved in), harder to build regulars"
+        "frequency": {
+          "score": 53,
+          "note": "Moderate drinking frequency (4.0 days/mo, BRFSS SMART), 3.6 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1084,9 +1084,9 @@
           "score": 42,
           "note": "CA ranks mid-range in per-capita consumption (2.54 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 54,
-          "note": "Moderate stability (5.6% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 59,
+          "note": "Above-average drinking frequency (5.0 days/mo, BRFSS SMART), 2.6 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1114,9 +1114,9 @@
           "score": 42,
           "note": "CA ranks mid-range in per-capita consumption (2.54 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 42,
-          "note": "Above-average turnover (6.6% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 45,
+          "note": "Moderate drinking frequency (3.7 days/mo, BRFSS SMART), 3.1 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1144,9 +1144,9 @@
           "score": 48,
           "note": "FL ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 28,
-          "note": "Above-average turnover (7.8% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 60,
+          "note": "Above-average drinking frequency (4.8 days/mo, BRFSS SMART), 3.1 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1174,9 +1174,9 @@
           "score": 27,
           "note": "TN ranks below-average in per-capita consumption (2.17 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 72,
-          "note": "Moderate stability (4.2% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 53,
+          "note": "Moderate drinking frequency (4.0 days/mo, BRFSS SMART), 3.7 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1204,9 +1204,9 @@
           "score": 24,
           "note": "KY ranks below-average in per-capita consumption (2.11 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 62,
-          "note": "Moderate stability (5.0% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 53,
+          "note": "Moderate drinking frequency (3.6 days/mo, BRFSS SMART), 4.4 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1234,9 +1234,9 @@
           "score": 40,
           "note": "VA ranks below-average in per-capita consumption (2.49 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 46,
-          "note": "Above-average turnover (6.3% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 65,
+          "note": "Above-average drinking frequency (4.9 days/mo, BRFSS SMART), 3.8 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1264,9 +1264,9 @@
           "score": 50,
           "note": "NY ranks mid-range in per-capita consumption (2.76 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 80,
-          "note": "Moderate stability (3.6% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 76,
+          "note": "Above-average drinking frequency (5.1 days/mo, BRFSS SMART), 5.2 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1294,9 +1294,9 @@
           "score": 51,
           "note": "RI ranks mid-range in per-capita consumption (2.78 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 66,
-          "note": "Moderate stability (4.8% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 65,
+          "note": "Above-average drinking frequency (4.8 days/mo, BRFSS SMART), 3.8 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1324,9 +1324,9 @@
           "score": 47,
           "note": "CT ranks mid-range in per-capita consumption (2.68 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 54,
-          "note": "Moderate stability (5.7% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 76,
+          "note": "Above-average drinking frequency (5.4 days/mo, BRFSS state-level), 4.5 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1354,9 +1354,9 @@
           "score": 40,
           "note": "SC ranks mid-range in per-capita consumption (2.51 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 10,
-          "note": "High population churn (9.2% moved in), harder to build regulars"
+        "frequency": {
+          "score": 78,
+          "note": "Above-average drinking frequency (5.4 days/mo, BRFSS SMART), 4.7 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1384,9 +1384,9 @@
           "score": 26,
           "note": "GA ranks below-average in per-capita consumption (2.14 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 9,
-          "note": "High population churn (9.3% moved in), harder to build regulars"
+        "frequency": {
+          "score": 70,
+          "note": "Above-average drinking frequency (4.7 days/mo, BRFSS state-level), 6.1 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1414,9 +1414,9 @@
           "score": 59,
           "note": "WI ranks mid-range in per-capita consumption (2.98 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 8,
-          "note": "High population churn (9.4% moved in), harder to build regulars"
+        "frequency": {
+          "score": 77,
+          "note": "Above-average drinking frequency (5.2 days/mo, BRFSS SMART), 7.2 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1444,9 +1444,9 @@
           "score": 62,
           "note": "VT ranks above-average in per-capita consumption (3.05 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 3,
-          "note": "High population churn (9.8% moved in), harder to build regulars"
+        "frequency": {
+          "score": 93,
+          "note": "High drinking frequency (6.4 days/mo, BRFSS SMART), 6.1 bars/10K \u2014 strong habitual culture"
         }
       },
       "dataQuality": "full"
@@ -1474,9 +1474,9 @@
           "score": 26,
           "note": "NC ranks below-average in per-capita consumption (2.16 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 29,
-          "note": "Above-average turnover (7.7% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 69,
+          "note": "Above-average drinking frequency (4.5 days/mo, BRFSS state-level), 8.1 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1504,9 +1504,9 @@
           "score": 40,
           "note": "NJ ranks below-average in per-capita consumption (2.49 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 88,
-          "note": "Very stable population (2.9% moved in), regulars keep coming back"
+        "frequency": {
+          "score": 55,
+          "note": "Above-average drinking frequency (5.0 days/mo, BRFSS state-level), 2.1 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1534,9 +1534,9 @@
           "score": 34,
           "note": "MI ranks below-average in per-capita consumption (2.36 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 0,
-          "note": "Very high turnover (10.5% moved in), transient population"
+        "frequency": {
+          "score": 74,
+          "note": "Above-average drinking frequency (4.9 days/mo, BRFSS state-level), 6.5 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1564,9 +1564,9 @@
           "score": 54,
           "note": "CO ranks mid-range in per-capita consumption (2.84 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 0,
-          "note": "Very high turnover (10.6% moved in), transient population"
+        "frequency": {
+          "score": 84,
+          "note": "High drinking frequency (5.8 days/mo, BRFSS state-level), 7.3 bars/10K \u2014 strong habitual culture"
         }
       },
       "dataQuality": "full"
@@ -1594,9 +1594,9 @@
           "score": 30,
           "note": "ID ranks below-average in per-capita consumption (2.24 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 15,
-          "note": "High population churn (8.8% moved in), harder to build regulars"
+        "frequency": {
+          "score": 68,
+          "note": "Above-average drinking frequency (5.0 days/mo, BRFSS SMART), 4.1 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1624,9 +1624,9 @@
           "score": 48,
           "note": "OR ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 0,
-          "note": "Very high turnover (11.1% moved in), transient population"
+        "frequency": {
+          "score": 77,
+          "note": "Above-average drinking frequency (5.2 days/mo, BRFSS state-level), 7.2 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1654,9 +1654,9 @@
           "score": 42,
           "note": "MN ranks mid-range in per-capita consumption (2.55 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 37,
-          "note": "Above-average turnover (7.0% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 73,
+          "note": "Above-average drinking frequency (4.9 days/mo, BRFSS SMART), 8.2 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1684,9 +1684,9 @@
           "score": 58,
           "note": "MT ranks mid-range in per-capita consumption (2.95 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 0,
-          "note": "Very high turnover (13.2% moved in), transient population"
+        "frequency": {
+          "score": 84,
+          "note": "High drinking frequency (5.7 days/mo, BRFSS state-level), 12.0 bars/10K \u2014 strong habitual culture"
         }
       },
       "dataQuality": "full"
@@ -1714,9 +1714,9 @@
           "score": 40,
           "note": "NE ranks mid-range in per-capita consumption (2.51 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 49,
-          "note": "Above-average turnover (6.1% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 67,
+          "note": "Above-average drinking frequency (4.8 days/mo, BRFSS SMART), 4.3 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1744,9 +1744,9 @@
           "score": 42,
           "note": "NM ranks mid-range in per-capita consumption (2.56 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 45,
-          "note": "Above-average turnover (6.4% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 58,
+          "note": "Moderate drinking frequency (4.1 days/mo, BRFSS SMART), 4.2 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1774,9 +1774,9 @@
           "score": 42,
           "note": "AZ ranks mid-range in per-capita consumption (2.55 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 36,
-          "note": "Above-average turnover (7.2% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 64,
+          "note": "Above-average drinking frequency (4.8 days/mo, BRFSS state-level), 3.7 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1804,9 +1804,9 @@
           "score": 50,
           "note": "HI ranks mid-range in per-capita consumption (2.76 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 50,
-          "note": "Above-average turnover (6.0% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 66,
+          "note": "Above-average drinking frequency (5.0 days/mo, BRFSS state-level), 3.8 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1834,9 +1834,9 @@
           "score": 59,
           "note": "AK ranks mid-range in per-capita consumption (2.98 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 7,
-          "note": "High population churn (9.4% moved in), harder to build regulars"
+        "frequency": {
+          "score": 80,
+          "note": "Above-average drinking frequency (5.4 days/mo, BRFSS SMART), 6.2 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1864,9 +1864,9 @@
           "score": 0,
           "note": "UT ranks low in per-capita consumption (1.35 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 42,
-          "note": "Above-average turnover (6.6% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 41,
+          "note": "Moderate drinking frequency (3.5 days/mo, BRFSS SMART), 2.8 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1894,9 +1894,9 @@
           "score": 97,
           "note": "NV ranks high in per-capita consumption (3.93 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 40,
-          "note": "Above-average turnover (6.8% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 76,
+          "note": "Above-average drinking frequency (5.1 days/mo, BRFSS state-level), 4.9 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1924,9 +1924,9 @@
           "score": 55,
           "note": "ME ranks mid-range in per-capita consumption (2.87 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 32,
-          "note": "Above-average turnover (7.5% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 95,
+          "note": "High drinking frequency (6.6 days/mo, BRFSS SMART), 6.1 bars/10K \u2014 strong habitual culture"
         }
       },
       "dataQuality": "full"
@@ -1954,9 +1954,9 @@
           "score": 50,
           "note": "NY ranks mid-range in per-capita consumption (2.76 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 58,
-          "note": "Moderate stability (5.4% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 73,
+          "note": "Above-average drinking frequency (4.8 days/mo, BRFSS SMART), 5.4 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -1984,9 +1984,9 @@
           "score": 20,
           "note": "OK ranks below-average in per-capita consumption (2.00 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 53,
-          "note": "Moderate stability (5.7% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 47,
+          "note": "Moderate drinking frequency (3.6 days/mo, BRFSS SMART), 3.5 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2014,9 +2014,9 @@
           "score": 18,
           "note": "AL ranks low in per-capita consumption (1.96 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 63,
-          "note": "Moderate stability (4.9% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 54,
+          "note": "Above-average drinking frequency (4.5 days/mo, BRFSS SMART), 2.8 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2044,9 +2044,9 @@
           "score": 42,
           "note": "NM ranks mid-range in per-capita consumption (2.56 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 9,
-          "note": "High population churn (9.3% moved in), harder to build regulars"
+        "frequency": {
+          "score": 65,
+          "note": "Moderate drinking frequency (4.3 days/mo, BRFSS state-level), 6.5 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2074,9 +2074,9 @@
           "score": 97,
           "note": "NV ranks high in per-capita consumption (3.93 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 1,
-          "note": "High population churn (9.9% moved in), harder to build regulars"
+        "frequency": {
+          "score": 85,
+          "note": "High drinking frequency (5.8 days/mo, BRFSS SMART), 5.8 bars/10K \u2014 strong habitual culture"
         }
       },
       "dataQuality": "full"
@@ -2104,9 +2104,9 @@
           "score": 46,
           "note": "LA ranks mid-range in per-capita consumption (2.65 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 45,
-          "note": "Above-average turnover (6.4% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 61,
+          "note": "Moderate drinking frequency (4.4 days/mo, BRFSS SMART), 4.0 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2134,9 +2134,9 @@
           "score": 40,
           "note": "SC ranks mid-range in per-capita consumption (2.51 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 48,
-          "note": "Above-average turnover (6.2% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 51,
+          "note": "Moderate drinking frequency (4.2 days/mo, BRFSS SMART), 3.1 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2164,9 +2164,9 @@
           "score": 27,
           "note": "TN ranks below-average in per-capita consumption (2.17 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 45,
-          "note": "Above-average turnover (6.4% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 70,
+          "note": "Above-average drinking frequency (5.0 days/mo, BRFSS SMART), 4.4 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2194,9 +2194,9 @@
           "score": 27,
           "note": "TN ranks below-average in per-capita consumption (2.17 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 32,
-          "note": "Above-average turnover (7.5% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 65,
+          "note": "Moderate drinking frequency (4.2 days/mo, BRFSS SMART), 5.0 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2224,9 +2224,9 @@
           "score": 24,
           "note": "KY ranks below-average in per-capita consumption (2.11 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 35,
-          "note": "Above-average turnover (7.2% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 55,
+          "note": "Below-average drinking frequency (3.4 days/mo, BRFSS state-level), 5.6 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2254,9 +2254,9 @@
           "score": 37,
           "note": "TX ranks below-average in per-capita consumption (2.42 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 49,
-          "note": "Above-average turnover (6.1% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 57,
+          "note": "Above-average drinking frequency (4.8 days/mo, BRFSS state-level), 2.9 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2284,9 +2284,9 @@
           "score": 40,
           "note": "VA ranks below-average in per-capita consumption (2.49 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 52,
-          "note": "Moderate stability (5.8% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 56,
+          "note": "Moderate drinking frequency (4.3 days/mo, BRFSS SMART), 3.6 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2314,9 +2314,9 @@
           "score": 40,
           "note": "NJ ranks below-average in per-capita consumption (2.49 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 88,
-          "note": "Very stable population (2.9% moved in), regulars keep coming back"
+        "frequency": {
+          "score": 55,
+          "note": "Above-average drinking frequency (5.0 days/mo, BRFSS state-level), 2.1 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2344,9 +2344,9 @@
           "score": 34,
           "note": "MI ranks below-average in per-capita consumption (2.36 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 56,
-          "note": "Moderate stability (5.5% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 71,
+          "note": "Above-average drinking frequency (4.9 days/mo, BRFSS SMART), 4.6 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2374,9 +2374,9 @@
           "score": 59,
           "note": "WI ranks mid-range in per-capita consumption (2.98 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 38,
-          "note": "Above-average turnover (7.0% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 72,
+          "note": "Above-average drinking frequency (4.8 days/mo, BRFSS SMART), 7.4 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2404,9 +2404,9 @@
           "score": 59,
           "note": "WI ranks mid-range in per-capita consumption (2.98 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 17,
-          "note": "High population churn (8.6% moved in), harder to build regulars"
+        "frequency": {
+          "score": 82,
+          "note": "High drinking frequency (5.6 days/mo, BRFSS state-level), 7.0 bars/10K \u2014 strong habitual culture"
         }
       },
       "dataQuality": "full"
@@ -2434,9 +2434,9 @@
           "score": 54,
           "note": "CO ranks mid-range in per-capita consumption (2.84 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 19,
-          "note": "High population churn (8.5% moved in), harder to build regulars"
+        "frequency": {
+          "score": 67,
+          "note": "Above-average drinking frequency (5.0 days/mo, BRFSS SMART), 3.9 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2464,9 +2464,9 @@
           "score": 54,
           "note": "CO ranks mid-range in per-capita consumption (2.84 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 0,
-          "note": "Very high turnover (10.2% moved in), transient population"
+        "frequency": {
+          "score": 84,
+          "note": "High drinking frequency (5.8 days/mo, BRFSS state-level), 6.8 bars/10K \u2014 strong habitual culture"
         }
       },
       "dataQuality": "full"
@@ -2494,9 +2494,9 @@
           "score": 18,
           "note": "AL ranks low in per-capita consumption (1.96 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 45,
-          "note": "Above-average turnover (6.4% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 57,
+          "note": "Moderate drinking frequency (3.9 days/mo, BRFSS SMART), 4.4 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2524,9 +2524,9 @@
           "score": 100,
           "note": "NH ranks high in per-capita consumption (4.56 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 0,
-          "note": "Very high turnover (11.5% moved in), transient population"
+        "frequency": {
+          "score": 86,
+          "note": "High drinking frequency (5.9 days/mo, BRFSS SMART), 8.2 bars/10K \u2014 strong habitual culture"
         }
       },
       "dataQuality": "full"
@@ -2554,9 +2554,9 @@
           "score": 41,
           "note": "MD ranks mid-range in per-capita consumption (2.52 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 62,
-          "note": "Moderate stability (5.1% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 53,
+          "note": "Moderate drinking frequency (3.9 days/mo, BRFSS SMART), 3.9 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2584,9 +2584,9 @@
           "score": 43,
           "note": "IA ranks mid-range in per-capita consumption (2.57 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 0,
-          "note": "Very high turnover (12.5% moved in), transient population"
+        "frequency": {
+          "score": 82,
+          "note": "High drinking frequency (5.6 days/mo, BRFSS state-level), 6.4 bars/10K \u2014 strong habitual culture"
         }
       },
       "dataQuality": "full"
@@ -2614,9 +2614,9 @@
           "score": 26,
           "note": "GA ranks below-average in per-capita consumption (2.14 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 0,
-          "note": "Very high turnover (12.6% moved in), transient population"
+        "frequency": {
+          "score": 70,
+          "note": "Above-average drinking frequency (4.7 days/mo, BRFSS state-level), 8.7 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2644,9 +2644,9 @@
           "score": 42,
           "note": "CA ranks mid-range in per-capita consumption (2.54 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 29,
-          "note": "Above-average turnover (7.7% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 71,
+          "note": "Above-average drinking frequency (4.7 days/mo, BRFSS state-level), 5.4 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2674,9 +2674,9 @@
           "score": 48,
           "note": "FL ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 75,
-          "note": "Moderate stability (4.0% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 42,
+          "note": "Moderate drinking frequency (3.8 days/mo, BRFSS SMART), 2.5 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2704,9 +2704,9 @@
           "score": 0,
           "note": "UT ranks low in per-capita consumption (1.35 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 3,
-          "note": "High population churn (9.7% moved in), harder to build regulars"
+        "frequency": {
+          "score": 12,
+          "note": "Below-average drinking frequency (1.6 days/mo, BRFSS SMART), 2.1 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2734,9 +2734,9 @@
           "score": 50,
           "note": "NY ranks mid-range in per-capita consumption (2.76 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 69,
-          "note": "Moderate stability (4.5% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 67,
+          "note": "Above-average drinking frequency (5.0 days/mo, BRFSS state-level), 3.9 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2764,9 +2764,9 @@
           "score": 50,
           "note": "NY ranks mid-range in per-capita consumption (2.76 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 93,
-          "note": "Very stable population (2.6% moved in), regulars keep coming back"
+        "frequency": {
+          "score": 52,
+          "note": "Above-average drinking frequency (5.0 days/mo, BRFSS state-level), 1.6 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2796,9 +2796,9 @@
           "score": 42,
           "note": "CA ranks mid-range in per-capita consumption (2.54 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 50,
-          "note": "Above-average turnover (6.0% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 66,
+          "note": "Above-average drinking frequency (4.7 days/mo, BRFSS state-level), 4.3 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2828,9 +2828,9 @@
           "score": 100,
           "note": "DC ranks high in per-capita consumption (5.08 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 27,
-          "note": "Above-average turnover (7.8% moved in), some churn in the crowd"
+        "frequency": {
+          "score": 78,
+          "note": "High drinking frequency (6.6 days/mo, BRFSS state-level), 2.4 bars/10K \u2014 strong habitual culture"
         }
       },
       "dataQuality": "full"
@@ -2860,9 +2860,9 @@
           "score": 42,
           "note": "IL ranks mid-range in per-capita consumption (2.56 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 100,
-          "note": "Very stable population (1.5% moved in), regulars keep coming back"
+        "frequency": {
+          "score": 41,
+          "note": "Moderate drinking frequency (4.1 days/mo, BRFSS SMART), 1.7 bars/10K"
         }
       },
       "dataQuality": "full"
@@ -2892,9 +2892,9 @@
           "score": 48,
           "note": "MA ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
         },
-        "repetition": {
-          "score": 52,
-          "note": "Moderate stability (5.9% moved in), decent repeat-crowd potential"
+        "frequency": {
+          "score": 57,
+          "note": "High drinking frequency (5.5 days/mo, BRFSS state-level), 1.4 bars/10K \u2014 strong habitual culture"
         }
       },
       "dataQuality": "full"
