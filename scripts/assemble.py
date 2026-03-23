@@ -24,6 +24,10 @@ density = load("census-density-data.json")["markets"]
 niaaa_raw = load("niaaa-consumption-data.json")
 niaaa_states = niaaa_raw["states"]
 niaaa_mapping = niaaa_raw["market_mapping"]
+binge_raw = load("brfss-binge-data.json")
+binge_mmsa = binge_raw["mmsa_markets"]
+binge_state_fallback = binge_raw["state_fallback"]
+binge_mapping = binge_raw["market_mapping"]
 brfss_raw = load("brfss-combined-data.json")
 brfss_mmsa = brfss_raw["mmsa_markets"]
 brfss_state_fallback = brfss_raw["state_fallback"]
@@ -194,26 +198,43 @@ for m in markets_data["markets"]:
             planning_note = "Transit data unavailable; car-dependent market"
 
     # --- SOCIAL PERMISSION ---
-    # Permission = cultural attitude toward drinking. 100% ethanol consumption (state-level).
-    consumption_comp = normalize(ethanol, 1.5, 4.0) * 100 if ethanol is not None else 50
-    permission_score = round(consumption_comp)
+    # Permission = cultural acceptance of drinking. Uses CDC BRFSS binge rate at MSA level.
+    # Binge rate captures social drinking culture (parties, bars, rounds) better than
+    # state-level ethanol volume, and is available at MSA level for 128 markets.
+    binge_rate = None
+    binge_source = None
+    brfss_binge_code = binge_mapping.get(mid)
+
+    if brfss_binge_code and brfss_binge_code in binge_mmsa:
+        binge_rate = binge_mmsa[brfss_binge_code]["binge_rate"]
+        binge_source = "BRFSS SMART"
+    elif state in binge_state_fallback:
+        binge_rate = binge_state_fallback[state]["binge_rate"]
+        binge_source = "BRFSS state"
+
+    if binge_rate is not None:
+        # Normalize binge rate: range 7% (Provo) to 22% (upper Midwest)
+        permission_comp = normalize(binge_rate, 7.0, 22.0) * 100
+    else:
+        permission_comp = 50
+
+    permission_score = round(permission_comp)
 
     permission_note = ""
-    if ethanol is not None:
-        state_label = niaaa_state
-        if ethanol >= 3.5:
+    if binge_rate is not None:
+        if binge_rate >= 18.0:
             level = "high"
-        elif ethanol >= 3.0:
+        elif binge_rate >= 15.5:
             level = "above-average"
-        elif ethanol >= 2.5:
-            level = "mid-range"
-        elif ethanol >= 2.0:
+        elif binge_rate >= 13.0:
+            level = "moderate"
+        elif binge_rate >= 10.0:
             level = "below-average"
         else:
             level = "low"
-        permission_note = f"{state_label} ranks {level} in per-capita consumption ({ethanol:.2f} gal, range 1.5\u20134.0)"
+        permission_note = f"{level.capitalize()} social drinking culture ({binge_rate:.1f}% binge rate, {binge_source}) — range 7–22% across markets"
     else:
-        permission_note = "State consumption data unavailable"
+        permission_note = "Binge rate data unavailable"
 
     # --- OCCASION FREQUENCY (replaces Repetition) ---
     # 70% BRFSS drinking days/month + 30% CBP bars/capita
@@ -300,7 +321,7 @@ for m in markets_data["markets"]:
 markets_data["meta"] = {
     "version": "2.0.0",
     "generated": "2026-03-11",
-    "sources": "Walk Score, U.S. Census ACS 2022, Census CBP 2022, NIAAA Surveillance Report #120",
+    "sources": "Walk Score, U.S. Census ACS 2022, Census CBP 2022, CDC BRFSS SMART 2023, NIAAA Surveillance Report #120",
     "method": "Normalized scoring from public data sources. Tourist-market bar density capped at 4.0/10K. See scrape-instructions/ for full methodology."
 }
 markets_data["markets"] = results

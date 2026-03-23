@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0.0",
     "generated": "2026-03-11",
-    "sources": "Walk Score, U.S. Census ACS 2022, Census CBP 2022, NIAAA Surveillance Report #120",
+    "sources": "Walk Score, U.S. Census ACS 2022, Census CBP 2022, CDC BRFSS SMART 2023, NIAAA Surveillance Report #120",
     "method": "Normalized scoring from public data sources. Tourist-market bar density capped at 4.0/10K. See scrape-instructions/ for full methodology."
   },
   "markets": [
@@ -26,8 +26,8 @@
           "note": "Transit Score 100 and Walk Score 100 make spontaneous outings easy"
         },
         "permission": {
-          "score": 50,
-          "note": "NY ranks mid-range in per-capita consumption (2.76 gal, range 1.5\u20134.0)"
+          "score": 54,
+          "note": "Moderate social drinking culture (15.0% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 56,
@@ -57,8 +57,8 @@
           "note": "Transit Score 100 and Walk Score 100 make spontaneous outings easy"
         },
         "permission": {
-          "score": 42,
-          "note": "IL ranks mid-range in per-capita consumption (2.56 gal, range 1.5\u20134.0)"
+          "score": 71,
+          "note": "Above-average social drinking culture (17.6% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 49,
@@ -88,8 +88,8 @@
           "note": "Transit Score 84 and Walk Score 96 make spontaneous outings easy"
         },
         "permission": {
-          "score": 46,
-          "note": "LA ranks mid-range in per-capita consumption (2.65 gal, range 1.5\u20134.0)"
+          "score": 68,
+          "note": "Above-average social drinking culture (17.2% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 66,
@@ -118,8 +118,8 @@
           "note": "Transit Score 100 and Walk Score 99 make spontaneous outings easy"
         },
         "permission": {
-          "score": 48,
-          "note": "MA ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
+          "score": 76,
+          "note": "High social drinking culture (18.3% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 70,
@@ -148,8 +148,8 @@
           "note": "Transit Score 100 and Walk Score 100 make spontaneous outings easy"
         },
         "permission": {
-          "score": 37,
-          "note": "PA ranks below-average in per-capita consumption (2.43 gal, range 1.5\u20134.0)"
+          "score": 70,
+          "note": "Above-average social drinking culture (17.5% binge rate, BRFSS state) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 59,
@@ -178,8 +178,8 @@
           "note": "Transit Score 100 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 100,
-          "note": "DC ranks high in per-capita consumption (5.08 gal, range 1.5\u20134.0)"
+          "score": 48,
+          "note": "Moderate social drinking culture (14.2% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 77,
@@ -208,8 +208,8 @@
           "note": "Transit Score 88 and Walk Score 93 make spontaneous outings easy"
         },
         "permission": {
-          "score": 42,
-          "note": "MN ranks mid-range in per-capita consumption (2.55 gal, range 1.5\u20134.0)"
+          "score": 62,
+          "note": "Above-average social drinking culture (16.3% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 74,
@@ -238,8 +238,8 @@
           "note": "Transit Score 85 and Walk Score 88 make spontaneous outings easy"
         },
         "permission": {
-          "score": 48,
-          "note": "OR ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
+          "score": 47,
+          "note": "Moderate social drinking culture (14.1% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 76,
@@ -268,8 +268,8 @@
           "note": "Transit Score 88 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 48,
-          "note": "FL ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
+          "score": 50,
+          "note": "Moderate social drinking culture (14.5% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 42,
@@ -298,8 +298,8 @@
           "note": "Transit Score 75 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 27,
-          "note": "TN ranks below-average in per-capita consumption (2.17 gal, range 1.5\u20134.0)"
+          "score": 58,
+          "note": "Above-average social drinking culture (15.7% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 69,
@@ -328,8 +328,8 @@
           "note": "Transit Score 80 and Walk Score 95 make spontaneous outings easy"
         },
         "permission": {
-          "score": 54,
-          "note": "CO ranks mid-range in per-capita consumption (2.84 gal, range 1.5\u20134.0)"
+          "score": 86,
+          "note": "High social drinking culture (20.0% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 81,
@@ -358,8 +358,8 @@
           "note": "Transit Score 69 and Walk Score 99 make spontaneous outings easy"
         },
         "permission": {
-          "score": 37,
-          "note": "TX ranks below-average in per-capita consumption (2.42 gal, range 1.5\u20134.0)"
+          "score": 63,
+          "note": "Above-average social drinking culture (16.5% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 66,
@@ -388,8 +388,8 @@
           "note": "Transit Score 100 and Walk Score 99 make spontaneous outings easy"
         },
         "permission": {
-          "score": 42,
-          "note": "CA ranks mid-range in per-capita consumption (2.54 gal, range 1.5\u20134.0)"
+          "score": 55,
+          "note": "Moderate social drinking culture (15.3% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 64,
@@ -418,8 +418,8 @@
           "note": "Transit Score 100 and Walk Score 99 make spontaneous outings easy"
         },
         "permission": {
-          "score": 47,
-          "note": "WA ranks mid-range in per-capita consumption (2.67 gal, range 1.5\u20134.0)"
+          "score": 58,
+          "note": "Above-average social drinking culture (15.7% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 72,
@@ -448,8 +448,8 @@
           "note": "Transit Score 81 and Walk Score 93 make spontaneous outings easy"
         },
         "permission": {
-          "score": 26,
-          "note": "GA ranks below-average in per-capita consumption (2.14 gal, range 1.5\u20134.0)"
+          "score": 47,
+          "note": "Moderate social drinking culture (14.0% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 51,
@@ -478,8 +478,8 @@
           "note": "Transit Score 100 and Walk Score 96 make spontaneous outings easy"
         },
         "permission": {
-          "score": 42,
-          "note": "CA ranks mid-range in per-capita consumption (2.54 gal, range 1.5\u20134.0)"
+          "score": 44,
+          "note": "Moderate social drinking culture (13.6% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 39,
@@ -509,8 +509,8 @@
           "note": "Transit Score 65 and Walk Score 96 make spontaneous outings easy"
         },
         "permission": {
-          "score": 42,
-          "note": "AZ ranks mid-range in per-capita consumption (2.55 gal, range 1.5\u20134.0)"
+          "score": 53,
+          "note": "Moderate social drinking culture (14.9% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 49,
@@ -539,8 +539,8 @@
           "note": "Transit Score 84 and Walk Score 93 make spontaneous outings easy"
         },
         "permission": {
-          "score": 37,
-          "note": "TX ranks below-average in per-capita consumption (2.42 gal, range 1.5\u20134.0)"
+          "score": 56,
+          "note": "Moderate social drinking culture (15.4% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 57,
@@ -570,8 +570,8 @@
           "note": "Transit Score 87 and Walk Score 76 make spontaneous outings easy"
         },
         "permission": {
-          "score": 37,
-          "note": "TX ranks below-average in per-capita consumption (2.42 gal, range 1.5\u20134.0)"
+          "score": 75,
+          "note": "High social drinking culture (18.3% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 37,
@@ -601,8 +601,8 @@
           "note": "Transit Score 68 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 59,
-          "note": "WI ranks mid-range in per-capita consumption (2.98 gal, range 1.5\u20134.0)"
+          "score": 77,
+          "note": "High social drinking culture (18.6% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 76,
@@ -631,8 +631,8 @@
           "note": "Transit Score 92 and Walk Score 99 make spontaneous outings easy"
         },
         "permission": {
-          "score": 37,
-          "note": "PA ranks below-average in per-capita consumption (2.43 gal, range 1.5\u20134.0)"
+          "score": 70,
+          "note": "Above-average social drinking culture (17.5% binge rate, BRFSS state) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 71,
@@ -661,8 +661,8 @@
           "note": "Transit Score 68 and Walk Score 85 make spontaneous outings easy"
         },
         "permission": {
-          "score": 36,
-          "note": "MO ranks below-average in per-capita consumption (2.41 gal, range 1.5\u20134.0)"
+          "score": 76,
+          "note": "High social drinking culture (18.4% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 58,
@@ -691,8 +691,8 @@
           "note": "Transit Score 81 and Walk Score 93 make spontaneous outings easy"
         },
         "permission": {
-          "score": 31,
-          "note": "OH ranks below-average in per-capita consumption (2.28 gal, range 1.5\u20134.0)"
+          "score": 71,
+          "note": "Above-average social drinking culture (17.7% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 71,
@@ -721,8 +721,8 @@
           "note": "Transit Score 81 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 31,
-          "note": "OH ranks below-average in per-capita consumption (2.28 gal, range 1.5\u20134.0)"
+          "score": 76,
+          "note": "High social drinking culture (18.4% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 64,
@@ -751,8 +751,8 @@
           "note": "Transit Score 85 and Walk Score 99 make spontaneous outings easy"
         },
         "permission": {
-          "score": 34,
-          "note": "MI ranks below-average in per-capita consumption (2.36 gal, range 1.5\u20134.0)"
+          "score": 52,
+          "note": "Moderate social drinking culture (14.8% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 64,
@@ -781,8 +781,8 @@
           "note": "Transit Score 100 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 41,
-          "note": "MD ranks mid-range in per-capita consumption (2.52 gal, range 1.5\u20134.0)"
+          "score": 47,
+          "note": "Moderate social drinking culture (14.0% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 53,
@@ -811,8 +811,8 @@
           "note": "Transit Score 79 and Walk Score 99 make spontaneous outings easy"
         },
         "permission": {
-          "score": 42,
-          "note": "CA ranks mid-range in per-capita consumption (2.54 gal, range 1.5\u20134.0)"
+          "score": 47,
+          "note": "Moderate social drinking culture (14.0% binge rate, BRFSS state) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 58,
@@ -841,8 +841,8 @@
           "note": "Transit Score 80 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 37,
-          "note": "TX ranks below-average in per-capita consumption (2.42 gal, range 1.5\u20134.0)"
+          "score": 76,
+          "note": "High social drinking culture (18.4% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 53,
@@ -871,8 +871,8 @@
           "note": "Transit Score 66 and Walk Score 85 make spontaneous outings easy"
         },
         "permission": {
-          "score": 31,
-          "note": "OH ranks below-average in per-capita consumption (2.28 gal, range 1.5\u20134.0)"
+          "score": 53,
+          "note": "Moderate social drinking culture (14.9% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 58,
@@ -901,8 +901,8 @@
           "note": "Transit Score 66 and Walk Score 99 make spontaneous outings easy"
         },
         "permission": {
-          "score": 28,
-          "note": "IN ranks below-average in per-capita consumption (2.19 gal, range 1.5\u20134.0)"
+          "score": 56,
+          "note": "Moderate social drinking culture (15.4% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 53,
@@ -931,8 +931,8 @@
           "note": "Transit Score 78 and Walk Score 97 make spontaneous outings easy"
         },
         "permission": {
-          "score": 26,
-          "note": "NC ranks below-average in per-capita consumption (2.16 gal, range 1.5\u20134.0)"
+          "score": 46,
+          "note": "Moderate social drinking culture (13.9% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 55,
@@ -961,8 +961,8 @@
           "note": "Moderate transit (score 60), Walk Score 86"
         },
         "permission": {
-          "score": 48,
-          "note": "FL ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
+          "score": 65,
+          "note": "Above-average social drinking culture (16.8% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 57,
@@ -991,8 +991,8 @@
           "note": "Transit Score 67 and Walk Score 96 make spontaneous outings easy"
         },
         "permission": {
-          "score": 48,
-          "note": "FL ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
+          "score": 43,
+          "note": "Moderate social drinking culture (13.4% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 57,
@@ -1021,8 +1021,8 @@
           "note": "Transit Score 67 and Walk Score 94 make spontaneous outings easy"
         },
         "permission": {
-          "score": 36,
-          "note": "MO ranks below-average in per-capita consumption (2.41 gal, range 1.5\u20134.0)"
+          "score": 60,
+          "note": "Above-average social drinking culture (16.0% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 63,
@@ -1051,8 +1051,8 @@
           "note": "Transit Score 73 and Walk Score 90 make spontaneous outings easy"
         },
         "permission": {
-          "score": 26,
-          "note": "NC ranks below-average in per-capita consumption (2.16 gal, range 1.5\u20134.0)"
+          "score": 47,
+          "note": "Moderate social drinking culture (14.0% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 53,
@@ -1081,8 +1081,8 @@
           "note": "Transit Score 65 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 42,
-          "note": "CA ranks mid-range in per-capita consumption (2.54 gal, range 1.5\u20134.0)"
+          "score": 47,
+          "note": "Moderate social drinking culture (14.0% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 59,
@@ -1111,8 +1111,8 @@
           "note": "Transit Score 73 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 42,
-          "note": "CA ranks mid-range in per-capita consumption (2.54 gal, range 1.5\u20134.0)"
+          "score": 34,
+          "note": "Below-average social drinking culture (12.0% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 45,
@@ -1141,8 +1141,8 @@
           "note": "Transit Score 61 and Walk Score 89 make spontaneous outings easy"
         },
         "permission": {
-          "score": 48,
-          "note": "FL ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
+          "score": 55,
+          "note": "Moderate social drinking culture (15.2% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 60,
@@ -1171,8 +1171,8 @@
           "note": "Moderate transit (score 54), Walk Score 89"
         },
         "permission": {
-          "score": 27,
-          "note": "TN ranks below-average in per-capita consumption (2.17 gal, range 1.5\u20134.0)"
+          "score": 51,
+          "note": "Moderate social drinking culture (14.7% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 53,
@@ -1201,8 +1201,8 @@
           "note": "Moderate transit (score 56), Walk Score 95"
         },
         "permission": {
-          "score": 24,
-          "note": "KY ranks below-average in per-capita consumption (2.11 gal, range 1.5\u20134.0)"
+          "score": 50,
+          "note": "Moderate social drinking culture (14.5% binge rate, BRFSS state) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 53,
@@ -1231,8 +1231,8 @@
           "note": "Transit Score 64 and Walk Score 91 make spontaneous outings easy"
         },
         "permission": {
-          "score": 40,
-          "note": "VA ranks below-average in per-capita consumption (2.49 gal, range 1.5\u20134.0)"
+          "score": 54,
+          "note": "Moderate social drinking culture (15.2% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 65,
@@ -1261,8 +1261,8 @@
           "note": "Transit Score 64 and Walk Score 94 make spontaneous outings easy"
         },
         "permission": {
-          "score": 50,
-          "note": "NY ranks mid-range in per-capita consumption (2.76 gal, range 1.5\u20134.0)"
+          "score": 59,
+          "note": "Above-average social drinking culture (15.8% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 76,
@@ -1291,8 +1291,8 @@
           "note": "Transit Score 78 and Walk Score 99 make spontaneous outings easy"
         },
         "permission": {
-          "score": 51,
-          "note": "RI ranks mid-range in per-capita consumption (2.78 gal, range 1.5\u20134.0)"
+          "score": 67,
+          "note": "Above-average social drinking culture (17.1% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 65,
@@ -1321,8 +1321,8 @@
           "note": "Moderate transit (score 55), Walk Score 72"
         },
         "permission": {
-          "score": 47,
-          "note": "CT ranks mid-range in per-capita consumption (2.68 gal, range 1.5\u20134.0)"
+          "score": 63,
+          "note": "Above-average social drinking culture (16.5% binge rate, BRFSS state) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 76,
@@ -1351,8 +1351,8 @@
           "note": "Moderate transit (score 34), Walk Score 93"
         },
         "permission": {
-          "score": 40,
-          "note": "SC ranks mid-range in per-capita consumption (2.51 gal, range 1.5\u20134.0)"
+          "score": 81,
+          "note": "High social drinking culture (19.1% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 78,
@@ -1381,8 +1381,8 @@
           "note": "Car-dependent but walkable core (Walk Score 89)"
         },
         "permission": {
-          "score": 26,
-          "note": "GA ranks below-average in per-capita consumption (2.14 gal, range 1.5\u20134.0)"
+          "score": 43,
+          "note": "Moderate social drinking culture (13.5% binge rate, BRFSS state) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 70,
@@ -1411,8 +1411,8 @@
           "note": "Transit Score 64 and Walk Score 91 make spontaneous outings easy"
         },
         "permission": {
-          "score": 59,
-          "note": "WI ranks mid-range in per-capita consumption (2.98 gal, range 1.5\u20134.0)"
+          "score": 79,
+          "note": "High social drinking culture (18.9% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 77,
@@ -1441,8 +1441,8 @@
           "note": "Moderate transit (score 47), Walk Score 96"
         },
         "permission": {
-          "score": 62,
-          "note": "VT ranks above-average in per-capita consumption (3.05 gal, range 1.5\u20134.0)"
+          "score": 72,
+          "note": "Above-average social drinking culture (17.7% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 93,
@@ -1471,8 +1471,8 @@
           "note": "Moderate transit (score 53), Walk Score 90"
         },
         "permission": {
-          "score": 26,
-          "note": "NC ranks below-average in per-capita consumption (2.16 gal, range 1.5\u20134.0)"
+          "score": 47,
+          "note": "Moderate social drinking culture (14.0% binge rate, BRFSS state) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 69,
@@ -1501,8 +1501,8 @@
           "note": "Transit Score 88 and Walk Score 99 make spontaneous outings easy"
         },
         "permission": {
-          "score": 40,
-          "note": "NJ ranks below-average in per-capita consumption (2.49 gal, range 1.5\u20134.0)"
+          "score": 54,
+          "note": "Moderate social drinking culture (15.0% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 55,
@@ -1531,8 +1531,8 @@
           "note": "Transit Score 78 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 34,
-          "note": "MI ranks below-average in per-capita consumption (2.36 gal, range 1.5\u20134.0)"
+          "score": 67,
+          "note": "Above-average social drinking culture (17.0% binge rate, BRFSS state) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 74,
@@ -1561,8 +1561,8 @@
           "note": "Moderate transit (score 60), Walk Score 90"
         },
         "permission": {
-          "score": 54,
-          "note": "CO ranks mid-range in per-capita consumption (2.84 gal, range 1.5\u20134.0)"
+          "score": 77,
+          "note": "High social drinking culture (18.5% binge rate, BRFSS state) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 84,
@@ -1591,8 +1591,8 @@
           "note": "Moderate transit (score 47), Walk Score 89"
         },
         "permission": {
-          "score": 30,
-          "note": "ID ranks below-average in per-capita consumption (2.24 gal, range 1.5\u20134.0)"
+          "score": 64,
+          "note": "Above-average social drinking culture (16.6% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 68,
@@ -1621,8 +1621,8 @@
           "note": "Moderate transit (score 37), Walk Score 97"
         },
         "permission": {
-          "score": 48,
-          "note": "OR ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
+          "score": 60,
+          "note": "Above-average social drinking culture (16.0% binge rate, BRFSS state) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 77,
@@ -1651,8 +1651,8 @@
           "note": "Moderate transit (score 32), Walk Score 47"
         },
         "permission": {
-          "score": 42,
-          "note": "MN ranks mid-range in per-capita consumption (2.55 gal, range 1.5\u20134.0)"
+          "score": 81,
+          "note": "High social drinking culture (19.1% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 73,
@@ -1681,8 +1681,8 @@
           "note": "Moderate transit (score 55), Walk Score 94"
         },
         "permission": {
-          "score": 58,
-          "note": "MT ranks mid-range in per-capita consumption (2.95 gal, range 1.5\u20134.0)"
+          "score": 77,
+          "note": "High social drinking culture (18.5% binge rate, BRFSS state) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 84,
@@ -1711,8 +1711,8 @@
           "note": "Moderate transit (score 50), Walk Score 95"
         },
         "permission": {
-          "score": 40,
-          "note": "NE ranks mid-range in per-capita consumption (2.51 gal, range 1.5\u20134.0)"
+          "score": 81,
+          "note": "High social drinking culture (19.1% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 67,
@@ -1741,8 +1741,8 @@
           "note": "Moderate transit (score 52), Walk Score 96"
         },
         "permission": {
-          "score": 42,
-          "note": "NM ranks mid-range in per-capita consumption (2.56 gal, range 1.5\u20134.0)"
+          "score": 33,
+          "note": "Below-average social drinking culture (12.0% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 58,
@@ -1771,8 +1771,8 @@
           "note": "Moderate transit (score 39), Walk Score 65"
         },
         "permission": {
-          "score": 42,
-          "note": "AZ ranks mid-range in per-capita consumption (2.55 gal, range 1.5\u20134.0)"
+          "score": 50,
+          "note": "Moderate social drinking culture (14.5% binge rate, BRFSS state) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 64,
@@ -1801,8 +1801,8 @@
           "note": "Transit Score 79 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 50,
-          "note": "HI ranks mid-range in per-capita consumption (2.76 gal, range 1.5\u20134.0)"
+          "score": 60,
+          "note": "Above-average social drinking culture (16.0% binge rate, BRFSS state) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 66,
@@ -1831,8 +1831,8 @@
           "note": "Moderate transit (score 33), Walk Score 42"
         },
         "permission": {
-          "score": 59,
-          "note": "AK ranks mid-range in per-capita consumption (2.98 gal, range 1.5\u20134.0)"
+          "score": 64,
+          "note": "Above-average social drinking culture (16.6% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 80,
@@ -1861,8 +1861,8 @@
           "note": "Transit Score 71 and Walk Score 80 make spontaneous outings easy"
         },
         "permission": {
-          "score": 0,
-          "note": "UT ranks low in per-capita consumption (1.35 gal, range 1.5\u20134.0)"
+          "score": 66,
+          "note": "Above-average social drinking culture (16.8% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 41,
@@ -1891,8 +1891,8 @@
           "note": "Transit Score 66 and Walk Score 94 make spontaneous outings easy"
         },
         "permission": {
-          "score": 97,
-          "note": "NV ranks high in per-capita consumption (3.93 gal, range 1.5\u20134.0)"
+          "score": 63,
+          "note": "Above-average social drinking culture (16.5% binge rate, BRFSS state) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 76,
@@ -1921,8 +1921,8 @@
           "note": "Moderate transit (score 54), Walk Score 100"
         },
         "permission": {
-          "score": 55,
-          "note": "ME ranks mid-range in per-capita consumption (2.87 gal, range 1.5\u20134.0)"
+          "score": 68,
+          "note": "Above-average social drinking culture (17.2% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 95,
@@ -1951,8 +1951,8 @@
           "note": "Moderate transit (score 42), Walk Score 62"
         },
         "permission": {
-          "score": 50,
-          "note": "NY ranks mid-range in per-capita consumption (2.76 gal, range 1.5\u20134.0)"
+          "score": 53,
+          "note": "Moderate social drinking culture (15.0% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 73,
@@ -1981,8 +1981,8 @@
           "note": "Transit Score 72 and Walk Score 73 make spontaneous outings easy"
         },
         "permission": {
-          "score": 20,
-          "note": "OK ranks below-average in per-capita consumption (2.00 gal, range 1.5\u20134.0)"
+          "score": 51,
+          "note": "Moderate social drinking culture (14.6% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 47,
@@ -2011,8 +2011,8 @@
           "note": "Moderate transit (score 45), Walk Score 78"
         },
         "permission": {
-          "score": 18,
-          "note": "AL ranks low in per-capita consumption (1.96 gal, range 1.5\u20134.0)"
+          "score": 53,
+          "note": "Moderate social drinking culture (14.9% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 54,
@@ -2041,8 +2041,8 @@
           "note": "Car-dependent but walkable core (Walk Score 81)"
         },
         "permission": {
-          "score": 42,
-          "note": "NM ranks mid-range in per-capita consumption (2.56 gal, range 1.5\u20134.0)"
+          "score": 40,
+          "note": "Moderate social drinking culture (13.0% binge rate, BRFSS state) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 65,
@@ -2071,8 +2071,8 @@
           "note": "Moderate transit (score 35), Walk Score 52"
         },
         "permission": {
-          "score": 97,
-          "note": "NV ranks high in per-capita consumption (3.93 gal, range 1.5\u20134.0)"
+          "score": 80,
+          "note": "High social drinking culture (19.0% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 85,
@@ -2101,8 +2101,8 @@
           "note": "Moderate transit (score 22), Walk Score 34"
         },
         "permission": {
-          "score": 46,
-          "note": "LA ranks mid-range in per-capita consumption (2.65 gal, range 1.5\u20134.0)"
+          "score": 61,
+          "note": "Above-average social drinking culture (16.2% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 61,
@@ -2131,8 +2131,8 @@
           "note": "Moderate transit (score 30), Walk Score 81"
         },
         "permission": {
-          "score": 40,
-          "note": "SC ranks mid-range in per-capita consumption (2.51 gal, range 1.5\u20134.0)"
+          "score": 38,
+          "note": "Below-average social drinking culture (12.7% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 51,
@@ -2161,8 +2161,8 @@
           "note": "Moderate transit (score 60), Walk Score 79"
         },
         "permission": {
-          "score": 27,
-          "note": "TN ranks below-average in per-capita consumption (2.17 gal, range 1.5\u20134.0)"
+          "score": 49,
+          "note": "Moderate social drinking culture (14.3% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 70,
@@ -2191,8 +2191,8 @@
           "note": "Moderate transit (score 47), Walk Score 85"
         },
         "permission": {
-          "score": 27,
-          "note": "TN ranks below-average in per-capita consumption (2.17 gal, range 1.5\u20134.0)"
+          "score": 52,
+          "note": "Moderate social drinking culture (14.8% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 65,
@@ -2221,8 +2221,8 @@
           "note": "Transit Score 80 and Walk Score 86 make spontaneous outings easy"
         },
         "permission": {
-          "score": 24,
-          "note": "KY ranks below-average in per-capita consumption (2.11 gal, range 1.5\u20134.0)"
+          "score": 50,
+          "note": "Moderate social drinking culture (14.5% binge rate, BRFSS state) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 55,
@@ -2251,8 +2251,8 @@
           "note": "Transit Score 65 and Walk Score 87 make spontaneous outings easy"
         },
         "permission": {
-          "score": 37,
-          "note": "TX ranks below-average in per-capita consumption (2.42 gal, range 1.5\u20134.0)"
+          "score": 64,
+          "note": "Above-average social drinking culture (16.6% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 57,
@@ -2281,8 +2281,8 @@
           "note": "Moderate transit (score 38), Walk Score 54"
         },
         "permission": {
-          "score": 40,
-          "note": "VA ranks below-average in per-capita consumption (2.49 gal, range 1.5\u20134.0)"
+          "score": 43,
+          "note": "Moderate social drinking culture (13.5% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 56,
@@ -2311,8 +2311,8 @@
           "note": "Transit Score 77 and Walk Score 82 make spontaneous outings easy"
         },
         "permission": {
-          "score": 40,
-          "note": "NJ ranks below-average in per-capita consumption (2.49 gal, range 1.5\u20134.0)"
+          "score": 60,
+          "note": "Above-average social drinking culture (16.1% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 55,
@@ -2341,8 +2341,8 @@
           "note": "Moderate transit (score 32), Walk Score 47"
         },
         "permission": {
-          "score": 34,
-          "note": "MI ranks below-average in per-capita consumption (2.36 gal, range 1.5\u20134.0)"
+          "score": 67,
+          "note": "Above-average social drinking culture (17.1% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 71,
@@ -2371,8 +2371,8 @@
           "note": "Moderate transit (score 28), Walk Score 44"
         },
         "permission": {
-          "score": 59,
-          "note": "WI ranks mid-range in per-capita consumption (2.98 gal, range 1.5\u20134.0)"
+          "score": 42,
+          "note": "Moderate social drinking culture (13.3% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 72,
@@ -2401,8 +2401,8 @@
           "note": "Moderate transit (score 30), Walk Score 52"
         },
         "permission": {
-          "score": 59,
-          "note": "WI ranks mid-range in per-capita consumption (2.98 gal, range 1.5\u20134.0)"
+          "score": 87,
+          "note": "High social drinking culture (20.0% binge rate, BRFSS state) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 82,
@@ -2431,8 +2431,8 @@
           "note": "Moderate transit (score 59), Walk Score 88"
         },
         "permission": {
-          "score": 54,
-          "note": "CO ranks mid-range in per-capita consumption (2.84 gal, range 1.5\u20134.0)"
+          "score": 55,
+          "note": "Moderate social drinking culture (15.2% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 67,
@@ -2461,8 +2461,8 @@
           "note": "Moderate transit (score 32), Walk Score 52"
         },
         "permission": {
-          "score": 54,
-          "note": "CO ranks mid-range in per-capita consumption (2.84 gal, range 1.5\u20134.0)"
+          "score": 77,
+          "note": "High social drinking culture (18.5% binge rate, BRFSS state) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 84,
@@ -2491,8 +2491,8 @@
           "note": "Moderate transit (score 22), Walk Score 38"
         },
         "permission": {
-          "score": 18,
-          "note": "AL ranks low in per-capita consumption (1.96 gal, range 1.5\u20134.0)"
+          "score": 22,
+          "note": "Below-average social drinking culture (10.3% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 57,
@@ -2521,8 +2521,8 @@
           "note": "Moderate transit (score 28), Walk Score 67"
         },
         "permission": {
-          "score": 100,
-          "note": "NH ranks high in per-capita consumption (4.56 gal, range 1.5\u20134.0)"
+          "score": 65,
+          "note": "Above-average social drinking culture (16.7% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 86,
@@ -2551,8 +2551,8 @@
           "note": "Moderate transit (score 22), Walk Score 55"
         },
         "permission": {
-          "score": 41,
-          "note": "MD ranks mid-range in per-capita consumption (2.52 gal, range 1.5\u20134.0)"
+          "score": 50,
+          "note": "Moderate social drinking culture (14.5% binge rate, BRFSS state) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 53,
@@ -2581,8 +2581,8 @@
           "note": "Moderate transit (score 38), Walk Score 62"
         },
         "permission": {
-          "score": 43,
-          "note": "IA ranks mid-range in per-capita consumption (2.57 gal, range 1.5\u20134.0)"
+          "score": 83,
+          "note": "High social drinking culture (19.5% binge rate, BRFSS state) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 82,
@@ -2611,8 +2611,8 @@
           "note": "Car-dependent, Walk Score 49; planning needed"
         },
         "permission": {
-          "score": 26,
-          "note": "GA ranks below-average in per-capita consumption (2.14 gal, range 1.5\u20134.0)"
+          "score": 43,
+          "note": "Moderate social drinking culture (13.5% binge rate, BRFSS state) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 70,
@@ -2641,8 +2641,8 @@
           "note": "Moderate transit (score 42), Walk Score 76"
         },
         "permission": {
-          "score": 42,
-          "note": "CA ranks mid-range in per-capita consumption (2.54 gal, range 1.5\u20134.0)"
+          "score": 47,
+          "note": "Moderate social drinking culture (14.0% binge rate, BRFSS state) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 71,
@@ -2671,8 +2671,8 @@
           "note": "Moderate transit (score 38), Walk Score 58"
         },
         "permission": {
-          "score": 48,
-          "note": "FL ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
+          "score": 50,
+          "note": "Moderate social drinking culture (14.5% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 42,
@@ -2701,8 +2701,8 @@
           "note": "Moderate transit (score 28), Walk Score 42"
         },
         "permission": {
-          "score": 0,
-          "note": "UT ranks low in per-capita consumption (1.35 gal, range 1.5\u20134.0)"
+          "score": 3,
+          "note": "Low social drinking culture (7.5% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 12,
@@ -2731,8 +2731,8 @@
           "note": "Transit Score 100 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 50,
-          "note": "NY ranks mid-range in per-capita consumption (2.76 gal, range 1.5\u20134.0)"
+          "score": 54,
+          "note": "Moderate social drinking culture (15.0% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 67,
@@ -2761,8 +2761,8 @@
           "note": "Transit Score 89 and Walk Score 98 make spontaneous outings easy"
         },
         "permission": {
-          "score": 50,
-          "note": "NY ranks mid-range in per-capita consumption (2.76 gal, range 1.5\u20134.0)"
+          "score": 54,
+          "note": "Moderate social drinking culture (15.0% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 52,
@@ -2793,8 +2793,8 @@
           "note": "Transit Score 80 and Walk Score 94 make spontaneous outings easy"
         },
         "permission": {
-          "score": 42,
-          "note": "CA ranks mid-range in per-capita consumption (2.54 gal, range 1.5\u20134.0)"
+          "score": 55,
+          "note": "Moderate social drinking culture (15.3% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 66,
@@ -2825,8 +2825,8 @@
           "note": "Transit Score 69 and Walk Score 77 make spontaneous outings easy"
         },
         "permission": {
-          "score": 100,
-          "note": "DC ranks high in per-capita consumption (5.08 gal, range 1.5\u20134.0)"
+          "score": 48,
+          "note": "Moderate social drinking culture (14.2% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 78,
@@ -2857,8 +2857,8 @@
           "note": "Transit Score 65 and Walk Score 78 make spontaneous outings easy"
         },
         "permission": {
-          "score": 42,
-          "note": "IL ranks mid-range in per-capita consumption (2.56 gal, range 1.5\u20134.0)"
+          "score": 71,
+          "note": "Above-average social drinking culture (17.6% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 41,
@@ -2889,8 +2889,8 @@
           "note": "Transit Score 72 and Walk Score 83 make spontaneous outings easy"
         },
         "permission": {
-          "score": 48,
-          "note": "MA ranks mid-range in per-capita consumption (2.71 gal, range 1.5\u20134.0)"
+          "score": 76,
+          "note": "High social drinking culture (18.3% binge rate, BRFSS SMART) \u2014 range 7\u201322% across markets"
         },
         "frequency": {
           "score": 57,

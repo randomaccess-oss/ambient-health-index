@@ -152,8 +152,8 @@
       tip: "Can someone go out without a car or a plan? High transit + walkability = \u201CI\u2019ll just stop in.\u201D You can influence this with delivery, pop-ups, and placement.",
       source: "Walk Score Transit Score, Walk Score, Census Gazetteer" },
     { key: "permission", label: "Social Permission", short: "Permission",
-      tip: "Does the culture say \u201Cyes\u201D to drinking? Markets where people already drink more are easier to activate. You can influence this with cultural marketing.",
-      source: "NIAAA Surveillance Report #120" },
+      tip: "Does the culture say \u201Cyes\u201D to drinking? Measured by binge drinking rate \u2014 the behavior most tied to social drinking culture (bars, rounds, celebrations). You can influence this with cultural marketing.",
+      source: "CDC BRFSS SMART 2023 (MSA-level binge rate)" },
     { key: "frequency", label: "Occasion Frequency", short: "Frequency",
       tip: "How often do people drink here? Markets with high drinking frequency and lots of bars generate more occasions for your brand. More occasions = more impressions without extra spend.",
       source: "CDC BRFSS SMART 2023, Census CBP NAICS 7224" },
@@ -734,7 +734,7 @@
           </div>
           <div style=${{ borderTop: "1px solid rgba(26,26,26,0.08)", paddingTop: 10, fontFamily: UI, fontSize: "10px", color: TAN_C }}>
             <span style=${{ fontWeight: 600 }}>All scores derived from public data.</span> ${markets.length} markets, all fully sourced.
-            Sources: Walk Score \u2022 Census ACS 2022 (S0801) \u2022 Census CBP NAICS 7224 \u2022 Census Gazetteer \u2022 NIAAA Report #120 \u2022 CDC BRFSS SMART 2023.
+            Sources: Walk Score \u2022 Census ACS 2022 (S0801) \u2022 Census CBP NAICS 7224 \u2022 Census Gazetteer \u2022 CDC BRFSS SMART 2023.
             <div style=${{ marginTop: 10, paddingTop: 8, borderTop: "1px solid rgba(26,26,26,0.06)", fontWeight: 600 }}>Hover any column header \u24D8 for details.</div>
             <div style=${{ marginTop: 4 }}><span style=${{ color: RED, fontWeight: 700 }}>\u2021</span> = mega-metro MSA caveat\u2014scores reflect the full metro area, not just the urban core.</div>
           </div>
@@ -877,7 +877,7 @@
           <div style=${{ marginTop: 32, padding: "16px 20px", border: "1.5px solid rgba(26,26,26,0.12)", background: "rgba(255,255,255,0.3)" }}>
             <div style=${{ fontFamily: UI, fontSize: "10px", fontWeight: 600, letterSpacing: "3px", color: TAN_C, textTransform: "uppercase", marginBottom: 8 }}>How To Read This</div>
             <p class="methodology-box" style=${{ fontFamily: HAND, fontSize: "12px", color: TAN_C, lineHeight: 1.7, margin: 0 }}>
-              These scores tell you how much a market\u2019s infrastructure is working for you vs. how much you need to do yourself. Each condition uses public data (Census, Walk Score, NIAAA) as a proxy for real-world drinking behavior.
+              These scores tell you how much a market\u2019s infrastructure is working for you vs. how much you need to do yourself. Each condition uses public data (Census, Walk Score, CDC BRFSS) as a proxy for real-world drinking behavior.
             </p>
             <p class="methodology-box" style=${{ fontFamily: HAND, fontSize: "12px", color: TAN_C, lineHeight: 1.7, margin: 0, marginTop: 8 }}>
               <span style=${{ fontWeight: 700 }}>Temporal + Spatial are the ones you can\u2019t buy.</span> If people aren\u2019t out at the same time in walkable areas with bars, no campaign fixes that. <span style=${{ fontWeight: 700 }}>Planning, Permission, and Frequency are where you can make a difference</span>\u2014delivery, pop-ups, cultural marketing, loyalty programs. Use the scoring strategy presets above to weight what matters for your specific play.

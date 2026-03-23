@@ -1,0 +1,1184 @@
+{
+  "source": "CDC BRFSS SMART 2023 \u2014 Binge Drinkers (MMSA level) + State-level fallback",
+  "question": "Binge drinkers (males 5+ drinks, females 4+ drinks on one occasion)",
+  "mmsa_markets": {
+    "10100": {
+      "binge_rate": 12.32,
+      "sample_size": 57,
+      "msa_name": "Aberdeen, SD Micropolitan Statistical Area",
+      "ci_low": 8.81,
+      "ci_high": 15.83
+    },
+    "10420": {
+      "binge_rate": 11.73,
+      "sample_size": 52,
+      "msa_name": "Akron, OH Metropolitan Statistical Area",
+      "ci_low": 8.12,
+      "ci_high": 15.34
+    },
+    "10580": {
+      "binge_rate": 14.98,
+      "sample_size": 159,
+      "msa_name": "Albany-Schenectady-Troy, NY Metropolitan Statistical Area",
+      "ci_low": 11.96,
+      "ci_high": 18.0
+    },
+    "10740": {
+      "binge_rate": 12.0,
+      "sample_size": 84,
+      "msa_name": "Albuquerque, NM Metropolitan Statistical Area",
+      "ci_low": 8.65,
+      "ci_high": 15.35
+    },
+    "11260": {
+      "binge_rate": 16.58,
+      "sample_size": 281,
+      "msa_name": "Anchorage, AK Metropolitan Statistical Area",
+      "ci_low": 14.42,
+      "ci_high": 18.74
+    },
+    "12060": {
+      "binge_rate": 14.02,
+      "sample_size": 370,
+      "msa_name": "Atlanta-Sandy Springs-Roswell, GA Metropolitan Statistical Area",
+      "ci_low": 12.16,
+      "ci_high": 15.88
+    },
+    "12260": {
+      "binge_rate": 10.92,
+      "sample_size": 121,
+      "msa_name": "Augusta-Richmond County, GA-SC Metropolitan Statistical Area",
+      "ci_low": 8.2,
+      "ci_high": 13.64
+    },
+    "12420": {
+      "binge_rate": 16.49,
+      "sample_size": 208,
+      "msa_name": "Austin-Round Rock, TX Metropolitan Statistical Area",
+      "ci_low": 13.69,
+      "ci_high": 19.29
+    },
+    "12580": {
+      "binge_rate": 13.98,
+      "sample_size": 597,
+      "msa_name": "Baltimore-Columbia-Towson, MD Metropolitan Statistical Area",
+      "ci_low": 12.49,
+      "ci_high": 15.47
+    },
+    "12940": {
+      "binge_rate": 16.17,
+      "sample_size": 134,
+      "msa_name": "Baton Rouge, LA Metropolitan Statistical Area",
+      "ci_low": 13.11,
+      "ci_high": 19.23
+    },
+    "13740": {
+      "binge_rate": 19.0,
+      "sample_size": 136,
+      "msa_name": "Billings, MT Metropolitan Statistical Area",
+      "ci_low": 15.65,
+      "ci_high": 22.35
+    },
+    "13820": {
+      "binge_rate": 14.89,
+      "sample_size": 115,
+      "msa_name": "Birmingham-Hoover, AL Metropolitan Statistical Area",
+      "ci_low": 11.73,
+      "ci_high": 18.05
+    },
+    "13900": {
+      "binge_rate": 19.66,
+      "sample_size": 147,
+      "msa_name": "Bismarck, ND Metropolitan Statistical Area",
+      "ci_low": 16.19,
+      "ci_high": 23.13
+    },
+    "14260": {
+      "binge_rate": 16.6,
+      "sample_size": 241,
+      "msa_name": "Boise City, ID Metropolitan Statistical Area",
+      "ci_low": 14.21,
+      "ci_high": 18.99
+    },
+    "14454": {
+      "binge_rate": 18.33,
+      "sample_size": 442,
+      "msa_name": "Boston, MA Metropolitan Division",
+      "ci_low": 16.08,
+      "ci_high": 20.58
+    },
+    "15380": {
+      "binge_rate": 15.79,
+      "sample_size": 102,
+      "msa_name": "Buffalo-Cheektowaga-Niagara Falls, NY Metropolitan Statistical Area",
+      "ci_low": 12.07,
+      "ci_high": 19.51
+    },
+    "15540": {
+      "binge_rate": 17.74,
+      "sample_size": 362,
+      "msa_name": "Burlington-South Burlington, VT Metropolitan Statistical Area",
+      "ci_low": 15.56,
+      "ci_high": 19.92
+    },
+    "15764": {
+      "binge_rate": 15.38,
+      "sample_size": 439,
+      "msa_name": "Cambridge-Newton-Framingham, MA Metropolitan Division",
+      "ci_low": 13.5,
+      "ci_high": 17.26
+    },
+    "15804": {
+      "binge_rate": 15.88,
+      "sample_size": 167,
+      "msa_name": "Camden, NJ Metropolitan Division",
+      "ci_low": 12.84,
+      "ci_high": 18.92
+    },
+    "16300": {
+      "binge_rate": 21.76,
+      "sample_size": 111,
+      "msa_name": "Cedar Rapids, IA Metropolitan Statistical Area",
+      "ci_low": 17.37,
+      "ci_high": 26.15
+    },
+    "16620": {
+      "binge_rate": 11.88,
+      "sample_size": 78,
+      "msa_name": "Charleston, WV Metropolitan Statistical Area",
+      "ci_low": 8.88,
+      "ci_high": 14.88
+    },
+    "16700": {
+      "binge_rate": 19.13,
+      "sample_size": 181,
+      "msa_name": "Charleston-North Charleston, SC Metropolitan Statistical Area",
+      "ci_low": 16.05,
+      "ci_high": 22.21
+    },
+    "16740": {
+      "binge_rate": 13.88,
+      "sample_size": 166,
+      "msa_name": "Charlotte-Concord-Gastonia, NC-SC Metropolitan Statistical Area",
+      "ci_low": 10.35,
+      "ci_high": 17.41
+    },
+    "16860": {
+      "binge_rate": 14.82,
+      "sample_size": 65,
+      "msa_name": "Chattanooga, TN-GA Metropolitan Statistical Area",
+      "ci_low": 10.74,
+      "ci_high": 18.9
+    },
+    "16980": {
+      "binge_rate": 17.59,
+      "sample_size": 823,
+      "msa_name": "Chicago-Naperville-Elgin, IL-IN-WI Metropolitan Statistical Area",
+      "ci_low": 16.04,
+      "ci_high": 19.14
+    },
+    "17140": {
+      "binge_rate": 18.43,
+      "sample_size": 197,
+      "msa_name": "Cincinnati, OH-KY-IN Metropolitan Statistical Area",
+      "ci_low": 15.55,
+      "ci_high": 21.31
+    },
+    "17460": {
+      "binge_rate": 17.7,
+      "sample_size": 204,
+      "msa_name": "Cleveland-Elyria, OH Metropolitan Statistical Area",
+      "ci_low": 15.09,
+      "ci_high": 20.31
+    },
+    "17820": {
+      "binge_rate": 15.21,
+      "sample_size": 133,
+      "msa_name": "Colorado Springs, CO Metropolitan Statistical Area",
+      "ci_low": 12.37,
+      "ci_high": 18.05
+    },
+    "17900": {
+      "binge_rate": 15.28,
+      "sample_size": 152,
+      "msa_name": "Columbia, SC Metropolitan Statistical Area",
+      "ci_low": 12.5,
+      "ci_high": 18.06
+    },
+    "18140": {
+      "binge_rate": 14.93,
+      "sample_size": 288,
+      "msa_name": "Columbus, OH Metropolitan Statistical Area",
+      "ci_low": 12.95,
+      "ci_high": 16.91
+    },
+    "19060": {
+      "binge_rate": 14.41,
+      "sample_size": 54,
+      "msa_name": "Cumberland, MD-WV Metropolitan Statistical Area",
+      "ci_low": 9.57,
+      "ci_high": 19.25
+    },
+    "19124": {
+      "binge_rate": 15.36,
+      "sample_size": 172,
+      "msa_name": "Dallas-Plano-Irving, TX Metropolitan Division",
+      "ci_low": 12.66,
+      "ci_high": 18.06
+    },
+    "19430": {
+      "binge_rate": 15.23,
+      "sample_size": 63,
+      "msa_name": "Dayton-Kettering, OH Metropolitan Statistical Area",
+      "ci_low": 11.11,
+      "ci_high": 19.35
+    },
+    "19740": {
+      "binge_rate": 19.96,
+      "sample_size": 748,
+      "msa_name": "Denver-Aurora-Lakewood, CO Metropolitan Statistical Area",
+      "ci_low": 18.39,
+      "ci_high": 21.53
+    },
+    "19780": {
+      "binge_rate": 20.0,
+      "sample_size": 294,
+      "msa_name": "Des Moines-West Des Moines, IA Metropolitan Statistical Area",
+      "ci_low": 17.37,
+      "ci_high": 22.63
+    },
+    "20260": {
+      "binge_rate": 19.12,
+      "sample_size": 129,
+      "msa_name": "Duluth, MN-WI Metropolitan Statistical Area",
+      "ci_low": 14.93,
+      "ci_high": 23.31
+    },
+    "22020": {
+      "binge_rate": 21.21,
+      "sample_size": 217,
+      "msa_name": "Fargo, ND-MN Metropolitan Statistical Area",
+      "ci_low": 18.15,
+      "ci_high": 24.27
+    },
+    "22220": {
+      "binge_rate": 17.57,
+      "sample_size": 93,
+      "msa_name": "Fayetteville-Springdale-Rogers, AR-MO Metropolitan Statistical Area",
+      "ci_low": 13.77,
+      "ci_high": 21.37
+    },
+    "23060": {
+      "binge_rate": 15.58,
+      "sample_size": 101,
+      "msa_name": "Fort Wayne, IN Metropolitan Statistical Area",
+      "ci_low": 12.42,
+      "ci_high": 18.74
+    },
+    "23104": {
+      "binge_rate": 16.6,
+      "sample_size": 83,
+      "msa_name": "Fort Worth-Arlington, TX Metropolitan Division",
+      "ci_low": 12.07,
+      "ci_high": 21.13
+    },
+    "23224": {
+      "binge_rate": 12.23,
+      "sample_size": 344,
+      "msa_name": "Frederick-Gaithersburg-Rockville, MD Metropolitan Division",
+      "ci_low": 10.47,
+      "ci_high": 13.99
+    },
+    "23540": {
+      "binge_rate": 18.95,
+      "sample_size": 63,
+      "msa_name": "Gainesville, FL Metropolitan Statistical Area",
+      "ci_low": 12.13,
+      "ci_high": 25.77
+    },
+    "24220": {
+      "binge_rate": 26.46,
+      "sample_size": 100,
+      "msa_name": "Grand Forks, ND-MN Metropolitan Statistical Area",
+      "ci_low": 21.19,
+      "ci_high": 31.73
+    },
+    "24260": {
+      "binge_rate": 17.74,
+      "sample_size": 82,
+      "msa_name": "Grand Island, NE Metropolitan Statistical Area",
+      "ci_low": 13.66,
+      "ci_high": 21.82
+    },
+    "24340": {
+      "binge_rate": 17.1,
+      "sample_size": 105,
+      "msa_name": "Grand Rapids-Wyoming, MI Metropolitan Statistical Area",
+      "ci_low": 13.2,
+      "ci_high": 21.0
+    },
+    "24580": {
+      "binge_rate": 13.32,
+      "sample_size": 55,
+      "msa_name": "Green Bay, WI Metropolitan Statistical Area",
+      "ci_low": 9.4,
+      "ci_high": 17.24
+    },
+    "24860": {
+      "binge_rate": 12.66,
+      "sample_size": 117,
+      "msa_name": "Greenville-Anderson-Mauldin, SC Metropolitan Statistical Area",
+      "ci_low": 9.96,
+      "ci_high": 15.36
+    },
+    "25180": {
+      "binge_rate": 9.27,
+      "sample_size": 125,
+      "msa_name": "Hagerstown-Martinsburg, MD-WV Metropolitan Statistical Area",
+      "ci_low": 6.92,
+      "ci_high": 11.62
+    },
+    "25540": {
+      "binge_rate": 16.56,
+      "sample_size": 411,
+      "msa_name": "Hartford-West Hartford-East Hartford, CT Metropolitan Statistical Area",
+      "ci_low": 14.38,
+      "ci_high": 18.74
+    },
+    "25720": {
+      "binge_rate": 17.59,
+      "sample_size": 63,
+      "msa_name": "Heber, UT Micropolitan Statistical Area",
+      "ci_low": 12.45,
+      "ci_high": 22.73
+    },
+    "25740": {
+      "binge_rate": 17.51,
+      "sample_size": 75,
+      "msa_name": "Helena, MT Micropolitan Statistical Area",
+      "ci_low": 13.3,
+      "ci_high": 21.72
+    },
+    "25940": {
+      "binge_rate": 15.82,
+      "sample_size": 79,
+      "msa_name": "Hilton Head Island-Bluffton-Beaufort, SC Metropolitan Statistical Area",
+      "ci_low": 11.59,
+      "ci_high": 20.05
+    },
+    "26420": {
+      "binge_rate": 18.29,
+      "sample_size": 181,
+      "msa_name": "Houston-The Woodlands-Sugar Land, TX Metropolitan Statistical Area",
+      "ci_low": 13.7,
+      "ci_high": 22.88
+    },
+    "26580": {
+      "binge_rate": 11.02,
+      "sample_size": 68,
+      "msa_name": "Huntington-Ashland, WV-KY-OH Metropolitan Statistical Area",
+      "ci_low": 8.16,
+      "ci_high": 13.88
+    },
+    "26820": {
+      "binge_rate": 12.01,
+      "sample_size": 59,
+      "msa_name": "Idaho Falls, ID Metropolitan Statistical Area",
+      "ci_low": 8.68,
+      "ci_high": 15.34
+    },
+    "26900": {
+      "binge_rate": 15.42,
+      "sample_size": 453,
+      "msa_name": "Indianapolis-Carmel-Anderson, IN Metropolitan Statistical Area",
+      "ci_low": 13.83,
+      "ci_high": 17.01
+    },
+    "27260": {
+      "binge_rate": 15.25,
+      "sample_size": 125,
+      "msa_name": "Jacksonville, FL Metropolitan Statistical Area",
+      "ci_low": 9.94,
+      "ci_high": 20.56
+    },
+    "28140": {
+      "binge_rate": 15.99,
+      "sample_size": 474,
+      "msa_name": "Kansas City, MO-KS Metropolitan Statistical Area",
+      "ci_low": 14.34,
+      "ci_high": 17.64
+    },
+    "28420": {
+      "binge_rate": 16.17,
+      "sample_size": 110,
+      "msa_name": "Kennewick-Richland, WA Metropolitan Statistical Area",
+      "ci_low": 12.41,
+      "ci_high": 19.93
+    },
+    "28660": {
+      "binge_rate": 15.81,
+      "sample_size": 53,
+      "msa_name": "Killeen-Temple, TX Metropolitan Statistical Area",
+      "ci_low": 10.38,
+      "ci_high": 21.24
+    },
+    "28700": {
+      "binge_rate": 8.77,
+      "sample_size": 40,
+      "msa_name": "Kingsport-Bristol-Bristol, TN-VA Metropolitan Statistical Area",
+      "ci_low": 5.2,
+      "ci_high": 12.34
+    },
+    "28940": {
+      "binge_rate": 14.31,
+      "sample_size": 86,
+      "msa_name": "Knoxville, TN Metropolitan Statistical Area",
+      "ci_low": 11.02,
+      "ci_high": 17.6
+    },
+    "29180": {
+      "binge_rate": 16.44,
+      "sample_size": 77,
+      "msa_name": "Lafayette, LA Metropolitan Statistical Area",
+      "ci_low": 12.32,
+      "ci_high": 20.56
+    },
+    "30100": {
+      "binge_rate": 14.45,
+      "sample_size": 174,
+      "msa_name": "Lebanon, NH-VT Micropolitan Statistical Area",
+      "ci_low": 11.53,
+      "ci_high": 17.37
+    },
+    "30300": {
+      "binge_rate": 18.17,
+      "sample_size": 92,
+      "msa_name": "Lewiston, ID-WA Metropolitan Statistical Area",
+      "ci_low": 14.29,
+      "ci_high": 22.05
+    },
+    "30700": {
+      "binge_rate": 19.95,
+      "sample_size": 294,
+      "msa_name": "Lincoln, NE Metropolitan Statistical Area",
+      "ci_low": 17.46,
+      "ci_high": 22.44
+    },
+    "30780": {
+      "binge_rate": 16.0,
+      "sample_size": 128,
+      "msa_name": "Little Rock-North Little Rock-Conway, AR Metropolitan Statistical Area",
+      "ci_low": 13.1,
+      "ci_high": 18.9
+    },
+    "31080": {
+      "binge_rate": 13.61,
+      "sample_size": 482,
+      "msa_name": "Los Angeles-Long Beach-Anaheim, CA Metropolitan Statistical Area",
+      "ci_low": 11.98,
+      "ci_high": 15.24
+    },
+    "31540": {
+      "binge_rate": 18.89,
+      "sample_size": 123,
+      "msa_name": "Madison, WI Metropolitan Statistical Area",
+      "ci_low": 15.34,
+      "ci_high": 22.44
+    },
+    "32820": {
+      "binge_rate": 14.67,
+      "sample_size": 106,
+      "msa_name": "Memphis, TN-MS-AR Metropolitan Statistical Area",
+      "ci_low": 11.28,
+      "ci_high": 18.06
+    },
+    "33100": {
+      "binge_rate": 14.48,
+      "sample_size": 94,
+      "msa_name": "Miami-Fort Lauderdale-West Palm Beach, FL Metropolitan Statistical Area",
+      "ci_low": 10.81,
+      "ci_high": 18.15
+    },
+    "33340": {
+      "binge_rate": 18.57,
+      "sample_size": 338,
+      "msa_name": "Milwaukee-Waukesha-West Allis, WI Metropolitan Statistical Area",
+      "ci_low": 16.34,
+      "ci_high": 20.8
+    },
+    "33460": {
+      "binge_rate": 16.33,
+      "sample_size": 1271,
+      "msa_name": "Minneapolis-St. Paul-Bloomington, MN-WI Metropolitan Statistical Area",
+      "ci_low": 15.23,
+      "ci_high": 17.43
+    },
+    "33660": {
+      "binge_rate": 10.33,
+      "sample_size": 49,
+      "msa_name": "Mobile, AL Metropolitan Statistical Area",
+      "ci_low": 7.14,
+      "ci_high": 13.52
+    },
+    "34820": {
+      "binge_rate": 13.45,
+      "sample_size": 96,
+      "msa_name": "Myrtle Beach-Conway-North Myrtle Beach, SC-NC Metropolitan Statistical Area",
+      "ci_low": 10.1,
+      "ci_high": 16.8
+    },
+    "34980": {
+      "binge_rate": 15.71,
+      "sample_size": 130,
+      "msa_name": "Nashville-Davidson--Murfreesboro--Franklin, TN Metropolitan Statistical Area",
+      "ci_low": 12.69,
+      "ci_high": 18.73
+    },
+    "35004": {
+      "binge_rate": 13.18,
+      "sample_size": 223,
+      "msa_name": "Nassau County-Suffolk County, NY Metropolitan Division",
+      "ci_low": 10.93,
+      "ci_high": 15.43
+    },
+    "35084": {
+      "binge_rate": 16.06,
+      "sample_size": 280,
+      "msa_name": "Newark, NJ-PA Metropolitan Division",
+      "ci_low": 13.67,
+      "ci_high": 18.45
+    },
+    "35154": {
+      "binge_rate": 12.69,
+      "sample_size": 287,
+      "msa_name": "New Brunswick-Lakewood, NJ Metropolitan Division",
+      "ci_low": 10.79,
+      "ci_high": 14.59
+    },
+    "35380": {
+      "binge_rate": 17.25,
+      "sample_size": 227,
+      "msa_name": "New Orleans-Metairie, LA Metropolitan Statistical Area",
+      "ci_low": 14.7,
+      "ci_high": 19.8
+    },
+    "35614": {
+      "binge_rate": 15.03,
+      "sample_size": 1381,
+      "msa_name": "New York-Jersey City-White Plains, NY-NJ Metropolitan Division",
+      "ci_low": 14.01,
+      "ci_high": 16.05
+    },
+    "36084": {
+      "binge_rate": 15.28,
+      "sample_size": 108,
+      "msa_name": "Oakland-Hayward-Berkeley, CA Metropolitan Division",
+      "ci_low": 11.73,
+      "ci_high": 18.83
+    },
+    "36260": {
+      "binge_rate": 9.66,
+      "sample_size": 143,
+      "msa_name": "Ogden-Clearfield, UT Metropolitan Statistical Area",
+      "ci_low": 7.8,
+      "ci_high": 11.52
+    },
+    "36420": {
+      "binge_rate": 14.64,
+      "sample_size": 268,
+      "msa_name": "Oklahoma City, OK Metropolitan Statistical Area",
+      "ci_low": 12.72,
+      "ci_high": 16.56
+    },
+    "36540": {
+      "binge_rate": 19.09,
+      "sample_size": 576,
+      "msa_name": "Omaha-Council Bluffs, NE-IA Metropolitan Statistical Area",
+      "ci_low": 17.4,
+      "ci_high": 20.78
+    },
+    "36740": {
+      "binge_rate": 13.42,
+      "sample_size": 93,
+      "msa_name": "Orlando-Kissimmee-Sanford, FL Metropolitan Statistical Area",
+      "ci_low": 10.03,
+      "ci_high": 16.81
+    },
+    "38060": {
+      "binge_rate": 14.9,
+      "sample_size": 545,
+      "msa_name": "Phoenix-Mesa-Scottsdale, AZ Metropolitan Statistical Area",
+      "ci_low": 13.51,
+      "ci_high": 16.29
+    },
+    "38860": {
+      "binge_rate": 17.21,
+      "sample_size": 426,
+      "msa_name": "Portland-South Portland, ME Metropolitan Statistical Area",
+      "ci_low": 15.31,
+      "ci_high": 19.11
+    },
+    "38900": {
+      "binge_rate": 14.1,
+      "sample_size": 562,
+      "msa_name": "Portland-Vancouver-Hillsboro, OR-WA Metropolitan Statistical Area",
+      "ci_low": 12.71,
+      "ci_high": 15.49
+    },
+    "39300": {
+      "binge_rate": 17.09,
+      "sample_size": 828,
+      "msa_name": "Providence-Warwick, RI-MA Metropolitan Statistical Area",
+      "ci_low": 15.23,
+      "ci_high": 18.95
+    },
+    "39340": {
+      "binge_rate": 7.52,
+      "sample_size": 112,
+      "msa_name": "Provo-Orem, UT Metropolitan Statistical Area",
+      "ci_low": 5.78,
+      "ci_high": 9.26
+    },
+    "39580": {
+      "binge_rate": 13.98,
+      "sample_size": 57,
+      "msa_name": "Raleigh, NC Metropolitan Statistical Area",
+      "ci_low": 9.88,
+      "ci_high": 18.08
+    },
+    "39660": {
+      "binge_rate": 23.18,
+      "sample_size": 171,
+      "msa_name": "Rapid City, SD Metropolitan Statistical Area",
+      "ci_low": 18.63,
+      "ci_high": 27.73
+    },
+    "39900": {
+      "binge_rate": 19.02,
+      "sample_size": 117,
+      "msa_name": "Reno, NV Metropolitan Statistical Area",
+      "ci_low": 15.08,
+      "ci_high": 22.96
+    },
+    "40060": {
+      "binge_rate": 15.15,
+      "sample_size": 111,
+      "msa_name": "Richmond, VA Metropolitan Statistical Area",
+      "ci_low": 11.66,
+      "ci_high": 18.64
+    },
+    "40140": {
+      "binge_rate": 12.89,
+      "sample_size": 143,
+      "msa_name": "Riverside-San Bernardino-Ontario, CA Metropolitan Statistical Area",
+      "ci_low": 10.22,
+      "ci_high": 15.56
+    },
+    "40340": {
+      "binge_rate": 18.11,
+      "sample_size": 55,
+      "msa_name": "Rochester, MN Metropolitan Statistical Area",
+      "ci_low": 11.68,
+      "ci_high": 24.54
+    },
+    "40380": {
+      "binge_rate": 17.51,
+      "sample_size": 108,
+      "msa_name": "Rochester, NY Metropolitan Statistical Area",
+      "ci_low": 13.69,
+      "ci_high": 21.33
+    },
+    "40484": {
+      "binge_rate": 16.7,
+      "sample_size": 165,
+      "msa_name": "Rockingham County-Strafford County, NH Metropolitan Division",
+      "ci_low": 13.6,
+      "ci_high": 19.8
+    },
+    "40900": {
+      "binge_rate": 14.03,
+      "sample_size": 78,
+      "msa_name": "Sacramento--Roseville--Arden-Arcade, CA Metropolitan Statistical Area",
+      "ci_low": 9.66,
+      "ci_high": 18.4
+    },
+    "41060": {
+      "binge_rate": 18.21,
+      "sample_size": 69,
+      "msa_name": "St. Cloud, MN Metropolitan Statistical Area",
+      "ci_low": 13.51,
+      "ci_high": 22.91
+    },
+    "41180": {
+      "binge_rate": 18.38,
+      "sample_size": 355,
+      "msa_name": "St. Louis, MO-IL Metropolitan Statistical Area",
+      "ci_low": 15.73,
+      "ci_high": 21.03
+    },
+    "41420": {
+      "binge_rate": 13.73,
+      "sample_size": 72,
+      "msa_name": "Salem, OR Metropolitan Statistical Area",
+      "ci_low": 10.12,
+      "ci_high": 17.34
+    },
+    "41540": {
+      "binge_rate": 12.03,
+      "sample_size": 289,
+      "msa_name": "Salisbury, MD-DE Metropolitan Statistical Area",
+      "ci_low": 10.34,
+      "ci_high": 13.72
+    },
+    "41620": {
+      "binge_rate": 16.83,
+      "sample_size": 472,
+      "msa_name": "Salt Lake City, UT Metropolitan Statistical Area",
+      "ci_low": 15.07,
+      "ci_high": 18.59
+    },
+    "41700": {
+      "binge_rate": 18.38,
+      "sample_size": 185,
+      "msa_name": "San Antonio-New Braunfels, TX Metropolitan Statistical Area",
+      "ci_low": 13.99,
+      "ci_high": 22.77
+    },
+    "41940": {
+      "binge_rate": 11.53,
+      "sample_size": 54,
+      "msa_name": "San Jose-Sunnyvale-Santa Clara, CA Metropolitan Statistical Area",
+      "ci_low": 7.73,
+      "ci_high": 15.33
+    },
+    "41980": {
+      "binge_rate": 12.18,
+      "sample_size": 332,
+      "msa_name": "San Juan-Carolina-Caguas, PR Metropolitan Statistical Area",
+      "ci_low": 10.55,
+      "ci_high": 13.81
+    },
+    "42644": {
+      "binge_rate": 15.7,
+      "sample_size": 1342,
+      "msa_name": "Seattle-Bellevue-Everett, WA Metropolitan Division",
+      "ci_low": 14.76,
+      "ci_high": 16.64
+    },
+    "43580": {
+      "binge_rate": 17.02,
+      "sample_size": 129,
+      "msa_name": "Sioux City, IA-NE-SD Metropolitan Statistical Area",
+      "ci_low": 12.28,
+      "ci_high": 21.76
+    },
+    "43620": {
+      "binge_rate": 21.87,
+      "sample_size": 184,
+      "msa_name": "Sioux Falls, SD Metropolitan Statistical Area",
+      "ci_low": 17.4,
+      "ci_high": 26.34
+    },
+    "44060": {
+      "binge_rate": 16.64,
+      "sample_size": 281,
+      "msa_name": "Spokane-Spokane Valley, WA Metropolitan Statistical Area",
+      "ci_low": 14.33,
+      "ci_high": 18.95
+    },
+    "44140": {
+      "binge_rate": 14.31,
+      "sample_size": 126,
+      "msa_name": "Springfield, MA Metropolitan Statistical Area",
+      "ci_low": 10.76,
+      "ci_high": 17.86
+    },
+    "45060": {
+      "binge_rate": 15.61,
+      "sample_size": 77,
+      "msa_name": "Syracuse, NY Metropolitan Statistical Area",
+      "ci_low": 11.0,
+      "ci_high": 20.22
+    },
+    "45220": {
+      "binge_rate": 17.61,
+      "sample_size": 101,
+      "msa_name": "Tallahassee, FL Metropolitan Statistical Area",
+      "ci_low": 9.95,
+      "ci_high": 25.27
+    },
+    "45300": {
+      "binge_rate": 16.8,
+      "sample_size": 115,
+      "msa_name": "Tampa-St. Petersburg-Clearwater, FL Metropolitan Statistical Area",
+      "ci_low": 13.0,
+      "ci_high": 20.6
+    },
+    "45780": {
+      "binge_rate": 14.56,
+      "sample_size": 83,
+      "msa_name": "Toledo, OH Metropolitan Statistical Area",
+      "ci_low": 10.95,
+      "ci_high": 18.17
+    },
+    "45820": {
+      "binge_rate": 15.38,
+      "sample_size": 140,
+      "msa_name": "Topeka, KS Metropolitan Statistical Area",
+      "ci_low": 12.32,
+      "ci_high": 18.44
+    },
+    "46140": {
+      "binge_rate": 13.15,
+      "sample_size": 150,
+      "msa_name": "Tulsa, OK Metropolitan Statistical Area",
+      "ci_low": 10.88,
+      "ci_high": 15.42
+    },
+    "46300": {
+      "binge_rate": 12.03,
+      "sample_size": 56,
+      "msa_name": "Twin Falls, ID Metropolitan Statistical Area",
+      "ci_low": 8.84,
+      "ci_high": 15.22
+    },
+    "47260": {
+      "binge_rate": 13.49,
+      "sample_size": 148,
+      "msa_name": "Virginia Beach-Norfolk-Newport News, VA-NC Metropolitan Statistical Area",
+      "ci_low": 11.02,
+      "ci_high": 15.96
+    },
+    "47664": {
+      "binge_rate": 14.77,
+      "sample_size": 268,
+      "msa_name": "Warren-Troy-Farmington Hills, MI Metropolitan Division (2012 to present)",
+      "ci_low": 12.63,
+      "ci_high": 16.91
+    },
+    "47894": {
+      "binge_rate": 14.24,
+      "sample_size": 1011,
+      "msa_name": "Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Division",
+      "ci_low": 12.83,
+      "ci_high": 15.65
+    },
+    "47940": {
+      "binge_rate": 19.11,
+      "sample_size": 114,
+      "msa_name": "Waterloo-Cedar Falls, IA Metropolitan Statistical Area",
+      "ci_low": 14.97,
+      "ci_high": 23.25
+    },
+    "48140": {
+      "binge_rate": 18.54,
+      "sample_size": 80,
+      "msa_name": "Wausau-Weston, WI Metropolitan Statistical Area",
+      "ci_low": 14.03,
+      "ci_high": 23.05
+    },
+    "48620": {
+      "binge_rate": 16.02,
+      "sample_size": 205,
+      "msa_name": "Wichita, KS Metropolitan Statistical Area",
+      "ci_low": 13.63,
+      "ci_high": 18.41
+    },
+    "48864": {
+      "binge_rate": 14.74,
+      "sample_size": 221,
+      "msa_name": "Wilmington, DE-MD-NJ Metropolitan Division",
+      "ci_low": 12.33,
+      "ci_high": 17.15
+    },
+    "49340": {
+      "binge_rate": 17.6,
+      "sample_size": 242,
+      "msa_name": "Worcester, MA-CT Metropolitan Statistical Area",
+      "ci_low": 14.46,
+      "ci_high": 20.74
+    }
+  },
+  "state_fallback": {
+    "AL": {
+      "binge_rate": 13.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "AK": {
+      "binge_rate": 17.5,
+      "source": "BRFSS state-level 2022"
+    },
+    "AZ": {
+      "binge_rate": 14.5,
+      "source": "BRFSS state-level 2022"
+    },
+    "AR": {
+      "binge_rate": 13.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "CA": {
+      "binge_rate": 14.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "CO": {
+      "binge_rate": 18.5,
+      "source": "BRFSS state-level 2022"
+    },
+    "CT": {
+      "binge_rate": 16.5,
+      "source": "BRFSS state-level 2022"
+    },
+    "DE": {
+      "binge_rate": 16.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "DC": {
+      "binge_rate": 14.2,
+      "source": "BRFSS state-level 2022"
+    },
+    "FL": {
+      "binge_rate": 15.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "GA": {
+      "binge_rate": 13.5,
+      "source": "BRFSS state-level 2022"
+    },
+    "HI": {
+      "binge_rate": 16.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "ID": {
+      "binge_rate": 16.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "IL": {
+      "binge_rate": 17.5,
+      "source": "BRFSS state-level 2022"
+    },
+    "IN": {
+      "binge_rate": 15.5,
+      "source": "BRFSS state-level 2022"
+    },
+    "IA": {
+      "binge_rate": 19.5,
+      "source": "BRFSS state-level 2022"
+    },
+    "KS": {
+      "binge_rate": 16.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "KY": {
+      "binge_rate": 14.5,
+      "source": "BRFSS state-level 2022"
+    },
+    "LA": {
+      "binge_rate": 16.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "ME": {
+      "binge_rate": 17.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "MD": {
+      "binge_rate": 14.5,
+      "source": "BRFSS state-level 2022"
+    },
+    "MA": {
+      "binge_rate": 17.5,
+      "source": "BRFSS state-level 2022"
+    },
+    "MI": {
+      "binge_rate": 17.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "MN": {
+      "binge_rate": 17.5,
+      "source": "BRFSS state-level 2022"
+    },
+    "MS": {
+      "binge_rate": 12.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "MO": {
+      "binge_rate": 17.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "MT": {
+      "binge_rate": 18.5,
+      "source": "BRFSS state-level 2022"
+    },
+    "NE": {
+      "binge_rate": 19.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "NV": {
+      "binge_rate": 16.5,
+      "source": "BRFSS state-level 2022"
+    },
+    "NH": {
+      "binge_rate": 17.5,
+      "source": "BRFSS state-level 2022"
+    },
+    "NJ": {
+      "binge_rate": 15.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "NM": {
+      "binge_rate": 13.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "NY": {
+      "binge_rate": 15.5,
+      "source": "BRFSS state-level 2022"
+    },
+    "NC": {
+      "binge_rate": 14.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "ND": {
+      "binge_rate": 22.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "OH": {
+      "binge_rate": 16.5,
+      "source": "BRFSS state-level 2022"
+    },
+    "OK": {
+      "binge_rate": 14.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "OR": {
+      "binge_rate": 16.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "PA": {
+      "binge_rate": 17.5,
+      "source": "BRFSS state-level 2022"
+    },
+    "RI": {
+      "binge_rate": 17.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "SC": {
+      "binge_rate": 15.5,
+      "source": "BRFSS state-level 2022"
+    },
+    "SD": {
+      "binge_rate": 21.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "TN": {
+      "binge_rate": 13.5,
+      "source": "BRFSS state-level 2022"
+    },
+    "TX": {
+      "binge_rate": 16.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "UT": {
+      "binge_rate": 10.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "VT": {
+      "binge_rate": 17.5,
+      "source": "BRFSS state-level 2022"
+    },
+    "VA": {
+      "binge_rate": 14.5,
+      "source": "BRFSS state-level 2022"
+    },
+    "WA": {
+      "binge_rate": 16.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "WV": {
+      "binge_rate": 10.5,
+      "source": "BRFSS state-level 2022"
+    },
+    "WI": {
+      "binge_rate": 20.0,
+      "source": "BRFSS state-level 2022"
+    },
+    "WY": {
+      "binge_rate": 17.0,
+      "source": "BRFSS state-level 2022"
+    }
+  },
+  "market_mapping": {
+    "new-york-ny": "35614",
+    "chicago-il": "16980",
+    "los-angeles-ca": "31080",
+    "dallas-tx": "19124",
+    "houston-tx": "26420",
+    "new-orleans-la": "35380",
+    "boston-ma": "14454",
+    "washington-dc": "47894",
+    "minneapolis-mn": "33460",
+    "portland-or": "38900",
+    "portland-me": "38860",
+    "miami-fl": "33100",
+    "nashville-tn": "34980",
+    "denver-co": "19740",
+    "austin-tx": "12420",
+    "san-francisco-ca": "36084",
+    "seattle-wa": "42644",
+    "atlanta-ga": "12060",
+    "phoenix-az": "38060",
+    "milwaukee-wi": "33340",
+    "st-louis-mo": "41180",
+    "cleveland-oh": "17460",
+    "cincinnati-oh": "17140",
+    "detroit-mi": "47664",
+    "baltimore-md": "12580",
+    "san-antonio-tx": "41700",
+    "columbus-oh": "18140",
+    "indianapolis-in": "26900",
+    "charlotte-nc": "16740",
+    "tampa-fl": "45300",
+    "orlando-fl": "36740",
+    "kansas-city-mo": "28140",
+    "raleigh-nc": "39580",
+    "sacramento-ca": "40900",
+    "san-jose-ca": "41540",
+    "jacksonville-fl": "27260",
+    "memphis-tn": "32820",
+    "richmond-va": "40060",
+    "buffalo-ny": "15380",
+    "salt-lake-city-ut": "41620",
+    "oklahoma-city-ok": "36420",
+    "birmingham-al": "13820",
+    "fort-worth-tx": "23104",
+    "norfolk-va": "47260",
+    "newark-nj": "35084",
+    "grand-rapids-mi": "24340",
+    "fort-lauderdale-fl": "33100",
+    "charleston-sc": "16700",
+    "omaha-ne": "36540",
+    "knoxville-tn": "28940",
+    "baton-rouge-la": "12940",
+    "greenville-sc": "24860",
+    "chattanooga-tn": "16860",
+    "albuquerque-nm": "10740",
+    "green-bay-wi": "24580",
+    "albany-ny": "10580",
+    "madison-wi": "31540",
+    "providence-ri": "39300",
+    "burlington-vt": "15540",
+    "boise-id": "14260",
+    "duluth-mn": "20260",
+    "reno-nv": "39900",
+    "anchorage-ak": "11260",
+    "colorado-springs-co": "17820",
+    "provo-ut": "39340",
+    "mobile-al": "33660",
+    "portsmouth-nh": "40484",
+    "hoboken-nj": "35614",
+    "manhattan-ny": "35614",
+    "brooklyn-ny": "35614",
+    "san-francisco-ca-county": "36084",
+    "washington-dc-county": "47894",
+    "chicago-il-county": "16980",
+    "boston-ma-county": "14454"
+  }
+}
